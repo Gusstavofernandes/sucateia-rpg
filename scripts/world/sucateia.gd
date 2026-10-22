@@ -55,6 +55,11 @@ func _ready() -> void:
 			$Structures/Player.position = Vector2(-13300, -1500)
 			cam.zoom = Vector2(0.62, 0.62)
 			cam.limit_left = -22000; cam.limit_right = 9000; cam.limit_top = -6000; cam.limit_bottom = 6000
+		elif capture_mode == "khemet_costa_recifes":
+			get_viewport().size = Vector2i(1920, 1080)
+			$Structures/Player.position = Vector2(-11500, -820)
+			cam.zoom = Vector2(0.85, 0.85)
+			cam.limit_left = -22000; cam.limit_right = 9000; cam.limit_top = -6000; cam.limit_bottom = 6000
 		elif capture_mode == "khemet_dunas_relief":
 			get_viewport().size = Vector2i(2560, 1440)
 			$Structures/Player.position = Vector2(-12800, -1800)

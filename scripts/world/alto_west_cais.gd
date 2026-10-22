@@ -127,6 +127,13 @@ func get_soil_color_at(x: float) -> Color:
 	return c
 
 func install(world: Node2D) -> void:
+	var player_cam: Camera2D = world.get_node_or_null("Structures/Player/Camera")
+	if player_cam:
+		player_cam.limit_left = -19500
+		player_cam.limit_top = -4600
+		player_cam.limit_right = 6650
+		player_cam.limit_bottom = 3500
+
 	if world.has_node("AltoWestCaisExpansion"):
 		world.get_node("AltoWestCaisExpansion").free()
 	if world.has_node("KemetDesertExpansion"):
@@ -141,7 +148,8 @@ func install(world: Node2D) -> void:
 
 	var water_shallows := Node2D.new()
 	water_shallows.name = "WaterShallowsAndReefs"
-	water_shallows.z_index = -15
+	water_shallows.z_as_relative = false
+	water_shallows.z_index = -10
 	root.add_child(water_shallows)
 
 	# 1. Platô superior da Chapada de Arenito (cobre todo o norte até Y = -2850 de forma homogênea)
@@ -177,24 +185,37 @@ func install(world: Node2D) -> void:
 	ruins_group.z_index = -10
 	root.add_child(ruins_group)
 
-	# Fita animada de arrebentação de ondas na praia
+	# Fita animada de arrebentação de ondas na praia com triangulação explícita de fita (zero ear-clipping)
 	var shore_waves := Polygon2D.new()
 	shore_waves.name = "ShoreWavesWash"
-	shore_waves.z_index = -9
+	shore_waves.z_as_relative = false
+	shore_waves.z_index = -13
 	var wave_mat := ShaderMaterial.new()
 	wave_mat.shader = load(SHORE_WAVES_SHADER) as Shader
 	shore_waves.material = wave_mat
 
-	var wave_poly := PackedVector2Array()
-	for x in range(-750, -17850, -80):
-		var y_tide: float = get_tide_y_at(float(x))
-		wave_poly.append(Vector2(float(x), y_tide - 68.0))
-	wave_poly.append(Vector2(-17850, get_tide_y_at(-17850) + 72.0))
-	for x in range(-17800, -740, 80):
-		var y_tide: float = get_tide_y_at(float(x))
-		wave_poly.append(Vector2(float(x), y_tide + 72.0))
+	var wave_verts := PackedVector2Array()
+	var wave_polys: Array[PackedInt32Array] = []
+	var x_pts: Array[float] = []
+	for x in range(-18500, -740, 40):
+		x_pts.append(float(x))
 
-	shore_waves.polygon = wave_poly
+	for i in range(x_pts.size()):
+		var px: float = x_pts[i]
+		var y_tide: float = get_tide_y_at(px)
+		wave_verts.append(Vector2(px, y_tide - 72.0))
+		wave_verts.append(Vector2(px, y_tide + 78.0))
+
+	for i in range(x_pts.size() - 1):
+		var tl: int = i * 2
+		var bl: int = i * 2 + 1
+		var tr: int = (i + 1) * 2
+		var br: int = (i + 1) * 2 + 1
+		wave_polys.append(PackedInt32Array([tl, tr, bl]))
+		wave_polys.append(PackedInt32Array([tr, br, bl]))
+
+	shore_waves.polygon = wave_verts
+	shore_waves.polygons = wave_polys
 	root.add_child(shore_waves)
 
 	var ground_details := Node2D.new()
@@ -226,12 +247,15 @@ func install(world: Node2D) -> void:
 	root.add_child(cliffs_group)
 
 	# -------------------------------------------------------------------------
-	# 1. COBERTURA TOTAL DA CHAPADA DE ARENITO (PLATÔ ELEVADO RUMO A KHEMET-RA)
-	# Preenchimento denso e contínuo até Y = -2850 e X = -18000 com o mesmo tom
+	# 1. COBERTURA TOTAL DA CHAPADA DE ARENITO & MICRO-TOPOGRAFIA DO DESERTO
+	# Base de laje de arenito + ondulações finas de vento (sand ripples) + 
+	# fissuras térmicas no leito de rocha + seixos/cascalho espalhado
 	# -------------------------------------------------------------------------
 	var tex_plateau_ground: Texture2D = load(CHAPADA_PLATEAU_GROUND) as Texture2D
+	var tex_sand_ripples: Texture2D   = load(BEACH_SAND_PATCH) as Texture2D
+	var tex_chasm_fissure: Texture2D  = load(CHAPADA_ROCK_CHASM) as Texture2D
 
-	for x in range(-200, -18000, -220):
+	for x in range(-200, -18200, -220):
 		var y_cliff: float = get_cliff_base_y_at(float(x))
 		var col: Color = get_soil_color_at(float(x))
 		
@@ -260,6 +284,26 @@ func install(world: Node2D) -> void:
 			p_col.a = 0.88
 			p_patch.modulate = p_col
 			plato_north.add_child(p_patch)
+
+			# ITEM 3: Ondulações finas de areia de vento (sand ripples) sobre o platô
+			if (p_step % 2 == 1 and abs(x % 340) < 220):
+				var rip_patch := Sprite2D.new()
+				rip_patch.texture = tex_sand_ripples
+				rip_patch.position = Vector2(float(x) + j_x * 0.7, y_plateau + j_y * 0.7)
+				rip_patch.scale = Vector2(0.52 * (1.0 if not flip_h else -1.0), 0.42)
+				rip_patch.rotation = rot + 0.10
+				rip_patch.modulate = Color(col.r * 1.03, col.g * 0.98, col.b * 0.90, 0.42)
+				plato_north.add_child(rip_patch)
+
+			# ITEM 3: Fissuras térmicas no leito rochoso em clareiras
+			if (p_step == 2 and abs(x % 540) < 180):
+				var fiss_patch := Sprite2D.new()
+				fiss_patch.texture = tex_chasm_fissure
+				fiss_patch.position = Vector2(float(x) - j_x * 0.5, y_plateau + 25.0)
+				fiss_patch.scale = Vector2(0.35 * (-1.0 if flip_h else 1.0), 0.28)
+				fiss_patch.rotation = rot - 0.15
+				fiss_patch.modulate = Color(col.r * 0.90, col.g * 0.85, col.b * 0.80, 0.50)
+				plato_north.add_child(fiss_patch)
 
 	# -------------------------------------------------------------------------
 	# 2. COBERTURA SUAVE E CONTÍNUA DO SOLO DA PRAIA
@@ -339,6 +383,14 @@ func install(world: Node2D) -> void:
 			var foot_stone_data: Dictionary = small_stone_assets[foot_idx]
 			var foot_scl: float = foot_stone_data["base_scale"] * 0.75
 			_place_small_stone(ground_details, foot_stone_data["tex"], foot_stone_data["shd"], cliff_foot_pos, Vector2(foot_scl, foot_scl), 0.15, col)
+
+		# Cascalho e seixos esparsos no platô superior da Chapada
+		if (abs(x) % 220 < 85):
+			var plat_stone_idx: int = (asset_idx + 3) % small_stone_assets.size()
+			var plat_data: Dictionary = small_stone_assets[plat_stone_idx]
+			var plat_y: float = y_cliff - 250.0 - sin(float(x) * 0.012) * 500.0 - cos(float(x) * 0.02) * 350.0
+			var plat_scl: float = plat_data["base_scale"] * 0.65
+			_place_small_stone(ground_details, plat_data["tex"], plat_data["shd"], Vector2(float(x) + 15.0, plat_y), Vector2(plat_scl * (-1.0 if flip_h else 1.0), plat_scl), sin(float(x) * 0.03) * 0.20, col)
 
 	# -------------------------------------------------------------------------
 	# 4. VEGETAÇÃO ÁRIDA DA CHAPADA (Cactos, capim seco e arbustos espinhosos)
@@ -586,42 +638,64 @@ func install(world: Node2D) -> void:
 		_place_rock(cliffs_group, root, data["tex"], data["shd"], data["pos"], data["scale"], data["rot"], data["flip"], Vector2(340, 90))
 
 	# -------------------------------------------------------------------------
-	# 19. ARRECIFES MARÍTIMOS NA ÁGUA
+	# 19. ARRECIFES MARÍTIMOS NA ÁGUA (QUEBRA-MAR COSTEIRO DENSO E AQUECIDO)
 	# -------------------------------------------------------------------------
-	for x in range(-1100, -17600, -220):
-		var y_tide: float = get_tide_y_at(float(x))
-		var t: float = clampf((-x - 1100.0) / 16500.0, 0.0, 1.0)
-		var flip_h: bool = ((abs(x) / 220) % 2 == 1)
-		
-		var scl_val: float = 0.40 + t * 0.10
-		var pos := Vector2(float(x), y_tide + 15.0)
-		
-		var shd := Sprite2D.new()
-		shd.texture = load(COASTAL_REEF_SHD) as Texture2D
-		shd.position = pos + Vector2(6, 12)
-		shd.scale = Vector2(scl_val, scl_val * 0.85)
-		shd.rotation = sin(float(x) * 0.015) * 0.15
-		shd.z_index = -14
-		water_shallows.add_child(shd)
+	var reef_assets: Array[Dictionary] = [
+		{"tex": COASTAL_REEF,       "shd": COASTAL_REEF_SHD,       "base_scale": 0.44},
+		{"tex": BEACH_BOULDERS,     "shd": BEACH_BOULDERS_SHD,     "base_scale": 0.42},
+		{"tex": RED_ROCKS_CLUSTER,  "shd": "",                     "base_scale": 0.40}
+	]
 
+	for x in range(-750, -18200, -85):
+		var y_tide: float = get_tide_y_at(float(x))
+		var soil_col: Color = get_soil_color_at(float(x))
+		var step_idx: int = abs(x / 85)
+		var asset_idx: int = step_idx % reef_assets.size()
+		var r_data: Dictionary = reef_assets[asset_idx]
+		var flip_h: bool = (step_idx % 2 == 1)
+		
+		var t_dist: float = clampf((-x - 750.0) / 17000.0, 0.0, 1.0)
+		var scl_factor: float = r_data["base_scale"] * (0.90 + sin(float(x) * 0.02) * 0.18 + t_dist * 0.12)
+		var pos := Vector2(float(x) + cos(float(x) * 0.03) * 16.0, y_tide + 12.0 + sin(float(x) * 0.025) * 8.0)
+		var rot: float = sin(float(x) * 0.015) * 0.16
+		
+		# Sombra da rocha na água
+		if r_data["shd"] != "":
+			var shd := Sprite2D.new()
+			shd.texture = load(r_data["shd"]) as Texture2D
+			shd.position = pos + Vector2(6, 12)
+			shd.scale = Vector2(scl_factor, scl_factor * 0.85)
+			shd.rotation = rot
+			shd.modulate = Color(0.90, 0.70, 0.50, 0.35)
+			shd.z_index = -1
+			water_shallows.add_child(shd)
+
+		# Rocha do recife aquecida para tons minerais de arenito (harmonia com Khemet-Ra)
 		var rock := Sprite2D.new()
-		rock.texture = load(COASTAL_REEF) as Texture2D
+		rock.texture = load(r_data["tex"]) as Texture2D
 		rock.position = pos
-		rock.scale = Vector2(scl_val * (-1.0 if flip_h else 1.0), scl_val * 0.85)
-		rock.rotation = sin(float(x) * 0.015) * 0.15
-		rock.z_index = -12
+		rock.scale = Vector2(scl_factor * (-1.0 if flip_h else 1.0), scl_factor * 0.85)
+		rock.rotation = rot
+		rock.modulate = Color(soil_col.r * 1.05, soil_col.g * 0.95, soil_col.b * 0.85, 1.0)
+		rock.z_index = 0
 		water_shallows.add_child(rock)
 
-		_build_rock_collision(root, pos + Vector2(0, 5), Vector2(210, 42) * scl_val)
+		_build_rock_collision(root, pos + Vector2(0, 5), Vector2(190, 40) * scl_factor)
 
-		if (abs(x) % 550 < 220):
-			var islet_pos := Vector2(float(x) + 45.0, y_tide + 120.0 + sin(float(x) * 0.03) * 35.0)
+		# Linha de arrebentação secundária / ilhotas projetadas no mar
+		if (step_idx % 2 == 0):
+			var islet_x: float = float(x) + 40.0 + sin(float(x) * 0.03) * 20.0
+			var islet_y: float = y_tide + 75.0 + sin(float(x) * 0.02) * 25.0
+			var sub_asset: Dictionary = reef_assets[(asset_idx + 1) % reef_assets.size()]
+			var sub_scl: float = sub_asset["base_scale"] * 0.75
+			
 			var islet := Sprite2D.new()
-			islet.texture = load(COASTAL_REEF) as Texture2D
-			islet.position = islet_pos
-			islet.scale = Vector2(0.35, 0.28) * (1.0 if not flip_h else -1.0)
-			islet.rotation = -0.12
-			islet.z_index = -13
+			islet.texture = load(sub_asset["tex"]) as Texture2D
+			islet.position = Vector2(islet_x, islet_y)
+			islet.scale = Vector2(sub_scl * (1.0 if not flip_h else -1.0), sub_scl * 0.80)
+			islet.rotation = -0.10 + cos(float(x) * 0.02) * 0.12
+			islet.modulate = Color(soil_col.r * 1.02, soil_col.g * 0.94, soil_col.b * 0.84, 0.95)
+			islet.z_index = 0
 			water_shallows.add_child(islet)
 
 	# -------------------------------------------------------------------------
@@ -1039,7 +1113,7 @@ func _build_rock_collision(col_root: Node2D, pos: Vector2, size: Vector2) -> voi
 
 func _update_waterline_and_barrier(world: Node2D) -> void:
 	var coast_points: Array[Vector2] = []
-	for x in range(-17800, -750, 100):
+	for x in range(-19500, -750, 75):
 		var y_tide: float = get_tide_y_at(float(x))
 		coast_points.append(Vector2(float(x), y_tide))
 	
@@ -1063,10 +1137,10 @@ func _update_waterline_and_barrier(world: Node2D) -> void:
 		var poly := PackedVector2Array()
 		for pt in coast_points:
 			poly.append(pt)
-		poly.append(Vector2(395, 4200))
-		poly.append(Vector2(-20000, 4200))
-		poly.append(Vector2(-20000, get_tide_y_at(-18000)))
-		poly.append(Vector2(-18000, get_tide_y_at(-18000)))
+		poly.append(Vector2(395, 4500))
+		poly.append(Vector2(-22000, 4500))
+		poly.append(Vector2(-22000, get_tide_y_at(-19500)))
+		poly.append(Vector2(-19500, get_tide_y_at(-19500)))
 		waterline.polygon = poly
 
 	var barrier: StaticBody2D = world.get_node_or_null("WestCoastalBarrier")
@@ -1076,10 +1150,10 @@ func _update_waterline_and_barrier(world: Node2D) -> void:
 				var poly := PackedVector2Array()
 				for pt in coast_points:
 					poly.append(pt)
-				poly.append(Vector2(395, 4200))
-				poly.append(Vector2(-20000, 4200))
-				poly.append(Vector2(-20000, get_tide_y_at(-18000)))
-				poly.append(Vector2(-18000, get_tide_y_at(-18000)))
+				poly.append(Vector2(395, 4500))
+				poly.append(Vector2(-22000, 4500))
+				poly.append(Vector2(-22000, get_tide_y_at(-19500)))
+				poly.append(Vector2(-19500, get_tide_y_at(-19500)))
 				child.polygon = poly
 				child.build_mode = CollisionPolygon2D.BUILD_SEGMENTS
 

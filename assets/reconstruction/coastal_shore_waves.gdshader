@@ -84,12 +84,14 @@ void fragment() {
 	
 	vec3 final_color = mix(water_azure, foam_pure, total_foam);
 	
-	// Dissolução suave na direção do mar para fusão 100% perfeita sem linhas de corte
-	float bottom_fade = 1.0 - smoothstep(12.0, 55.0, d);
-	float final_alpha = clamp(total_water + total_foam * 0.90, 0.0, 0.92) * bottom_fade;
+	// Dissolução suave na direção da areia e na direção do mar para fusão 100% perfeita sem linhas de corte
+	float top_fade = smoothstep(-70.0, -20.0, d);
+	float bottom_fade = 1.0 - smoothstep(12.0, 68.0, d);
+	float edge_fade = top_fade * bottom_fade;
+	float final_alpha = clamp(total_water + total_foam * 0.90, 0.0, 0.92) * edge_fade;
 	
 	if (final_alpha < 0.12 && wet_sand_mask > 0.05) {
-		COLOR = wet_sand_col;
+		COLOR = vec4(wet_sand_col.rgb, wet_sand_col.a * edge_fade);
 	} else {
 		COLOR = vec4(final_color, final_alpha);
 	}
