@@ -105,7 +105,7 @@ func get_cliff_base_y_at(x: float) -> float:
 		return 115.0
 	var t: float = clampf((-x - 750.0) / 16750.0, 0.0, 1.0)
 	var base_rise: float = -t * 1350.0
-	var cliff_offset: float = -320.0 + (sin(x * 0.003) * 18.0 + cos(x * 0.008) * 12.0)
+	var cliff_offset: float = -440.0 + (sin(x * 0.003) * 18.0 + cos(x * 0.008) * 12.0)
 	return 120.0 + base_rise + cliff_offset
 
 func get_soil_color_at(x: float) -> Color:
@@ -317,16 +317,16 @@ func install(world: Node2D) -> void:
 		var base_tex_path: String = BEACH_SAND_PATCH if is_beach else YELLOW_SOIL_PATCH
 		var base_tex: Texture2D = load(base_tex_path) as Texture2D
 
-		var y_steps: int = 3
+		var y_steps: int = 4
 		for step in range(y_steps):
 			var frac: float = float(step) / float(y_steps - 1)
-			var y_pos: float = lerpf(y_cliff + 40.0, y_tide - 25.0, frac)
+			var y_pos: float = lerpf(y_cliff + 30.0, y_tide - 15.0, frac)
 			
-			var j_x: float = sin(float(x) * 0.03 + float(step) * 1.7) * 32.0
-			var j_y: float = cos(float(x) * 0.04 + float(step) * 2.3) * 22.0
-			var rot: float = sin(float(x) * 0.015 + float(step)) * 0.20
-			var scl_x: float = (0.55 + sin(float(x) * 0.02) * 0.08) * (1.0 if (step % 2 == 0) else -1.0)
-			var scl_y: float = 0.44 + cos(float(x) * 0.02) * 0.06
+			var j_x: float = sin(float(x) * 0.03 + float(step) * 1.7) * 35.0
+			var j_y: float = cos(float(x) * 0.04 + float(step) * 2.3) * 20.0
+			var rot: float = sin(float(x) * 0.015 + float(step)) * 0.18
+			var scl_x: float = (0.58 + sin(float(x) * 0.02) * 0.08) * (1.0 if (step % 2 == 0) else -1.0)
+			var scl_y: float = 0.48 + cos(float(x) * 0.02) * 0.06
 
 			var patch := Sprite2D.new()
 			patch.texture = base_tex
@@ -335,7 +335,7 @@ func install(world: Node2D) -> void:
 			patch.rotation = rot
 			
 			var patch_col: Color = col
-			patch_col.a = 0.62 if not is_beach else 0.85
+			patch_col.a = 0.65 if not is_beach else 0.88
 			patch.modulate = patch_col
 
 			if is_beach:
@@ -441,10 +441,10 @@ func install(world: Node2D) -> void:
 	# -------------------------------------------------------------------------
 	var stairs_data: Array[Dictionary] = [
 		{"pos": Vector2(-1050, 15),   "scale": Vector2(0.52, 0.48), "rot": 0.02,  "flip": false},
-		{"pos": Vector2(-4820, -535), "scale": Vector2(0.60, 0.54), "rot": -0.04, "flip": true},
-		{"pos": Vector2(-8250, -820), "scale": Vector2(0.65, 0.58), "rot": 0.03,  "flip": false},
-		{"pos": Vector2(-12200, -1000),"scale": Vector2(0.70, 0.62), "rot": -0.03, "flip": true},
-		{"pos": Vector2(-15400, -1180),"scale": Vector2(0.75, 0.66), "rot": 0.02,  "flip": false}
+		{"pos": Vector2(-4820, -560), "scale": Vector2(0.60, 0.54), "rot": -0.04, "flip": true},
+		{"pos": Vector2(-8250, -860), "scale": Vector2(0.65, 0.58), "rot": 0.03,  "flip": false},
+		{"pos": Vector2(-12200, -1140),"scale": Vector2(0.70, 0.62), "rot": -0.03, "flip": true},
+		{"pos": Vector2(-15400, -1400),"scale": Vector2(0.75, 0.66), "rot": 0.02,  "flip": false}
 	]
 	for s_info in stairs_data:
 		_place_stairs(stairs_group, root, s_info["pos"], s_info["scale"], s_info["rot"], s_info["flip"])
@@ -610,42 +610,42 @@ func install(world: Node2D) -> void:
 		_place_rock(cliffs_group, root, data["tex"], data["shd"], data["pos"], data["scale"], data["rot"], data["flip"], Vector2(300, 80))
 
 	var cape_promontories: Array[Dictionary] = [
-		{"pos": Vector2(-11300, -960),  "scale": Vector2(0.68, 0.58), "rot": 0.05,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
-		{"pos": Vector2(-11750, -1000), "scale": Vector2(0.72, 0.60), "rot": -0.04, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
-		{"pos": Vector2(-12100, -1030), "scale": Vector2(0.74, 0.62), "rot": 0.03,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
-		{"pos": Vector2(-12650, -1080), "scale": Vector2(0.78, 0.64), "rot": -0.05, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
-		{"pos": Vector2(-13050, -1120), "scale": Vector2(0.82, 0.66), "rot": 0.04,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
-		{"pos": Vector2(-13550, -1140), "scale": Vector2(0.80, 0.65), "rot": -0.04, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
-		{"pos": Vector2(-14000, -1170), "scale": Vector2(0.84, 0.68), "rot": 0.05,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
-		{"pos": Vector2(-14500, -1200), "scale": Vector2(0.82, 0.66), "rot": -0.05, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
-		{"pos": Vector2(-15100, -1240), "scale": Vector2(0.86, 0.70), "rot": 0.04,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
-		{"pos": Vector2(-15900, -1270), "scale": Vector2(0.88, 0.70), "rot": -0.05, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
-		{"pos": Vector2(-16700, -1300), "scale": Vector2(0.90, 0.72), "rot": 0.05,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
-		{"pos": Vector2(-17400, -1330), "scale": Vector2(0.92, 0.74), "rot": -0.04, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD}
+		{"pos": Vector2(-11300, -1120), "scale": Vector2(0.68, 0.58), "rot": 0.05,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
+		{"pos": Vector2(-11750, -1160), "scale": Vector2(0.72, 0.60), "rot": -0.04, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
+		{"pos": Vector2(-12100, -1200), "scale": Vector2(0.74, 0.62), "rot": 0.03,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
+		{"pos": Vector2(-12650, -1260), "scale": Vector2(0.78, 0.64), "rot": -0.05, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
+		{"pos": Vector2(-13050, -1310), "scale": Vector2(0.82, 0.66), "rot": 0.04,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
+		{"pos": Vector2(-13550, -1360), "scale": Vector2(0.80, 0.65), "rot": -0.04, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
+		{"pos": Vector2(-14000, -1400), "scale": Vector2(0.84, 0.68), "rot": 0.05,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
+		{"pos": Vector2(-14500, -1450), "scale": Vector2(0.82, 0.66), "rot": -0.05, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
+		{"pos": Vector2(-15100, -1500), "scale": Vector2(0.86, 0.70), "rot": 0.04,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
+		{"pos": Vector2(-15900, -1560), "scale": Vector2(0.88, 0.70), "rot": -0.05, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD},
+		{"pos": Vector2(-16700, -1620), "scale": Vector2(0.90, 0.72), "rot": 0.05,  "flip": false, "tex": CHAPADA_CLIFF_WALL, "shd": CHAPADA_CLIFF_WALL_SHD},
+		{"pos": Vector2(-17400, -1680), "scale": Vector2(0.92, 0.74), "rot": -0.04, "flip": true,  "tex": CHAPADA_CANYON_WALL, "shd": CHAPADA_CANYON_WALL_SHD}
 	]
 	for data in cape_promontories:
 		_place_rock(cliffs_group, root, data["tex"], data["shd"], data["pos"], data["scale"], data["rot"], data["flip"], Vector2(340, 90))
 
 	# -------------------------------------------------------------------------
-	# 19. ARRECIFES MARÍTIMOS NA ÁGUA (QUEBRA-MAR COSTEIRO EQUILIBRADO E AQUECIDO)
+	# 19. ARRECIFES MARÍTIMOS NA ÁGUA (QUEBRA-MAR OCEÂNICO ESPAÇADO E AQUECIDO)
 	# -------------------------------------------------------------------------
 	var reef_assets: Array[Dictionary] = [
-		{"tex": COASTAL_REEF,       "shd": COASTAL_REEF_SHD,       "base_scale": 0.42},
-		{"tex": BEACH_BOULDERS,     "shd": BEACH_BOULDERS_SHD,     "base_scale": 0.40},
-		{"tex": RED_ROCKS_CLUSTER,  "shd": "",                     "base_scale": 0.38}
+		{"tex": COASTAL_REEF,       "shd": COASTAL_REEF_SHD,       "base_scale": 0.44},
+		{"tex": BEACH_BOULDERS,     "shd": BEACH_BOULDERS_SHD,     "base_scale": 0.42}
 	]
 
-	for x in range(-750, -18200, -250):
+	for x in range(-750, -18200, -420):
 		var y_tide: float = get_tide_y_at(float(x))
 		var soil_col: Color = get_soil_color_at(float(x))
-		var step_idx: int = abs(x / 250)
+		var step_idx: int = abs(x / 420)
 		var asset_idx: int = step_idx % reef_assets.size()
 		var r_data: Dictionary = reef_assets[asset_idx]
 		var flip_h: bool = (step_idx % 2 == 1)
 		
 		var t_dist: float = clampf((-x - 750.0) / 17000.0, 0.0, 1.0)
 		var scl_factor: float = r_data["base_scale"] * (0.88 + sin(float(x) * 0.02) * 0.16 + t_dist * 0.10)
-		var pos := Vector2(float(x) + cos(float(x) * 0.03) * 20.0, y_tide + 14.0 + sin(float(x) * 0.025) * 8.0)
+		# Recifes mar adentro (deixando a areia da praia livre para caminhar)
+		var pos := Vector2(float(x) + cos(float(x) * 0.03) * 25.0, y_tide + 55.0 + sin(float(x) * 0.025) * 16.0)
 		var rot: float = sin(float(x) * 0.015) * 0.15
 		
 		# Sombra da rocha na água
@@ -671,12 +671,12 @@ func install(world: Node2D) -> void:
 
 		_build_rock_collision(root, pos + Vector2(0, 5), Vector2(190, 40) * scl_factor)
 
-		# Linha de arrebentação secundária / ilhotas projetadas no mar (a cada 2 passos = 500px)
+		# Linha de arrebentação secundária / ilhotas projetadas no mar profundo (a cada 2 passos = 840px)
 		if (step_idx % 2 == 0):
-			var islet_x: float = float(x) + 45.0 + sin(float(x) * 0.03) * 25.0
-			var islet_y: float = y_tide + 80.0 + sin(float(x) * 0.02) * 25.0
+			var islet_x: float = float(x) + 60.0 + sin(float(x) * 0.03) * 30.0
+			var islet_y: float = y_tide + 115.0 + sin(float(x) * 0.02) * 25.0
 			var sub_asset: Dictionary = reef_assets[(asset_idx + 1) % reef_assets.size()]
-			var sub_scl: float = sub_asset["base_scale"] * 0.72
+			var sub_scl: float = sub_asset["base_scale"] * 0.74
 			
 			var islet := Sprite2D.new()
 			islet.texture = load(sub_asset["tex"]) as Texture2D
@@ -1176,12 +1176,12 @@ func _update_waterline_and_barrier(world: Node2D) -> void:
 		land_poly.append(Vector2(-18200, -2850))
 		
 		# 2. Borda oeste descendo até a linha do mar:
-		land_poly.append(Vector2(-18200, get_tide_y_at(-18000) + 20.0))
+		land_poly.append(Vector2(-18200, get_tide_y_at(-18000) - 15.0))
 		
-		# 3. Borda sul acompanhando a linha de maré:
+		# 3. Borda sul acompanhando a praia na linha de maré (sem entrar no mar):
 		for x in range(-18000, -750, 400):
 			var y_tide: float = get_tide_y_at(float(x))
-			land_poly.append(Vector2(float(x), y_tide + 20.0))
+			land_poly.append(Vector2(float(x), y_tide - 15.0))
 		
 		# 4. Conexão urbana com Alto-Lixo e a cidade:
 		var urban_pts: Array[Vector2] = [

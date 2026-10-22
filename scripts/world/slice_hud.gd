@@ -23,6 +23,15 @@ func _process(_delta: float) -> void:
 		elif on_amarras_bridge(world,player.global_position):district="PASSAGEM DAS AMARRAS"
 		elif on_floor(world,"AltoLixoDistrict/AltoFloor",player.global_position):district="ALTO-LIXO"
 		elif on_floor(world,"MarketDistrict/MarketFloor",player.global_position):district="MERCADO DOS RESTOS"
+		elif player.position.x < -6500:
+			if player.position.y > -1100:
+				district = "KHEMET-RA / COSTA DO IMPÉRIO SEPULTADO"
+			else:
+				district = "KHEMET-RA / PLATÔ DAS DINASTIAS"
+		elif player.position.x < -2400:
+			district = "FALÉSIAS DE ARENITO / CHAPADA OESTE"
+		elif player.position.x < -750:
+			district = "COSTA DO FERRO / ACAMPAMENTO OESTE"
 		elif player.position.y>1170:district="COSTA / MANUTENÇÃO"
 		elif player.position.x>1950:district="OS CABOS / PASSARELA"
 		var entries: Node=world.get_node_or_null("LayerEntrances")

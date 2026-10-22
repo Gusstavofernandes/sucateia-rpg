@@ -29,12 +29,11 @@ float get_coast_tide_y(float x) {
 		float t = clamp((x + 750.0) / 1150.0, 0.0, 1.0);
 		return mix(115.0, 1500.0, t);
 	}
-	float t = clamp((-x - 700.0) / 12300.0, 0.0, 1.0);
-	float base_y = 120.0 - t * 950.0;
-	float w1 = sin(x * 0.0018) * 85.0;
-	float w2 = cos(x * 0.0045) * 40.0;
-	float w3 = sin(x * 0.012) * 15.0;
-	return base_y + w1 + w2 + w3;
+	float t = clamp((-x - 750.0) / 16750.0, 0.0, 1.0);
+	float base_rise = -t * 1350.0;
+	float drift = 120.0 + base_rise;
+	float var_wave = sin(x * 0.004) * 22.0 + sin(x * 0.009) * 14.0 + sin(x * 0.0015) * 32.0;
+	return drift + var_wave;
 }
 
 void vertex() {
@@ -61,46 +60,50 @@ void fragment() {
 	// Distância perpendicular em relação à arrebentação da praia
 	float depth = max(0.0, p.y - tide_y);
 	
-	// Paleta cromática de profundidade marinha:
-	// 1. Águas rasas da praia (arrebentação, transparente e luminosa)
-	vec3 c_shallow = vec3(0.28, 0.74, 0.85);
-	// 2. Plataforma costeira (turquesa límpido)
-	vec3 c_shelf   = vec3(0.16, 0.56, 0.72);
-	// 3. Média profundidade (azul royal marítimo)
-	vec3 c_slope   = vec3(0.08, 0.32, 0.54);
-	// 4. Oceano profundo (azul marinho denso)
-	vec3 c_deep    = vec3(0.035, 0.16, 0.35);
-	// 5. Alto-mar abissal (azul petróleo profundo no horizonte sul)
-	vec3 c_abyss   = vec3(0.018, 0.07, 0.18);
+	// Paleta cromática natural e harmoniosa com o arenito terracota de Khemet-Ra:
+	// 1. Águas rasas da praia (turquesa esmeralda translúcido, reflexo solar suave)
+	vec3 c_shallow = vec3(0.18, 0.46, 0.54);
+	// 2. Plataforma costeira (azul petróleo mediterrâneo)
+	vec3 c_shelf   = vec3(0.09, 0.28, 0.42);
+	// 3. Média profundidade (azul marinho clássico)
+	vec3 c_slope   = vec3(0.04, 0.17, 0.32);
+	// 4. Oceano profundo (azul noite ultramarino)
+	vec3 c_deep    = vec3(0.02, 0.08, 0.19);
+	// 5. Alto-mar abissal (azul abissal no horizonte sul)
+	vec3 c_abyss   = vec3(0.01, 0.03, 0.10);
 	
 	// Curvas suaves de atenuação por profundidade (em pixels):
-	float d_shelf = smoothstep(15.0, 95.0, depth);
-	float d_slope = smoothstep(95.0, 340.0, depth);
-	float d_deep  = smoothstep(340.0, 850.0, depth);
-	float d_abyss = smoothstep(850.0, 1800.0, depth);
+	float d_shelf = smoothstep(18.0, 90.0, depth);
+	float d_slope = smoothstep(90.0, 320.0, depth);
+	float d_deep  = smoothstep(320.0, 780.0, depth);
+	float d_abyss = smoothstep(780.0, 1600.0, depth);
 	
 	vec3 depth_water = mix(c_shallow, c_shelf, d_shelf);
 	depth_water = mix(depth_water, c_slope, d_slope);
 	depth_water = mix(depth_water, c_deep, d_deep);
 	depth_water = mix(depth_water, c_abyss, d_abyss);
 	
-	// Caustics solares sutis na água rasa (depth < 120px)
+	// Caustics solares sutis na água rasa (depth < 100px)
 	float caustics = noise(p * 0.035 + vec2(slow * 0.2, -slow * 0.15)) * noise(p * 0.025 - vec2(slow * 0.15, slow * 0.1));
-	float shallow_light = (1.0 - smoothstep(0.0, 110.0, depth)) * smoothstep(0.35, 0.75, caustics);
-	depth_water += vec3(0.12, 0.18, 0.22) * shallow_light;
+	float shallow_light = (1.0 - smoothstep(0.0, 95.0, depth)) * smoothstep(0.35, 0.75, caustics);
+	depth_water += vec3(0.10, 0.16, 0.18) * shallow_light;
 	
 	// Ondulações oceânicas e ondulações de vento (swell)
 	float ocean_swell = sin(p.y * 0.028 - p.x * 0.014 + slow * 1.3) * 0.5 + 0.5;
 	float swell_crest = smoothstep(0.75, 0.96, ocean_swell) * (1.0 - smoothstep(0.96, 1.0, ocean_swell));
-	depth_water += vec3(0.12, 0.22, 0.28) * swell_crest * smoothstep(80.0, 300.0, depth) * 0.65;
+	depth_water += vec3(0.10, 0.18, 0.24) * swell_crest * smoothstep(70.0, 280.0, depth) * 0.55;
 	
 	// Fusão gradual entre a água industrial de Sucateia e o oceano com degradê
 	vec3 final_water = mix(water_industrial, depth_water, maritime_factor);
 	
-	// Espuma marítima branca de quebra na linha costeira (onde depth < 18px)
-	float surf_line = (1.0 - smoothstep(0.0, 18.0, depth)) * smoothstep(0.35, 0.75, noise(p * 0.045 + vec2(slow * 0.02, 0.0)));
-	vec3 surf_foam = vec3(0.88, 0.95, 1.0);
-	final_water = mix(final_water, surf_foam, surf_line * maritime_factor * 0.75);
+	// Espuma marítima branca de quebra na linha costeira (onde depth < 16px)
+	float surf_line = (1.0 - smoothstep(0.0, 16.0, depth)) * smoothstep(0.32, 0.72, noise(p * 0.045 + vec2(slow * 0.02, 0.0)));
+	vec3 surf_foam = vec3(0.90, 0.96, 1.0);
+	final_water = mix(final_water, surf_foam, surf_line * maritime_factor * 0.70);
 	
-	COLOR = vec4(final_water, 1.0);
+	// Suavização do contato com a areia nos primeiros 12 pixels para fusão orgânica
+	float edge_fade = smoothstep(0.0, 12.0, depth);
+	float alpha_val = mix(1.0, clamp(edge_fade + 0.65, 0.0, 1.0), maritime_factor);
+	
+	COLOR = vec4(final_water, alpha_val);
 }
