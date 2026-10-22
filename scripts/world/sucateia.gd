@@ -34,8 +34,8 @@ func _ready() -> void:
 			$Structures/Player.position = Vector2(400, 850)
 			cam.zoom = Vector2(0.85, 0.85)
 		elif capture_mode == "khemet_nexus":
-			$Structures/Player.position = Vector2(-11600, -1400)
-			cam.zoom = Vector2(0.85, 0.85)
+			get_viewport().size = Vector2i(1920, 1080)
+			$Structures/Player.position = Vector2(-11800, -1480)
 			cam.limit_left = -20000; cam.limit_right = 9000; cam.limit_top = -4500; cam.limit_bottom = 4500
 		elif capture_mode == "khemet_temple":
 			$Structures/Player.position = Vector2(-13600, -1450)

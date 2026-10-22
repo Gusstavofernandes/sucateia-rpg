@@ -536,7 +536,7 @@ func install(world: Node2D) -> void:
 	# -------------------------------------------------------------------------
 	# 11. MARCO 2: POÇO DE MEMÓRIA SOLAR (Santuário Místico Isolado nas Dunas)
 	# -------------------------------------------------------------------------
-	_place_khemet_memory_well(cliffs_group, root, Vector2(-11800, -1550), Vector2(0.95, 0.68))
+	_place_khemet_memory_well(cliffs_group, root, Vector2(-11800, -1550), Vector2(0.92, 0.92))
 
 	# -------------------------------------------------------------------------
 	# 12. MARCO 3: A GRANDE ESFINGE GUARDIÃ (Escultura Colossal Solitária na Rocha)
@@ -863,7 +863,7 @@ func _place_khemet_memory_well(parent: Node2D, col_root: Node2D, pos: Vector2, s
 
 	var shd := Sprite2D.new()
 	shd.texture = load(KHEMET_MEMORY_WELL_SHD) as Texture2D
-	shd.position = pos + Vector2(16.0, 18.0)
+	shd.position = pos + Vector2(18.0, 22.0)
 	shd.scale = scale
 	shd.modulate = Color(0.90, 0.70, 0.50, 0.45)
 	shd.z_index = -1
@@ -876,28 +876,47 @@ func _place_khemet_memory_well(parent: Node2D, col_root: Node2D, pos: Vector2, s
 	spr.modulate = Color(soil_col.r, soil_col.g, soil_col.b, 1.0)
 	parent.add_child(spr)
 
-	var light_center := PointLight2D.new()
-	light_center.texture = load(LIGHT_TEX) as Texture2D
-	light_center.position = pos + Vector2(0, -10) * scale.y
-	light_center.color = Color(1.0, 0.86, 0.45, 1.0)
-	light_center.energy = 0.95
-	light_center.texture_scale = 0.85
-	parent.add_child(light_center)
+	# Luz turquesa mística sobre o espelho d'água sagrado
+	var light_water := PointLight2D.new()
+	light_water.texture = load(LIGHT_TEX) as Texture2D
+	light_water.position = pos + Vector2(0.0, 48.0) * scale.y
+	light_water.color = Color(0.25, 0.88, 1.0, 0.95)
+	light_water.energy = 1.15
+	light_water.texture_scale = 0.90
+	parent.add_child(light_water)
 
+	# Luz âmbar/dourada dos raios solares que emanam do fundo do poço
+	var light_solar := PointLight2D.new()
+	light_solar.texture = load(LIGHT_TEX) as Texture2D
+	light_solar.position = pos + Vector2(0.0, 48.0) * scale.y
+	light_solar.color = Color(1.0, 0.85, 0.45, 0.85)
+	light_solar.energy = 0.80
+	light_solar.texture_scale = 0.70
+	parent.add_child(light_solar)
+
+	# 4 Orbes de quartzo azul solar nos pilares cardinais (Norte, Sul, Oeste, Leste)
 	var crystal_offsets: Array[Vector2] = [
-		Vector2(-280, -120), Vector2(280, -120),
-		Vector2(-280, 100),  Vector2(280, 100)
+		Vector2(0, -220),   # Pilar Norte
+		Vector2(8, 28),     # Pilar Sul
+		Vector2(-215, -112),# Pilar Oeste
+		Vector2(235, -112)  # Pilar Leste
 	]
 	for c_offset in crystal_offsets:
 		var c_light := PointLight2D.new()
 		c_light.texture = load(LIGHT_TEX) as Texture2D
 		c_light.position = pos + Vector2(c_offset.x * scale.x, c_offset.y * scale.y)
-		c_light.color = Color(0.25, 0.68, 1.0, 0.9)
-		c_light.energy = 0.55
-		c_light.texture_scale = 0.45
+		c_light.color = Color(0.22, 0.72, 1.0, 0.95)
+		c_light.energy = 0.70
+		c_light.texture_scale = 0.50
 		parent.add_child(c_light)
 
-	_build_rock_collision(col_root, pos + Vector2(0, 10.0) * scale.y, Vector2(320, 140) * scale.x)
+	# Colisão física: espelho d'água central profundo
+	_build_rock_collision(col_root, pos + Vector2(0.0, 48.0) * scale.y, Vector2(170, 75) * scale.x)
+	# Colisão física: bases dos 4 pilares monolíticos de sustentação
+	_build_rock_collision(col_root, pos + Vector2(0.0, -180.0) * scale.y, Vector2(60, 40) * scale.x)
+	_build_rock_collision(col_root, pos + Vector2(-215.0, -80.0) * scale.y, Vector2(65, 45) * scale.x)
+	_build_rock_collision(col_root, pos + Vector2(235.0, -80.0) * scale.y, Vector2(65, 45) * scale.x)
+	_build_rock_collision(col_root, pos + Vector2(8.0, 60.0) * scale.y, Vector2(50, 35) * scale.x)
 
 func _place_khemet_sphinx(parent: Node2D, col_root: Node2D, pos: Vector2, scale: Vector2, flip: bool = false) -> void:
 	var final_scale := Vector2(scale.x * (-1.0 if flip else 1.0), scale.y)
