@@ -258,34 +258,32 @@ func _build_canyons_and_plateaus(parent: Node2D, col_root: Node2D) -> void:
 
 
 # -----------------------------------------------------------------------------
-# SEIXOS, CASCALHO E TALUS DE ARENITO
+# SEIXOS, CASCALHO E TALUS DE ARENITO (ESPARSOS E ORGÂNICOS)
 # -----------------------------------------------------------------------------
 func _build_gravel_and_talus(parent: Node2D) -> void:
 	var small_stone_assets: Array[Dictionary] = [
-		{"tex": SMALL_ROCKS_MAIN, "shd": SMALL_ROCKS_MAIN_SHD, "base_scale": 0.38},
-		{"tex": SMALL_ROCKS_A,    "shd": SMALL_ROCKS_A_SHD,    "base_scale": 0.44},
-		{"tex": SMALL_ROCKS_B,    "shd": SMALL_ROCKS_B_SHD,    "base_scale": 0.40},
-		{"tex": SMALL_ROCKS_C,    "shd": SMALL_ROCKS_C_SHD,    "base_scale": 0.45}
+		{"tex": SMALL_ROCKS_MAIN, "shd": SMALL_ROCKS_MAIN_SHD, "base_scale": 0.22},
+		{"tex": SMALL_ROCKS_A,    "shd": SMALL_ROCKS_A_SHD,    "base_scale": 0.25},
+		{"tex": SMALL_ROCKS_B,    "shd": SMALL_ROCKS_B_SHD,    "base_scale": 0.24},
+		{"tex": SMALL_ROCKS_C,    "shd": SMALL_ROCKS_C_SHD,    "base_scale": 0.25}
 	]
 
-	# Dispersão orgânica de cascalho e seixos nos desfiladeiros e sopés
-	for x in range(-2400, -14500, -160):
+	# Dispersão esparsa e orgânica de cascalho no sopé das chapadas
+	for x in range(-2400, -14500, -650):
 		var x_val: float = float(x)
-		var asset_idx: int = abs(x / 160) % small_stone_assets.size()
+		var asset_idx: int = abs(x / 650) % small_stone_assets.size()
 		var stone_data: Dictionary = small_stone_assets[asset_idx]
 
-		# Cascalho ao longo da rota imperial oriental
+		# Cascalho ao longo da rota imperial oriental (apenas seixos pontuais)
 		if x_val > -4800:
 			var y_trail: float = lerpf(-480.0, -1900.0, clampf((-x_val - 2400.0) / 2400.0, 0.0, 1.0))
 			var pos_t := Vector2(x_val + sin(x_val * 0.025) * 35.0, y_trail + cos(x_val * 0.035) * 25.0)
-			_place_desert_stone(parent, stone_data["tex"], stone_data["shd"], pos_t, stone_data["base_scale"] * 0.80, sin(x_val * 0.02) * 0.20, Color(1.22, 0.94, 0.54, 0.95))
+			_place_desert_stone(parent, stone_data["tex"], stone_data["shd"], pos_t, stone_data["base_scale"] * 0.85, sin(x_val * 0.02) * 0.20, Color(1.22, 0.94, 0.54, 0.95))
 
-		# Seixos e cascalho no sopé das chapadas centrais
+		# Seixos sutis no sopé das chapadas centrais
 		var y_talus: float = -1850.0 + sin(x_val * 0.002) * 120.0
 		var pos_talus := Vector2(x_val + 20.0, y_talus + cos(x_val * 0.015) * 15.0)
-		var sub_idx: int = (asset_idx + 1) % small_stone_assets.size()
-		var sub_stone: Dictionary = small_stone_assets[sub_idx]
-		_place_desert_stone(parent, sub_stone["tex"], sub_stone["shd"], pos_talus, sub_stone["base_scale"] * 0.85, cos(x_val * 0.018) * 0.25, Color(1.24, 1.02, 0.60, 0.95))
+		_place_desert_stone(parent, stone_data["tex"], stone_data["shd"], pos_talus, stone_data["base_scale"] * 0.85, cos(x_val * 0.018) * 0.25, Color(1.24, 1.02, 0.60, 0.95))
 
 
 # -----------------------------------------------------------------------------

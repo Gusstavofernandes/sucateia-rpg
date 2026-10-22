@@ -344,53 +344,42 @@ func install(world: Node2D) -> void:
 				soil_group.add_child(patch)
 
 	# -------------------------------------------------------------------------
-	# 3. PEQUENAS PEDRAS E SEIXOS QUEBRANDO A MALHA
+	# 3. PEQUENAS PEDRAS E SEIXOS ESPARSOS NA AREIA DA PRAIA
 	# -------------------------------------------------------------------------
 	var small_stone_assets: Array[Dictionary] = [
-		{"tex": SMALL_ROCKS_MAIN, "shd": SMALL_ROCKS_MAIN_SHD, "base_scale": 0.38},
-		{"tex": SMALL_ROCKS_A,    "shd": SMALL_ROCKS_A_SHD,    "base_scale": 0.45},
-		{"tex": SMALL_ROCKS_B,    "shd": SMALL_ROCKS_B_SHD,    "base_scale": 0.42},
-		{"tex": SMALL_ROCKS_C,    "shd": SMALL_ROCKS_C_SHD,    "base_scale": 0.46}
+		{"tex": SMALL_ROCKS_MAIN, "shd": SMALL_ROCKS_MAIN_SHD, "base_scale": 0.22},
+		{"tex": SMALL_ROCKS_A,    "shd": SMALL_ROCKS_A_SHD,    "base_scale": 0.25},
+		{"tex": SMALL_ROCKS_B,    "shd": SMALL_ROCKS_B_SHD,    "base_scale": 0.24},
+		{"tex": SMALL_ROCKS_C,    "shd": SMALL_ROCKS_C_SHD,    "base_scale": 0.25}
 	]
 
-	for x in range(-350, -17600, -85):
+	# Dispersão esparsa e orgânica apenas na praia litorânea (sem poluir o platô sagrado de Khemet-Ra)
+	for x in range(-800, -17600, -480):
 		var y_tide: float = get_tide_y_at(float(x))
 		var y_cliff: float = get_cliff_base_y_at(float(x))
 		var col: Color = get_soil_color_at(float(x))
 		
-		var asset_idx: int = abs(x / 85) % small_stone_assets.size()
+		var step_k: int = abs(x / 480)
+		var asset_idx: int = step_k % small_stone_assets.size()
 		var stone_data: Dictionary = small_stone_assets[asset_idx]
-		var flip_h: bool = ((abs(x) / 85) % 2 == 1)
+		var flip_h: bool = (step_k % 2 == 1)
 
-		var mid_y: float = lerpf(y_cliff + 80.0, y_tide - 45.0, 0.45 + sin(float(x) * 0.015) * 0.25)
-		var stone_pos := Vector2(float(x) + cos(float(x) * 0.05) * 25.0, mid_y)
-		var scl_factor: float = stone_data["base_scale"] * (0.80 + sin(float(x) * 0.03) * 0.25)
+		# Seixo suave no meio da praia
+		var mid_y: float = lerpf(y_cliff + 60.0, y_tide - 40.0, 0.40 + sin(float(x) * 0.015) * 0.25)
+		var stone_pos := Vector2(float(x) + cos(float(x) * 0.05) * 40.0, mid_y)
+		var scl_factor: float = stone_data["base_scale"] * (0.85 + sin(float(x) * 0.03) * 0.20)
 		var final_scl := Vector2(scl_factor * (-1.0 if flip_h else 1.0), scl_factor)
 
-		_place_small_stone(ground_details, stone_data["tex"], stone_data["shd"], stone_pos, final_scl, sin(float(x) * 0.02) * 0.25, col)
+		_place_small_stone(ground_details, stone_data["tex"], stone_data["shd"], stone_pos, final_scl, sin(float(x) * 0.02) * 0.20, col)
 
-		if (abs(x) % 170 < 85):
-			var tide_edge_pos := Vector2(float(x) + 30.0, y_tide - 15.0 + sin(float(x) * 0.04) * 8.0)
+		# Seixo pontual na beira da maré a cada ~960px
+		if (step_k % 2 == 0):
+			var tide_edge_pos := Vector2(float(x) + 35.0, y_tide - 15.0 + sin(float(x) * 0.04) * 8.0)
 			var sub_idx: int = (asset_idx + 1) % small_stone_assets.size()
 			var tide_stone_data: Dictionary = small_stone_assets[sub_idx]
-			var tide_scl: float = tide_stone_data["base_scale"] * 0.70
-			var wet_col := Color(col.r * 0.85, col.g * 0.85, col.b * 0.82, 0.95)
+			var tide_scl: float = tide_stone_data["base_scale"] * 0.75
+			var wet_col := Color(col.r * 0.88, col.g * 0.88, col.b * 0.84, 0.95)
 			_place_small_stone(ground_details, tide_stone_data["tex"], tide_stone_data["shd"], tide_edge_pos, Vector2(tide_scl, tide_scl), -0.10, wet_col)
-
-		if (abs(x) % 190 < 85):
-			var cliff_foot_pos := Vector2(float(x) - 20.0, y_cliff + 45.0 + cos(float(x) * 0.03) * 12.0)
-			var foot_idx: int = (asset_idx + 2) % small_stone_assets.size()
-			var foot_stone_data: Dictionary = small_stone_assets[foot_idx]
-			var foot_scl: float = foot_stone_data["base_scale"] * 0.75
-			_place_small_stone(ground_details, foot_stone_data["tex"], foot_stone_data["shd"], cliff_foot_pos, Vector2(foot_scl, foot_scl), 0.15, col)
-
-		# Cascalho e seixos esparsos no platô superior da Chapada
-		if (abs(x) % 220 < 85):
-			var plat_stone_idx: int = (asset_idx + 3) % small_stone_assets.size()
-			var plat_data: Dictionary = small_stone_assets[plat_stone_idx]
-			var plat_y: float = y_cliff - 250.0 - sin(float(x) * 0.012) * 500.0 - cos(float(x) * 0.02) * 350.0
-			var plat_scl: float = plat_data["base_scale"] * 0.65
-			_place_small_stone(ground_details, plat_data["tex"], plat_data["shd"], Vector2(float(x) + 15.0, plat_y), Vector2(plat_scl * (-1.0 if flip_h else 1.0), plat_scl), sin(float(x) * 0.03) * 0.20, col)
 
 	# -------------------------------------------------------------------------
 	# 4. VEGETAÇÃO ÁRIDA DA CHAPADA (Cactos, capim seco e arbustos espinhosos)
@@ -638,26 +627,26 @@ func install(world: Node2D) -> void:
 		_place_rock(cliffs_group, root, data["tex"], data["shd"], data["pos"], data["scale"], data["rot"], data["flip"], Vector2(340, 90))
 
 	# -------------------------------------------------------------------------
-	# 19. ARRECIFES MARÍTIMOS NA ÁGUA (QUEBRA-MAR COSTEIRO DENSO E AQUECIDO)
+	# 19. ARRECIFES MARÍTIMOS NA ÁGUA (QUEBRA-MAR COSTEIRO EQUILIBRADO E AQUECIDO)
 	# -------------------------------------------------------------------------
 	var reef_assets: Array[Dictionary] = [
-		{"tex": COASTAL_REEF,       "shd": COASTAL_REEF_SHD,       "base_scale": 0.44},
-		{"tex": BEACH_BOULDERS,     "shd": BEACH_BOULDERS_SHD,     "base_scale": 0.42},
-		{"tex": RED_ROCKS_CLUSTER,  "shd": "",                     "base_scale": 0.40}
+		{"tex": COASTAL_REEF,       "shd": COASTAL_REEF_SHD,       "base_scale": 0.42},
+		{"tex": BEACH_BOULDERS,     "shd": BEACH_BOULDERS_SHD,     "base_scale": 0.40},
+		{"tex": RED_ROCKS_CLUSTER,  "shd": "",                     "base_scale": 0.38}
 	]
 
-	for x in range(-750, -18200, -85):
+	for x in range(-750, -18200, -250):
 		var y_tide: float = get_tide_y_at(float(x))
 		var soil_col: Color = get_soil_color_at(float(x))
-		var step_idx: int = abs(x / 85)
+		var step_idx: int = abs(x / 250)
 		var asset_idx: int = step_idx % reef_assets.size()
 		var r_data: Dictionary = reef_assets[asset_idx]
 		var flip_h: bool = (step_idx % 2 == 1)
 		
 		var t_dist: float = clampf((-x - 750.0) / 17000.0, 0.0, 1.0)
-		var scl_factor: float = r_data["base_scale"] * (0.90 + sin(float(x) * 0.02) * 0.18 + t_dist * 0.12)
-		var pos := Vector2(float(x) + cos(float(x) * 0.03) * 16.0, y_tide + 12.0 + sin(float(x) * 0.025) * 8.0)
-		var rot: float = sin(float(x) * 0.015) * 0.16
+		var scl_factor: float = r_data["base_scale"] * (0.88 + sin(float(x) * 0.02) * 0.16 + t_dist * 0.10)
+		var pos := Vector2(float(x) + cos(float(x) * 0.03) * 20.0, y_tide + 14.0 + sin(float(x) * 0.025) * 8.0)
+		var rot: float = sin(float(x) * 0.015) * 0.15
 		
 		# Sombra da rocha na água
 		if r_data["shd"] != "":
@@ -682,12 +671,12 @@ func install(world: Node2D) -> void:
 
 		_build_rock_collision(root, pos + Vector2(0, 5), Vector2(190, 40) * scl_factor)
 
-		# Linha de arrebentação secundária / ilhotas projetadas no mar
+		# Linha de arrebentação secundária / ilhotas projetadas no mar (a cada 2 passos = 500px)
 		if (step_idx % 2 == 0):
-			var islet_x: float = float(x) + 40.0 + sin(float(x) * 0.03) * 20.0
-			var islet_y: float = y_tide + 75.0 + sin(float(x) * 0.02) * 25.0
+			var islet_x: float = float(x) + 45.0 + sin(float(x) * 0.03) * 25.0
+			var islet_y: float = y_tide + 80.0 + sin(float(x) * 0.02) * 25.0
 			var sub_asset: Dictionary = reef_assets[(asset_idx + 1) % reef_assets.size()]
-			var sub_scl: float = sub_asset["base_scale"] * 0.75
+			var sub_scl: float = sub_asset["base_scale"] * 0.72
 			
 			var islet := Sprite2D.new()
 			islet.texture = load(sub_asset["tex"]) as Texture2D
