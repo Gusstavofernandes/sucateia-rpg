@@ -1,6 +1,7 @@
 extends Node2D
 var capture_frames := 0
 var capture_mode := ""
+var river_oasis: RefCounted
 func _ready() -> void:
 	load("res://scripts/world/fitted_stairs.gd").new().install(self)
 	load("res://scripts/world/connected_utilities.gd").new().install(self)
@@ -8,6 +9,8 @@ func _ready() -> void:
 	load("res://scripts/world/coroa_district.gd").new().install(self)
 	load("res://scripts/world/market_expansion.gd").new().install(self)
 	load("res://scripts/world/alto_west_cais.gd").new().install(self)
+	river_oasis = load("res://scripts/world/khemet_river_oasis.gd").new()
+	river_oasis.install(self)
 	var travel := get_node_or_null("/root/RegionTravel")
 	# Viagem intermapas legada desativada (cenário unificado)
 	# if travel: travel.setup(self,"centre")
@@ -59,6 +62,16 @@ func _ready() -> void:
 			get_viewport().size = Vector2i(1920, 1080)
 			$Structures/Player.position = Vector2(-11500, -820)
 			cam.zoom = Vector2(0.85, 0.85)
+			cam.limit_left = -22000; cam.limit_right = 9000; cam.limit_top = -6000; cam.limit_bottom = 6000
+		elif capture_mode == "khemet_oasis":
+			get_viewport().size = Vector2i(1920, 1080)
+			$Structures/Player.position = Vector2(-8020, -1900)
+			cam.zoom = Vector2(0.42, 0.42)
+			cam.limit_left = -22000; cam.limit_right = 9000; cam.limit_top = -6000; cam.limit_bottom = 6000
+		elif capture_mode == "khemet_rio_completo":
+			get_viewport().size = Vector2i(1920, 1080)
+			$Structures/Player.position = Vector2(-8020, -2200)
+			cam.zoom = Vector2(0.26, 0.26)
 			cam.limit_left = -22000; cam.limit_right = 9000; cam.limit_top = -6000; cam.limit_bottom = 6000
 		elif capture_mode == "khemet_litoral_templo":
 			get_viewport().size = Vector2i(1920, 1080)
@@ -300,6 +313,11 @@ func is_surface_walkable(point: Vector2) -> bool:
 	var lixao: Node2D = get_node_or_null("GrandeLixaoDistrict")
 	if lixao and lixao.has_meta("land_polygon"):
 		if Geometry2D.is_point_in_polygon(point, lixao.get_meta("land_polygon")): return true
+	var river: Node = get_node_or_null("KhemetRiverOasis")
+	if river and river_oasis:
+		var r: int = river_oasis.is_blocked(river, point)
+		if r == 1: return true
+		if r == -1: return false
 	var cais: Node2D = get_node_or_null("AltoLixoCais")
 	if cais and cais.has_meta("land_polygon"):
 		if Geometry2D.is_point_in_polygon(point, cais.get_meta("land_polygon")): return true
