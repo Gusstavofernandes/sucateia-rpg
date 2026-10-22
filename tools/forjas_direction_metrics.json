@@ -1,0 +1,30 @@
+{
+  "forjas_district": {
+    "draw_calls": 854.0,
+    "nodes": 3851.0
+  },
+  "forjas_full": {
+    "draw_calls": 2095.0,
+    "nodes": 3851.0
+  },
+  "forjas_frontier": {
+    "draw_calls": 298.0,
+    "nodes": 3851.0
+  },
+  "forjas_foundry": {
+    "draw_calls": 345.0,
+    "nodes": 3851.0
+  },
+  "forjas_recycling": {
+    "draw_calls": 303.0,
+    "nodes": 3851.0
+  },
+  "forjas_drain": {
+    "draw_calls": 282.0,
+    "nodes": 3851.0
+  },
+  "forjas_market_central_landmark": {
+    "draw_calls": 941.0,
+    "nodes": 3851.0
+  }
+}

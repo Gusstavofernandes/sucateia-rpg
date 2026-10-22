@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-03",
+  "generator": "built-in image_gen",
+  "asset": "assets/reconstruction/utility_fits/copper_elbow.png",
+  "prompt": "Use case: stylized-concept. Generate ONE isolated transparent PNG sprite of a 90 degree industrial copper pipe elbow for this dark fantasy overhead 2D game. Reference image is style/material reference only. Match same rusty brown copper, turquoise patina streaks, heavy riveted ring flanges and low contrast top-left light. Camera near-orthographic overhead with slight front face, same view as reference. Geometry: inlet points LEFT on a horizontal arm; outlet points DOWN on a vertical arm. Smooth rounded outside corner, smoothly connected continuous L elbow, no disconnected cylinders, no T junction, no valve, no other parts. Approximately square bounding box. Inlet flange centered x=20%, y=35%, outlet flange centered x=65%,y=80%. Both diameter identical, straight horizontal and vertical tangent at ends. Dark dull copper, not brightly polished gold, crisp hand-painted pre-rendered game asset to be used around45x45 game pixels. Object only; transparent background actual alpha, no ground, no broad shadow, no lettering.",
+  "ports_pixels": [
+    [
+      180,
+      365
+    ],
+    [
+      900,
+      1030
+    ]
+  ],
+  "native_size": [
+    1254,
+    1254
+  ],
+  "scope": "four drains attached to retaining wall; two coastal arch masonry splices; reactor/workshop continuous feeder; depth correction for three deck stairflights",
+  "junction_tolerance_px": 0.1,
+  "known_environment_warning": "Restricted Godot execution cannot read the Windows root certificate store; local render and physics do not use TLS.",
+  "sha256": "bf73ffd7c79212cf6268d892c949bf6dba957f094dfff894ce776d20d97a1223",
+  "verified_tests": [
+    "test_utility_contacts",
+    "test_stair_fits",
+    "test_cabos_layers",
+    "test_cabos_art_contacts",
+    "test_cabos_support_depth",
+    "test_cabos_preservation",
+    "test_lower_coast",
+    "test_fundo_access"
+  ]
+}

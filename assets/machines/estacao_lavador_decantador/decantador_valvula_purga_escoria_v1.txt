@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = decantador_valvula_purga_escoria_v1
+categoria = estacao_lavador_decantador
+dimensoes_arquivo_px = 80x108
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 20.00x27.00
+pivo_base = (40.0, 108)
+fundo_transparente = PNG_RGBA_LIMPO

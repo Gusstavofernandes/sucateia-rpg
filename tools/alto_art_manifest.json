@@ -1,0 +1,10 @@
+{
+  "asset": "assets/reconstruction/alto_cistern.png",
+  "generator": "OpenAI integrated image generation",
+  "mode": "built-in transparent-background generation",
+  "source": "C:/Users/Usuario/.codex/generated_images/01a0face-adf4-7ef0-984c-cb5ad576e7b1/exec-bfb575a2-3a06-4c56-9e36-28664aba026e.png",
+  "references": ["tools/checkpoints/original_visual_benchmark.png", "assets/generated/structures/house_stack.png"],
+  "purpose": "Communal rainwater cistern and patched maintenance canopy at Alto-Lixo upper courtyard",
+  "prompt": "One game-ready transparent cutout sprite of a squat goblin rainwater cistern with wide patched industrial canopy, rusty storage tank, reused timber supports, rivets, pipes, gutter, chained ladder, amber lantern and discreet cyan rune valve. Exact existing original Sucateia material/palette/lighting benchmark. Elevated orthographic top-down 3/4 looking down from south; dominant roof/tank top, short front wall, compact square footprint. Dark medieval cyberpunk goblin scrap city. Entire object visible. Transparent alpha; no terrain, scenery, people, text, frame or ground-plane cast shadow.",
+  "preservation": "Approved house, stacked house, workshop, reactor and market stall PNGs remain unchanged. No asset from a historical isolated district scene is instantiated."
+}

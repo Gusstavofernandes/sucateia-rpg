@@ -1,0 +1,334 @@
+{
+  "source": "tools/build_fundo_ferro.gd",
+  "rooms": [
+    {
+      "name": "PocoVelho",
+      "center": [
+        1296.0,
+        1572.0
+      ],
+      "size": [
+        470.0,
+        355.0
+      ]
+    },
+    {
+      "name": "Bombas",
+      "center": [
+        1750.0,
+        2000.0
+      ],
+      "size": [
+        505.0,
+        365.0
+      ]
+    },
+    {
+      "name": "Descarte",
+      "center": [
+        2300.0,
+        2180.0
+      ],
+      "size": [
+        600.0,
+        365.0
+      ]
+    },
+    {
+      "name": "Maquinas",
+      "center": [
+        2900.0,
+        1770.0
+      ],
+      "size": [
+        620.0,
+        450.0
+      ]
+    },
+    {
+      "name": "Reservatorio",
+      "center": [
+        2700.0,
+        1160.0
+      ],
+      "size": [
+        570.0,
+        365.0
+      ]
+    },
+    {
+      "name": "Ruinas",
+      "center": [
+        1750.0,
+        1050.0
+      ],
+      "size": [
+        465.0,
+        395.0
+      ]
+    },
+    {
+      "name": "Valvulas",
+      "center": [
+        3100.0,
+        640.0
+      ],
+      "size": [
+        530.0,
+        450.0
+      ]
+    },
+    {
+      "name": "Arena",
+      "center": [
+        3900.0,
+        1100.0
+      ],
+      "size": [
+        640.0,
+        520.0
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "name": "PocoBombas",
+      "points": [
+        [
+          1296.0,
+          1572.0
+        ],
+        [
+          1450.0,
+          1700.0
+        ],
+        [
+          1750.0,
+          2000.0
+        ]
+      ]
+    },
+    {
+      "name": "BombasDescarte",
+      "points": [
+        [
+          1750.0,
+          2000.0
+        ],
+        [
+          1820.0,
+          2030.0
+        ],
+        [
+          1820.0,
+          2160.0
+        ],
+        [
+          2300.0,
+          2180.0
+        ]
+      ]
+    },
+    {
+      "name": "DescarteMaquinas",
+      "points": [
+        [
+          2300.0,
+          2180.0
+        ],
+        [
+          2600.0,
+          2120.0
+        ],
+        [
+          2900.0,
+          1770.0
+        ]
+      ]
+    },
+    {
+      "name": "MaquinasReservatorio",
+      "points": [
+        [
+          2900.0,
+          1770.0
+        ],
+        [
+          2850.0,
+          1440.0
+        ],
+        [
+          2700.0,
+          1240.0
+        ]
+      ]
+    },
+    {
+      "name": "ReservatorioRuinas",
+      "points": [
+        [
+          2700.0,
+          1240.0
+        ],
+        [
+          2480.0,
+          1260.0
+        ],
+        [
+          2300.0,
+          1190.0
+        ],
+        [
+          1950.0,
+          1150.0
+        ],
+        [
+          1750.0,
+          1050.0
+        ]
+      ]
+    },
+    {
+      "name": "RuinasPoco",
+      "points": [
+        [
+          1750.0,
+          1050.0
+        ],
+        [
+          1510.0,
+          1090.0
+        ],
+        [
+          1280.0,
+          1240.0
+        ],
+        [
+          1296.0,
+          1572.0
+        ]
+      ]
+    },
+    {
+      "name": "TravessaDosDrenos",
+      "points": [
+        [
+          2300.0,
+          2180.0
+        ],
+        [
+          2210.0,
+          1840.0
+        ],
+        [
+          2100.0,
+          1470.0
+        ],
+        [
+          1970.0,
+          1250.0
+        ],
+        [
+          1750.0,
+          1050.0
+        ]
+      ]
+    },
+    {
+      "name": "GaleriaDasValvulas",
+      "points": [
+        [
+          2700.0,
+          1240.0
+        ],
+        [
+          2660.0,
+          1250.0
+        ],
+        [
+          2660.0,
+          1030.0
+        ],
+        [
+          3000.0,
+          940.0
+        ],
+        [
+          3000.0,
+          570.0
+        ],
+        [
+          3000.0,
+          480.0
+        ]
+      ]
+    },
+    {
+      "name": "GaleriaArena",
+      "points": [
+        [
+          3480.0,
+          750.0
+        ],
+        [
+          3480.0,
+          960.0
+        ],
+        [
+          3580.0,
+          960.0
+        ],
+        [
+          3900.0,
+          960.0
+        ],
+        [
+          3900.0,
+          1100.0
+        ]
+      ]
+    }
+  ],
+  "accesses": [
+    {
+      "name": "PocoVelho",
+      "surface": [
+        1296.0,
+        1572.0
+      ],
+      "underground": [
+        1296.0,
+        1572.0
+      ]
+    },
+    {
+      "name": "DocaLeste",
+      "surface": [
+        2210.0,
+        1668.0
+      ],
+      "underground": [
+        2250.0,
+        2200.0
+      ]
+    },
+    {
+      "name": "ForjasManutencao",
+      "surface": [
+        3000.0,
+        260.0
+      ],
+      "underground": [
+        3000.0,
+        480.0
+      ]
+    }
+  ],
+  "scope": "separate underground layer connected to current city, not surface district teleportation",
+  "corridor_half_width": 91,
+  "neighbors": [
+    "Poço Velho / núcleo costeiro",
+    "Doca Leste / costa de manutenção",
+    "Forjas Rasas / manutenção sul"
+  ]
+}

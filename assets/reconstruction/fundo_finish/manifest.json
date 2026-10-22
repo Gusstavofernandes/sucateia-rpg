@@ -1,0 +1,63 @@
+{
+  "asset": "assets/reconstruction/fundo_finish/valve_manifold.png",
+  "source": "tools/create_fundo_finish_assets.py",
+  "role": "low hydraulic distribution manifold for existing Valvulas room",
+  "canvas_px": [
+    256,
+    224
+  ],
+  "alpha_bbox_px": [
+    0,
+    12,
+    256,
+    224
+  ],
+  "anchor": "bottom_center; bearing foot row y=213",
+  "sockets_px": {
+    "feed_in": {
+      "point": [
+        10,
+        46
+      ],
+      "diameter": 18,
+      "direction": "west edge, eastbound"
+    },
+    "return_out": {
+      "point": [
+        246,
+        151
+      ],
+      "diameter": 18,
+      "direction": "east edge, westbound"
+    }
+  },
+  "bearing_footboxes_px": [
+    [
+      27,
+      176,
+      75,
+      204
+    ],
+    [
+      181,
+      176,
+      229,
+      204
+    ],
+    [
+      79,
+      187,
+      123,
+      213
+    ],
+    [
+      133,
+      187,
+      177,
+      213
+    ]
+  ],
+  "flow": "feed trunk -> three hand-wheel branches -> low return header",
+  "new_collision": false,
+  "sha256": "0d5c6fecef7d426bf9b5d7eda5c8161a239453039d082de47d4b91f51595ec96"
+}

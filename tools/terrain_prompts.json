@@ -1,0 +1,14 @@
+[
+  {
+    "name": "terrain",
+    "prompt": "Production GAME TEXTURE, single seamless tileable top-down ground surface for Sucateia goblin scrap city. Entire square filled edge-to-edge with the same continuous FLAT horizontal paving viewed directly FROM ABOVE, orthographic, no walls or facade perspective. Hand-painted dark medieval industrial RPG floor: irregular worn flagstones of varied size and shape, compacted gray-brown earth in joints, some broken salvaged brick, embedded little weathered iron patches, softly stained with oxidized copper and dirty olive dust. Broad medium-sized stones rather than tiny uniform bricks. Soft nondirectional ambient lighting, medium-low contrast, subdued warm charcoal gray/ochre/olive, compatible with rusty buildings and cyan/amber lights. A quiet usable walking surface, not a busy debris field. No focal central object, no text, no borders, no sidewalk edges, no cast shadows, no perspective, no neon, no people. Rich painterly material detail but restrained contrast. SEAMLESS across all four edges, no visible repeating grid. Square image.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-7e9767fe-21f2-46ed-bbe0-fa47faf8956a.png",
+    "method": "Built-in image_gen"
+  },
+  {
+    "name": "decals",
+    "prompt": "A production GAME GROUND DECAL ATLAS, transparent background, square canvas, exactly FOUR isolated flat horizontal ground-detail clusters arranged in a clean 2x2 grid with wide transparent gutters and no touching. Each cluster viewed orthographically directly FROM ABOVE, same scale and soft ambient lighting, hand-painted dark medieval goblin industrial fantasy, warm gray stone, rusty copper, charcoal and dirty olive. TOP LEFT: irregular salvaged stone threshold/foundation apron with riveted iron shims, compacted dirt and a few small stone chips, no wall. TOP RIGHT: uneven rectangular patch of three reclaimed rusty metal floor plates, nail/rivet heads and worn repair seams, low relief, no upright structure. BOTTOM LEFT: subdued workshop oil-and-soot stain with a small flat round metal inspection hatch, a few bolts and one short embedded cable, dark low contrast feathered edges. BOTTOM RIGHT: market ground patch of compressed brown dirt, a few flat broken stone slabs, wheel wear and subtle rusty dust, feathered edges. Entirely ground-level, no upright architecture, no isometric depth, no labels, no counters, no crates, no characters, no cast shadows. True transparent alpha outside each irregular cluster, no checkerboard painted into image. These are practical floor stamps to blend buildings with a stone street, not isolated concept illustrations.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-56002732-1977-4cf1-936a-9e102cc0675b.png",
+    "method": "Built-in image_gen"
+  }
+]

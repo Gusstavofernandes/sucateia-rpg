@@ -1,0 +1,396 @@
+{
+  "scope": "static read-only; no fresh render/physics",
+  "underground_sha256": "9793456d07a420d3dcc8114dff367b0a301e87df6f8d4fef478f0a3afe10d083",
+  "surface_sha256": "0186dc716aa6bd16df4cc0bf7ef3803c2ab17850cdb28a213dcf7efa18f75cc3",
+  "underground_equals_pre_finish_checkpoint": true,
+  "serialized_nodes": 1334,
+  "rooms": {
+    "PocoVelho": [
+      1296.0,
+      1572.0
+    ],
+    "Bombas": [
+      1750.0,
+      2000.0
+    ],
+    "Descarte": [
+      2300.0,
+      2180.0
+    ],
+    "Maquinas": [
+      2900.0,
+      1770.0
+    ],
+    "Reservatorio": [
+      2700.0,
+      1240.0
+    ],
+    "Ruinas": [
+      1750.0,
+      1050.0
+    ],
+    "Valvulas": [
+      3000.0,
+      570.0
+    ]
+  },
+  "routes": {
+    "PocoBombas": [
+      [
+        1296.0,
+        1572.0
+      ],
+      [
+        1450.0,
+        1700.0
+      ],
+      [
+        1750.0,
+        2000.0
+      ]
+    ],
+    "BombasDescarte": [
+      [
+        1750.0,
+        2000.0
+      ],
+      [
+        1820.0,
+        2030.0
+      ],
+      [
+        1820.0,
+        2160.0
+      ],
+      [
+        2300.0,
+        2180.0
+      ]
+    ],
+    "DescarteMaquinas": [
+      [
+        2300.0,
+        2180.0
+      ],
+      [
+        2600.0,
+        2120.0
+      ],
+      [
+        2900.0,
+        1770.0
+      ]
+    ],
+    "MaquinasReservatorio": [
+      [
+        2900.0,
+        1770.0
+      ],
+      [
+        2850.0,
+        1440.0
+      ],
+      [
+        2700.0,
+        1240.0
+      ]
+    ],
+    "ReservatorioRuinas": [
+      [
+        2700.0,
+        1240.0
+      ],
+      [
+        2480.0,
+        1260.0
+      ],
+      [
+        2300.0,
+        1190.0
+      ],
+      [
+        1950.0,
+        1150.0
+      ],
+      [
+        1750.0,
+        1050.0
+      ]
+    ],
+    "RuinasPoco": [
+      [
+        1750.0,
+        1050.0
+      ],
+      [
+        1510.0,
+        1090.0
+      ],
+      [
+        1280.0,
+        1240.0
+      ],
+      [
+        1296.0,
+        1572.0
+      ]
+    ],
+    "TravessaDosDrenos": [
+      [
+        2300.0,
+        2180.0
+      ],
+      [
+        2210.0,
+        1840.0
+      ],
+      [
+        2100.0,
+        1470.0
+      ],
+      [
+        1970.0,
+        1250.0
+      ],
+      [
+        1750.0,
+        1050.0
+      ]
+    ],
+    "GaleriaDasValvulas": [
+      [
+        2700.0,
+        1240.0
+      ],
+      [
+        2660.0,
+        1250.0
+      ],
+      [
+        2660.0,
+        1030.0
+      ],
+      [
+        3000.0,
+        940.0
+      ],
+      [
+        3000.0,
+        570.0
+      ],
+      [
+        3000.0,
+        480.0
+      ]
+    ]
+  },
+  "underground_F": {
+    "PocoVelho": [
+      1296.0,
+      1572.0
+    ],
+    "DocaLeste": [
+      2250.0,
+      2200.0
+    ],
+    "ForjasManutencao": [
+      3000.0,
+      480.0
+    ]
+  },
+  "surface_F": {
+    "PocoVelho": [
+      1296.0,
+      1572.0
+    ],
+    "DocaLeste": [
+      2210.0,
+      1668.0
+    ],
+    "ForjasManutencao": [
+      3000.0,
+      260.0
+    ]
+  },
+  "bridges": [
+    {
+      "center": [
+        1820,
+        2100
+      ],
+      "painted_canvas": [
+        97,
+        139
+      ],
+      "tested_span": [
+        [
+          1820,
+          2025
+        ],
+        [
+          1820,
+          2170
+        ]
+      ]
+    },
+    {
+      "center": [
+        2660,
+        1127
+      ],
+      "painted_canvas": [
+        97,
+        148
+      ],
+      "tested_span": [
+        [
+          2660,
+          1030
+        ],
+        [
+          2660,
+          1220
+        ]
+      ]
+    }
+  ],
+  "blocked_machines": {
+    "MotorAbandonado": [
+      3050.0,
+      1648.0
+    ],
+    "BombasDeRefluxo": [
+      1595.0,
+      1943.0
+    ],
+    "ValvulasAntigas": [
+      3180.0,
+      668.0
+    ],
+    "TornoDesativado": [
+      2400.0,
+      2258.0
+    ],
+    "CisternaDeRecalque": [
+      1420.0,
+      1448.0
+    ],
+    "RestosDaFundacao": [
+      1880.0,
+      958.0
+    ]
+  },
+  "wall_sprite_count": 328,
+  "textures": {
+    "assets/reconstruction/fundo_wall.png": "7d795b608ab195484be0cca6d10ff247d0c860528092701a71ce771aa77605b9",
+    "assets/reconstruction/fundo_abandoned_engine.png": "320aa45ad2c82a74adaf532cfd9c1d652520cadd8b04870c3313d66ec7b425cf",
+    "assets/region/pump_station.png": "cad38011597fc430cc4f78464379014c538afdd77ee8acaca22adb1a4f62f41f",
+    "assets/generated/structures/reactor.png": "ac6909cf0a9ecee5483d9727fbea9c55e127250fd7b7b044972f7aee83244792",
+    "assets/reconstruction/forjas_recycler.png": "01aa4c690da3e606400cb884e664c92493299ee14f2f538c600c0aa6dd44c712",
+    "assets/infrastructure/scrap.png": "63cdf7f229cd38167dc0a985e7fbeb1a937abb948c9daeb8eb64bb48fee40cdd",
+    "assets/infrastructure/lantern.png": "99bfcc02e0e14e7bdcd07829104ff3a8b96e1f17c02306fab9fdd74074a9d48e",
+    "assets/props/test_goblin.svg": "16ef0f66aebf4293496630c733c56dd1066f49e5d8895aa73915c307624e42ac",
+    "assets/reconstruction/alto_cistern.png": "a9b1435e41965f9fc3be7525fefed2a32575f6273359e72b19424ab0531952f5",
+    "assets/terrain/foundation.png": "5cd7b16605bf02a6dccb8e8bddf6502f51e44492634d4813c5a06e7234e5a256",
+    "assets/region/ruined_engine.png": "cba0544a8104c79cc89e70c00f48dad60c13f80f3df169c55f322383b08f891d",
+    "assets/fx/light.svg": "9e7a20b6c1fb6b176ef3555fb98a91b84ecf0e2ac60c8a5226b74ca9fe8b2e8e",
+    "assets/terrain/oil_hatch.png": "0ab4eafbcf724228fb2a5663f9fa68ea8276bbef57093cd951a183c5ea734c2d",
+    "assets/infrastructure/retaining_edge.png": "fcaec444a6ca49a62dc2c67387c4045463426f3533cb37c30acdcfa1914d5c10",
+    "assets/infrastructure/walkway.png": "1e3725112e3bd9b601cc4275ebe0f1e24c4e82308c17a0602d52d559d986dac0",
+    "assets/terrain/metal_repair.png": "37d31eab20851441c4e22977e2ae3a289a2d04ef732ac17c29d14238ed5cd66b",
+    "assets/terrain/market_dirt.png": "d3d7b289331cfac542bb77090f10bcd6b42e6158ec8a9dcd44a49514eadca805",
+    "assets/generated/props/pipe.png": "b4d70c05ae7e07da3d1c805b644e905d4abafb2da0ecd848bf82c80c900bae85",
+    "assets/infrastructure/channel.png": "56b0d5db5b07ab4c5a50ae12c59344461d8e525e8c8e8ee3d4dde893d8a00b18",
+    "assets/infrastructure/stairs.png": "8c9edbcb54ba0c5ee779c10b0fcca8ec90e46eea7344ae540d5bd39aad25b67d",
+    "assets/region/salvage_ground.png": "1bdde9a5613af1473277fdb77c03a78e840fc39dfb4fe601742cbc1d9a69d148"
+  },
+  "captures": {
+    "maps/fundo_ferro/preview_fundo_Bombas.png": {
+      "sha256": "c0ef89ce0d712e2ad72bf038e2ca9629f5d21b60818fc268d222e61e73b4744b",
+      "modified_sao_paulo": "2026-10-02T17:08:12.900788-03:00",
+      "png_size_bytes": 1596707
+    },
+    "maps/fundo_ferro/preview_fundo_Descarte.png": {
+      "sha256": "ef74d0658665142df423d08d88b96ab08db2e374ea4447d347c8e21b18438a36",
+      "modified_sao_paulo": "2026-10-02T17:08:16.337471-03:00",
+      "png_size_bytes": 1581426
+    },
+    "maps/fundo_ferro/preview_fundo_full.png": {
+      "sha256": "5e5603f2359dc56ca1483b30a1dc7499c4bdd78d90b394f9abf5a66df793b9a4",
+      "modified_sao_paulo": "2026-10-02T17:08:05.534439-03:00",
+      "png_size_bytes": 1589781
+    },
+    "maps/fundo_ferro/preview_fundo_Maquinas.png": {
+      "sha256": "395084af3b0714611a70ccf65db087245de9ed7960072cfb6425ecf8ee2e93eb",
+      "modified_sao_paulo": "2026-10-02T17:08:19.689165-03:00",
+      "png_size_bytes": 1560952
+    },
+    "maps/fundo_ferro/preview_fundo_PocoVelho.png": {
+      "sha256": "a152218367ff06ba697c92f60a8b1eda6fb2d8f2fc53f354d8140810780f1970",
+      "modified_sao_paulo": "2026-10-02T17:08:09.273277-03:00",
+      "png_size_bytes": 1628083
+    },
+    "maps/fundo_ferro/preview_fundo_Reservatorio.png": {
+      "sha256": "d37bd153bf82f1801de191e80cd645efa20bf6c416c87b0f649eb98d823ac9bc",
+      "modified_sao_paulo": "2026-10-02T17:08:24.964027-03:00",
+      "png_size_bytes": 1613058
+    },
+    "maps/fundo_ferro/preview_fundo_Ruinas.png": {
+      "sha256": "0cf6a772734a5f67eb1289bb62d546ae072308247a6f85e99fea90e8b96fba68",
+      "modified_sao_paulo": "2026-10-02T17:08:29.250718-03:00",
+      "png_size_bytes": 1525167
+    },
+    "maps/fundo_ferro/preview_fundo_Valvulas.png": {
+      "sha256": "b2e7a6a8f60517053a6c0e5da155d0c6a6d44865990c6f0b4257c2b4732d3b0e",
+      "modified_sao_paulo": "2026-10-02T17:08:33.221889-03:00",
+      "png_size_bytes": 1427865
+    },
+    "maps/sucateia/preview_fundo_surface_DocaLeste.png": {
+      "sha256": "4a2bc83b0d4450abebdf7ea83cf3455d39dcee201746dc09d02ccf45ec012d56",
+      "modified_sao_paulo": "2026-10-02T17:08:41.869964-03:00",
+      "png_size_bytes": 1139632
+    },
+    "maps/sucateia/preview_fundo_surface_ForjasManutencao.png": {
+      "sha256": "d2bc4524a8d2d348b580fb655e9fb590ce40c675f4fcb205e60dc4b1015453e0",
+      "modified_sao_paulo": "2026-10-02T17:08:45.854285-03:00",
+      "png_size_bytes": 1143603
+    },
+    "maps/sucateia/preview_fundo_surface_PocoVelho.png": {
+      "sha256": "df9752127b8929e9096d59b3c62c12a6c72fd6ba5e1e9fb4db6757c68477c7ad",
+      "modified_sao_paulo": "2026-10-02T17:08:37.429266-03:00",
+      "png_size_bytes": 1537213
+    }
+  },
+  "runtime_hashes": {
+    "scripts/world/alto_lixo_builder.gd": "c12b61dfc6375875aa2c83309a810d2ef47aa29272adf8612889aa73bb03db7b",
+    "scripts/world/alto_residential_finish.gd": "7c8f76803440bca5213dea34315217e7e665c7c97d83ecc7ea8da604b957f625",
+    "scripts/world/cabos_access.gd": "f4fd6f6a63935971a248506639436c171d792b09625f121a843d25e372ecdad2",
+    "scripts/world/cabos_district.gd": "865674b75212c8a2add4c50d4d86856119e92eb6e95d8ca4badbb0be228f60f4",
+    "scripts/world/coastal_builder.gd": "98b9a3cd4ad423208765d72fefb7839a33fbcf83556854e7963db694488acd92",
+    "scripts/world/connected_utilities.gd": "26714c1079804f2ff8f296b7968d606a9fdcf5bf22e764a944a722123bd7dbcc",
+    "scripts/world/docas_district.gd": "221ebe2311a260cea53fb5c5d59cac4dbc46be6e0f618dd473e247ca42cbcf19",
+    "scripts/world/fitted_stairs.gd": "c37f62230cfa04bf307667a572d4e43d72f93f02863204932e43dc7feefdf717",
+    "scripts/world/forjas_rasas_builder.gd": "e8b515172319d4cc38f45accb5fd16b9869bb4a4e22b49e46603b8004fc7a0f3",
+    "scripts/world/fundo_ferro.gd": "4d6de1834beb21fcfe7d9304f5af992b9f46aab95c4e30b0bee6c34928cfe72c",
+    "scripts/world/infrastructure_builder.gd": "4470081a1255091673dda9120c3f9931cca98b22695446015ab0d6705f80df4d",
+    "scripts/world/layer_access.gd": "a78b5ee4d4f52e790461ec7de9fc1cc50bb115f1cebfbbe9e80e80f9d2394010",
+    "scripts/world/layer_travel.gd": "b96aa1a536caf99e5fc5161411b36d12b71c5492517b8a4c17d64b3fe91495b3",
+    "scripts/world/lower_coast_builder.gd": "c6e8780be74f4549533a60d7eeb2968909647815a3525eeed9a92da047353cda",
+    "scripts/world/market_expansion_builder.gd": "23a5ba8dafc753ebb3848d3aabe66d66a0286b9c2080585a12122b9c7ae5e039",
+    "scripts/world/market_urban_layout.gd": "b791c299098456d59d6828b075e83794b8074f3783f70ca8d7b60a61b5ff3a24",
+    "scripts/world/port_approach_finish.gd": "53ec1cb300edeceea71b6b8b0948fceac8e7bc2c9dd97d18ced865cf83732265",
+    "scripts/world/port_stitch.gd": "5aaf7fe76e59b099ac3987d4f209284074048ac444e0cdd045af65775da669bc",
+    "scripts/world/regional_continuity_builder.gd": "dfe98ab07edcd01249d91467801baf88f81521339f66e8c87e56a44bb2631f74",
+    "scripts/world/region_extension_builder.gd": "c8804b8a33a1113d0dab4c5653e94431cbc456a9918b6bbccb63ef59dd1e789e",
+    "scripts/world/region_hud.gd": "d126cf7ea340e30a1568a0bfd381a79c7e9524be294191897e41f0d7297a38b9",
+    "scripts/world/region_portal.gd": "1380d37a213f86aff1d9c8b3dadfbfe7208fd3328c3ae593e95b693c3bde2c89",
+    "scripts/world/region_travel.gd": "5eb08ffc9740f69b469e3174abdd35a3f902b5afd029250c52cf3fd7fef5b88b",
+    "scripts/world/region_world.gd": "68404b17bd7a580e930efaf436692f4748909b6b10dd01f264e541b5834fcc70",
+    "scripts/world/slice_hud.gd": "ab20ff560fcaeda2b3c16018ba5e73e2a821ad56fbf6a3be64b06c397c89c688",
+    "scripts/world/sucateia.gd": "87c90eb179cde500ca7c1ccbac48823b05eb972f4a7c5036cf2fa969338e0b0b",
+    "scripts/world/terrain_builder.gd": "f07eebd061839096fc2bc6e0f824c41cd941621b86833a53cbe3e2f99f1c530d",
+    "scripts/world/test_player.gd": "7d486572c845a78049cbc62174ba6a536274c95e2b99a8d66136ef6203271cd1",
+    "scripts/world/vhal_builder.gd": "9a9a18af84c33ab63eb70f19d615886bf16e5cab6d6f59f805055bbde6857cc4"
+  },
+  "pending_finish_applied": false
+}

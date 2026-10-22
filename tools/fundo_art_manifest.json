@@ -1,0 +1,18 @@
+[
+  {
+    "name": "fundo_wall",
+    "path": "assets/reconstruction/fundo_wall.png",
+    "prompt": "Use case: stylized-concept. Production-ready placeable TRANSPARENT 2D GAME sprite for FUNDO-FERRO beneath Sucateia, goblin dark medieval arcane salvage city. Reference is original playable city map: match hand-painted old stone/oxidized copper/charcoal iron/reclaimed timber texture quality, 2D scale, restrained cyan/amber. Elevated orthographic 3/4 TOP-DOWN looking SOUTH to NORTH, top surfaces dominate at least 75%, short south sides, no diagonal isometric camera or frontal concept art. Upper-left diffuse light. Complete object with transparent margins, no surrounding floor/background, no characters/text/logos. ONE reusable short horizontal RUINED UNDERGROUND RETAINING WALL MODULE. Low thick weathered dark stone coping seen clearly from above, iron reinforcements, ancient eroded masonry blocks patched with rusty metal, damp moss, small built-in pipe elbow and riveted braces. Broad roughly horizontal asymmetrical silhouette, much wider than tall, usable as room/tunnel boundary at 110 world pixels wide, clean edge contact shading. Roofless wall segment, not an entire room/building, no gate arch, no tall tower, no landscape. Near-overhead view appropriate for rotated modular wall pieces, neutral diffuse lighting.",
+    "source": "exec-7a3c34cb-873a-4ca9-a78b-cfb8d31eacc0.png",
+    "method": "built-in image_gen",
+    "reference": "tools/checkpoints/original_visual_benchmark.png"
+  },
+  {
+    "name": "fundo_abandoned_engine",
+    "path": "assets/reconstruction/fundo_abandoned_engine.png",
+    "prompt": "Use case: stylized-concept. Production-ready placeable TRANSPARENT 2D GAME sprite for FUNDO-FERRO beneath Sucateia, goblin dark medieval arcane salvage city. Reference is original playable city map: match hand-painted old stone/oxidized copper/charcoal iron/reclaimed timber texture quality, 2D scale, restrained cyan/amber. Elevated orthographic 3/4 TOP-DOWN looking SOUTH to NORTH, top surfaces dominate at least 75%, short south sides, no diagonal isometric camera or frontal concept art. Upper-left diffuse light. Complete object with transparent margins, no surrounding floor/background, no characters/text/logos. ONE abandoned low goblin INDUSTRIAL WATER ENGINE AND DRIVE ASSEMBLY centerpiece for an underground machine chamber. Heavy squat horizontal corroded pressure engine with broken large flywheel, jammed toothed gears, snapped copper pipes, disused cylindrical boiler, partly open inspection top panel, reclaimed-stone base, chain mechanism and small ruined controller with one barely lit cyan glass lens. Machinery has ceased working; no flames, sparks or moving effects. Top mechanisms clearly visible. Irregular ingenious salvage construction, dark wet bronze/coal/rust, aged old-world machine, not a modern engine or futuristic robot. Readable at 330 world pixels wide.",
+    "source": "exec-d1b5d731-6b42-4203-be2f-47c3d0d31add.png",
+    "method": "built-in image_gen",
+    "reference": "tools/checkpoints/original_visual_benchmark.png"
+  }
+]

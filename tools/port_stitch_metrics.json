@@ -1,0 +1,82 @@
+{
+  "tests": [
+    "port_stitch_contacts",
+    "port_stitch",
+    "docas_contacts",
+    "docas_routes",
+    "fundo_access",
+    "port_approach",
+    "docas_preservation",
+    "forjas_functional_modules",
+    "slice"
+  ],
+  "new_generated_assets": 3,
+  "protected_pngs": 137,
+  "contact_samples": 80,
+  "economic_functions": 5,
+  "preserved_F_accesses": 3,
+  "preserved_R_landings": 6,
+  "new_supported_bays": 1,
+  "consultant_approval": "approved_with_nonblocking_observations",
+  "scene_sha256": "0186dc716aa6bd16df4cc0bf7ef3803c2ab17850cdb28a213dcf7efa18f75cc3",
+  "captures": {
+    "stitch_overview": {
+      "draw_calls": 555.0,
+      "nodes": 5803.0,
+      "sha256": "73b522a1b0825a29af7f76c0804a5b4a6146b9623c1b11bbe0d5a73670875cba"
+    },
+    "stitch_sorting": {
+      "draw_calls": 152.0,
+      "nodes": 5803.0,
+      "sha256": "c5adaac773b29f4614bccec9fb3c9c1357ef3d0aca0a4dbe78f9cd5821f1811f"
+    },
+    "stitch_service": {
+      "draw_calls": 17.0,
+      "nodes": 5803.0,
+      "sha256": "a9c3179d59be12d9f9415812638496012dd4a78cb47c7102d6f900e74dd73bd2"
+    },
+    "stitch_urban": {
+      "draw_calls": 103.0,
+      "nodes": 5803.0,
+      "sha256": "44d0c249d54286c11a62596e4dd284dfc26decd9073cfbd3a07f8c18c246f023"
+    },
+    "stitch_mouths": {
+      "draw_calls": 275.0,
+      "nodes": 5803.0,
+      "sha256": "b15d96bad6e791dbf47d4d0fe8f85fb9c1d096745a7b39c44909025be0af9d09"
+    }
+  },
+  "runtime_hashes": {
+    "scripts/world/alto_lixo_builder.gd": "c12b61dfc6375875aa2c83309a810d2ef47aa29272adf8612889aa73bb03db7b",
+    "scripts/world/alto_residential_finish.gd": "7c8f76803440bca5213dea34315217e7e665c7c97d83ecc7ea8da604b957f625",
+    "scripts/world/cabos_access.gd": "f4fd6f6a63935971a248506639436c171d792b09625f121a843d25e372ecdad2",
+    "scripts/world/cabos_district.gd": "865674b75212c8a2add4c50d4d86856119e92eb6e95d8ca4badbb0be228f60f4",
+    "scripts/world/coastal_builder.gd": "98b9a3cd4ad423208765d72fefb7839a33fbcf83556854e7963db694488acd92",
+    "scripts/world/connected_utilities.gd": "26714c1079804f2ff8f296b7968d606a9fdcf5bf22e764a944a722123bd7dbcc",
+    "scripts/world/docas_district.gd": "221ebe2311a260cea53fb5c5d59cac4dbc46be6e0f618dd473e247ca42cbcf19",
+    "scripts/world/fitted_stairs.gd": "c37f62230cfa04bf307667a572d4e43d72f93f02863204932e43dc7feefdf717",
+    "scripts/world/forjas_rasas_builder.gd": "e8b515172319d4cc38f45accb5fd16b9869bb4a4e22b49e46603b8004fc7a0f3",
+    "scripts/world/fundo_ferro.gd": "4d6de1834beb21fcfe7d9304f5af992b9f46aab95c4e30b0bee6c34928cfe72c",
+    "scripts/world/infrastructure_builder.gd": "4470081a1255091673dda9120c3f9931cca98b22695446015ab0d6705f80df4d",
+    "scripts/world/layer_access.gd": "a78b5ee4d4f52e790461ec7de9fc1cc50bb115f1cebfbbe9e80e80f9d2394010",
+    "scripts/world/layer_travel.gd": "b96aa1a536caf99e5fc5161411b36d12b71c5492517b8a4c17d64b3fe91495b3",
+    "scripts/world/lower_coast_builder.gd": "c6e8780be74f4549533a60d7eeb2968909647815a3525eeed9a92da047353cda",
+    "scripts/world/market_expansion_builder.gd": "23a5ba8dafc753ebb3848d3aabe66d66a0286b9c2080585a12122b9c7ae5e039",
+    "scripts/world/market_urban_layout.gd": "b791c299098456d59d6828b075e83794b8074f3783f70ca8d7b60a61b5ff3a24",
+    "scripts/world/port_approach_finish.gd": "53ec1cb300edeceea71b6b8b0948fceac8e7bc2c9dd97d18ced865cf83732265",
+    "scripts/world/port_stitch.gd": "5aaf7fe76e59b099ac3987d4f209284074048ac444e0cdd045af65775da669bc",
+    "scripts/world/regional_continuity_builder.gd": "dfe98ab07edcd01249d91467801baf88f81521339f66e8c87e56a44bb2631f74",
+    "scripts/world/region_extension_builder.gd": "c8804b8a33a1113d0dab4c5653e94431cbc456a9918b6bbccb63ef59dd1e789e",
+    "scripts/world/region_hud.gd": "d126cf7ea340e30a1568a0bfd381a79c7e9524be294191897e41f0d7297a38b9",
+    "scripts/world/region_portal.gd": "1380d37a213f86aff1d9c8b3dadfbfe7208fd3328c3ae593e95b693c3bde2c89",
+    "scripts/world/region_travel.gd": "5eb08ffc9740f69b469e3174abdd35a3f902b5afd029250c52cf3fd7fef5b88b",
+    "scripts/world/region_world.gd": "68404b17bd7a580e930efaf436692f4748909b6b10dd01f264e541b5834fcc70",
+    "scripts/world/slice_hud.gd": "ab20ff560fcaeda2b3c16018ba5e73e2a821ad56fbf6a3be64b06c397c89c688",
+    "scripts/world/sucateia.gd": "87c90eb179cde500ca7c1ccbac48823b05eb972f4a7c5036cf2fa969338e0b0b",
+    "scripts/world/terrain_builder.gd": "f07eebd061839096fc2bc6e0f824c41cd941621b86833a53cbe3e2f99f1c530d",
+    "scripts/world/test_player.gd": "7d486572c845a78049cbc62174ba6a536274c95e2b99a8d66136ef6203271cd1",
+    "scripts/world/vhal_builder.gd": "9a9a18af84c33ab63eb70f19d615886bf16e5cab6d6f59f805055bbde6857cc4"
+  },
+  "consultant_record": "tools/CONSULTANT_PORT_STITCH_FINAL.md",
+  "historical_checkpoint_preserved": true
+}

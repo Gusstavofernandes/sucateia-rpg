@@ -1,0 +1,15 @@
+PROMPT NANO BANANA (REATOR DE CHOQUE CIANO DA ARENA):
+Game asset, 2.5D front view, underground dark industrial steampunk art style for a clandestine goblin arena. An electric discharge reactor machine with shock electrodes for electrifying the arena pit.
+- Heavy rectangular riveted cast-iron plinth base sitting flat on the ground, parallel to the bottom screen edge (no 45 degree rotation).
+- Thick copper busbars, heavy braided electrical cables, ribbed ceramic high-voltage insulators.
+- In the center: a cylindrical brass-and-iron spark chamber with thick glass viewing port showing an intense bright cyan electrical arc / glow inside, with a top exhaust vent releasing thin white vapor smoke.
+- Two heavy copper electrode rods or grates mounted at the front/bottom for submerging electric current into water.
+- A side electrical switchboard panel with levers and a round needle gauge.
+- Strict orthogonal perspective, parallel to screen axes, no diagonal pipe angles.
+- Isolated on a completely flat, solid, pure magenta (#FF00FF) background, completely uniform, no glow on background, no floor shadow on background, sharp edges, centered, full object visible with margin.
+
+ESPECIFICAÇÕES TÉCNICAS DO ASSET:
+- Nome Canônico: maquina_reator_eletrodo_arena_v1.png
+- Função Narrativa: Reator clandestino de descarga elétrica de alta voltagem para o fosso da Arena. Responsável pela energização letal no combo de estados "Água + Elétrico".
+- Dimensões do Arquivo: 738x782 px, bounding box recortada com transparência PNG
+- Sombra: Separada em maquina_reator_eletrodo_arena_v1_sombra.png

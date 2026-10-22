@@ -1,0 +1,33 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/world/test_player.gd" id="1_11k3a"]
+[ext_resource type="Shader" path="res://assets/fx/patina.gdshader" id="2_6atxt"]
+[ext_resource type="Texture2D" path="res://assets/props/test_goblin.svg" id="3_347hv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4s5h4"]
+shader = ExtResource("2_6atxt")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bxmdt"]
+
+[node name="Player" type="CharacterBody2D" unique_id=462541653 groups=["player"]]
+position = Vector2(1152, 1248)
+collision_layer = 2
+script = ExtResource("1_11k3a")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=628507879]
+material = SubResource("ShaderMaterial_4s5h4")
+position = Vector2(0, -22)
+scale = Vector2(0.85, 0.85)
+texture = ExtResource("3_347hv")
+
+[node name="_CollisionShape2D_786" type="CollisionShape2D" parent="." unique_id=937371815]
+shape = SubResource("CircleShape2D_bxmdt")
+
+[node name="Camera" type="Camera2D" parent="." unique_id=746125060]
+zoom = Vector2(0.95, 0.95)
+limit_left = 0
+limit_top = 0
+limit_right = 2400
+limit_bottom = 2020
+position_smoothing_enabled = true
+position_smoothing_speed = 6.0

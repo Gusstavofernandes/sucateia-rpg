@@ -1,0 +1,13 @@
+# Os Cabos
+
+Autorização humana contínua verificada diretamente no chat supervisor: criar assets/construir e consultar o próximo passo após cada entrega verificada. Esta etapa somente Os Cabos; Docas fica para depois. Brief tools/CONSULTANT_CABOS_BRIEF.md e referência regional inspecionados; benchmark artístico existente mantido.
+
+Checkpoint anterior tools/checkpoints/sucateia_before_cabos.tscn e sucateia_amarras_integrada.zip preservados. Nenhuma instrução AGENTS.md encontrada.
+
+Camada elevada integrada na mesma cena, sem duplicar jogador/terreno; três acessos F (Mercado, Alto-Lixo e oeste de Forjas). Superfície mantém máscara1 e playerz0; Cabos usa máscara4 e profundidade elevada. R mantém spawn seguro da camada atual, volta restaura superfície. Oclusão por shader localizada em88px ao redor do jogador de baixo; restante da estrutura permanece opaco. Nenhum PNG aprovado foi modificado.
+
+Auditorias completas lidas. Cinco PNGs selecionados: casa0,28; ponte0,26; T0,38; mastro0,16; novo deck largo0,1411161. Piso útil principal72px dentro de75,5px pintados; N–S60px, ponte28px e T32/36px. As16 rotas e todos os patamares passaram em movimento físico ida/volta. Três acessos e R passaram. Pátios Forjas/Amarras preservados.
+
+Revisão independente identificou bases de torres sem física: corrigidas27 bases layer1 com footprints proporcionais, deslocamentos pontuais preservando entradas. Dois apoios da casa ampliados uniformemente até o chão200px abaixo da soleira. Teste percorreu3458 centros elevados seguros com piso PNG real e confirmou todas as bases sólidas. Captura inicial mostrou textura duplicada no shader: corrigido COLOR. Teste de pintura identificou seção ausente da varanda: round-trip persistiu o sprite; nomes automáticos normalizados pelo engine foram restaurados textualmente por ordem de nós verificada. Preservação integral voltou a PASS, sem alterar transforms/materiais/física anteriores.
+
+Estado: execução completa20/20 testes PASS, sem ERROR, e cinco testes afetados revalidados depois do ajuste visual final. Sete capturas finais regeneradas com runtime final5185 nós. Revisão independente resolveu P2 das bases e avatar inferior: shader local6% no núcleo42px, transição até100px, readout do Sprite original somente sob decks na superfície. Reviewer confirmou silhueta/rosto/goblin legíveis e nenhumP1/P2 restante. Dois apoios novos deslocados para preservar chegada Mercado/Forjas e Beco das Ferragens, com sprite/body/sombra/cabos movidos juntos. Resultado/checkpoint em CABOS_RESULT.md, CABOS_REVIEW.md e finalize_cabos.py para revisão consultiva; setor ainda não tem aprovação visual final. Nenhum setor seguinte iniciado.

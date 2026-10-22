@@ -1,0 +1,823 @@
+{
+	"cabos_accesses": [
+		{
+			"access": "AltoLixo",
+			"ground": [
+				-400.0,
+				-780.0
+			],
+			"ground_free": true,
+			"upper": [
+				-400.0,
+				-992.0
+			],
+			"upper_free": true,
+			"upper_painted_navigation": true
+		},
+		{
+			"access": "Mercado",
+			"ground": [
+				744.0,
+				-504.0
+			],
+			"ground_free": true,
+			"upper": [
+				744.0,
+				-716.0
+			],
+			"upper_free": true,
+			"upper_painted_navigation": true
+		},
+		{
+			"access": "Forjas",
+			"ground": [
+				1900.0,
+				108.0
+			],
+			"ground_free": true,
+			"upper": [
+				1900.0,
+				-104.0
+			],
+			"upper_free": true,
+			"upper_painted_navigation": true
+		}
+	],
+	"coast_opening": {
+		"bottom": [
+			1512,
+			1472
+		],
+		"center_x": 1512,
+		"left": 1440,
+		"right": 1584,
+		"top": [
+			1512,
+			1378
+		],
+		"wall_y": 1418
+	},
+	"old_stair_sprites": [
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1724.7607421875,
+				845.204528808594
+			],
+			"path": "FinishedInfrastructure/stairs",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1719.64477539063,
+				800.971557617188
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1983.31420898438,
+				669.111755371094
+			],
+			"path": "FinishedInfrastructure/@Sprite2D@415",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1987.08801269531,
+				624.744079589844
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1728.42602539063,
+				1557.27014160156
+			],
+			"path": "FinishedInfrastructure/@Sprite2D@420",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1725.97180175781,
+				1512.81005859375
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1995.75695800781,
+				1457.16101074219
+			],
+			"path": "FinishedInfrastructure/@Sprite2D@425",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1998.64270019531,
+				1412.72680664063
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1510.5,
+				1467.5
+			],
+			"path": "FinishedInfrastructure/@Sprite2D@496",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1510.0,
+				1388.5
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				true,
+				true
+			],
+			"bottom": [
+				2300.19604492188,
+				1100.45288085938
+			],
+			"path": "GoblinIndustrialQuay/@Sprite2D@703",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				2298.20043945313,
+				1041.59533691406
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1139.25,
+				493.827270507813
+			],
+			"path": "RegionPortals/To_alto/@Sprite2D@5",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1139.0,
+				452.172729492188
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1579.25,
+				1093.82727050781
+			],
+			"path": "RegionPortals/To_forjas/@Sprite2D@10",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1579.0,
+				1052.17272949219
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				2099.25,
+				1153.82727050781
+			],
+			"path": "RegionPortals/To_cabos/@Sprite2D@15",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				2099.0,
+				1112.17272949219
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1295.25,
+				1613.82727050781
+			],
+			"path": "RegionPortals/To_fundo/@Sprite2D@20",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1295.0,
+				1572.17272949219
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1599.25,
+				1653.82727050781
+			],
+			"path": "RegionPortals/To_docas/@Sprite2D@25",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1599.0,
+				1612.17272949219
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				753.3125,
+				-495.200012207031
+			],
+			"path": "MarketDistrict/GroundIntegration/@Sprite2D@501",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				753.083312988281,
+				-526.799987792969
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				true,
+				false
+			],
+			"bottom": [
+				1529.3125,
+				-755.200012207031
+			],
+			"path": "MarketDistrict/GroundIntegration/@Sprite2D@505",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1529.08337402344,
+				-786.799987792969
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				333.34375,
+				-210.559097290039
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@750",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				333.125,
+				-241.440902709961
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				65.34375,
+				-317.55908203125
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@787",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				65.125,
+				-348.44091796875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-1206.65625,
+				-285.55908203125
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@822",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-1206.875,
+				-316.44091796875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-751.65625,
+				-632.55908203125
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@859",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-751.875,
+				-663.44091796875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-686.65625,
+				-1245.55908203125
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@893",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-686.875,
+				-1276.44091796875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-186.65625,
+				-845.55908203125
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@930",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-186.875,
+				-876.44091796875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-436.65625,
+				129.440902709961
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@965",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-436.875,
+				98.5590896606445
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				43.34375,
+				-1161.55908203125
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@1002",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				43.125,
+				-1192.44091796875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-4.754150390625,
+				187.860748291016
+			],
+			"path": "AltoLixoDistrict/GroundIntegration/@Sprite2D@35",
+			"surface_floor": [
+				false,
+				false
+			],
+			"top": [
+				-4.972900390625,
+				156.978942871094
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				298.9375,
+				-524.709106445313
+			],
+			"path": "AltoLixoDistrict/Stairs/Escada00/@Sprite2D@726",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				298.583343505859,
+				-579.290893554688
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-401.0625,
+				-752.709106445313
+			],
+			"path": "AltoLixoDistrict/Stairs/Escada01/@Sprite2D@730",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-401.416656494141,
+				-807.290893554688
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				308.9375,
+				-1042.70910644531
+			],
+			"path": "AltoLixoDistrict/Stairs/Escada02/@Sprite2D@734",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				308.583343505859,
+				-1097.29089355469
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-831.0625,
+				-952.709106445313
+			],
+			"path": "AltoLixoDistrict/Stairs/Escada03/@Sprite2D@738",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-831.416687011719,
+				-1007.29089355469
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				674.073486328125,
+				1656.6328125
+			],
+			"path": "LowerCoastReworked/@Sprite2D@160",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				664.180908203125,
+				1603.68481445313
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1069.23962402344,
+				1764.93176269531
+			],
+			"path": "LowerCoastReworked/@Sprite2D@161",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1068.98608398438,
+				1711.06823730469
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				2203.08984375,
+				1666.78491210938
+			],
+			"path": "LowerCoastReworked/@Sprite2D@162",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				2207.1416015625,
+				1613.0732421875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				2619.1875,
+				234.940902709961
+			],
+			"path": "ForjasRasasDistrict/Bridges/Travessia2620/@Sprite2D@606",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				2618.91674804688,
+				204.059097290039
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				3279.1875,
+				249.713623046875
+			],
+			"path": "ForjasRasasDistrict/Bridges/Travessia3280/@Sprite2D@612",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				3278.91674804688,
+				218.831817626953
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				true,
+				false
+			],
+			"bottom": [
+				2998.96875,
+				266.240905761719
+			],
+			"path": "LayerEntrances/@Sprite2D@1253",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				2998.625,
+				203.759094238281
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-400.0,
+				-780.0
+			],
+			"path": "CabosDistrict/ElevatedDecks/_Sprite2D_2",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-400.649993896484,
+				-882.699951171875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				-400.0,
+				-882.700012207031
+			],
+			"path": "CabosDistrict/ElevatedDecks/_Sprite2D_3",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				-400.649993896484,
+				-985.399963378906
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				744.0,
+				-503.999969482422
+			],
+			"path": "CabosDistrict/ElevatedDecks/_Sprite2D_4",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				743.350036621094,
+				-606.699951171875
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				744.0,
+				-606.700012207031
+			],
+			"path": "CabosDistrict/ElevatedDecks/_Sprite2D_5",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				743.350036621094,
+				-709.399963378906
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1900.0,
+				108.0
+			],
+			"path": "CabosDistrict/ElevatedDecks/_Sprite2D_6",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1899.34997558594,
+				5.30000305175781
+			],
+			"visible": true
+		},
+		{
+			"blocked_surface": [
+				false,
+				false
+			],
+			"bottom": [
+				1900.0,
+				5.30000305175781
+			],
+			"path": "CabosDistrict/ElevatedDecks/_Sprite2D_7",
+			"surface_floor": [
+				true,
+				true
+			],
+			"top": [
+				1899.34997558594,
+				-97.3999938964844
+			],
+			"visible": true
+		}
+	],
+	"player_radius": 11
+}

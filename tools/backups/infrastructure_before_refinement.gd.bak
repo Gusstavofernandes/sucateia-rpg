@@ -1,0 +1,96 @@
+extends RefCounted
+var world: Node2D
+var infrastructure: Node2D
+func add(node: Node, parent: Node) -> void:
+	parent.add_child(node)
+	node.owner = world
+func art(file: String, at: Vector2, size: Vector2, angle: float = 0, parent: Node = null) -> Sprite2D:
+	var sprite := Sprite2D.new()
+	sprite.name = file.get_basename()
+	sprite.texture = load("res://assets/infrastructure/"+file+".png")
+	sprite.position = at
+	sprite.scale = size/Vector2(sprite.texture.get_size())
+	sprite.rotation = angle
+	add(sprite,infrastructure if parent == null else parent)
+	return sprite
+func shadow(at: Vector2, size: Vector2, opacity: float = .46) -> void:
+	var sprite := Sprite2D.new()
+	sprite.texture = load("res://assets/fx/light.svg")
+	sprite.position = at
+	sprite.scale = size/256.0
+	sprite.modulate = Color(0,0,0,opacity)
+	add(sprite,infrastructure)
+func edge_row(start: float, finish: float, y: float) -> void:
+	var count := maxi(1,roundi((finish-start)/184.0))
+	var step := (finish-start)/count
+	for i in range(count):
+		var x := start+step*(i+.5)
+		var offset: float = [-2.0,2.5,0.0,3.0][i%4]
+		shadow(Vector2(x+6,y+23),Vector2(step+25,75),.46)
+		var module := art("retaining_edge",Vector2(x,y+offset),Vector2(step+10,80),.006 if i%2 else -.005)
+		module.modulate = Color(.97,1,.96) if i%3 == 0 else Color(1,1,1)
+func edge_column(x: float, start: float, finish: float) -> void:
+	var count := maxi(1,roundi((finish-start)/174.0))
+	var step := (finish-start)/count
+	for i in range(count):
+		art("retaining_edge",Vector2(x+(-2 if i%2 else 1),start+step*(i+.5)),Vector2(step+8,46),PI/2)
+func pipe(at: Vector2, angle: float = 0) -> void:
+	var sprite := Sprite2D.new()
+	sprite.texture = load("res://assets/generated/props/pipe.png")
+	sprite.position = at
+	sprite.scale = Vector2(.50,.42)
+	sprite.rotation = angle
+	add(sprite,infrastructure)
+func install(target: Node2D, foreground: Node2D) -> void:
+	world = target
+	infrastructure = Node2D.new()
+	infrastructure.name = "FinishedInfrastructure"
+	infrastructure.z_index = -14
+	add(infrastructure,world)
+	# Industrial runoff becomes a recessed, textured channel with irregular banks.
+	var channel := Polygon2D.new()
+	channel.name = "IndustrialRunoff"
+	channel.z_index = -18
+	channel.polygon = PackedVector2Array([Vector2(1800,380),Vector2(1796,540),Vector2(1805,730),Vector2(1799,900),Vector2(1801,1070),Vector2(1795,1270),Vector2(1805,1460),Vector2(1800,1670),Vector2(1952,1670),Vector2(1957,1470),Vector2(1948,1320),Vector2(1955,1130),Vector2(1951,960),Vector2(1956,730),Vector2(1948,510),Vector2(1952,380)])
+	var material := ShaderMaterial.new()
+	material.shader = load("res://assets/infrastructure/channel.gdshader")
+	material.set_shader_parameter("channel_surface",load("res://assets/infrastructure/channel.png"))
+	channel.material = material
+	add(channel,world)
+	# A continuous top-down grate deck grows around the pre-existing east-bank homes.
+	for y in [451,657,863,1069,1275,1481,1603]:
+		for x in [2023,2183]:
+			var deck := art("walkway",Vector2(x+(-3 if y%2 else 2),y),Vector2(202,218))
+			deck.modulate = Color(.92,.95,.91)
+	# Perimeter and lower terrace lip, including the staircase opening.
+	edge_row(144,2256,335)
+	edge_row(144,1800,1690)
+	edge_row(1960,2256,1690)
+	edge_column(150,380,1650)
+	edge_column(2248,380,1650)
+	edge_row(144,1440,1418)
+	edge_row(1584,1800,1418)
+	edge_column(1796,380,1020)
+	edge_column(1796,1110,1670)
+	edge_column(1957,380,1020)
+	edge_column(1957,1110,1670)
+	# Real treads and chain handrails link the unchanged pedestrian levels.
+	shadow(Vector2(1517,1437),Vector2(170,136),.5)
+	art("stairs",Vector2(1512,1428),Vector2(144,110))
+	# Service portals belong to the lower retaining wall instead of free-standing boxes.
+	for x in [395,655,915,1175]:
+		shadow(Vector2(x,1498),Vector2(136,55),.42)
+		art("service_arch",Vector2(x,1484),Vector2(160,132))
+	# The lower feeder is assembled from the same textured pipe family as the forge.
+	for x in range(285,967,111): pipe(Vector2(x,1550))
+	for y in [1388,1497]: pipe(Vector2(246,y),PI/2)
+	# Small fully textured service gratings replace blank geometric grate blocks.
+	for at in [Vector2(851,1012),Vector2(1690,978),Vector2(1300,1298)]:
+		art("walkway",at,Vector2(65,54))
+	# Foreground support, anchored to the western wall with an actual chain and hook.
+	art("crane",Vector2(255,663),Vector2(195,286),0,foreground)
+	# Textured joints tie the pressure machine to its existing copper feeder.
+	pipe(Vector2(1263,879))
+	pipe(Vector2(1300,924),PI/2)
+	print("INFRA: painted terrace edges, grate decks, stairs, portals, runoff and gantry")
+

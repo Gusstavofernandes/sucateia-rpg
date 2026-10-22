@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = minerio_cristal_unitario_3_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 130x120
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 32.50x30.00
+pivo_base = (65.0, 120)
+fundo_transparente = PNG_RGBA_LIMPO

@@ -1,0 +1,218 @@
+[
+  {
+    "name": "edge_anchor_buttress",
+    "dimensions": [
+      1391,
+      1131
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      59,
+      51,
+      1358,
+      1091
+    ],
+    "transparent_percent": 51.72,
+    "minimum_visible_margin_px": 33,
+    "recommended_scale_from_canvas": 0.103926,
+    "resulting_visible_world_size": [
+      135,
+      108
+    ],
+    "approx_floor_contact_world_size": [
+      104,
+      32
+    ]
+  },
+  {
+    "name": "chain_drag_wear_decal_marks",
+    "dimensions": [
+      1915,
+      821
+    ],
+    "alpha_extrema": [
+      0,
+      252
+    ],
+    "visible_bbox_gt16": [
+      65,
+      142,
+      1861,
+      741
+    ],
+    "transparent_percent": 58.23,
+    "minimum_visible_margin_px": 54,
+    "recommended_scale_from_canvas": 0.116927,
+    "resulting_visible_world_size": [
+      210,
+      70
+    ]
+  },
+  {
+    "name": "damp_anchor_runoff_decal_stains",
+    "dimensions": [
+      1499,
+      1049
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      164,
+      87,
+      1391,
+      975
+    ],
+    "transparent_percent": 62.75,
+    "minimum_visible_margin_px": 74,
+    "recommended_scale_from_canvas": 0.122249,
+    "resulting_visible_world_size": [
+      150,
+      109
+    ]
+  },
+  {
+    "name": "tension_anchor_tower_margin",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bbox_gt16": [
+      101,
+      179,
+      944,
+      1397
+    ],
+    "transparent_percent": 69.43,
+    "minimum_visible_margin_px": 80,
+    "recommended_scale_from_canvas": 0.177936,
+    "resulting_visible_world_size": [
+      150,
+      217
+    ],
+    "approx_floor_contact_world_size": [
+      117,
+      62
+    ]
+  },
+  {
+    "name": "chain_winch_station",
+    "dimensions": [
+      1524,
+      1032
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      42,
+      206,
+      1486,
+      806
+    ],
+    "transparent_percent": 69.94,
+    "minimum_visible_margin_px": 38,
+    "recommended_scale_from_canvas": 0.107341,
+    "resulting_visible_world_size": [
+      155,
+      64
+    ],
+    "approx_floor_contact_world_size": [
+      94,
+      27
+    ]
+  },
+  {
+    "name": "cargo_tiedown_platform",
+    "dimensions": [
+      1699,
+      926
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      93,
+      128,
+      1605,
+      775
+    ],
+    "transparent_percent": 56.75,
+    "minimum_visible_margin_px": 93,
+    "recommended_scale_from_canvas": 0.145503,
+    "resulting_visible_world_size": [
+      220,
+      94
+    ],
+    "approx_floor_contact_world_size": [
+      164,
+      21
+    ]
+  },
+  {
+    "name": "chain_routing_hub",
+    "dimensions": [
+      1417,
+      1110
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      22,
+      75,
+      1395,
+      944
+    ],
+    "transparent_percent": 72.17,
+    "minimum_visible_margin_px": 22,
+    "recommended_scale_from_canvas": 0.091042,
+    "resulting_visible_world_size": [
+      125,
+      79
+    ],
+    "approx_floor_contact_world_size": [
+      69,
+      15
+    ]
+  },
+  {
+    "name": "technical_control_kiosk_complete",
+    "dimensions": [
+      1408,
+      1117
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      201,
+      90,
+      1225,
+      1041
+    ],
+    "transparent_percent": 53.49,
+    "minimum_visible_margin_px": 76,
+    "recommended_scale_from_canvas": 0.180664,
+    "resulting_visible_world_size": [
+      185,
+      172
+    ],
+    "approx_floor_contact_world_size": [
+      165,
+      23
+    ]
+  }
+]

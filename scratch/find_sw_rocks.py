@@ -1,0 +1,48 @@
+import re
+
+with open('maps/sucateia/sucateia.tscn', 'r', encoding='utf-8') as f:
+    text = f.read()
+
+lines = text.split('\n')
+nodes = {}
+current_node_name = None
+
+for line in lines:
+    if line.startswith('[node name='):
+        m = re.search(r'\[node name="([^"]+)"(?:\s+type="([^"]+)")?(?:\s+parent="([^"]+)")?', line)
+        if m:
+            name, ntype, parent = m.group(1), m.group(2), m.group(3)
+            full_path = f"{parent}/{name}" if parent else name
+            current_node_name = full_path
+            nodes[full_path] = {'name': name, 'type': ntype, 'parent': parent, 'props': {}, 'raw': line}
+    elif current_node_name and line.startswith('['):
+        current_node_name = None
+    elif current_node_name and '=' in line:
+        k, v = line.split('=', 1)
+        nodes[current_node_name]['props'][k.strip()] = v.strip()
+
+def get_global_pos(path):
+    parts = path.split('/')
+    cur = ''
+    total_x, total_y = 0.0, 0.0
+    for p in parts:
+        cur = f"{cur}/{p}" if cur else p
+        if cur in nodes:
+            pos_str = nodes[cur]['props'].get('position', None)
+            if pos_str:
+                m = re.search(r'Vector2\(([^)]+)\)', pos_str)
+                if m:
+                    coords = [float(c.strip()) for c in m.group(1).split(',')]
+                    total_x += coords[0]
+                    total_y += coords[1]
+    return total_x, total_y
+
+print("=== NODES NEAR SOUTH-WEST ROCKS (X: -400..400, Y: 1200..1800) ===")
+for path, data in nodes.items():
+    gx, gy = get_global_pos(path)
+    if -400 <= gx <= 400 and 1200 <= gy <= 1800:
+        tex = data['props'].get('texture', '')
+        if tex:
+            rot = data['props'].get('rotation', '0')
+            sc = data['props'].get('scale', '1,1')
+            print(f"{path} -> pos=({gx:.1f}, {gy:.1f}) | rot={rot} | tex={tex}")

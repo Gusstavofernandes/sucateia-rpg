@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = berco_cacamba_inclinada_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 223x219
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 55.75x54.75
+pivo_base = (111.5, 219)
+fundo_transparente = PNG_RGBA_LIMPO

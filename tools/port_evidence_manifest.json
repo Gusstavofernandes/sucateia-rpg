@@ -1,0 +1,132 @@
+[
+  {
+    "path": "scripts\\world\\port_approach_finish.gd",
+    "sha256": "53ec1cb300edeceea71b6b8b0948fceac8e7bc2c9dd97d18ced865cf83732265",
+    "bytes": 3156
+  },
+  {
+    "path": "tests\\test_port_approach.gd",
+    "sha256": "31a454794625c8150d816a595bc5c996e58aa7a453ba6cfa823853abf31169b5",
+    "bytes": 2343
+  },
+  {
+    "path": "assets\\reconstruction\\port_approach\\manifest.json",
+    "sha256": "c083f60ba564b7331ec853617b6b4abe673b3f1242abeced1aa4f8f1dac2880a",
+    "bytes": 3945
+  },
+  {
+    "path": "assets\\reconstruction\\port_approach\\maintained_quay_paving.png",
+    "sha256": "282dd423a3ef7915054dd9409caa52af241d67c73955ad35779201590d63802a",
+    "bytes": 3179784
+  },
+  {
+    "path": "assets\\reconstruction\\port_approach\\stone_timber_threshold.png",
+    "sha256": "fb06ed784ded078d2621d1808f964eebb9bab344ab69db018d63db1c8ce0fe9f",
+    "bytes": 1689088
+  },
+  {
+    "path": "tools\\PORT_APPROACH_AUDIT.md",
+    "sha256": "706d646f67b9d0c078df6e7da3b2a7eae3c8c09c6b608ddd5973fdf60a60e5a6",
+    "bytes": 2654
+  },
+  {
+    "path": "tools\\POLISH_PROGRESS.md",
+    "sha256": "58d6f531d5182334b99b31da4bcc216eafa713d3a85cacd218e43c10030ab659",
+    "bytes": 3279
+  },
+  {
+    "path": "tools\\port_approach_before.png",
+    "sha256": "c1f5eab9bbd538369ede5e1c8a69406adf234ef1512609b2f8573f1779b1846b",
+    "bytes": 1808672
+  },
+  {
+    "path": "maps\\sucateia\\preview_port_approach.png",
+    "sha256": "b491a84b28b6c3d1a080fcb310a354fe90b4a2e9f648ce6db9eb66654fe4ab82",
+    "bytes": 1741752
+  },
+  {
+    "path": "tools\\port_final_capture.log",
+    "sha256": "fc36b99d87141f7463646d33ab19bbca229fe43380f23d647aa64aced57e8b1b",
+    "bytes": 417
+  },
+  {
+    "path": "tools\\port_verify_alto_refinement.log",
+    "sha256": "e96651f7e6b7de7c3497e4565078303e4d527b7883b0acdae6147c9f48e4ff0e",
+    "bytes": 320
+  },
+  {
+    "path": "tools\\port_verify_amarras_infrastructure.log",
+    "sha256": "6e84eff6c30eaca4102ff73820a3356b5b94b6697a8e363b87292a55c0ea0933",
+    "bytes": 352
+  },
+  {
+    "path": "tools\\port_verify_amarras_routes.log",
+    "sha256": "e73d5309913484ec11bf42ba316dbe50a4529d039c73f8cb42a1f1df00f0438b",
+    "bytes": 1487
+  },
+  {
+    "path": "tools\\port_verify_cabos_art_contacts.log",
+    "sha256": "ebedbc95c876c66f232b7180c28c17dfd6fa3923fe906b30756f7ac3943d3378",
+    "bytes": 326
+  },
+  {
+    "path": "tools\\port_verify_cabos_routes.log",
+    "sha256": "a4223447b7b89872b2514ddc0792b37751394062ff7d5508597d1d741233c069",
+    "bytes": 2098
+  },
+  {
+    "path": "tools\\port_verify_cabos_support_depth.log",
+    "sha256": "cc57a85e844b8f3aef2821519d59a50ad8f97172abb33f5b12aa5358aa8e0640",
+    "bytes": 302
+  },
+  {
+    "path": "tools\\port_verify_docas_contacts.log",
+    "sha256": "e05f85ae8810a6e4fa44e8b8fd715041d25d04377d4027c5d08cf360ad78b063",
+    "bytes": 368
+  },
+  {
+    "path": "tools\\port_verify_docas_preservation.log",
+    "sha256": "c2c1fe607137938980e38531ed37925b56e79964d3b0fcd4187640f11a020e21",
+    "bytes": 316
+  },
+  {
+    "path": "tools\\port_verify_docas_routes.log",
+    "sha256": "7b8d2beaa1403107cc942cdae9c3cb7ab9f62d8c6ac1c520e86abae8a2fea892",
+    "bytes": 1197
+  },
+  {
+    "path": "tools\\port_verify_forjas_functional_modules.log",
+    "sha256": "d1b6bf7a3706b176cc4239381fd5f9cc11e31220a111cb8707a561f582923b58",
+    "bytes": 327
+  },
+  {
+    "path": "tools\\port_verify_forjas_render_order.log",
+    "sha256": "4e32f9acbf6d1e0d01d1e9ca1d1d8eba817b577aae92afe19454f3f8f7c168cf",
+    "bytes": 305
+  },
+  {
+    "path": "tools\\port_verify_fundo_access.log",
+    "sha256": "2b7011de42f57ca0f9ad4a32db54d3daedc78251f33671d80fb12c04197a76d5",
+    "bytes": 515
+  },
+  {
+    "path": "tools\\port_verify_lower_coast.log",
+    "sha256": "7e1fedd5010110b868670bb9d94151441abea64c75ac83980e73c1413944ccf5",
+    "bytes": 687
+  },
+  {
+    "path": "tools\\port_verify_port_approach.log",
+    "sha256": "e967f1debb29f45ef746f77352ac43fb528418a3ccf84a54d96704a3323bd260",
+    "bytes": 296
+  },
+  {
+    "path": "tools\\port_verify_stair_fits.log",
+    "sha256": "6acc7d85f683b15ae414d3ec7eb4f3f26518e62d27af5ccd7f85104c36d687b6",
+    "bytes": 321
+  },
+  {
+    "path": "tools\\port_verify_utility_contacts.log",
+    "sha256": "de051d38153e1ba51a799119782227283fb7f0b21db055e995d8e2e123bb8e1a",
+    "bytes": 310
+  }
+]

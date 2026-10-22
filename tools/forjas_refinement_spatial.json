@@ -1,0 +1,320 @@
+{
+  "scope": "localized current city refinement; no floor expansion",
+  "reference": "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png",
+  "networks": [
+    {
+      "name": "CaldeirasFundicao",
+      "points": [
+        [
+          3050.0,
+          -1382.0
+        ],
+        [
+          2910.0,
+          -1382.0
+        ],
+        [
+          2910.0,
+          -1140.0
+        ],
+        [
+          2700.0,
+          -1140.0
+        ],
+        [
+          2700.0,
+          -1040.0
+        ]
+      ]
+    },
+    {
+      "name": "CircuitoDosFornos",
+      "points": [
+        [
+          2700.0,
+          -1040.0
+        ],
+        [
+          2700.0,
+          -960.0
+        ],
+        [
+          2880.0,
+          -960.0
+        ],
+        [
+          2880.0,
+          -1020.0
+        ],
+        [
+          3170.0,
+          -1020.0
+        ],
+        [
+          3170.0,
+          -945.0
+        ]
+      ]
+    },
+    {
+      "name": "RecuperacaoTriagem",
+      "points": [
+        [
+          3170.0,
+          -945.0
+        ],
+        [
+          3240.0,
+          -945.0
+        ],
+        [
+          3240.0,
+          -800.0
+        ],
+        [
+          3320.0,
+          -800.0
+        ],
+        [
+          3320.0,
+          -710.0
+        ],
+        [
+          3400.0,
+          -710.0
+        ],
+        [
+          3400.0,
+          -510.0
+        ],
+        [
+          3330.0,
+          -510.0
+        ]
+      ]
+    },
+    {
+      "name": "ServicoFabricacao",
+      "points": [
+        [
+          2700.0,
+          -960.0
+        ],
+        [
+          2600.0,
+          -960.0
+        ],
+        [
+          2600.0,
+          -582.0
+        ],
+        [
+          2530.0,
+          -582.0
+        ],
+        [
+          2530.0,
+          -440.0
+        ],
+        [
+          2950.0,
+          -440.0
+        ],
+        [
+          2950.0,
+          -350.0
+        ]
+      ]
+    },
+    {
+      "name": "DrenagemDasCaldeiras",
+      "points": [
+        [
+          2950.0,
+          -350.0
+        ],
+        [
+          3020.0,
+          -350.0
+        ],
+        [
+          3020.0,
+          -45.0
+        ],
+        [
+          2860.0,
+          -45.0
+        ],
+        [
+          2860.0,
+          127.0
+        ]
+      ]
+    },
+    {
+      "name": "EntradaOficinas",
+      "points": [
+        [
+          2050.0,
+          -275.0
+        ],
+        [
+          2050.0,
+          -218.0
+        ],
+        [
+          1950.0,
+          -218.0
+        ],
+        [
+          1950.0,
+          -173.0
+        ],
+        [
+          1900.0,
+          -173.0
+        ]
+      ]
+    },
+    {
+      "name": "ReparosEntrada",
+      "points": [
+        [
+          2050.0,
+          -275.0
+        ],
+        [
+          2120.0,
+          -275.0
+        ],
+        [
+          2120.0,
+          -515.0
+        ],
+        [
+          2030.0,
+          -515.0
+        ]
+      ]
+    },
+    {
+      "name": "ReparosCarga",
+      "points": [
+        [
+          2120.0,
+          -515.0
+        ],
+        [
+          2250.0,
+          -515.0
+        ],
+        [
+          2250.0,
+          -345.0
+        ],
+        [
+          2450.0,
+          -345.0
+        ],
+        [
+          2450.0,
+          -190.0
+        ],
+        [
+          2520.0,
+          -190.0
+        ],
+        [
+          2520.0,
+          28.0
+        ]
+      ]
+    },
+    {
+      "name": "LigacaoVasoCaldeiras",
+      "points": [
+        [
+          2832,
+          -1382
+        ],
+        [
+          2918,
+          -1382
+        ]
+      ]
+    }
+  ],
+  "modules": {
+    "FornalhaDaEntrada": [
+      2050,
+      -275
+    ],
+    "FerreiroDaRua": [
+      1850,
+      -8
+    ],
+    "MinerioDaCarga": [
+      2490,
+      30
+    ],
+    "GuindasteDaFundicao": [
+      2945,
+      -925
+    ],
+    "VasoDeServico": [
+      2840,
+      -1390
+    ]
+  },
+  "market_viewpoint": [
+    1600,
+    -275
+  ],
+  "existing_buildings_preserved": 19,
+  "forjas_floor_cells": 1590,
+  "exits": {
+    "ChaminesVelhas": "reserved",
+    "GrandeFerrugem": "reserved",
+    "CorredorParaOsCabos": "reserved",
+    "ManutencaoFundoFerro": "three-access lower layer connected"
+  },
+  "metrics": {
+    "forjas_market_landmark": {
+      "draw_calls": 164.0,
+      "nodes": 3448.0
+    },
+    "forjas_cargo": {
+      "draw_calls": 181.0,
+      "nodes": 3448.0
+    },
+    "forjas_boilers": {
+      "draw_calls": 138.0,
+      "nodes": 3448.0
+    },
+    "forjas_foundry": {
+      "draw_calls": 190.0,
+      "nodes": 3448.0
+    },
+    "forjas_recycling": {
+      "draw_calls": 168.0,
+      "nodes": 3448.0
+    },
+    "forjas_drain": {
+      "draw_calls": 188.0,
+      "nodes": 3448.0
+    },
+    "forjas_frontier": {
+      "draw_calls": 231.0,
+      "nodes": 3448.0
+    },
+    "forjas_district": {
+      "draw_calls": 483.0,
+      "nodes": 3448.0
+    },
+    "forjas_full": {
+      "draw_calls": 1802.0,
+      "nodes": 3448.0
+    }
+  },
+  "metrics_limit": "capture samples only; not prolonged FPS benchmark"
+}

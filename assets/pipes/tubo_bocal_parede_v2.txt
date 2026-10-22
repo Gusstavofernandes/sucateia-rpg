@@ -1,0 +1,12 @@
+Modelo: Nano Banana (Gemini image). Referências: assets/pump_station.png (máquina central), assets/pipes/cano_longo_industrial.png.
+r1 e r2 geradas; em ambas o toco de cano saiu afunilado (~15°). Usado o BLOCO de parede da r2; o toco foi substituído
+por um trecho horizontal recortado do cano_longo_industrial.png (build_bocal_parede_v2.py), garantindo eixo reto e mesmo diâmetro.
+
+Prompt r1 (base):
+Game asset, 3/4 top-down view, same camera angle, painted style and lighting as the reference images (warm amber light from the upper left). Heavily detailed hand-painted texture: rusted iron, oxidized copper, green patina, rivets, bolted flanges. Isolated on a flat solid pure magenta (#FF00FF) background, completely uniform, no floor, no cast shadow, no text, no characters, no watermark, sharp edges, centered, full object visible with margin.
+A thick section of sewer wall: a tall block of dark mossy stone masonry framed by a riveted rusty iron frame, standing upright, its front face toward the viewer and its LEFT face visible. Set into the LEFT face of the wall, a thick round iron pipe flange plate with a bolted ring of hex bolts, and a short pipe stub emerging horizontally to the LEFT out of the wall, perfectly horizontal, seen from the side like the second reference pipe, same diameter and green patina, ending flat and vertical. Rust streaks and moss stains running down from the flange onto the stone. Single object.
+
+Prompt r2 (correção):
+Redraw the stone-and-iron wall block of the SECOND reference image with the same camera orientation as the FIRST reference pump machine ... a short pipe stub with green patina goes out to the LEFT, perfectly horizontal, drawn EXACTLY like the left side port of the first reference pump ... Avoid: tilted or diagonal pipe, pipe pointing toward the camera.
+
+Uso: lado leste (abertura para oeste). Espelhado (flip_h) na parede oeste.

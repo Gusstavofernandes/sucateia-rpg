@@ -1,0 +1,3789 @@
+{
+  "centre": {
+    "name": "Mercado dos Restos",
+    "scene": "res://maps/sucateia/sucateia.tscn",
+    "links": {
+      "alto": [
+        1140,
+        450
+      ],
+      "forjas": [
+        1580,
+        1050
+      ],
+      "cabos": [
+        2100,
+        1110
+      ],
+      "fundo": [
+        1296,
+        1570
+      ],
+      "docas": [
+        1600,
+        1610
+      ]
+    },
+    "spawn": [
+      1152,
+      1248
+    ],
+    "function": "comércio e distribuição das rotas de Sucateia",
+    "regional_position": [
+      0,
+      0
+    ],
+    "continuity": {
+      "alto": {
+        "shared_id": "alto--centre",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1140,
+          450
+        ],
+        "heading": [
+          0.0,
+          -1.0
+        ],
+        "transition": "comércio e distribuição das rotas de Sucateia → moradia em camadas e ligação às oficinas",
+        "view_asset": "region/tenement.png",
+        "anchor": [
+          1140,
+          450
+        ],
+        "direction": [
+          0.0,
+          -1.0
+        ],
+        "opening": false
+      },
+      "forjas": {
+        "shared_id": "centre--forjas",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1580,
+          1050
+        ],
+        "heading": [
+          0.9578262852211513,
+          -0.2873478855663454
+        ],
+        "transition": "comércio e distribuição das rotas de Sucateia → produção e alimentação industrial",
+        "view_asset": "region/foundry.png",
+        "anchor": [
+          1580,
+          1050
+        ],
+        "direction": [
+          0.9578262852211513,
+          -0.2873478855663454
+        ],
+        "opening": false
+      },
+      "cabos": {
+        "shared_id": "cabos--centre",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          2100,
+          1110
+        ],
+        "heading": [
+          0.8192319205190405,
+          0.5734623443633283
+        ],
+        "transition": "comércio e distribuição das rotas de Sucateia → circulação suspensa entre níveis",
+        "view_asset": "region/cable_tower.png",
+        "anchor": [
+          2100,
+          1110
+        ],
+        "direction": [
+          0.8192319205190405,
+          0.5734623443633283
+        ],
+        "opening": false
+      },
+      "fundo": {
+        "shared_id": "centre--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1296,
+          1570
+        ],
+        "heading": [
+          0.0,
+          1.0
+        ],
+        "transition": "comércio e distribuição das rotas de Sucateia → drenagem e serviços inferiores",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1296,
+          1570
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "opening": false
+      },
+      "docas": {
+        "shared_id": "centre--docas",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          1600,
+          1610
+        ],
+        "heading": [
+          0.5547001962252291,
+          0.8320502943378437
+        ],
+        "transition": "comércio e distribuição das rotas de Sucateia → expedição de carga e costa",
+        "view_asset": "region/dock_warehouse.png",
+        "anchor": [
+          1600,
+          1610
+        ],
+        "direction": [
+          0.5547001962252291,
+          0.8320502943378437
+        ],
+        "opening": false
+      }
+    }
+  },
+  "alto": {
+    "name": "Alto-Lixo",
+    "scene": "res://maps/ferrugem_baixa/alto.tscn",
+    "links": {
+      "centre": [
+        989.87,
+        1239.4
+      ],
+      "coroa": [
+        1431.81,
+        203.49
+      ],
+      "chamines": [
+        1622.94,
+        265.09
+      ],
+      "fundo": [
+        1232.19,
+        1185.51
+      ],
+      "cabos": [
+        1448.19,
+        1212.51
+      ]
+    },
+    "buildings": [
+      [
+        "tenement",
+        455,
+        675,
+        440,
+        430
+      ],
+      [
+        "tenement",
+        1450,
+        710,
+        425,
+        412
+      ],
+      [
+        "house_stack",
+        555,
+        1070,
+        290,
+        290
+      ],
+      [
+        "house",
+        1260,
+        1080,
+        285,
+        285
+      ],
+      [
+        "house_stack",
+        1680,
+        960,
+        235,
+        235
+      ],
+      [
+        "house",
+        730,
+        495,
+        250,
+        250
+      ],
+      [
+        "tenement",
+        385,
+        1080,
+        365,
+        355
+      ],
+      [
+        "tenement",
+        1425,
+        1080,
+        355,
+        345
+      ],
+      [
+        "house_stack",
+        475,
+        425,
+        280,
+        280
+      ],
+      [
+        "house_stack",
+        1290,
+        430,
+        265,
+        265
+      ],
+      [
+        "house",
+        1770,
+        560,
+        235,
+        235
+      ],
+      [
+        "house",
+        200,
+        680,
+        225,
+        225
+      ],
+      [
+        "house_stack",
+        720,
+        785,
+        230,
+        230
+      ],
+      [
+        "house",
+        1220,
+        775,
+        215,
+        215
+      ]
+    ],
+    "tint": "#b0a080",
+    "style": "residential",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      1000,
+      760
+    ],
+    "outline": [
+      [
+        144,
+        240
+      ],
+      [
+        480,
+        144
+      ],
+      [
+        768,
+        192
+      ],
+      [
+        1104,
+        96
+      ],
+      [
+        1488,
+        144
+      ],
+      [
+        1872,
+        288
+      ],
+      [
+        1920,
+        720
+      ],
+      [
+        1872,
+        1200
+      ],
+      [
+        1584,
+        1296
+      ],
+      [
+        1200,
+        1248
+      ],
+      [
+        864,
+        1344
+      ],
+      [
+        528,
+        1296
+      ],
+      [
+        96,
+        1152
+      ],
+      [
+        96,
+        672
+      ]
+    ],
+    "function": "moradia em camadas e ligação às oficinas",
+    "regional_position": [
+      0,
+      -1
+    ],
+    "continuity": {
+      "centre": {
+        "shared_id": "alto--centre",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1000,
+          1160
+        ],
+        "heading": [
+          0.0,
+          1.0
+        ],
+        "transition": "moradia em camadas e ligação às oficinas → comércio e distribuição das rotas de Sucateia",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1008.0,
+          1302.86
+        ],
+        "direction": [
+          0.27472112789737807,
+          0.9615239476408232
+        ],
+        "opening": true
+      },
+      "coroa": {
+        "shared_id": "alto--coroa",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1000,
+          280
+        ],
+        "heading": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "transition": "moradia em camadas e ligação às oficinas → marco de poder e orientação urbana",
+        "view_asset": "region/crown.png",
+        "anchor": [
+          1440.0,
+          138.0
+        ],
+        "direction": [
+          0.12403473458920847,
+          -0.9922778767136677
+        ],
+        "opening": true
+      },
+      "chamines": {
+        "shared_id": "alto--chamines",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          270,
+          800
+        ],
+        "heading": [
+          0.8574929257125442,
+          -0.5144957554275265
+        ],
+        "transition": "moradia em camadas e ligação às oficinas → usina e limite industrial norte",
+        "view_asset": "region/chimney_bank.png",
+        "anchor": [
+          1646.12,
+          203.29
+        ],
+        "direction": [
+          0.3511234415883917,
+          -0.9363291775690445
+        ],
+        "opening": true
+      },
+      "fundo": {
+        "shared_id": "alto--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1700,
+          1100
+        ],
+        "heading": [
+          0.0,
+          1.0
+        ],
+        "transition": "moradia em camadas e ligação às oficinas → drenagem e serviços inferiores",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1224.0,
+          1251.0
+        ],
+        "direction": [
+          -0.12403473458920847,
+          0.9922778767136677
+        ],
+        "opening": true
+      },
+      "cabos": {
+        "shared_id": "alto--cabos",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          1690,
+          820
+        ],
+        "heading": [
+          0.5070201265633938,
+          0.8619342151577695
+        ],
+        "transition": "moradia em camadas e ligação às oficinas → circulação suspensa entre níveis",
+        "view_asset": "region/cable_tower.png",
+        "anchor": [
+          1440.0,
+          1278.0
+        ],
+        "direction": [
+          -0.12403473458920847,
+          0.9922778767136677
+        ],
+        "opening": true
+      }
+    }
+  },
+  "forjas": {
+    "name": "Forjas Rasas",
+    "scene": "res://maps/ferrugem_baixa/forjas.tscn",
+    "links": {
+      "centre": [
+        190.93,
+        976.71
+      ],
+      "chamines": [
+        1119.81,
+        254.49
+      ],
+      "grande": [
+        1872.97,
+        869.52
+      ],
+      "fundo": [
+        546.02,
+        1267.36
+      ]
+    },
+    "buildings": [
+      [
+        "foundry",
+        620,
+        730,
+        610,
+        480
+      ],
+      [
+        "foundry",
+        1480,
+        720,
+        545,
+        430
+      ],
+      [
+        "workshop",
+        1560,
+        1065,
+        375,
+        330
+      ],
+      [
+        "reactor",
+        960,
+        1030,
+        285,
+        330
+      ],
+      [
+        "workshop",
+        330,
+        1130,
+        310,
+        265
+      ],
+      [
+        "house_stack",
+        1790,
+        478,
+        230,
+        230
+      ]
+    ],
+    "tint": "#9e8170",
+    "style": "forge",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      1100,
+      1050
+    ],
+    "outline": [
+      [
+        96,
+        288
+      ],
+      [
+        336,
+        240
+      ],
+      [
+        336,
+        144
+      ],
+      [
+        768,
+        144
+      ],
+      [
+        1152,
+        192
+      ],
+      [
+        1632,
+        192
+      ],
+      [
+        1920,
+        384
+      ],
+      [
+        1872,
+        720
+      ],
+      [
+        1968,
+        912
+      ],
+      [
+        1872,
+        1296
+      ],
+      [
+        1440,
+        1344
+      ],
+      [
+        960,
+        1296
+      ],
+      [
+        432,
+        1344
+      ],
+      [
+        144,
+        1152
+      ],
+      [
+        96,
+        720
+      ]
+    ],
+    "function": "produção e alimentação industrial",
+    "regional_position": [
+      1,
+      -0.3
+    ],
+    "continuity": {
+      "centre": {
+        "shared_id": "centre--forjas",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1760,
+          1140
+        ],
+        "heading": [
+          -0.9578262852211513,
+          0.2873478855663454
+        ],
+        "transition": "produção e alimentação industrial → comércio e distribuição das rotas de Sucateia",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          125.33,
+          984.0
+        ],
+        "direction": [
+          -0.9938837346736189,
+          0.11043152607484655
+        ],
+        "opening": true
+      },
+      "chamines": {
+        "shared_id": "chamines--forjas",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1000,
+          280
+        ],
+        "heading": [
+          0.2982749931359468,
+          -0.9544799780350297
+        ],
+        "transition": "produção e alimentação industrial → usina e limite industrial norte",
+        "view_asset": "region/chimney_bank.png",
+        "anchor": [
+          1128.0,
+          189.0
+        ],
+        "direction": [
+          0.12403473458920847,
+          -0.9922778767136677
+        ],
+        "opening": true
+      },
+      "grande": {
+        "shared_id": "forjas--grande",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          530,
+          1190
+        ],
+        "heading": [
+          0.9805806756909201,
+          0.19611613513818402
+        ],
+        "transition": "produção e alimentação industrial → recuperação de máquinas e suprimento de sucata",
+        "view_asset": "region/scrap_colossus.png",
+        "anchor": [
+          1932.0,
+          840.0
+        ],
+        "direction": [
+          0.8944271909999159,
+          -0.4472135954999579
+        ],
+        "opening": true
+      },
+      "fundo": {
+        "shared_id": "forjas--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1120,
+          1210
+        ],
+        "heading": [
+          -0.7071067811865475,
+          0.7071067811865475
+        ],
+        "transition": "produção e alimentação industrial → drenagem e serviços inferiores",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          552.0,
+          1333.09
+        ],
+        "direction": [
+          0.09053574604251853,
+          0.9958932064677039
+        ],
+        "opening": true
+      }
+    }
+  },
+  "cabos": {
+    "name": "Os Cabos — Ponte das Correntes",
+    "scene": "res://maps/ferrugem_baixa/cabos.tscn",
+    "links": {
+      "centre": [
+        642.0,
+        408.0
+      ],
+      "alto": [
+        804.94,
+        357.52
+      ],
+      "coroa": [
+        984.0,
+        258.0
+      ],
+      "docas": [
+        1046.67,
+        1264.95
+      ]
+    },
+    "buildings": [
+      [
+        "cable_tower",
+        470,
+        740,
+        290,
+        500
+      ],
+      [
+        "cable_tower",
+        1470,
+        745,
+        285,
+        492
+      ],
+      [
+        "house",
+        1270,
+        1160,
+        242,
+        244
+      ],
+      [
+        "house_stack",
+        720,
+        520,
+        214,
+        238
+      ]
+    ],
+    "tint": "#809699",
+    "style": "suspended",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      1000,
+      900
+    ],
+    "outline": [
+      [
+        192,
+        720
+      ],
+      [
+        576,
+        672
+      ],
+      [
+        576,
+        336
+      ],
+      [
+        816,
+        288
+      ],
+      [
+        816,
+        192
+      ],
+      [
+        1104,
+        192
+      ],
+      [
+        1152,
+        672
+      ],
+      [
+        1536,
+        624
+      ],
+      [
+        1728,
+        576
+      ],
+      [
+        1872,
+        768
+      ],
+      [
+        1680,
+        912
+      ],
+      [
+        1296,
+        960
+      ],
+      [
+        1296,
+        1296
+      ],
+      [
+        960,
+        1344
+      ],
+      [
+        816,
+        1056
+      ],
+      [
+        576,
+        960
+      ],
+      [
+        192,
+        960
+      ]
+    ],
+    "function": "circulação suspensa entre níveis",
+    "regional_position": [
+      1,
+      0.7
+    ],
+    "continuity": {
+      "centre": {
+        "shared_id": "cabos--centre",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          290,
+          850
+        ],
+        "heading": [
+          -0.8192319205190405,
+          -0.5734623443633283
+        ],
+        "transition": "circulação suspensa entre níveis → comércio e distribuição das rotas de Sucateia",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          576.0,
+          408.0
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "opening": true
+      },
+      "alto": {
+        "shared_id": "alto--cabos",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          950,
+          300
+        ],
+        "heading": [
+          -0.5070201265633938,
+          -0.8619342151577695
+        ],
+        "transition": "circulação suspensa entre níveis → moradia em camadas e ligação às oficinas",
+        "view_asset": "region/tenement.png",
+        "anchor": [
+          792.0,
+          292.8
+        ],
+        "direction": [
+          -0.19611613513818402,
+          -0.9805806756909201
+        ],
+        "opening": true
+      },
+      "coroa": {
+        "shared_id": "cabos--coroa",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          1640,
+          710
+        ],
+        "heading": [
+          -0.12403473458920848,
+          -0.9922778767136676
+        ],
+        "transition": "circulação suspensa entre níveis → marco de poder e orientação urbana",
+        "view_asset": "region/crown.png",
+        "anchor": [
+          984.0,
+          192.0
+        ],
+        "direction": [
+          0.0,
+          -1.0
+        ],
+        "opening": true
+      },
+      "docas": {
+        "shared_id": "cabos--docas",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          1100,
+          1220
+        ],
+        "heading": [
+          0.0,
+          1.0
+        ],
+        "transition": "circulação suspensa entre níveis → expedição de carga e costa",
+        "view_asset": "region/dock_warehouse.png",
+        "anchor": [
+          1056.0,
+          1330.29
+        ],
+        "direction": [
+          0.1414213562373095,
+          0.9899494936611665
+        ],
+        "opening": true
+      }
+    }
+  },
+  "fundo": {
+    "name": "Fundo-Ferro — Poço Velho",
+    "scene": "res://maps/ferrugem_baixa/fundo.tscn",
+    "links": {
+      "centre": [
+        990.0,
+        168.0
+      ],
+      "alto": [
+        840.0,
+        210.0
+      ],
+      "forjas": [
+        1560.0,
+        258.0
+      ],
+      "docas": [
+        1729.97,
+        1144.01
+      ],
+      "galeria": [
+        1000,
+        970
+      ]
+    },
+    "buildings": [
+      [
+        "pump_station",
+        1230,
+        780,
+        390,
+        280
+      ],
+      [
+        "reactor",
+        650,
+        1080,
+        240,
+        275
+      ],
+      [
+        "workshop",
+        1610,
+        1070,
+        265,
+        230
+      ],
+      [
+        "pump_station",
+        530,
+        535,
+        290,
+        225
+      ],
+      [
+        "cargo_depot",
+        1570,
+        550,
+        265,
+        185
+      ]
+    ],
+    "tint": "#637c78",
+    "style": "undercity",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      960,
+      920
+    ],
+    "outline": [
+      [
+        192,
+        192
+      ],
+      [
+        624,
+        192
+      ],
+      [
+        624,
+        144
+      ],
+      [
+        1056,
+        144
+      ],
+      [
+        1056,
+        192
+      ],
+      [
+        1632,
+        192
+      ],
+      [
+        1872,
+        384
+      ],
+      [
+        1920,
+        864
+      ],
+      [
+        1776,
+        1056
+      ],
+      [
+        1824,
+        1248
+      ],
+      [
+        1296,
+        1344
+      ],
+      [
+        816,
+        1296
+      ],
+      [
+        336,
+        1344
+      ],
+      [
+        144,
+        1008
+      ],
+      [
+        144,
+        528
+      ]
+    ],
+    "markers": {
+      "ColetorExterior": [
+        470,
+        750
+      ],
+      "PatioDeValvulas": [
+        1470,
+        640
+      ]
+    },
+    "function": "drenagem e serviços inferiores",
+    "regional_position": [
+      0,
+      0.7
+    ],
+    "continuity": {
+      "centre": {
+        "shared_id": "centre--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1000,
+          1160
+        ],
+        "heading": [
+          0.0,
+          -1.0
+        ],
+        "transition": "drenagem e serviços inferiores → comércio e distribuição das rotas de Sucateia",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1056.0,
+          168.0
+        ],
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "opening": true
+      },
+      "alto": {
+        "shared_id": "alto--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          420,
+          330
+        ],
+        "heading": [
+          0.0,
+          -1.0
+        ],
+        "transition": "drenagem e serviços inferiores → moradia em camadas e ligação às oficinas",
+        "view_asset": "region/tenement.png",
+        "anchor": [
+          840.0,
+          144.0
+        ],
+        "direction": [
+          0.0,
+          -1.0
+        ],
+        "opening": true
+      },
+      "forjas": {
+        "shared_id": "forjas--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1620,
+          330
+        ],
+        "heading": [
+          0.7071067811865475,
+          -0.7071067811865475
+        ],
+        "transition": "drenagem e serviços inferiores → produção e alimentação industrial",
+        "view_asset": "region/foundry.png",
+        "anchor": [
+          1560.0,
+          192.0
+        ],
+        "direction": [
+          0.0,
+          -1.0
+        ],
+        "opening": true
+      },
+      "docas": {
+        "shared_id": "docas--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1740,
+          1110
+        ],
+        "heading": [
+          0.7808688094430303,
+          0.6246950475544243
+        ],
+        "transition": "drenagem e serviços inferiores → expedição de carga e costa",
+        "view_asset": "region/dock_warehouse.png",
+        "anchor": [
+          1794.0,
+          1128.0
+        ],
+        "direction": [
+          0.970142500145332,
+          -0.242535625036333
+        ],
+        "opening": true
+      },
+      "galeria": {
+        "shared_id": "fundo--galeria",
+        "family": "vertical",
+        "features": [
+          "escotilha",
+          "tubulações",
+          "drenagem"
+        ],
+        "join": [
+          1000,
+          970
+        ],
+        "heading": [
+          0,
+          1
+        ],
+        "transition": "drenagem e serviços inferiores → manutenção das bombas do Poço Velho",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1000,
+          970
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "opening": false
+      }
+    }
+  },
+  "coroa": {
+    "name": "Coroa de Lata — Torre do Catador-Rei",
+    "scene": "res://maps/ferrugem_baixa/coroa.tscn",
+    "links": {
+      "alto": [
+        594.96,
+        1208.78
+      ],
+      "cabos": [
+        1176.0,
+        1278.0
+      ],
+      "grande": [
+        1385.77,
+        1239.85
+      ]
+    },
+    "buildings": [
+      [
+        "crown",
+        1010,
+        895,
+        600,
+        650
+      ],
+      [
+        "house_stack",
+        405,
+        860,
+        280,
+        280
+      ],
+      [
+        "tenement",
+        1580,
+        925,
+        300,
+        290
+      ],
+      [
+        "house",
+        300,
+        1100,
+        225,
+        225
+      ],
+      [
+        "house_stack",
+        1670,
+        590,
+        225,
+        225
+      ]
+    ],
+    "tint": "#aaa081",
+    "style": "crown",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      1000,
+      1010
+    ],
+    "outline": [
+      [
+        288,
+        240
+      ],
+      [
+        624,
+        144
+      ],
+      [
+        1056,
+        144
+      ],
+      [
+        1440,
+        192
+      ],
+      [
+        1632,
+        336
+      ],
+      [
+        1872,
+        480
+      ],
+      [
+        1872,
+        960
+      ],
+      [
+        1680,
+        1200
+      ],
+      [
+        1296,
+        1344
+      ],
+      [
+        816,
+        1344
+      ],
+      [
+        336,
+        1200
+      ],
+      [
+        144,
+        864
+      ],
+      [
+        192,
+        480
+      ]
+    ],
+    "function": "marco de poder e orientação urbana",
+    "regional_position": [
+      0.7,
+      -1.7
+    ],
+    "continuity": {
+      "alto": {
+        "shared_id": "alto--coroa",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1000,
+          1210
+        ],
+        "heading": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "transition": "marco de poder e orientação urbana → moradia em camadas e ligação às oficinas",
+        "view_asset": "region/tenement.png",
+        "anchor": [
+          576.0,
+          1272.0
+        ],
+        "direction": [
+          -0.28734788556634544,
+          0.9578262852211514
+        ],
+        "opening": true
+      },
+      "cabos": {
+        "shared_id": "cabos--coroa",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          1710,
+          980
+        ],
+        "heading": [
+          0.12403473458920848,
+          0.9922778767136676
+        ],
+        "transition": "marco de poder e orientação urbana → circulação suspensa entre níveis",
+        "view_asset": "region/cable_tower.png",
+        "anchor": [
+          1176.0,
+          1344.0
+        ],
+        "direction": [
+          0.0,
+          1.0
+        ],
+        "opening": true
+      },
+      "grande": {
+        "shared_id": "coroa--grande",
+        "family": "haul",
+        "features": [
+          "trilha de carga",
+          "placas",
+          "remendos"
+        ],
+        "join": [
+          520,
+          1090
+        ],
+        "heading": [
+          0.6305926250944658,
+          0.7761140001162654
+        ],
+        "transition": "marco de poder e orientação urbana → recuperação de máquinas e suprimento de sucata",
+        "view_asset": "region/scrap_colossus.png",
+        "anchor": [
+          1408.94,
+          1301.65
+        ],
+        "direction": [
+          0.3511234415883917,
+          0.9363291775690445
+        ],
+        "opening": true
+      }
+    }
+  },
+  "docas": {
+    "name": "Docas — Cais de Sucateia",
+    "scene": "res://maps/ferrugem_baixa/docas.tscn",
+    "links": {
+      "centre": [
+        714.02,
+        227.18
+      ],
+      "cabos": [
+        1133.98,
+        251.18
+      ],
+      "fundo": [
+        196.64,
+        341.98
+      ],
+      "grande": [
+        1373.98,
+        229.37
+      ],
+      "via_cais": [
+        1656.0,
+        1170.0
+      ]
+    },
+    "buildings": [
+      [
+        "dock_warehouse",
+        540,
+        740,
+        500,
+        335
+      ],
+      [
+        "dock_warehouse",
+        1370,
+        705,
+        475,
+        318
+      ],
+      [
+        "house_stack",
+        1650,
+        960,
+        225,
+        225
+      ],
+      [
+        "workshop",
+        1100,
+        470,
+        300,
+        265
+      ],
+      [
+        "dock_warehouse",
+        355,
+        440,
+        325,
+        215
+      ],
+      [
+        "cargo_depot",
+        695,
+        425,
+        305,
+        210
+      ],
+      [
+        "machine_lane",
+        1430,
+        460,
+        320,
+        225
+      ],
+      [
+        "cargo_depot",
+        1110,
+        990,
+        270,
+        195
+      ]
+    ],
+    "tint": "#7f9584",
+    "style": "harbor",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      1040,
+      1030
+    ],
+    "outline": [
+      [
+        144,
+        192
+      ],
+      [
+        528,
+        144
+      ],
+      [
+        1056,
+        192
+      ],
+      [
+        1584,
+        144
+      ],
+      [
+        1872,
+        384
+      ],
+      [
+        1824,
+        768
+      ],
+      [
+        1632,
+        864
+      ],
+      [
+        1632,
+        1104
+      ],
+      [
+        1776,
+        1104
+      ],
+      [
+        1776,
+        1344
+      ],
+      [
+        1488,
+        1344
+      ],
+      [
+        1392,
+        1056
+      ],
+      [
+        1104,
+        1056
+      ],
+      [
+        1104,
+        1296
+      ],
+      [
+        864,
+        1296
+      ],
+      [
+        816,
+        1008
+      ],
+      [
+        528,
+        1056
+      ],
+      [
+        432,
+        1296
+      ],
+      [
+        192,
+        1296
+      ],
+      [
+        192,
+        1008
+      ],
+      [
+        96,
+        720
+      ]
+    ],
+    "markers": {
+      "TriagemDeCarga": [
+        750,
+        670
+      ],
+      "Manutencao": [
+        1410,
+        550
+      ]
+    },
+    "function": "expedição de carga e costa",
+    "regional_position": [
+      1,
+      1.5
+    ],
+    "continuity": {
+      "centre": {
+        "shared_id": "centre--docas",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          950,
+          280
+        ],
+        "heading": [
+          -0.5547001962252291,
+          -0.8320502943378437
+        ],
+        "transition": "expedição de carga e costa → comércio e distribuição das rotas de Sucateia",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          720.0,
+          161.45
+        ],
+        "direction": [
+          0.09053574604251853,
+          -0.9958932064677039
+        ],
+        "opening": true
+      },
+      "cabos": {
+        "shared_id": "cabos--docas",
+        "family": "cable",
+        "features": [
+          "passarela",
+          "cabos",
+          "correntes"
+        ],
+        "join": [
+          1740,
+          620
+        ],
+        "heading": [
+          0.0,
+          -1.0
+        ],
+        "transition": "expedição de carga e costa → circulação suspensa entre níveis",
+        "view_asset": "region/cable_tower.png",
+        "anchor": [
+          1128.0,
+          185.45
+        ],
+        "direction": [
+          -0.09053574604251853,
+          -0.9958932064677039
+        ],
+        "opening": true
+      },
+      "fundo": {
+        "shared_id": "docas--fundo",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          285,
+          500
+        ],
+        "heading": [
+          -0.7808688094430303,
+          -0.6246950475544243
+        ],
+        "transition": "expedição de carga e costa → drenagem e serviços inferiores",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          130.91,
+          336.0
+        ],
+        "direction": [
+          -0.9958932064677039,
+          -0.09053574604251853
+        ],
+        "opening": true
+      },
+      "grande": {
+        "shared_id": "docas--grande",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          300,
+          1020
+        ],
+        "heading": [
+          0.5299989400031799,
+          -0.8479983040050879
+        ],
+        "transition": "expedição de carga e costa → recuperação de máquinas e suprimento de sucata",
+        "view_asset": "region/scrap_colossus.png",
+        "anchor": [
+          1368.0,
+          163.64
+        ],
+        "direction": [
+          -0.09053574604251853,
+          -0.9958932064677039
+        ],
+        "opening": true
+      },
+      "via_cais": {
+        "shared_id": "docas--via_cais",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          1600,
+          1210
+        ],
+        "heading": [
+          0.9191450300180579,
+          0.39391929857916774
+        ],
+        "transition": "expedição de carga e costa → circulação e amarras junto à água",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1656.0,
+          1104.0
+        ],
+        "direction": [
+          0.0,
+          -1.0
+        ],
+        "opening": true
+      }
+    }
+  },
+  "grande": {
+    "name": "A Grande Ferrugem — Campos de Sucata",
+    "scene": "res://maps/ferrugem_baixa/grande.tscn",
+    "links": {
+      "forjas": [
+        162.0,
+        600.0
+      ],
+      "coroa": [
+        760.71,
+        294.93
+      ],
+      "docas": [
+        641.37,
+        1254.14
+      ],
+      "chamines": [
+        1028.87,
+        218.05
+      ],
+      "via_engrenagens": [
+        1770.67,
+        1010.24
+      ]
+    },
+    "buildings": [
+      [
+        "scrap_colossus",
+        1320,
+        795,
+        720,
+        430
+      ],
+      [
+        "dock_warehouse",
+        580,
+        1000,
+        275,
+        190
+      ],
+      [
+        "house",
+        425,
+        500,
+        225,
+        225
+      ]
+    ],
+    "tint": "#a08d6c",
+    "style": "salvage",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      1000,
+      900
+    ],
+    "outline": [
+      [
+        96,
+        384
+      ],
+      [
+        432,
+        192
+      ],
+      [
+        864,
+        240
+      ],
+      [
+        1104,
+        96
+      ],
+      [
+        1536,
+        240
+      ],
+      [
+        1776,
+        336
+      ],
+      [
+        1968,
+        672
+      ],
+      [
+        1824,
+        1056
+      ],
+      [
+        1920,
+        1296
+      ],
+      [
+        1488,
+        1344
+      ],
+      [
+        1152,
+        1248
+      ],
+      [
+        720,
+        1344
+      ],
+      [
+        192,
+        1200
+      ],
+      [
+        96,
+        864
+      ]
+    ],
+    "function": "recuperação de máquinas e suprimento de sucata",
+    "regional_position": [
+      2,
+      -0.1
+    ],
+    "continuity": {
+      "forjas": {
+        "shared_id": "forjas--grande",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1620,
+          1120
+        ],
+        "heading": [
+          -0.9805806756909201,
+          -0.19611613513818402
+        ],
+        "transition": "recuperação de máquinas e suprimento de sucata → produção e alimentação industrial",
+        "view_asset": "region/foundry.png",
+        "anchor": [
+          96.0,
+          600.0
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "opening": true
+      },
+      "coroa": {
+        "shared_id": "coroa--grande",
+        "family": "haul",
+        "features": [
+          "trilha de carga",
+          "placas",
+          "remendos"
+        ],
+        "join": [
+          1200,
+          280
+        ],
+        "heading": [
+          -0.6305926250944658,
+          -0.7761140001162654
+        ],
+        "transition": "recuperação de máquinas e suprimento de sucata → marco de poder e orientação urbana",
+        "view_asset": "region/crown.png",
+        "anchor": [
+          768.0,
+          229.33
+        ],
+        "direction": [
+          0.11043152607484655,
+          -0.9938837346736189
+        ],
+        "opening": true
+      },
+      "docas": {
+        "shared_id": "docas--grande",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          330,
+          1150
+        ],
+        "heading": [
+          -0.5299989400031799,
+          0.8479983040050879
+        ],
+        "transition": "recuperação de máquinas e suprimento de sucata → expedição de carga e costa",
+        "view_asset": "region/dock_warehouse.png",
+        "anchor": [
+          624.0,
+          1317.82
+        ],
+        "direction": [
+          -0.26311740579210874,
+          0.9647638212377321
+        ],
+        "opening": true
+      },
+      "chamines": {
+        "shared_id": "chamines--grande",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          290,
+          660
+        ],
+        "heading": [
+          -0.2676438637860946,
+          -0.9635179096299405
+        ],
+        "transition": "recuperação de máquinas e suprimento de sucata → usina e limite industrial norte",
+        "view_asset": "region/chimney_bank.png",
+        "anchor": [
+          994.91,
+          161.45
+        ],
+        "direction": [
+          -0.5144957554275266,
+          -0.8574929257125442
+        ],
+        "opening": true
+      },
+      "via_engrenagens": {
+        "shared_id": "grande--via_engrenagens",
+        "family": "haul",
+        "features": [
+          "trilha de carga",
+          "placas",
+          "remendos"
+        ],
+        "join": [
+          1700,
+          720
+        ],
+        "heading": [
+          0.8682431421244592,
+          0.49613893835683376
+        ],
+        "transition": "recuperação de máquinas e suprimento de sucata → transporte entre sucata e oficinas",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1832.47,
+          1033.41
+        ],
+        "direction": [
+          0.9363291775690445,
+          0.3511234415883917
+        ],
+        "opening": true
+      }
+    }
+  },
+  "chamines": {
+    "name": "Chaminés Velhas — Usina Quebrada",
+    "scene": "res://maps/ferrugem_baixa/chamines.tscn",
+    "links": {
+      "alto": [
+        587.06,
+        1207.28
+      ],
+      "forjas": [
+        954.13,
+        1246.25
+      ],
+      "grande": [
+        1190.67,
+        1258.09
+      ]
+    },
+    "buildings": [
+      [
+        "ruined_engine",
+        985,
+        755,
+        755,
+        570
+      ],
+      [
+        "foundry",
+        390,
+        690,
+        325,
+        250
+      ],
+      [
+        "workshop",
+        1620,
+        935,
+        310,
+        270
+      ],
+      [
+        "dock_warehouse",
+        570,
+        1150,
+        290,
+        195
+      ],
+      [
+        "chimney_bank",
+        1515,
+        670,
+        430,
+        470
+      ],
+      [
+        "chimney_bank",
+        585,
+        685,
+        290,
+        330
+      ]
+    ],
+    "tint": "#8b9287",
+    "style": "ruins",
+    "spawn": [
+      1000,
+      1160
+    ],
+    "landmark": [
+      1030,
+      900
+    ],
+    "outline": [
+      [
+        192,
+        288
+      ],
+      [
+        576,
+        192
+      ],
+      [
+        1056,
+        144
+      ],
+      [
+        1392,
+        240
+      ],
+      [
+        1872,
+        336
+      ],
+      [
+        1968,
+        768
+      ],
+      [
+        1776,
+        1056
+      ],
+      [
+        1872,
+        1296
+      ],
+      [
+        1392,
+        1296
+      ],
+      [
+        1056,
+        1344
+      ],
+      [
+        720,
+        1248
+      ],
+      [
+        240,
+        1344
+      ],
+      [
+        96,
+        912
+      ]
+    ],
+    "function": "usina e limite industrial norte",
+    "regional_position": [
+      1.5,
+      -1.9
+    ],
+    "continuity": {
+      "alto": {
+        "shared_id": "alto--chamines",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1680,
+          1150
+        ],
+        "heading": [
+          -0.8574929257125442,
+          0.5144957554275265
+        ],
+        "transition": "usina e limite industrial norte → moradia em camadas e ligação às oficinas",
+        "view_asset": "region/tenement.png",
+        "anchor": [
+          600.0,
+          1272.0
+        ],
+        "direction": [
+          0.19611613513818402,
+          0.9805806756909201
+        ],
+        "opening": true
+      },
+      "forjas": {
+        "shared_id": "chamines--forjas",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          1000,
+          1190
+        ],
+        "heading": [
+          -0.2982749931359468,
+          0.9544799780350297
+        ],
+        "transition": "usina e limite industrial norte → produção e alimentação industrial",
+        "view_asset": "region/foundry.png",
+        "anchor": [
+          936.0,
+          1309.71
+        ],
+        "direction": [
+          -0.27472112789737807,
+          0.9615239476408232
+        ],
+        "opening": true
+      },
+      "grande": {
+        "shared_id": "chamines--grande",
+        "family": "pipe",
+        "features": [
+          "tubulação",
+          "suportes",
+          "desgaste industrial"
+        ],
+        "join": [
+          320,
+          1050
+        ],
+        "heading": [
+          0.2676438637860946,
+          0.9635179096299405
+        ],
+        "transition": "usina e limite industrial norte → recuperação de máquinas e suprimento de sucata",
+        "view_asset": "region/scrap_colossus.png",
+        "anchor": [
+          1200.0,
+          1323.43
+        ],
+        "direction": [
+          0.1414213562373095,
+          0.9899494936611665
+        ],
+        "opening": true
+      }
+    }
+  },
+  "galeria": {
+    "name": "Galerias do Poço Velho",
+    "scene": "res://maps/ferrugem_baixa/galeria.tscn",
+    "links": {
+      "fundo": [
+        352,
+        1130
+      ]
+    },
+    "style": "gallery",
+    "buildings": [
+      [
+        "pump_station",
+        1130,
+        1030,
+        290,
+        230
+      ],
+      [
+        "pump_station",
+        1570,
+        1160,
+        250,
+        200
+      ],
+      [
+        "pump_station",
+        1440,
+        550,
+        250,
+        200
+      ]
+    ],
+    "spawn": [
+      352,
+      1190
+    ],
+    "landmark": [
+      1000,
+      900
+    ],
+    "tint": "#87978a",
+    "outline": [
+      [
+        96,
+        144
+      ],
+      [
+        1872,
+        144
+      ],
+      [
+        1872,
+        1392
+      ],
+      [
+        96,
+        1392
+      ]
+    ],
+    "rooms": [
+      [
+        144,
+        864,
+        576,
+        432
+      ],
+      [
+        576,
+        960,
+        480,
+        144
+      ],
+      [
+        816,
+        624,
+        480,
+        432
+      ],
+      [
+        1056,
+        240,
+        624,
+        432
+      ],
+      [
+        1152,
+        480,
+        144,
+        288
+      ],
+      [
+        192,
+        384,
+        672,
+        240
+      ],
+      [
+        192,
+        240,
+        336,
+        432
+      ],
+      [
+        768,
+        480,
+        144,
+        288
+      ],
+      [
+        1344,
+        768,
+        432,
+        432
+      ],
+      [
+        1248,
+        864,
+        192,
+        144
+      ],
+      [
+        1536,
+        624,
+        144,
+        288
+      ]
+    ],
+    "markers": {
+      "CamaraDeValvulas": [
+        350,
+        470
+      ],
+      "BombasInferiores": [
+        1490,
+        1070
+      ],
+      "ColetorNorte": [
+        1250,
+        450
+      ]
+    },
+    "function": "manutenção das bombas do Poço Velho",
+    "regional_position": [
+      0,
+      0.7
+    ],
+    "continuity": {
+      "fundo": {
+        "shared_id": "fundo--galeria",
+        "family": "vertical",
+        "features": [
+          "escotilha",
+          "tubulações",
+          "drenagem"
+        ],
+        "join": [
+          352,
+          1130
+        ],
+        "heading": [
+          0,
+          1
+        ],
+        "transition": "manutenção das bombas do Poço Velho → drenagem e serviços inferiores",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          352,
+          1130
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "opening": false
+      }
+    }
+  },
+  "via_cais": {
+    "name": "Passagem das Amarras",
+    "scene": "res://maps/ferrugem_baixa/via_cais.tscn",
+    "links": {
+      "docas": [
+        600.0,
+        834.0
+      ],
+      "banco": [
+        1388.59,
+        824.79
+      ]
+    },
+    "style": "coastal_path",
+    "buildings": [
+      [
+        "dock_warehouse",
+        1150,
+        655,
+        310,
+        210
+      ]
+    ],
+    "spawn": [
+      280,
+      1190
+    ],
+    "landmark": [
+      1010,
+      850
+    ],
+    "tint": "#87978a",
+    "outline": [
+      [
+        144,
+        960
+      ],
+      [
+        384,
+        960
+      ],
+      [
+        576,
+        768
+      ],
+      [
+        816,
+        768
+      ],
+      [
+        1008,
+        624
+      ],
+      [
+        1344,
+        624
+      ],
+      [
+        1536,
+        288
+      ],
+      [
+        1872,
+        288
+      ],
+      [
+        1872,
+        624
+      ],
+      [
+        1728,
+        768
+      ],
+      [
+        1344,
+        912
+      ],
+      [
+        1104,
+        912
+      ],
+      [
+        960,
+        1104
+      ],
+      [
+        720,
+        1104
+      ],
+      [
+        576,
+        1296
+      ],
+      [
+        144,
+        1296
+      ]
+    ],
+    "function": "circulação e amarras junto à água",
+    "regional_position": [
+      1.7,
+      1.8
+    ],
+    "continuity": {
+      "docas": {
+        "shared_id": "docas--via_cais",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          260,
+          1130
+        ],
+        "heading": [
+          -0.9191450300180579,
+          -0.39391929857916774
+        ],
+        "transition": "circulação e amarras junto à água → expedição de carga e costa",
+        "view_asset": "region/dock_warehouse.png",
+        "anchor": [
+          600.0,
+          768.0
+        ],
+        "direction": [
+          0.0,
+          -1.0
+        ],
+        "opening": true
+      },
+      "banco": {
+        "shared_id": "banco--via_cais",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          1660,
+          430
+        ],
+        "heading": [
+          0.9701425001453319,
+          0.2425356250363329
+        ],
+        "transition": "circulação e amarras junto à água → recuperação de cascos e atracação",
+        "view_asset": "region/wreck_cradle.png",
+        "anchor": [
+          1411.76,
+          886.59
+        ],
+        "direction": [
+          0.3511234415883917,
+          0.9363291775690445
+        ],
+        "opening": true
+      }
+    }
+  },
+  "banco": {
+    "name": "Banco de Destroços",
+    "scene": "res://maps/ferrugem_baixa/banco.tscn",
+    "links": {
+      "via_cais": [
+        273.3,
+        770.75
+      ],
+      "engrenopolis": [
+        1141.94,
+        487.4
+      ]
+    },
+    "style": "wreck_bank",
+    "buildings": [
+      [
+        "wreck_cradle",
+        1180,
+        800,
+        610,
+        400
+      ],
+      [
+        "dock_warehouse",
+        410,
+        665,
+        300,
+        205
+      ],
+      [
+        "cargo_depot",
+        610,
+        1080,
+        350,
+        235
+      ],
+      [
+        "machine_lane",
+        1570,
+        1155,
+        280,
+        205
+      ],
+      [
+        "wreck_cradle",
+        1030,
+        1230,
+        340,
+        220
+      ]
+    ],
+    "spawn": [
+      280,
+      1160
+    ],
+    "landmark": [
+      1000,
+      1070
+    ],
+    "tint": "#87978a",
+    "outline": [
+      [
+        144,
+        864
+      ],
+      [
+        336,
+        528
+      ],
+      [
+        528,
+        576
+      ],
+      [
+        720,
+        432
+      ],
+      [
+        1008,
+        528
+      ],
+      [
+        1200,
+        336
+      ],
+      [
+        1632,
+        240
+      ],
+      [
+        1872,
+        384
+      ],
+      [
+        1776,
+        816
+      ],
+      [
+        1872,
+        1056
+      ],
+      [
+        1680,
+        1296
+      ],
+      [
+        1392,
+        1248
+      ],
+      [
+        1104,
+        1392
+      ],
+      [
+        864,
+        1248
+      ],
+      [
+        528,
+        1296
+      ],
+      [
+        240,
+        1296
+      ]
+    ],
+    "markers": {
+      "RecuperacaoDeCascos": [
+        1200,
+        925
+      ],
+      "Depositos": [
+        620,
+        1150
+      ],
+      "Atracacao": [
+        1100,
+        590
+      ]
+    },
+    "function": "recuperação de cascos e atracação",
+    "regional_position": [
+      2.5,
+      2
+    ],
+    "continuity": {
+      "via_cais": {
+        "shared_id": "banco--via_cais",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          260,
+          1100
+        ],
+        "heading": [
+          -0.9701425001453319,
+          -0.2425356250363329
+        ],
+        "transition": "recuperação de cascos e atracação → circulação e amarras junto à água",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          216.0,
+          738.0
+        ],
+        "direction": [
+          -0.8682431421244593,
+          -0.49613893835683387
+        ],
+        "opening": true
+      },
+      "engrenopolis": {
+        "shared_id": "banco--engrenopolis",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          1720,
+          430
+        ],
+        "heading": [
+          0.0,
+          -1.0
+        ],
+        "transition": "recuperação de cascos e atracação → montagem e distribuição de transmissões",
+        "view_asset": "region/gearworks.png",
+        "anchor": [
+          1095.27,
+          440.73
+        ],
+        "direction": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "opening": true
+      }
+    }
+  },
+  "engrenopolis": {
+    "name": "Engrenópolis — Pátio das Transmissões",
+    "scene": "res://maps/ferrugem_baixa/engrenopolis.tscn",
+    "links": {
+      "via_engrenagens": [
+        1191.81,
+        239.49
+      ],
+      "banco": [
+        1118.32,
+        1194.24
+      ],
+      "eng_nucleo": [
+        975.81,
+        212.49
+      ],
+      "eng_corredor": [
+        1838.7,
+        614.75
+      ]
+    },
+    "style": "precision",
+    "buildings": [
+      [
+        "gearworks",
+        980,
+        740,
+        730,
+        470
+      ],
+      [
+        "gearworks",
+        1475,
+        1070,
+        335,
+        245
+      ],
+      [
+        "workshop",
+        470,
+        680,
+        330,
+        290
+      ],
+      [
+        "tenement",
+        1650,
+        645,
+        335,
+        325
+      ],
+      [
+        "house_stack",
+        390,
+        1090,
+        235,
+        235
+      ],
+      [
+        "cargo_depot",
+        610,
+        395,
+        320,
+        230
+      ],
+      [
+        "machine_lane",
+        1135,
+        1100,
+        270,
+        200
+      ]
+    ],
+    "spawn": [
+      280,
+      1160
+    ],
+    "landmark": [
+      1040,
+      1000
+    ],
+    "tint": "#87978a",
+    "outline": [
+      [
+        144,
+        288
+      ],
+      [
+        480,
+        192
+      ],
+      [
+        960,
+        144
+      ],
+      [
+        1344,
+        192
+      ],
+      [
+        1728,
+        288
+      ],
+      [
+        1920,
+        624
+      ],
+      [
+        1824,
+        960
+      ],
+      [
+        1872,
+        1296
+      ],
+      [
+        1488,
+        1344
+      ],
+      [
+        1056,
+        1248
+      ],
+      [
+        672,
+        1344
+      ],
+      [
+        240,
+        1296
+      ],
+      [
+        96,
+        864
+      ]
+    ],
+    "markers": {
+      "Montagem": [
+        1200,
+        1120
+      ],
+      "Oficinas": [
+        585,
+        775
+      ]
+    },
+    "function": "montagem e distribuição de transmissões",
+    "regional_position": [
+      2.5,
+      1
+    ],
+    "continuity": {
+      "via_engrenagens": {
+        "shared_id": "engrenopolis--via_engrenagens",
+        "family": "haul",
+        "features": [
+          "trilha de carga",
+          "placas",
+          "remendos"
+        ],
+        "join": [
+          280,
+          1100
+        ],
+        "heading": [
+          0.2747211278973783,
+          -0.961523947640823
+        ],
+        "transition": "montagem e distribuição de transmissões → transporte entre sucata e oficinas",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1200.0,
+          174.0
+        ],
+        "direction": [
+          0.12403473458920847,
+          -0.9922778767136677
+        ],
+        "opening": true
+      },
+      "banco": {
+        "shared_id": "banco--engrenopolis",
+        "family": "coast",
+        "features": [
+          "costa",
+          "contenção",
+          "amarras"
+        ],
+        "join": [
+          1690,
+          1160
+        ],
+        "heading": [
+          0.0,
+          1.0
+        ],
+        "transition": "montagem e distribuição de transmissões → recuperação de cascos e atracação",
+        "view_asset": "region/wreck_cradle.png",
+        "anchor": [
+          1104.0,
+          1258.67
+        ],
+        "direction": [
+          -0.21693045781865616,
+          0.9761870601839528
+        ],
+        "opening": true
+      },
+      "eng_nucleo": {
+        "shared_id": "eng_nucleo--engrenopolis",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          770,
+          355
+        ],
+        "heading": [
+          0.0,
+          -1.0
+        ],
+        "transition": "montagem e distribuição de transmissões → moradias e oficinas de artífices",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          984.0,
+          147.0
+        ],
+        "direction": [
+          0.12403473458920847,
+          -0.9922778767136677
+        ],
+        "opening": true
+      },
+      "eng_corredor": {
+        "shared_id": "eng_corredor--engrenopolis",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1750,
+          860
+        ],
+        "heading": [
+          0.9486832980505138,
+          -0.316227766016838
+        ],
+        "transition": "montagem e distribuição de transmissões → pressão, montagem e circulação industrial",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1896.0,
+          582.0
+        ],
+        "direction": [
+          0.8682431421244593,
+          -0.49613893835683387
+        ],
+        "opening": true
+      }
+    }
+  },
+  "via_engrenagens": {
+    "name": "Estrada dos Rebitadores",
+    "scene": "res://maps/ferrugem_baixa/via_engrenagens.tscn",
+    "links": {
+      "grande": [
+        901.15,
+        809.1
+      ],
+      "engrenopolis": [
+        996.94,
+        1024.88
+      ]
+    },
+    "style": "freight_path",
+    "buildings": [
+      [
+        "dock_warehouse",
+        760,
+        800,
+        270,
+        185
+      ],
+      [
+        "workshop",
+        1430,
+        700,
+        265,
+        230
+      ]
+    ],
+    "spawn": [
+      260,
+      1150
+    ],
+    "landmark": [
+      1080,
+      900
+    ],
+    "tint": "#87978a",
+    "outline": [
+      [
+        144,
+        960
+      ],
+      [
+        384,
+        864
+      ],
+      [
+        576,
+        864
+      ],
+      [
+        768,
+        720
+      ],
+      [
+        1056,
+        768
+      ],
+      [
+        1344,
+        576
+      ],
+      [
+        1536,
+        336
+      ],
+      [
+        1872,
+        384
+      ],
+      [
+        1872,
+        672
+      ],
+      [
+        1680,
+        816
+      ],
+      [
+        1488,
+        864
+      ],
+      [
+        1296,
+        1056
+      ],
+      [
+        1056,
+        1104
+      ],
+      [
+        816,
+        1056
+      ],
+      [
+        576,
+        1248
+      ],
+      [
+        144,
+        1296
+      ]
+    ],
+    "function": "transporte entre sucata e oficinas",
+    "regional_position": [
+      2.7,
+      0.3
+    ],
+    "continuity": {
+      "grande": {
+        "shared_id": "grande--via_engrenagens",
+        "family": "haul",
+        "features": [
+          "trilha de carga",
+          "placas",
+          "remendos"
+        ],
+        "join": [
+          245,
+          1090
+        ],
+        "heading": [
+          -0.8682431421244592,
+          -0.49613893835683376
+        ],
+        "transition": "transporte entre sucata e oficinas → recuperação de máquinas e suprimento de sucata",
+        "view_asset": "region/scrap_colossus.png",
+        "anchor": [
+          912.0,
+          744.0
+        ],
+        "direction": [
+          0.1643989873053573,
+          -0.9863939238321437
+        ],
+        "opening": true
+      },
+      "engrenopolis": {
+        "shared_id": "engrenopolis--via_engrenagens",
+        "family": "haul",
+        "features": [
+          "trilha de carga",
+          "placas",
+          "remendos"
+        ],
+        "join": [
+          1750,
+          520
+        ],
+        "heading": [
+          -0.2747211278973783,
+          0.961523947640823
+        ],
+        "transition": "transporte entre sucata e oficinas → montagem e distribuição de transmissões",
+        "view_asset": "region/gearworks.png",
+        "anchor": [
+          984.0,
+          1089.6
+        ],
+        "direction": [
+          -0.19611613513818402,
+          0.9805806756909201
+        ],
+        "opening": true
+      }
+    }
+  },
+  "eng_nucleo": {
+    "name": "Engrenópolis — Vielas dos Artífices",
+    "scene": "res://maps/ferrugem_baixa/eng_nucleo.tscn",
+    "links": {
+      "engrenopolis": [
+        1015.99,
+        1189.97
+      ],
+      "eng_corredor": [
+        1762.09,
+        993.33
+      ]
+    },
+    "style": "precision",
+    "buildings": [
+      [
+        "tenement",
+        410,
+        565,
+        330,
+        330
+      ],
+      [
+        "house_stack",
+        740,
+        580,
+        235,
+        235
+      ],
+      [
+        "house",
+        1150,
+        520,
+        265,
+        265
+      ],
+      [
+        "tenement",
+        1560,
+        555,
+        330,
+        330
+      ],
+      [
+        "house",
+        300,
+        960,
+        250,
+        250
+      ],
+      [
+        "house_stack",
+        610,
+        935,
+        260,
+        260
+      ],
+      [
+        "machine_lane",
+        950,
+        875,
+        345,
+        245
+      ],
+      [
+        "workshop",
+        1450,
+        1005,
+        330,
+        270
+      ],
+      [
+        "house",
+        450,
+        1200,
+        245,
+        245
+      ],
+      [
+        "cargo_depot",
+        750,
+        1200,
+        285,
+        215
+      ],
+      [
+        "house_stack",
+        1270,
+        1195,
+        235,
+        235
+      ],
+      [
+        "house_stack",
+        665,
+        345,
+        240,
+        240
+      ],
+      [
+        "cargo_depot",
+        1160,
+        335,
+        275,
+        190
+      ],
+      [
+        "house",
+        1770,
+        1120,
+        210,
+        210
+      ]
+    ],
+    "spawn": [
+      1000,
+      1230
+    ],
+    "landmark": [
+      1040,
+      950
+    ],
+    "outline": [
+      [
+        144,
+        288
+      ],
+      [
+        480,
+        192
+      ],
+      [
+        960,
+        144
+      ],
+      [
+        1344,
+        192
+      ],
+      [
+        1728,
+        288
+      ],
+      [
+        1920,
+        624
+      ],
+      [
+        1824,
+        960
+      ],
+      [
+        1872,
+        1296
+      ],
+      [
+        1488,
+        1344
+      ],
+      [
+        1056,
+        1248
+      ],
+      [
+        672,
+        1344
+      ],
+      [
+        240,
+        1296
+      ],
+      [
+        96,
+        864
+      ]
+    ],
+    "tint": "#9a947c",
+    "markers": {
+      "PatioDosArtifices": [
+        920,
+        690
+      ],
+      "BecoDasOficinas": [
+        1260,
+        910
+      ],
+      "RuaDosMoradores": [
+        490,
+        660
+      ]
+    },
+    "function": "moradias e oficinas de artífices",
+    "regional_position": [
+      2.5,
+      0.4
+    ],
+    "continuity": {
+      "engrenopolis": {
+        "shared_id": "eng_nucleo--engrenopolis",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1000,
+          1170
+        ],
+        "heading": [
+          0.0,
+          1.0
+        ],
+        "transition": "moradias e oficinas de artífices → montagem e distribuição de transmissões",
+        "view_asset": "region/gearworks.png",
+        "anchor": [
+          1032.0,
+          1254.0
+        ],
+        "direction": [
+          0.242535625036333,
+          0.970142500145332
+        ],
+        "opening": true
+      },
+      "eng_corredor": {
+        "shared_id": "eng_corredor--eng_nucleo",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1720,
+          890
+        ],
+        "heading": [
+          0.9486832980505139,
+          0.3162277660168379
+        ],
+        "transition": "moradias e oficinas de artífices → pressão, montagem e circulação industrial",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          1827.43,
+          984.0
+        ],
+        "direction": [
+          0.9899494936611665,
+          -0.1414213562373095
+        ],
+        "opening": true
+      }
+    }
+  },
+  "eng_corredor": {
+    "name": "Engrenópolis — Corredor das Caldeiras",
+    "scene": "res://maps/ferrugem_baixa/eng_corredor.tscn",
+    "links": {
+      "engrenopolis": [
+        258.0,
+        1056.0
+      ],
+      "eng_nucleo": [
+        848.48,
+        624.51
+      ]
+    },
+    "style": "precision",
+    "buildings": [
+      [
+        "gearworks",
+        1270,
+        640,
+        450,
+        320
+      ],
+      [
+        "machine_lane",
+        690,
+        1030,
+        325,
+        225
+      ],
+      [
+        "cargo_depot",
+        1170,
+        925,
+        320,
+        225
+      ],
+      [
+        "pump_station",
+        1630,
+        765,
+        255,
+        220
+      ],
+      [
+        "workshop",
+        850,
+        740,
+        290,
+        245
+      ],
+      [
+        "house_stack",
+        445,
+        1040,
+        235,
+        235
+      ]
+    ],
+    "spawn": [
+      330,
+      1120
+    ],
+    "landmark": [
+      1230,
+      1010
+    ],
+    "outline": [
+      [
+        192,
+        912
+      ],
+      [
+        432,
+        768
+      ],
+      [
+        720,
+        768
+      ],
+      [
+        816,
+        528
+      ],
+      [
+        1104,
+        384
+      ],
+      [
+        1440,
+        384
+      ],
+      [
+        1632,
+        240
+      ],
+      [
+        1872,
+        288
+      ],
+      [
+        1920,
+        576
+      ],
+      [
+        1728,
+        816
+      ],
+      [
+        1536,
+        816
+      ],
+      [
+        1344,
+        1056
+      ],
+      [
+        1056,
+        1056
+      ],
+      [
+        864,
+        1248
+      ],
+      [
+        528,
+        1248
+      ],
+      [
+        192,
+        1200
+      ]
+    ],
+    "tint": "#9a947c",
+    "markers": {
+      "CargaDeTransmissoes": [
+        1060,
+        1020
+      ],
+      "EstacaoDePressao": [
+        1570,
+        785
+      ]
+    },
+    "function": "pressão, montagem e circulação industrial",
+    "regional_position": [
+      3.4,
+      0.7
+    ],
+    "continuity": {
+      "engrenopolis": {
+        "shared_id": "eng_corredor--engrenopolis",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          330,
+          1060
+        ],
+        "heading": [
+          -0.9486832980505138,
+          0.316227766016838
+        ],
+        "transition": "pressão, montagem e circulação industrial → montagem e distribuição de transmissões",
+        "view_asset": "region/gearworks.png",
+        "anchor": [
+          192.0,
+          1056.0
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "opening": true
+      },
+      "eng_nucleo": {
+        "shared_id": "eng_corredor--eng_nucleo",
+        "family": "street",
+        "features": [
+          "rua gasta",
+          "cabos",
+          "anexos"
+        ],
+        "join": [
+          1715,
+          490
+        ],
+        "heading": [
+          -0.9486832980505139,
+          -0.3162277660168379
+        ],
+        "transition": "pressão, montagem e circulação industrial → moradias e oficinas de artífices",
+        "view_asset": "generated/structures/skyline.png",
+        "anchor": [
+          787.2,
+          600.0
+        ],
+        "direction": [
+          -0.9284766908852594,
+          -0.3713906763541038
+        ],
+        "opening": true
+      }
+    }
+  }
+}

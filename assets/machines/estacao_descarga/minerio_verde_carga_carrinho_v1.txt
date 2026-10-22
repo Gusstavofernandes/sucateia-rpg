@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = minerio_verde_carga_carrinho_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 422x614
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 105.50x153.50
+pivo_base = (211.0, 614)
+fundo_transparente = PNG_RGBA_LIMPO

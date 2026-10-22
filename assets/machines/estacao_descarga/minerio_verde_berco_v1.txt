@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = minerio_verde_berco_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 214x147
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 53.50x36.75
+pivo_base = (107.0, 147)
+fundo_transparente = PNG_RGBA_LIMPO

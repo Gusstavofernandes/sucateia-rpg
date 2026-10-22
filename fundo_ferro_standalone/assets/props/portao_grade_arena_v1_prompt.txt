@@ -1,0 +1,13 @@
+PROMPT NANO BANANA (PORTÃO LEVADIÇO DA ARENA):
+Game asset, 2.5D front view, underground dark industrial steampunk art style for a clandestine goblin arena. A heavy portcullis / iron gate barrier that closes off the colosseum entrance portal.
+- Sturdy gate made of thick rusted dark iron bars, heavy rivets, crisscross reinforcement plates, and sharp pointed spikes along the bottom edge.
+- Set between two vertical iron channel rails / guide tracks mounted on ancient damp stone wall pillars.
+- Heavy steel chains and pulleys attached to the top corners for raising and lowering the gate.
+- Strictly orthogonal front-facing perspective, perfectly horizontal ground baseline and horizontal iron crossbeams, no diagonal tilt, no 45 degree rotation.
+- Isolated on a completely flat, solid, pure magenta (#FF00FF) background, completely uniform, no glow, no cast shadow on background, sharp edges, centered, full object visible with margin.
+
+ESPECIFICAÇÕES TÉCNICAS DO ASSET:
+- Nome Canônico: portao_grade_arena_v1.png
+- Função Narrativa: Portão de contenção do portal de entrada da Arena (X=3580, Y=960). Fecha a passagem quando a noite de lutas ou alagamento se inicia.
+- Dimensões do Arquivo: 859x856 px, bounding box justa, vãos vazados transparentes PNG
+- Sombra: Separada em portao_grade_arena_v1_sombra.png

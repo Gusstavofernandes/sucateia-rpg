@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1050" viewBox="750 150 2850 2494">
+<rect x="750" y="150" width="2850" height="2494" fill="#171e1e"/>
+<text x="820" y="280" fill="#e4c49c" font-size="60">Fundo-Ferro — camada inferior</text>
+<polyline points="1296.0,1572.0 1450.0,1700.0 1750.0,2000.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polyline points="1750.0,2000.0 1820.0,2030.0 1820.0,2160.0 2300.0,2180.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polyline points="2300.0,2180.0 2600.0,2120.0 2900.0,1770.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polyline points="2900.0,1770.0 2850.0,1440.0 2700.0,1240.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polyline points="2700.0,1240.0 2480.0,1260.0 2300.0,1190.0 1950.0,1150.0 1750.0,1050.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polyline points="1750.0,1050.0 1510.0,1090.0 1280.0,1240.0 1296.0,1572.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polyline points="2300.0,2180.0 2210.0,1840.0 2100.0,1470.0 1970.0,1250.0 1750.0,1050.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polyline points="2700.0,1240.0 2660.0,1250.0 2660.0,1030.0 3000.0,940.0 3000.0,570.0 3000.0,480.0" fill="none" stroke="#625b49" stroke-width="182" stroke-linejoin="round"/>
+<polygon points="1121.0,1394.5 1491.0,1394.5 1531.0,1454.5 1531.0,1704.5 1461.0,1749.5 1106.0,1749.5 1061.0,1679.5 1061.0,1439.5" fill="#72634a" stroke="#b7a273" stroke-width="5"/><text x="1296.0" y="1572.0" text-anchor="middle" fill="#fff0d1" font-size="35">PocoVelho</text>
+<polygon points="1557.5,1817.5 1962.5,1817.5 2002.5,1877.5 2002.5,2137.5 1932.5,2182.5 1542.5,2182.5 1497.5,2112.5 1497.5,1862.5" fill="#72634a" stroke="#b7a273" stroke-width="5"/><text x="1750.0" y="2000.0" text-anchor="middle" fill="#fff0d1" font-size="35">Bombas</text>
+<polygon points="2060.0,1997.5 2560.0,1997.5 2600.0,2057.5 2600.0,2317.5 2530.0,2362.5 2045.0,2362.5 2000.0,2292.5 2000.0,2042.5" fill="#72634a" stroke="#b7a273" stroke-width="5"/><text x="2300.0" y="2180.0" text-anchor="middle" fill="#fff0d1" font-size="35">Descarte</text>
+<polygon points="2650.0,1545.0 3170.0,1545.0 3210.0,1605.0 3210.0,1950.0 3140.0,1995.0 2635.0,1995.0 2590.0,1925.0 2590.0,1590.0" fill="#72634a" stroke="#b7a273" stroke-width="5"/><text x="2900.0" y="1770.0" text-anchor="middle" fill="#fff0d1" font-size="35">Maquinas</text>
+<polygon points="2475.0,977.5 2945.0,977.5 2985.0,1037.5 2985.0,1297.5 2915.0,1342.5 2460.0,1342.5 2415.0,1272.5 2415.0,1022.5" fill="#72634a" stroke="#b7a273" stroke-width="5"/><text x="2700.0" y="1160.0" text-anchor="middle" fill="#fff0d1" font-size="35">Reservatorio</text>
+<polygon points="1577.5,852.5 1942.5,852.5 1982.5,912.5 1982.5,1202.5 1912.5,1247.5 1562.5,1247.5 1517.5,1177.5 1517.5,897.5" fill="#72634a" stroke="#b7a273" stroke-width="5"/><text x="1750.0" y="1050.0" text-anchor="middle" fill="#fff0d1" font-size="35">Ruinas</text>
+<polygon points="2895.0,415.0 3325.0,415.0 3365.0,475.0 3365.0,820.0 3295.0,865.0 2880.0,865.0 2835.0,795.0 2835.0,460.0" fill="#72634a" stroke="#b7a273" stroke-width="5"/><text x="3100.0" y="640.0" text-anchor="middle" fill="#fff0d1" font-size="35">Valvulas</text>
+<circle cx="1296.0" cy="1572.0" r="23" fill="#80bfbb"/><text x="1331.0" y="1617.0" fill="#bce2dd" font-size="27">F ↔ superfície 1296,1572</text>
+<circle cx="2250.0" cy="2200.0" r="23" fill="#80bfbb"/><text x="2285.0" y="2245.0" fill="#bce2dd" font-size="27">F ↔ superfície 2210,1668</text>
+<circle cx="3000.0" cy="480.0" r="23" fill="#80bfbb"/><text x="3035.0" y="525.0" fill="#bce2dd" font-size="27">F ↔ superfície 3000,260</text>
+<text x="820" y="2550" fill="#dbc8a6" font-size="34">7 salas · circuito + 2 ligações · 3 acessos físicos · escala original preservada</text></svg>

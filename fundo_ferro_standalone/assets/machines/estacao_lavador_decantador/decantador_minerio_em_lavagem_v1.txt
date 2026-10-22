@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = decantador_minerio_em_lavagem_v1
+categoria = estacao_lavador_decantador
+dimensoes_arquivo_px = 220x120
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 55.00x30.00
+pivo_base = (110.0, 120)
+fundo_transparente = PNG_RGBA_LIMPO

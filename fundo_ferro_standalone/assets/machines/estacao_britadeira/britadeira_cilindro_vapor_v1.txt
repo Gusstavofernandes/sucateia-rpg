@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = britadeira_cilindro_vapor_v1
+categoria = estacao_britadeira
+dimensoes_arquivo_px = 420x560
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 105.00x140.00
+pivo_base = (210.0, 560)
+fundo_transparente = PNG_RGBA_LIMPO

@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = berco_engrenagem_motriz_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 96x96
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 24.00x24.00
+pivo_base = (48.0, 96)
+fundo_transparente = PNG_RGBA_LIMPO

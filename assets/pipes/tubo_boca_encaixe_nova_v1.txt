@@ -1,0 +1,7 @@
+Modelo: Nano Banana (Gemini image). Referências: assets/pipes/cano_longo_industrial.png, assets/pump_station.png
+
+Game asset in exactly the same view, painted style and lighting as the FIRST reference image (a long horizontal green-patina pipe seen lengthwise from slightly above, warm amber light from the upper left, highlight along the top of the cylinder). Heavily detailed hand-painted texture: rusted iron, oxidized copper, green patina, rivets, bolted flanges. Isolated on a flat solid magenta (#FF00FF) background, no floor, no cast shadow, no text, no watermark, sharp edges, centered, full object visible with margin.
+A short pipe reducer coupling collar lying horizontally, axis perfectly horizontal left to right, seen lengthwise from the side exactly like the reference pipe, so the round openings are NOT visible, only the cylindrical sides. LEFT part: a wide thick double flange ring (twice the pipe diameter), bolted with hex bolts visible along its rim, a dark rubber gasket line between the two flange plates. MIDDLE: a short conical copper neck tapering down. RIGHT part: a short socket with exactly the same diameter, color and patina as the reference pipe, with a thin riveted ring at its end. Both ends cut flat and vertical. Single object, symmetric top and bottom around the horizontal axis.
+
+Negativo: perspectiva frontal, múltiplos objetos, cenário, sombra no magenta, peça cortada, texto, cartoon.
+Uso: flange grande encosta no bocal da máquina; soquete recebe o cano de 25 px. Espelhado (flip_h) para o bocal esquerdo.

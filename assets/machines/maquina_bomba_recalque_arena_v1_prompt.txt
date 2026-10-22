@@ -1,0 +1,29 @@
+PROMPT NANO BANANA (PILOTO ARENA - BOMBA DE RECALQUE DO FOSSO):
+Game asset, 2.5D front-elevated perspective, matching the exact camera angle, plinth orientation, and hand-painted art style of the FIRST reference image (maquina_caldeira_fornalha_v2.png), but representing a heavy mechanical drainage/recalque water pump machine like the SECOND reference image (maquina_bomba_funcional_v1.png).
+
+CAMERA & ORIENTATION (CRITICAL):
+- The machine is NOT rotated 45 degrees. Its base is a heavy rectangular cast-iron and stone plinth sitting flat on the ground, parallel to the bottom screen edge.
+- Front face is directed toward the viewer, seen slightly from above.
+
+PIPE PORTS (STRICT HORIZONTAL ALIGNMENT):
+- There are exactly TWO pipe ports on the sides: one straight horizontal pipe stub extending straight to the far LEFT (180 degrees), and one straight horizontal pipe stub extending straight to the far RIGHT (0 degrees).
+- Both pipe stubs are at the EXACT same vertical height, perfectly horizontal and parallel to the bottom screen edge, exactly like the pipe stubs in the first reference image.
+- Both pipe ends finish with thick bolted vertical flange rings cut flat, so they can seamlessly connect to horizontal modular pipes.
+- No diagonal tilted pipes. No pipes facing the viewer.
+
+PUMP MECHANISM (NO FURNACE, NO FIRE):
+- Heavy mechanical pit pump: vertical piston pressure cylinder in the center with exposed bronze gears, heavy bolted iron casing, dark oxidized copper with turquoise green patina, small brass round pressure gauge with dial needle, small red relief valve wheel on top.
+- DO NOT generate a furnace door, no fire, no glowing grate. This is a cold mechanical drainage pump.
+
+BACKGROUND & LIGHTING:
+- Isolated on a completely flat, solid, pure magenta (#FF00FF) background.
+- Completely uniform magenta background, no floor, no cast shadow on the background, no glow, no text, no characters, sharp edges, centered, full object visible with margins.
+
+ESPECIFICAÇÕES TÉCNICAS DO ASSET:
+- Nome Canônico: maquina_bomba_recalque_arena_v1.png
+- Função Narrativa: Bomba principal de sucção, esgotamento do fosso da Arena e recalque de água/efluentes para a calha da Sala das Válvulas
+- Localização na Arena: Perímetro/parede do fosso de combate
+- Base: Plinto retangular rebitado de pedra e ferro fundido apoiado flat no piso
+- Bocais: 2 saídas laterais perfeitamente horizontais (180° e 0°) na mesma altura Y com flanges verticais retas, compatíveis com cano_reto_industrial_v4.png
+- Dimensões do Arquivo: Bounding box recortada com fundo transparente PNG
+- Sombra: Separada em maquina_bomba_recalque_arena_v1_sombra.png (sem sombra assada no sprite)

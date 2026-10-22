@@ -1,0 +1,164 @@
+[
+  {
+    "name": "hanging_house",
+    "path": "assets/reconstruction/cabos_parallel/hanging_house.png",
+    "dimensions": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      27,
+      19,
+      1346,
+      1145
+    ],
+    "visible_bbox_gt16": [
+      30,
+      26,
+      1341,
+      1090
+    ],
+    "transparent_percent": 56.29,
+    "function": "Casa pendurada",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated RGBA 2D game sprite for Os Cabos suspended residential district of Sucateia/Ferrugem Baixa. Reference is primary visual style only: match original_visual_benchmark.png dense hand-painted weathered textures, dull rusted iron, old stone where needed, oxidized copper, reclaimed timber; upper-left diffuse DAYLIGHT, never nocturnal aesthetics. Elevated orthographic THREE-QUARTER TOP-DOWN camera from SOUTH toward NORTH, top surfaces dominate, short south walls, no diagonal isometric view or vanishing points. Functional medieval goblin salvage construction. Entire object centered with generous transparent margins, all attachments complete. TRUE transparent background; no surrounding ground, terrain, floor slab, ground shadow, scenery, water, people, letters, typography, logos. Restrained amber, tiny cyan only when functional, no bright cartoon outlines. Subject: ONE small HANGING HOUSE suspended in a cradle of four thick iron chains attached to two short overhead transverse beams, chains all contained in sprite. Broad irregular patched corrugated rusty copper and dark timber roof occupies 70 percent of house, squat reclaimed-timber walls with riveted braces, one small south door and narrow suspended porch with ladder folded up, bundles and small cargo pulley on side. House with mechanical suspension not ground-supported stilts. Asymmetric domestic silhouette, no chimney factory or industrial furnace. Intended object width 230-270 world pixels; door width 24 pixels. Render roof and suspension clearly readable from above.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-2aae73de-964f-424d-aa08-dd0e1d48f66b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_world_width": [
+      230,
+      270
+    ],
+    "implantation": "230–270 px incluindo suspensão; corpo doméstico 170–200 px. Ancorar pelo limiar sul; correntes exigem apoios superiores na cena.",
+    "status": "delivered: visually inspected and alpha composited; not scene-integrated",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ]
+  },
+  {
+    "name": "suspension_bridge_ew",
+    "path": "assets/reconstruction/cabos_parallel/suspension_bridge_ew.png",
+    "dimensions": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      19,
+      17,
+      2156,
+      700
+    ],
+    "visible_bbox_gt16": [
+      26,
+      182,
+      2146,
+      540
+    ],
+    "transparent_percent": 69.06,
+    "function": "Ponte suspensa E–O",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated RGBA 2D game sprite for Os Cabos suspended residential district of Sucateia/Ferrugem Baixa. Reference is primary visual style only: match original_visual_benchmark.png dense hand-painted weathered textures, dull rusted iron, old stone where needed, oxidized copper, reclaimed timber; upper-left diffuse DAYLIGHT, never nocturnal aesthetics. Elevated orthographic THREE-QUARTER TOP-DOWN camera from SOUTH toward NORTH, top surfaces dominate, short south walls, no diagonal isometric view or vanishing points. Functional medieval goblin salvage construction. Entire object centered with generous transparent margins, all attachments complete. TRUE transparent background; no surrounding ground, terrain, floor slab, ground shadow, scenery, water, people, letters, typography, logos. Restrained amber, tiny cyan only when functional, no bright cartoon outlines. Subject: ONE modular EAST-WEST SUSPENSION FOOTBRIDGE, long narrow weathered uneven timber walkway seen from high above, straight horizontal screen alignment, not diagonal. Thin rusty cable handrails, two short riveted anchor frames at each end, hanging chains below visible edge, small tensioning hardware; subtle sag but continuous walkable path. Ends fully contained, flat connecting terminals allow attachment to existing platforms. Structural bridge only, no surrounding floor tiles, ground or water. Readable 70-85 world-pixel walking width and 330-400 world-pixel length. No house, factory equipment, lantern tower, machinery or giant supports.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-cb3ff015-cbed-4f96-925a-fe22303131e7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_world_width": [
+      500,
+      580
+    ],
+    "implantation": "500–580 px de vão inicial para passagem estreita (~45–55 px úteis). O resultado é mais estreito que o briefing; não comprimir para 330 px nem usar como via principal.",
+    "status": "delivered: visually inspected and alpha composited; not scene-integrated",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ]
+  },
+  {
+    "name": "walkway_t_junction_clean",
+    "path": "assets/reconstruction/cabos_parallel/walkway_t_junction_clean.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      17,
+      21,
+      1521,
+      1024
+    ],
+    "visible_bbox_gt16": [
+      20,
+      26,
+      1519,
+      901
+    ],
+    "transparent_percent": 71.85,
+    "function": "Encontro em T",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated RGBA 2D game sprite for Os Cabos suspended residential district of Sucateia/Ferrugem Baixa. Reference is primary visual style only: match original_visual_benchmark.png dense hand-painted weathered textures, dull rusted iron, old stone where needed, oxidized copper, reclaimed timber; upper-left diffuse DAYLIGHT, never nocturnal aesthetics. Elevated orthographic THREE-QUARTER TOP-DOWN camera from SOUTH toward NORTH, top surfaces dominate, short south walls, no diagonal isometric view or vanishing points. Functional medieval goblin salvage construction. Entire object centered with generous transparent margins, all attachments complete. TRUE transparent background; no surrounding ground, terrain, floor slab, ground shadow, scenery, water, people, letters, typography, logos. Restrained amber, tiny cyan only when functional, no bright cartoon outlines. Subject: ONE T-SHAPED SUSPENDED WALKWAY JUNCTION, screen-aligned east-west main span and shorter branch toward north. Thin uneven reclaimed timber planks with rusty metal grating repairs, narrow iron railings and chain stays, three complete attaching terminal brackets. Exposed underside beams read as an elevated structure, no slab, stone plaza or ground. Compact irregular handmade functional silhouette. Empty clear walkable center; small rope pulley at side. Intended span 280-330 world pixels, each walking branch 70-85px wide. High top-down view showing T layout, no diagonal perspective, no buildings or tall towers.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-3da33598-299c-4b10-9680-5fddd9251590.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "clean_prompt": "Edit target: supplied walkway_t_junction.png. Preserve exactly this T-shaped suspended bridge geometry, hand-painted texture, colors, camera, bolts, railings and pulley. Remove ALL brown ambient haze, diffuse glow, cast shadow, vignette and background pixels around and between the structure. Outside physical timber, chains, metal and rope must be alpha=0 truly transparent. Keep natural antialiased object edges and holes transparent. Do not add anything, no floor or ground, no people or text. Full isolated structure with comfortable transparent margins.",
+    "clean_source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-0854d4a9-4fc2-457f-a6bf-cd12d9399e42.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_world_width": [
+      350,
+      420
+    ],
+    "implantation": "350–420 px de largura; apenas braços como superfície de circulação. Original retido; liberação depende da versão sem névoa.",
+    "status": "delivered: visually inspected and alpha composited; not scene-integrated",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ]
+  },
+  {
+    "name": "power_messenger_anchor",
+    "path": "assets/reconstruction/cabos_parallel/power_messenger_anchor.png",
+    "dimensions": [
+      1394,
+      1128
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      18,
+      1382,
+      1128
+    ],
+    "visible_bbox_gt16": [
+      315,
+      25,
+      1144,
+      1098
+    ],
+    "transparent_percent": 78.41,
+    "function": "Âncora de energia/mensagens",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated RGBA 2D game sprite for Os Cabos suspended residential district of Sucateia/Ferrugem Baixa. Reference is primary visual style only: match original_visual_benchmark.png dense hand-painted weathered textures, dull rusted iron, old stone where needed, oxidized copper, reclaimed timber; upper-left diffuse DAYLIGHT, never nocturnal aesthetics. Elevated orthographic THREE-QUARTER TOP-DOWN camera from SOUTH toward NORTH, top surfaces dominate, short south walls, no diagonal isometric view or vanishing points. Functional medieval goblin salvage construction. Entire object centered with generous transparent margins, all attachments complete. TRUE transparent background; no surrounding ground, terrain, floor slab, ground shadow, scenery, water, people, letters, typography, logos. Restrained amber, tiny cyan only when functional, no bright cartoon outlines. Show active maintained use through replaced bolts, rope tensioners and pragmatic patches, not abandonment. Region is continuously inhabited and economically active, constructed from discarded older civilizations. Subject: ONE compact asymmetric POWER-LINE ANCHOR AND MESSENGER PULLEY MAST. Two uneven reclaimed riveted iron beams linked by timber crosspieces, several weathered ceramic/copper insulators, contained coiled wires with clear cable connecting sockets at sides, a small hand-cranked messenger parcel pulley and enclosed tiny cyan arcane accumulator. Top mast tilted parts make distinctive fork silhouette, narrow footprint. No long cables leaving frame; actual interbuilding wires will be drawn by game. No giant tower, furnace, chimney, smokestack, turbine or floor base. Small maintenance ladder and copper repair clamps indicate active use. Intended width 110-150 world pixels, higher than nearby domestic roof.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-fa59d43f-5c7b-4f85-81b5-219457196959.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_world_width": [
+      110,
+      150
+    ],
+    "implantation": "110–150 px de largura; base estreita, topo alto. Ligar sockets a cabos reais da cena; não bloquear caminhada pela copa.",
+    "status": "delivered: visually inspected and alpha composited; not scene-integrated",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ]
+  }
+]

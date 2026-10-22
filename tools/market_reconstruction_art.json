@@ -1,0 +1,28 @@
+{
+  "asset": "assets/reconstruction/market_salvage_cart.png",
+  "generator": "OpenAI integrated image generation",
+  "purpose": "Compact goblin salvage merchant cart in Mercado dos Restos",
+  "references": ["tools/checkpoints/original_visual_benchmark.png", "assets/generated/props/market_stall.png"],
+  "direction": "Elevated orthographic top-down 3/4 camera; top merchandise dominant; dark reused timber, rusty riveted iron, patched ochre cloth; original-map palette, lighting and texture; transparent cutout; no terrain, text or scenery.",
+  "source": "C:/Users/Usuario/.codex/generated_images/01a0face-adf4-7ef0-984c-cb5ad576e7b1/exec-901e086d-f626-4c76-8d70-842147040309.png",
+  "additional_assets": [
+    {
+      "asset": "assets/reconstruction/exchange_pavilion.png",
+      "purpose": "Central exchange plaza landmark, broad patched burgundy/ochre roof",
+      "source": "exec-f46a7192-b861-4a3e-b523-fba1f95c5579.png"
+    },
+    {
+      "asset": "assets/reconstruction/cloth_stall.png",
+      "purpose": "Textile trading cluster, roof-dominant stall with cleaned transparent background",
+      "initial_source": "exec-9ef2d7bc-9cff-4d48-8262-39a26b8663e8.png",
+      "source": "exec-c21dd33e-1bd2-49ef-b216-262e3723ea32.png"
+    },
+    {
+      "asset": "assets/reconstruction/wholesale_arcade.png",
+      "purpose": "Two-bay covered wholesale/repair frontage integrated with western commercial houses",
+      "source": "exec-a3309139-17a3-4a51-8b85-6f6b6dc644ef.png"
+    }
+  ],
+  "additional_asset_source_directory": "C:/Users/Usuario/.codex/generated_images/01a0face-adf4-7ef0-984c-cb5ad576e7b1/",
+  "additional_asset_direction": "Same elevated top-down 3/4 camera, roof/top surfaces dominant, rusty goblin salvage construction, original-map scale, palette and lighting; transparent game-ready cutouts. Sources generated earlier during Mercado reconstruction; no new art generated for the Alto-Lixo spatial-definition stage."
+}

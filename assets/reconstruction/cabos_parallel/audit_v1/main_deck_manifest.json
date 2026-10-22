@@ -1,0 +1,132 @@
+{
+  "path": "assets/reconstruction/cabos_parallel/main_deck_ew_wide.png",
+  "sha256": "615dbf4fbe4f3fd025b6b396f2e46c2955afa150b98a67b6f2131e9b52a85370",
+  "canvas": [
+    1596,
+    985
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "visible_bbox_gt16": [
+    19,
+    45,
+    1578,
+    960
+  ],
+  "visible_margin_px": 18,
+  "scale_uniform": 0.14111610006414368,
+  "visible_world_size": [
+    220,
+    129.12
+  ],
+  "clear_walking_rectangle_native_estimated": [
+    180,
+    155,
+    1410,
+    690
+  ],
+  "clear_world_size_estimated": [
+    173.57280307889673,
+    75.49711353431687
+  ],
+  "connections_native_estimated": {
+    "deck_w": [
+      155,
+      422
+    ],
+    "deck_e": [
+      1440,
+      422
+    ],
+    "lug_w_n": [
+      84,
+      205
+    ],
+    "lug_e_n": [
+      1510,
+      205
+    ],
+    "lug_w_s": [
+      51,
+      714
+    ],
+    "lug_e_s": [
+      1547,
+      714
+    ],
+    "support_w": [
+      400,
+      935
+    ],
+    "support_e": [
+      1190,
+      935
+    ]
+  },
+  "connections_offset_center_world": {
+    "deck_w": [
+      -90.738,
+      -9.949
+    ],
+    "deck_e": [
+      90.597,
+      -9.949
+    ],
+    "lug_w_n": [
+      -100.757,
+      -40.571
+    ],
+    "lug_e_n": [
+      100.475,
+      -40.571
+    ],
+    "lug_w_s": [
+      -105.414,
+      31.257
+    ],
+    "lug_e_s": [
+      105.696,
+      31.257
+    ],
+    "support_w": [
+      -56.164,
+      62.444
+    ],
+    "support_e": [
+      55.318,
+      62.444
+    ]
+  },
+  "repeat_pitch_world_estimated": 181.33418858242464,
+  "support_socket_bbox_native_estimated": [
+    [
+      366,
+      911,
+      443,
+      955
+    ],
+    [
+      1155,
+      911,
+      1230,
+      955
+    ]
+  ],
+  "walk_terminal_native_y_range_estimated": [
+    155,
+    690
+  ],
+  "terminal_band_overlap_world_estimated": 5,
+  "method": "built-in image_gen + two depth revisions; PNG preserved unmodified",
+  "prompts": "assets/reconstruction/cabos_parallel/audit_v1/main_deck_prompts.json",
+  "variants_rejected": [
+    "assets/reconstruction/cabos_parallel/main_deck_ew_v1.png",
+    "assets/reconstruction/cabos_parallel/main_deck_ew_v2.png"
+  ],
+  "accuracy": "Visual native estimates ±10px; not physics/collision certification. Conservative clear depth75.5px at supplied scale.",
+  "integration": "Open E-W terminals with coplanar flat joining bands. Repeat pitch approximate; preview overlap lugs/rail ends. Short underdeck sockets need existing tower/beam supports, not ground feet. Rail ends need same deck elevation. Do not use bbox for collision.",
+  "protected_png_count": 105,
+  "protected_hashes_unchanged": true
+}

@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = berco_contrapeso_corrente_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 73x175
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 18.25x43.75
+pivo_base = (36.5, 175)
+fundo_transparente = PNG_RGBA_LIMPO

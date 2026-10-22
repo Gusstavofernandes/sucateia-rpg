@@ -1,0 +1,28 @@
+# Godot 4.x
+.godot/
+.import/
+export_presets.cfg
+*.translation
+
+# Mono / C#
+.mono/
+data_*/
+mono_crash.*.json
+
+# Caches e temporários locais
+.runtime/
+*.tmp
+*.log
+
+# Backups e pacotes zip pesados (>20MB)
+*.zip
+deliveries/
+tools/checkpoints/
+
+# IDEs e sistema operacional
+.vscode/
+.idea/
+.vs/
+Thumbs.db
+Desktop.ini
+.DS_Store

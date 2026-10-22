@@ -1,0 +1,106 @@
+[
+  {
+    "name": "hanging_house",
+    "path": "assets/reconstruction/cabos_parallel/hanging_house.png",
+    "dimensions": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      27,
+      19,
+      1346,
+      1145
+    ],
+    "visible_bbox_gt16": [
+      30,
+      26,
+      1341,
+      1090
+    ],
+    "transparent_percent": 56.29
+  },
+  {
+    "name": "suspension_bridge_ew",
+    "path": "assets/reconstruction/cabos_parallel/suspension_bridge_ew.png",
+    "dimensions": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      19,
+      17,
+      2156,
+      700
+    ],
+    "visible_bbox_gt16": [
+      26,
+      182,
+      2146,
+      540
+    ],
+    "transparent_percent": 69.06
+  },
+  {
+    "name": "walkway_t_junction_clean",
+    "path": "assets/reconstruction/cabos_parallel/walkway_t_junction_clean.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      17,
+      21,
+      1521,
+      1024
+    ],
+    "visible_bbox_gt16": [
+      20,
+      26,
+      1519,
+      901
+    ],
+    "transparent_percent": 71.85
+  },
+  {
+    "name": "power_messenger_anchor",
+    "path": "assets/reconstruction/cabos_parallel/power_messenger_anchor.png",
+    "dimensions": [
+      1394,
+      1128
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      18,
+      1382,
+      1128
+    ],
+    "visible_bbox_gt16": [
+      315,
+      25,
+      1144,
+      1098
+    ],
+    "transparent_percent": 78.41
+  }
+]

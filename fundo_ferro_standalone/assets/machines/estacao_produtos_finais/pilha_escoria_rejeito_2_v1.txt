@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = pilha_escoria_rejeito_2_v1
+categoria = estacao_produtos_finais
+dimensoes_arquivo_px = 439x386
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 109.75x96.50
+pivo_base = (219.5, 386)
+fundo_transparente = PNG_RGBA_LIMPO

@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = britadeira_funil_recepcao_v1
+categoria = estacao_britadeira
+dimensoes_arquivo_px = 240x195
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 60.00x48.75
+pivo_base = (120.0, 195)
+fundo_transparente = PNG_RGBA_LIMPO

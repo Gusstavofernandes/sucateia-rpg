@@ -1,0 +1,14 @@
+[ASSET_METADATA]
+nome = batente_molas_terminal_v1
+tipo = BatenteMecanicoTerminal
+categoria = estacao_descarga
+dimensoes_arquivo_px = 339x109
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 84.75x27.25
+pivo_base = (169.5, 109)
+z_index = -1
+y_sort_enabled = true
+descricao = Batente mecânico terminal com molas duplas de amortecimento, vigas de impacto zebradas e blocos de cantaria.
+colisao_estatica = Rectangle2D(extents=(42, 13), offset=(0, -13))
+pontos_ancoragem:
+  face_impacto_trilho = (169.5, 0)

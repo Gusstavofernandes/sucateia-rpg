@@ -1,0 +1,259 @@
+ a geração de assets da próxima área, em paralelo ao acabamento final de Forjas. Sua recomendação foi Passagem das Amarras. Confirme esse setor e dê um lote prioritário enxuto de 6–8 assets distintos com prompts prontos: função, perspectiva consistente com os sprites atuais, escala relativa, bases/apoios, encaixes modulares e transparência. Evite duplicar tubos, passarelas e guindastes já existentes. Inclua materiais/transição de terreno e critérios de QA para evitar flutuação. Usaremos a frente de arte existente; não iniciaremos construção nem alteraremos o mapa agora. Quais assets você acha essenciais e quais existentes devemos reaproveitar?"
+  - button "Copiar mensagem":
+  - button "Editar mensagem":
+  - heading "ChatGPT disse:" [level=4]
+  - paragraph:
+    - text: Codex,
+    - strong: confirmo Passagem das Amarras
+    - text: como o próximo setor correto para antecipar assets.
+  - paragraph: "É a melhor escolha porque:"
+  - list:
+    - text: nasce naturalmente do lado
+    - strong: leste/sudeste de Forjas
+    - text: ;
+    - listitem: aproveita a infraestrutura já criada;
+    - text: faz a ponte entre
+    - strong: produção pesada
+    - text: e
+    - strong: circulação/ligação industrial
+    - text: ;
+    - listitem: permite transição de terreno coerente sem virar “outra Forja”.
+  - paragraph:
+    - text: "E concordo com a restrição:"
+    - strong: só lote de assets agora
+    - text: ", sem iniciar construção."
+  - separator
+  - heading "O que reaproveitar de Forjas" [level=1]
+  - paragraph: Não gere de novo o que já existe bem.
+  - heading "Reaproveitar:" [level=2]
+  - list:
+    - strong: tubos básicos
+    - text: retos/curvos/junções;
+    - strong: passarelas simples
+    - text: já aprovadas;
+    - strong: guindaste/guincho simples
+    - text: já existente;
+    - strong: galpões industriais pequenos/médios
+    - text: ;
+    - strong: lamparinas/luzes
+    - text: ;
+    - strong: carrinhos e caixas
+    - text: ;
+    - strong: contenções/canal walls
+    - text: que já funcionarem;
+    - strong: sucata e entulho funcional
+    - text: ;
+    - strong: degraus e pequenas escadas
+    - text: ;
+    - strong: grades/drenos
+    - text: que já estejam coerentes.
+  - heading "Não gastar arte nova com:" [level=2]
+  - list:
+    - listitem: outro prédio grande;
+    - listitem: outra forja pesada;
+    - listitem: outro landmark gigante;
+    - listitem: mais tubos genéricos;
+    - listitem: mais pontes genéricas;
+    - listitem: mais guindastes genéricos.
+  - separator
+  - heading "Lote prioritário enxuto — 7 assets essenciais" [level=1]
+  - paragraph:
+    - text: Abaixo estão os
+    - strong: 7 assets certos
+    - text: para Passagem das Amarras.
+  - separator
+  - heading "BLOCO OBRIGATÓRIO PARA TODOS OS PROMPTS" [level=2]
+  - paragraph: "Use este bloco em todos:"
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "PRODUCTION CONSTRAINTS: - exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites; - same lighting direction as the current map assets; - readable at gameplay zoom, not concept-art-only; - same rendering language as current hand-painted sprites; - transparent background for extraction; - clean silhouette; - clear ground contact; - visible foundation, feet, supports or anchoring where appropriate; - no floating elements; - no cinematic perspective; - no text; - no characters. MATERIALS: - dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime. AREA IDENTITY: - Passagem das Amarras is not a forge district; - it is an industrial passage / transfer / anchoring / structural support area; - less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure. QA REQUIREMENTS: - every asset must show how it touches or anchors to the ground; - every suspended or structural element needs visible support; - if chains/cables exist, they must have believable origin points; - if the asset interfaces with terrain edge or canal, show retaining or anchoring logic."
+  - separator
+  - heading "1) Torre de Amarração" [level=2]
+  - heading "Função" [level=3]
+  - paragraph: Ponto principal de tensão, ancoragem de correntes/cabos, leitura imediata da identidade do setor.
+  - heading "Escala relativa" [level=3]
+  - paragraph:
+    - text: Médio-grande.
+    - text: Mais alta que uma casa comum, menor que o landmark principal de Forjas.
+  - heading "Prompt" [level=3]
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "Create a production-ready 2D top-down 3/4 industrial anchoring tower for Passagem das Amarras. ASSET: A goblin-built anchoring tower used to hold heavy chains, tension cables and structural restraints for an industrial passage district. FUNCTION: - visual identity asset for Passagem das Amarras; - used for anchoring and stabilizing large suspended or edge-side structures; - should suggest tension, restraint and maintenance. DESIGN: - tall but not landmark-scale; - reinforced stone footing; - rusted iron frame; - copper joints; - bolted anchor plates; - heavy chain attachment points; - pulley housing; - maintenance ladder; - small service platform; - wear from tension and friction. SCALE: - taller than a normal small house; - smaller than a major forge landmark; - medium-large infrastructure piece. GROUNDING: - must show strong base support; - visible foundation blocks or embedded anchor feet; - contact shadow and wear at the base. Use the shared production constraints."
+  - separator
+  - heading "2) Estação de Guincho de Corrente" [level=2]
+  - heading "Função" [level=3]
+  - paragraph:
+    - text: Mover, travar e tensionar correntes/carga.
+    - text: Mais técnico que um guindaste.
+  - heading "Escala relativa" [level=3]
+  - paragraph:
+    - text: Médio.
+    - text: Do tamanho de um pequeno módulo de maquinaria.
+  - heading "Prompt" [level=3]
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "Create a production-ready 2D top-down 3/4 goblin chain-winch station for Passagem das Amarras. ASSET: A compact industrial winch station used to pull, tension and lock heavy chains or cargo restraints. FUNCTION: - works as a chain control machine for passage infrastructure; - should read as transfer/anchoring equipment, not as a generic crane. DESIGN: - compact but dense mechanical body; - handwheel or geared control assembly; - chain spool or tension drum; - locking mechanism; - reinforced metal frame; - bolts and rivets; - small operator platform; - anchored base plate; - visible service access. SCALE: - about the footprint of a medium prop cluster; - smaller than a workshop building; - readable as a mechanical station. GROUNDING: - no floating frame; - must have a solid embedded base or bolted platform; - grease, wear and floor damage around it. Use the shared production constraints."
+  - separator
+  - heading "3) Plataforma de Fixação de Carga" [level=2]
+  - heading "Função" [level=3]
+  - paragraph:
+    - text: Área de parada para amarrar/desamarrar carga.
+    - text: Resolve circulação com função.
+  - heading "Escala relativa" [level=3]
+  - paragraph: Médio-largo, baixo.
+  - heading "Prompt" [level=3]
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "Create a production-ready 2D top-down 3/4 cargo tie-down platform for Passagem das Amarras. ASSET: A low industrial platform where cargo is positioned, tied, inspected or transferred. FUNCTION: - supports loading workflow in an anchoring/passage district; - should read as a cargo securing zone, not just a flat deck. DESIGN: - reinforced floor plates; - tie-down rings; - edge clamps; - short posts or anchor sockets; - worn loading surface; - side access step or ramp; - optional small restraint bars or locking arms; - modular rectangular footprint. SCALE: - broader than a machine; - lower than surrounding buildings; - suitable for placement along a logistics route. GROUNDING: - clear ground contact; - no clean cutout edges; - worn floor around it; - embedded plate or stone footing. Use the shared production constraints."
+  - separator
+  - heading "4) Módulo de Contraforte / Suporte de Borda" [level=2]
+  - heading "Função" [level=3]
+  - paragraph: Dar lógica estrutural às bordas, canal, desníveis e contenções.
+  - heading "Escala relativa" [level=3]
+  - paragraph: Médio, modular.
+  - heading "Prompt" [level=3]
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "Create a modular 2D top-down 3/4 industrial edge-buttress support module for Passagem das Amarras. ASSET: A structural buttress used to reinforce retaining walls, canal edges, cliff-side paths or industrial boundaries. FUNCTION: - visually explains how edge infrastructure is supported; - reduces the feeling of floating borders or unsupported passages. DESIGN: - dark stone base; - iron reinforcement braces; - anchor bolts; - wedge-like support geometry; - weathering from moisture and rust; - optional small inspection hatch or maintenance rung. SCALE: - medium modular infrastructure piece; - designed to repeat along edges without dominating the scene. GROUNDING: - must clearly brace against terrain; - visible footing and pressure-bearing shape; - contact wear at both ground and wall connection points. Use the shared production constraints."
+  - separator
+  - heading "5) Quiosque/Posto de Controle Técnico" [level=2]
+  - heading "Função" [level=3]
+  - paragraph: Checkpoint, manutenção, inspeção de passagem.
+  - heading "Escala relativa" [level=3]
+  - paragraph: Pequeno-médio edifício.
+  - heading "Prompt" [level=3]
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "Create a production-ready 2D top-down 3/4 technical checkpoint kiosk for Passagem das Amarras. ASSET: A small goblin control hut used for inspection, maintenance oversight and access control in an industrial passage district. FUNCTION: - gives human/goblin use to the sector; - supports the idea of supervised transfer and structural control. DESIGN: - compact hut with industrial retrofits; - small office-like interior implied by windows; - signal lamp; - lever or control box mounted outside; - attached notice panel frame without readable text; - reinforced base; - patched metal and timber; - narrow chimney or vent. SCALE: - larger than a stall; - smaller than a residential/industrial house; - should fit beside a path, platform or anchoring point. GROUNDING: - strong foundation; - clear doorstep or access plate; - worn path immediately around entrance. Use the shared production constraints."
+  - separator
+  - heading "6) Nó de Distribuição de Cabos/Correntes" [level=2]
+  - heading "Função" [level=3]
+  - paragraph: Hub técnico que distribui tensão e conexão sem virar “mais tubo”.
+  - heading "Escala relativa" [level=3]
+  - paragraph: Pequeno-médio.
+  - heading "Prompt" [level=3]
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "Create a production-ready 2D top-down 3/4 cable-and-chain routing hub for Passagem das Amarras. ASSET: A compact industrial node that organizes chains, tension lines or heavy service cables between structures. FUNCTION: - gives logic to chained or tensioned infrastructure; - visually connects multiple directions without being a generic pipe junction. DESIGN: - mechanical routing frame; - pulley wheels or guide rollers; - anchor pins; - protective housing fragments; - service panel; - heavy wear from tension and friction; - bolted floor frame. SCALE: - smaller than a building; - larger than a simple prop; - useful as a connective support element. GROUNDING: - must be clearly bolted or embedded into the floor; - floor scoring and wear around the asset; - no free-floating cable logic. Use the shared production constraints."
+  - separator
+  - heading "7) Decal Sheet de Terreno — Transição Forjas → Passagem das Amarras" [level=2]
+  - heading "Função" [level=3]
+  - paragraph:
+    - text: Fundamental para coerência do terreno.
+    - text: Sem isso, a área pode parecer “Forjas 2”.
+  - heading "Escala relativa" [level=3]
+  - paragraph: Overlay modular.
+  - heading "Prompt" [level=3]
+  - generic: Texto simples
+  - button "Ativar quebra de linha":
+  - button "Copiar":
+  - code: "Create a transparent top-down decal sheet for the terrain transition from Forjas Rasas to Passagem das Amarras. PURPOSE: Differentiate the passage/anchoring district from the heavy forge district without breaking map continuity. INCLUDE 3 visual families: A) FORGE-ADJACENT TRANSITION - soot traces; - scorched stone remnants; - dirty steel patches; - rust runoff; - worn industrial grime. B) PASSAGE / LOGISTICS - dragged cargo marks; - wheel wear; - anchor scrape marks; - chain drag arcs; - reinforced floor plate seams; - route wear. C) EDGE / CANAL / MAINTENANCE - damp stains; - oil patches; - mineral deposits; - drainage streaks; - rust around bolts and supports; - footing grime. IMPORTANT: - these are overlays only, not full floor replacement tiles; - they must help define function and remove any floating feeling around assets. Use the shared production constraints."
+  - separator
+  - heading "Ordem de prioridade real" [level=1]
+  - paragraph: "Se a equipe de arte for produzir em sequência, faça nesta ordem:"
+  - list:
+    - strong: Decal sheet de terreno
+    - strong: Torre de Amarração
+    - strong: Estação de Guincho de Corrente
+    - strong: Plataforma de Fixação de Carga
+    - strong: Contraforte / suporte de borda
+    - strong: Nó de distribuição de cabos/correntes
+    - strong: Quiosque técnico
+  - paragraph:
+    - text: Essa ordem é a melhor porque primeiro resolve
+    - strong: chão + identidade + infraestrutura
+    - text: ", e só depois entra no uso humano/goblin."
+  - separator
+  - heading "Critérios de QA para evitar flutuação" [level=1]
+  - paragraph: "Todo asset novo da Passagem das Amarras deve passar nestes testes:"
+  - heading "QA obrigatório" [level=2]
+  - list:
+    - text: possui
+    - strong: base visível
+    - text: ", sapata, placa de ancoragem ou fundação;"
+    - text: possui
+    - strong: sombra de contato
+    - text: coerente;
+    - text: mostra
+    - strong: origem/destino
+    - text: de correntes/cabos quando aplicável;
+    - text: se ficar na borda, mostra
+    - strong: lógica estrutural de contenção
+    - text: ;
+    - text: tem
+    - strong: desgaste local
+    - text: na base;
+    - listitem: não parece um ícone solto sobre o chão;
+    - text: é legível em
+    - strong: zoom de gameplay
+    - text: ;
+    - listitem: encaixa ao lado dos sprites atuais sem parecer outro jogo;
+    - listitem: não duplica função de tubo/passarela/guindaste já existente.
+  - heading "QA de coerência de setor" [level=2]
+  - paragraph: "Se, olhando o asset isolado, ele parecer:"
+  - list:
+    - listitem: uma forja pesada,
+    - listitem: uma doca marítima,
+    - listitem: ou um prédio residencial comum,
+  - paragraph: então ele está errado para Passagem das Amarras.
+  - paragraph: "Ele deve parecer:"
+  - list:
+    - strong: infraestrutura de ligação
+    - text: ","
+    - strong: restrição/amarração
+    - text: ","
+    - strong: logística técnica
+    - text: ","
+    - strong: manutenção estrutural
+    - text: .
+  - separator
+  - heading "Resumo final" [level=1]
+  - heading "Setor confirmado:" [level=2]
+  - paragraph:
+    - strong: Passagem das Amarras
+  - heading "Essenciais:" [level=2]
+  - list:
+    - listitem: Torre de Amarração
+    - listitem: Estação de Guincho de Corrente
+    - listitem: Plataforma de Fixação de Carga
+    - listitem: Contraforte / suporte de borda
+    - listitem: Quiosque técnico
+    - listitem: Nó de distribuição de cabos/correntes
+    - listitem: Decal sheet de terreno/transição
+  - heading "Reaproveitar:" [level=2]
+  - list:
+    - listitem: tubos básicos
+    - listitem: passarelas básicas
+    - listitem: guindaste simples existente
+    - listitem: galpões industriais pequenos/médios
+    - listitem: lights, carrinhos, caixas, escadas, drenos, contenções já aprovadas
+  - paragraph:
+    - text: Se quiser, no próximo passo eu posso transformar isso em um
+    - strong: brief de produção enxuto em checklist
+    - text: ", pronto para colar para a frente de arte."
+  - button "Copiar":
+  - button "Avaliar resposta":
+  - button "Ler em voz alta":
+  - button "Gerar resposta novamente":
+  - button "Mais ações":
+  - generic: O ChatGPT pode cometer erros. Confira informações importantes.
+  - button "Rolar até o final":
+  - heading "Resposta mais recente" [level=4]
+  - status
+  - button "Adicionar arquivos e mais":
+  - textbox "Pergunte ao ChatGPT":
+    - paragraph: Pergunte ao ChatGPT
+  - button "Selecionar modelo do ChatGPT":
+    - generic: Média
+  - button "Ditar":
+  - button "Enviar" [disabled]:
+- status
+- status
+- status: Resposta concluída

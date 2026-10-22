@@ -1,0 +1,8 @@
+{
+  "name": "forjas_boiler_hall",
+  "path": "assets/reconstruction/forjas_boiler_hall.png",
+  "prompt": "Use case: stylized-concept. ONE placeable industrial architecture sprite for Sucateia, a goblin medieval dark arcane salvage city. Match original playable-map reference in hand-painted weathered texture, scale of doors and upper-left diffuse light. High elevated orthographic 3/4 TOP-DOWN camera from SOUTH toward NORTH. Broad overlapping ROOF TOPS must occupy 75% of the structure, LOW south facade. Entire object with transparent margins, no surrounding ground/background/people/text. Subject: modular STEAM BOILER AND MANUFACTURING HALL, distinct from a small open repair stall. Heavy reclaimed stone low factory hall, irregular broad rusted dark-iron and oxidized copper vaulted roof, an exposed horizontal antique boiler mounted onto the roof and connected by elbows, 3 short clustered flues, squat round side tank, patched wooden side storage annex, short wide southern double cargo doors below stone arch, rusty loading hatch and small winch. Deep charcoal and rusty brown/dirty copper palette, restrained warm amber through two windows, very tiny cyan pressure gauge. Improvised but functional riveted engineering, dominant rooftops, tall chimneys kept modest. No futuristic pristine factory, no concept-art scenery, no frontal mansion, no diagonal isometric ground.",
+  "method": "built-in image_gen",
+  "reference": "tools/checkpoints/original_visual_benchmark.png",
+  "source": "exec-0110be77-a57a-4592-be8d-982d071523cc.png"
+}

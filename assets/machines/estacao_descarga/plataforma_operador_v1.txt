@@ -1,0 +1,15 @@
+[ASSET_METADATA]
+nome = plataforma_operador_v1
+tipo = PlataformaOperacionalGuincho
+categoria = estacao_descarga
+dimensoes_arquivo_px = 88x335
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 22.0x83.75
+pivo_base = (44, 335)
+z_index = -2
+y_sort_enabled = true
+descricao = Plataforma de operacao lateral com guincho a tambor, lanterna ambar suspensa, piso rebitado e fundacao de cantaria.
+colisao_estatica = Rectangle2D(extents=(11, 40), offset=(0, -40))
+pontos_ancoragem:
+  porta_acoplamento_trilho_oeste = (88, 168)
+  ponto_luz_lanterna = (44, 115)

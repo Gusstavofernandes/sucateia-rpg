@@ -1,0 +1,84 @@
+{
+	"actual_capture_size": [
+		1440,
+		900
+	],
+	"capture_pass": "20 process frames plus RenderingServer.frame_post_draw per shot",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"requested_window": [
+		1600,
+		900
+	],
+	"scene_tree_window_size": [
+		1600,
+		900
+	],
+	"shots": [
+		{
+			"file": "fundo_full.png",
+			"height": 900,
+			"id": "full",
+			"sha256": "83ffc85e0c7f057272da0e860dc3af0c2301f589f679038ff3c2d6ef0c59d023",
+			"width": 1440
+		},
+		{
+			"file": "fundo_PocoVelho.png",
+			"height": 900,
+			"id": "PocoVelho",
+			"sha256": "3725bedab1454cbb8e2c4b1daa6c04bc2b30994ac4973403ed3beaa59befc7d3",
+			"width": 1440
+		},
+		{
+			"file": "fundo_Bombas.png",
+			"height": 900,
+			"id": "Bombas",
+			"sha256": "2916a155fd34d517674e1fa712e5f179c31914996e092481302e9a091be646fa",
+			"width": 1440
+		},
+		{
+			"file": "fundo_Descarte.png",
+			"height": 900,
+			"id": "Descarte",
+			"sha256": "e6e83e542de84f84cd8f804034f478f7fe5f4a19c6537d46bc262bce31454a00",
+			"width": 1440
+		},
+		{
+			"file": "fundo_Maquinas.png",
+			"height": 900,
+			"id": "Maquinas",
+			"sha256": "d12aa7cfd51a2258cb5737663334ef860a549662d250d20c47e829a6dc4abebd",
+			"width": 1440
+		},
+		{
+			"file": "fundo_Reservatorio.png",
+			"height": 900,
+			"id": "Reservatorio",
+			"sha256": "5ddfeda5598f8572b94a13e383d960c6b89d87736402bc29354fbcefe680f969",
+			"width": 1440
+		},
+		{
+			"file": "fundo_Ruinas.png",
+			"height": 900,
+			"id": "Ruinas",
+			"sha256": "bb479b9912eb25978a9889bb9a25d472f48854dd5ed8f24c960e4e26130581e6",
+			"width": 1440
+		},
+		{
+			"file": "fundo_Valvulas.png",
+			"height": 900,
+			"id": "Valvulas",
+			"sha256": "fe35c907f28c11a173712f1b494e05f5609caf2173f78a4399a760d95583a684",
+			"width": 1440
+		}
+	]
+}

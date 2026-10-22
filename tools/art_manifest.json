@@ -1,0 +1,138 @@
+[
+  {
+    "name": "house",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: one compact TWO-STOREY GOBLIN HOUSE, an ingenious asymmetrical stack of reclaimed medieval stone, rusty riveted sheet metal roofs, crooked timber bracing and patched copper cladding. Tall upper room with pointed gothic recycled window, amber light from ground floor doorway, small cyan repurposed glass pane, squat chimney, curved pipes secured by straps, cable anchors and old gears reused as structural fittings. Entire roof and front door visible. Compact roughly square silhouette, width-to-height 0.95. No attached market stall, no sprawling ground debris, no big cast shadow. Asset must work repeatedly as a modular house along a narrow city street.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-422b1b1b-445b-489f-83b8-94685e26f8ce.png",
+    "sprite": "assets/generated/structures/house.png",
+    "canvas": [
+      320,
+      320
+    ],
+    "alpha_bbox": [
+      74,
+      10,
+      565,
+      630
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  },
+  {
+    "name": "house_stack",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: one compact goblin apartment module made of two squat reclaimed housing boxes stacked slightly crooked, upper corrugated copper roof patched with black iron plates, rough stone lower level, a small offset pointed medieval attic, external wooden ladder flush against the side, salvage tank, restrained amber window and little cyan lamp. Broad compact silhouette, TWO levels maximum, width-to-height about 1.0. Down-facing doors, lots of roof plane visible. Different shape from a classic pitched cottage: improvised flat/sloping roofs and small lean-to annex. No cast shadow, no ground debris.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-bce02a0e-68d7-4bcf-abd1-7f0460d93ca8.png",
+    "sprite": "assets/generated/structures/house_stack.png",
+    "canvas": [
+      320,
+      320
+    ],
+    "alpha_bbox": [
+      32,
+      10,
+      608,
+      630
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  },
+  {
+    "name": "market_stall",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: one reusable goblin salvage MARKET STALL, broad horizontal counter under a sloping patched dirty olive fabric canopy supported by irregular reclaimed wooden posts and rusty metal brackets. View from high above, facing the counter: canopy roof fills upper half, counter lower half. Visible small rusty gears, rolled maps, copper fittings and only two cyan glass/crystal pieces for sale. A tattered amber fringe and hooks. Width-to-height 1.5, isolated entire canopy and posts, no vendor, no floor, no heavy dark cast shadow.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-90a99aed-f803-44e6-91e1-a8244505a9c9.png",
+    "sprite": "assets/generated/props/market_stall.png",
+    "canvas": [
+      208,
+      152
+    ],
+    "alpha_bbox": [
+      7,
+      36,
+      408,
+      297
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  },
+  {
+    "name": "workshop",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: one distinctive goblin repair WORKSHOP building, low broad two-bay medieval foundry, imposing roof of overlapping salvaged copper and blackened iron with two crooked tall stone chimneys. Front faces viewer: left bay open arched orange-hot furnace with simple protective iron grate, right bay open repair bench with gears and tools, large riveted bracing and patched stone pillars, small cyan pressure meter at side. Wide silhouette width-to-height 1.3, roof clearly visible from elevated RPG camera. Strong designed silhouette, weathered handmade painting, no ground floor-plane, no people, no sprawling debris.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-2a1372fb-4d85-4a95-8c4b-90bae3699bf9.png",
+    "sprite": "assets/generated/structures/workshop.png",
+    "canvas": [
+      416,
+      368
+    ],
+    "alpha_bbox": [
+      10,
+      136,
+      822,
+      726
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  },
+  {
+    "name": "bridge",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: one isolated goblin improvised wooden FOOTBRIDGE spanning horizontally LEFT TO RIGHT, TOP-DOWN three-quarter RPG view looking down at the deck. Broad 4:1 silhouette. Two sturdy reclaimed rusty iron end supports, twelve uneven wood deck planks, side rails of slack chain and battered copper pipes, riveted repair patches, no tower or arch hiding the deck. Small amber lamps only at endpoints. Deck is fully unobstructed, continuous walkway. No water, no ground, no scenery beneath. Ends must connect visually to stone canal banks.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-b0f8f498-98ff-4a94-93e2-42be87c97db0.png",
+    "sprite": "assets/generated/props/bridge.png",
+    "canvas": [
+      384,
+      124
+    ],
+    "alpha_bbox": [
+      34,
+      6,
+      734,
+      242
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  },
+  {
+    "name": "reactor",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: one small but memorable salvaged ARCANE PRESSURE REACTOR, squat cylindrical rusty iron boiler with copper cage surrounding an uneven glowing cyan crystal at the top, medieval pointed iron crown, pressure dials, battered feet and two short downward elbow pipes at the sides. Center cylinder charcoal and rust, cyan limited to contained crystal and small vents, no neon aura obscuring silhouette. About width-to-height .85. View from the SOUTH with top machinery visible. No surrounding factory, no floor disk, no sprawling attachments.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-d5e22a6b-947c-48cb-bba1-a6ac24cf7e0f.png",
+    "sprite": "assets/generated/structures/reactor.png",
+    "canvas": [
+      256,
+      296
+    ],
+    "alpha_bbox": [
+      10,
+      59,
+      502,
+      582
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  },
+  {
+    "name": "pipe",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: one modular STRAIGHT horizontal salvaged COPPER PIPE SEGMENT, left-to-right orientation, orthographic high angle RPG view. Thick heavily oxidized copper tube, rusted riveted iron flange at each end, two dark iron retaining bands, scars and a tiny leaking cyan seam only at center. Pipeline length 6 times its diameter. Both end faces flat and aligned so several sprites connect. No ground, no wall, no curved fittings, no extra machinery, no labels. Texture hand painted, high material richness.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-b941dbc5-e21f-460d-a733-f74f2db71d46.png",
+    "sprite": "assets/generated/props/pipe.png",
+    "canvas": [
+      128,
+      36
+    ],
+    "alpha_bbox": [
+      2,
+      7,
+      254,
+      70
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  },
+  {
+    "name": "skyline",
+    "prompt": "Production-ready 2D top-down RPG environment sprite for SUCATEIA, goblin scrap civilization in Ferrugem Baixa. Hand-painted dark medieval fantasy with salvaged arcane engineering, detailed painterly textures and strong readable silhouette, not vector art, not a flat cartoon, not photorealistic. Orthographic three-quarter TOP-DOWN camera from the SOUTH, looking north at a DOWN-FACING front facade, roof clearly visible above the facade, verticals vertical, no isometric sideways diamonds. Lighting soft from upper left; coal gray, oxidized copper, rusty ochre, reclaimed brown wood, dirty olive stone; restrained cyan crystal and amber window accents. Fully isolated on genuine transparent alpha, entire subject centered with margin, no scenery, no floor plane, no rectangular background, no characters, no labels/text, no modern sci-fi, no neon excess. Fine painted edge shading, tiny wear and rust; readable when reduced to about 260 pixels wide.\nSUBJECT: ONE cohesive distant BACKGROUND ARCHITECTURE STRIP for the goblin city, wide panoramic row of irregular medieval gothic-industrial silhouettes, stacked scrap dwellings and monumental decaying stone towers, densely interconnected by crooked bridges, hanging cables, chimneys. Distant muted blue-charcoal silhouettes with rusty edges and tiny isolated amber/cyan windows, atmospheric edges. Width-to-height 3:1. Lower edges disappear gently into transparent haze, top spires entirely contained within image. No sky background, no ground foreground, no characters; much lower contrast and detail than playable buildings. Keep all towers in a single strip spanning edge to edge without separate floating pieces.",
+    "source": "C:\\Users\\Usuario\\.codex\\generated_images\\01a0face-adf4-7ef0-984c-cb5ad576e7b1\\exec-ef329c04-6723-414d-8423-a4f5d82173a8.png",
+    "sprite": "assets/generated/structures/skyline.png",
+    "canvas": [
+      1200,
+      360
+    ],
+    "alpha_bbox": [
+      31,
+      10,
+      2368,
+      710
+    ],
+    "method": "built-in image_gen; alpha trim and proportional 2x preparation only"
+  }
+]

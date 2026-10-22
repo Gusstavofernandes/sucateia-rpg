@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = quadro_distribuicao_amperimetro_v1
+categoria = estacao_produtos_finais
+dimensoes_arquivo_px = 215x320
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 53.75x80.00
+pivo_base = (107.5, 320)
+fundo_transparente = PNG_RGBA_LIMPO

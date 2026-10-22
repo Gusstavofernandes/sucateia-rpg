@@ -1,0 +1,14 @@
+PROMPT NANO BANANA (COMPORTA DE INUNDAÇÃO DA ARENA):
+Game asset, 2.5D front view, matching the steampunk underground industrial art style of the reference image. A heavy cast-iron wall floodgate / sluice gate nozzle embedded in dark mossy stone wall for an underground goblin colosseum pit.
+- Heavy rectangular riveted iron frame set into ancient stone masonry, seen directly from the front (perpendicular to camera, no diagonal tilt).
+- Contains a vertical iron sliding gate valve (sluice gate) with heavy iron bars, copper corrosion, and a top brass manual screw wheel / gear mechanism to raise and lower the floodgate.
+- Water discharge outlet leading into the fighting pit.
+- Strict orthogonal perspective: horizontal stone wall, perfectly horizontal baseline, no 45 degree isometric distortion, no angled pipes.
+- Isolated on a completely flat, solid, pure magenta (#FF00FF) background, completely uniform, no glow, no floor shadow on background, sharp edges, centered.
+
+ESPECIFICAÇÕES TÉCNICAS DO ASSET:
+- Nome Canônico: comporta_inundacao_arena_v1.png
+- Função Narrativa: Boca de enchimento e comporta de alagamento do fosso de combate da Arena. Conecta diretamente à rede de transbordo e reservatório
+- Localização na Arena: Parede norte/perímetro do fosso
+- Dimensões do Arquivo: Bounding box recortada com transparência PNG
+- Sombra: Separada em comporta_inundacao_arena_v1_sombra.png

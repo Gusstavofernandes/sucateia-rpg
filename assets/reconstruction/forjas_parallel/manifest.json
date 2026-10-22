@@ -1,0 +1,162 @@
+[
+  {
+    "name": "great_furnace_chimney",
+    "path": "assets/reconstruction/forjas_parallel/great_furnace_chimney.png",
+    "prompt": "Use case: stylized-concept. Create ONE production-ready isolated RGBA game sprite, a distinctive goblin industrial GREAT BLAST FURNACE WITH TALL CHIMNEY for Forjas Rasas in Sucateia. Reference images are style/context only, not edit targets: original_visual_benchmark.png is the primary visual benchmark; Mapa de Ferrugem Baixa.png supplies scrap-city identity. Match the benchmark's dense hand-painted weathered charcoal iron, soot-dark old masonry, dull rusty copper rivets, reclaimed timber and upper-left diffuse lighting. Camera: elevated orthographic THREE-QUARTER TOP-DOWN from SOUTH looking NORTH; no diagonal isometric camera, no vanishing point. Top surfaces strongly visible, short southern walls. Industrial landmark for navigation from the adjacent market: one broad squat cylindrical smelting furnace reinforced by uneven riveted bands, a very tall narrow irregular chimney at rear-left with visible soot-black mouth, small maintenance ladder and tight service catwalk, two thick bent exhaust pipes, short southern arched fire door with orange/amber contained fire behind iron grate, enclosed pouring channel ending in a compact metal mould. Emphasize tall chimney silhouette and distinguish it from a workshop, recycler or roofed boiler hall. Functional dark medieval scrap engineering. Entire object centered with generous transparent margins, all pipes contained, no clipped edges. At intended game scale 310-360px object width the fire door should be 24-30px wide. Orange/amber glow restrained and localized, no cyan except at most one pinprick gauge. TRUE transparent background, isolated object only, NO ground, terrain, floor slab, ground shadow, background scenery, people, typography, labels, text, logos, giant flames, smoke cloud, futuristic machinery, bright cartoon outlines.",
+    "method": "built-in image_gen",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339\\exec-fc4f7b04-d908-4f27-9018-9925dfafd96b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "status": "approved: visually inspected and alpha composited",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ],
+    "recommended_world_width": [
+      310,
+      360
+    ],
+    "dimensions": [
+      1351,
+      1164
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      41,
+      10,
+      1337,
+      1164
+    ],
+    "transparent_percent": 57.56
+  },
+  {
+    "name": "ore_storage_cart",
+    "path": "assets/reconstruction/forjas_parallel/ore_storage_cart.png",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated transparent RGBA 2D game sprite for Forjas Rasas in Sucateia. Primary style reference original_visual_benchmark.png: dense painterly realistic weathered textures, soot-dark charcoal iron, rust-brown copper, old stone, reclaimed timber, upper-left diffuse light. Elevated orthographic THREE-QUARTER TOP-DOWN from SOUTH toward NORTH, top surfaces occupy 70%, short southern faces, no diagonal isometric angle or perspective vanishing point. True transparency; complete object with 10% clear margins. NO ground, terrain, surrounding floor, ground shadow, scenery, people, text, letters, labels or logos. No bright cartoon outlines, no futuristic machinery. Restrained tiny amber lights, cyan minimal or absent. Functional goblin medieval salvage engineering. This is a modular prop, distinct from existing roofed workshop, scrap press/recycler and boiler hall. Compact outdoor ORE AND SLAG STORAGE MODULE: two low rectangular riveted open bins with visibly different piles of dull raw ore chunks and black cooled slag, narrow short built-in loading grate platform, one small squat mine cart with four functional wheels loaded with ore positioned in front, hand-operated tipping lever and a battered small wooden tool rack. No building roof, no furnace or chimney, no glowing molten pool. Wide low silhouette. Intended sprite object width 170-220 world pixels; cart approximately 55 world pixels wide; coherent scale with 25px-wide building doors.",
+    "method": "built-in image_gen",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339\\exec-d01fdbad-8a12-4e2b-90c4-681a22afe9c2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "status": "approved: visually inspected and alpha composited",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ],
+    "recommended_world_width": [
+      170,
+      220
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      0,
+      21,
+      1520,
+      1024
+    ],
+    "transparent_percent": 62.97
+  },
+  {
+    "name": "open_smithy",
+    "path": "assets/reconstruction/forjas_parallel/open_smithy.png",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated transparent RGBA 2D game sprite for Forjas Rasas in Sucateia. Primary style reference original_visual_benchmark.png: dense painterly realistic weathered textures, soot-dark charcoal iron, rust-brown copper, old stone, reclaimed timber, upper-left diffuse light. Elevated orthographic THREE-QUARTER TOP-DOWN from SOUTH toward NORTH, top surfaces occupy 70%, short southern faces, no diagonal isometric angle or perspective vanishing point. True transparency; complete object with 10% clear margins. NO ground, terrain, surrounding floor, ground shadow, scenery, people, text, letters, labels or logos. No bright cartoon outlines, no futuristic machinery. Restrained tiny amber lights, cyan minimal or absent. Functional goblin medieval salvage engineering. This is a modular prop, distinct from existing roofed workshop, scrap press/recycler and boiler hall. Small OPEN ARTISAN SMITHY: irregular shallow rusted metal canopy supported by four reclaimed timber and iron posts, one large usable anvil clearly visible under open south side, short side stone charcoal hearth with dim contained orange fire, leather accordion bellows with mechanical foot lever, tongs hanging on side rack, a compact workbench with hammer. Strong open negative space under canopy, roof only covers rear half so work tools remain readable from overhead. No enclosed workshop, no large hall or industrial chimney. Intended object width 180-220 world pixels, anvil 35px wide.",
+    "method": "built-in image_gen",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339\\exec-c7a1d581-cc2f-461c-b417-66beba4b6c72.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "status": "approved: visually inspected and alpha composited",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ],
+    "recommended_world_width": [
+      180,
+      220
+    ],
+    "dimensions": [
+      1496,
+      1051
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      25,
+      0,
+      1474,
+      1051
+    ],
+    "transparent_percent": 60.57
+  },
+  {
+    "name": "service_pipe_boiler",
+    "path": "assets/reconstruction/forjas_parallel/service_pipe_boiler.png",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated transparent RGBA 2D game sprite for Forjas Rasas in Sucateia. Primary style reference original_visual_benchmark.png: dense painterly realistic weathered textures, soot-dark charcoal iron, rust-brown copper, old stone, reclaimed timber, upper-left diffuse light. Elevated orthographic THREE-QUARTER TOP-DOWN from SOUTH toward NORTH, top surfaces occupy 70%, short southern faces, no diagonal isometric angle or perspective vanishing point. True transparency; complete object with 10% clear margins. NO ground, terrain, surrounding floor, ground shadow, scenery, people, text, letters, labels or logos. No bright cartoon outlines, no futuristic machinery. Restrained tiny amber lights, cyan minimal or absent. Functional goblin medieval salvage engineering. This is a modular prop, distinct from existing roofed workshop, scrap press/recycler and boiler hall. Compact EXPOSED SERVICE PIPEWORK ASSEMBLY with small horizontal cylindrical pressure vessel on four metal legs, three uneven bent iron pipes connecting to tall differently sized upright valve manifolds, large manually operated red-rust handwheel, brass pressure gauge and short grated access step attached directly to vessel. Mechanically connected functional assembly; no building, no roof or factory hall, no furnace, no scrap recycler. Distinct low horizontal tank and branching vertical pipes silhouette. Intended object width 150-190 world pixels, tank 100px long. No luminous cyan boiler dome.",
+    "method": "built-in image_gen",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339\\exec-84e722da-ee6c-4437-94dd-ab44296f559f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "status": "approved: visually inspected and alpha composited",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ],
+    "recommended_world_width": [
+      150,
+      190
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      23,
+      21,
+      1521,
+      1024
+    ],
+    "transparent_percent": 60.92
+  },
+  {
+    "name": "compact_loading_crane",
+    "path": "assets/reconstruction/forjas_parallel/compact_loading_crane.png",
+    "prompt": "Use case: stylized-concept. ONE production-ready isolated transparent RGBA 2D game sprite for Forjas Rasas in Sucateia. Primary style reference original_visual_benchmark.png: dense painterly realistic weathered textures, soot-dark charcoal iron, rust-brown copper, old stone, reclaimed timber, upper-left diffuse light. Elevated orthographic THREE-QUARTER TOP-DOWN from SOUTH toward NORTH, top surfaces occupy 70%, short southern faces, no diagonal isometric angle or perspective vanishing point. True transparency; complete object with 10% clear margins. NO ground, terrain, surrounding floor, ground shadow, scenery, people, text, letters, labels or logos. No bright cartoon outlines, no futuristic machinery. Restrained tiny amber lights, cyan minimal or absent. Functional goblin medieval salvage engineering. This is a modular prop, distinct from existing roofed workshop, scrap press/recycler and boiler hall. ONE compact GOBLIN LOADING CRANE for industrial yard: squat four-legged iron-and-timber braced frame, angled cantilever rusty riveted boom with pulley at tip, clearly readable vertical hanging chain and empty hook, manual side winch with gear and hand crank, one battered counterweight at rear. Working medieval cargo lifting mechanism, asymmetrical silhouette, no modern tower crane, no building, no enormous gantry, no added cargo or surrounding terrain. Intended object width 180-220 world pixels; base 90px wide. Whole hook and boom inside canvas.",
+    "method": "built-in image_gen",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff5e-6e23-79b1-a73b-18055cf7b339\\exec-417268dc-e800-4335-bea1-01da4372c207.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "status": "approved: visually inspected and alpha composited",
+    "references": [
+      "tools/checkpoints/original_visual_benchmark.png",
+      "C:/Users/Usuario/Downloads/Mapa de Ferrugem Baixa.png"
+    ],
+    "recommended_world_width": [
+      180,
+      220
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      0,
+      12,
+      1518,
+      1016
+    ],
+    "transparent_percent": 66.69
+  }
+]

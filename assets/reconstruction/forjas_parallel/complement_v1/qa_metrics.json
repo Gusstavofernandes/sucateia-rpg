@@ -1,0 +1,314 @@
+[
+  {
+    "name": "transition_soot_decal",
+    "dimensions": [
+      1942,
+      809
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      113,
+      184,
+      1860,
+      661
+    ],
+    "minimum_visible_margin_px": 82,
+    "transparent_percent": 60.07,
+    "resulting_visible_world_size": [
+      240,
+      66
+    ],
+    "recommended_scale_from_canvas": 0.137378
+  },
+  {
+    "name": "slag_spill_decal",
+    "dimensions": [
+      1568,
+      1003
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      133,
+      177,
+      1490,
+      861
+    ],
+    "minimum_visible_margin_px": 78,
+    "transparent_percent": 70.03,
+    "resulting_visible_world_size": [
+      125,
+      63
+    ],
+    "recommended_scale_from_canvas": 0.092115
+  },
+  {
+    "name": "heat_reflection_mask",
+    "dimensions": [
+      1564,
+      1006
+    ],
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bbox_gt16": [
+      138,
+      121,
+      1445,
+      893
+    ],
+    "minimum_visible_margin_px": 113,
+    "transparent_percent": 47.19,
+    "resulting_visible_world_size": [
+      140,
+      83
+    ],
+    "recommended_scale_from_canvas": 0.107116
+  },
+  {
+    "name": "coal_feed_cluster",
+    "dimensions": [
+      1547,
+      1016
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      205,
+      126,
+      1464,
+      842
+    ],
+    "minimum_visible_margin_px": 83,
+    "transparent_percent": 61.56,
+    "resulting_visible_world_size": [
+      155,
+      88
+    ],
+    "recommended_scale_from_canvas": 0.123114
+  },
+  {
+    "name": "slag_discharge_cluster",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bbox_gt16": [
+      113,
+      105,
+      1400,
+      937
+    ],
+    "minimum_visible_margin_px": 87,
+    "transparent_percent": 74.62,
+    "resulting_visible_world_size": [
+      185,
+      120
+    ],
+    "recommended_scale_from_canvas": 0.143745
+  },
+  {
+    "name": "cooling_trough_cluster_complete",
+    "dimensions": [
+      1619,
+      971
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      85,
+      201,
+      1545,
+      788
+    ],
+    "minimum_visible_margin_px": 74,
+    "transparent_percent": 62.44,
+    "resulting_visible_world_size": [
+      170,
+      68
+    ],
+    "recommended_scale_from_canvas": 0.116438
+  },
+  {
+    "name": "maintenance_bench_cluster",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bbox_gt16": [
+      90,
+      82,
+      1466,
+      834
+    ],
+    "minimum_visible_margin_px": 70,
+    "transparent_percent": 58.83,
+    "resulting_visible_world_size": [
+      145,
+      79
+    ],
+    "recommended_scale_from_canvas": 0.105378
+  },
+  {
+    "name": "exhaust_tower_addon",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bbox_gt16": [
+      110,
+      43,
+      938,
+      1486
+    ],
+    "minimum_visible_margin_px": 43,
+    "transparent_percent": 64.05,
+    "resulting_visible_world_size": [
+      184,
+      321
+    ],
+    "recommended_scale_from_canvas": 0.222222
+  },
+  {
+    "name": "supported_pipe_connector",
+    "dimensions": [
+      1870,
+      841
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      247,
+      171,
+      1624,
+      661
+    ],
+    "minimum_visible_margin_px": 171,
+    "transparent_percent": 75.5,
+    "resulting_visible_world_size": [
+      100,
+      36
+    ],
+    "recommended_scale_from_canvas": 0.072622
+  },
+  {
+    "name": "short_service_catwalk",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      84,
+      273,
+      1690,
+      679
+    ],
+    "minimum_visible_margin_px": 84,
+    "transparent_percent": 70.56,
+    "resulting_visible_world_size": [
+      220,
+      56
+    ],
+    "recommended_scale_from_canvas": 0.136986
+  },
+  {
+    "name": "pipe_saddle_support_single_ns",
+    "dimensions": [
+      1102,
+      1427
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      292,
+      400,
+      906,
+      1011
+    ],
+    "minimum_visible_margin_px": 196,
+    "transparent_percent": 85.41,
+    "resulting_visible_world_size": [
+      35,
+      35
+    ],
+    "recommended_scale_from_canvas": 0.057003
+  },
+  {
+    "name": "market_forge_transition_shop",
+    "dimensions": [
+      1511,
+      1041
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      122,
+      110,
+      1468,
+      881
+    ],
+    "minimum_visible_margin_px": 43,
+    "transparent_percent": 53.87,
+    "resulting_visible_world_size": [
+      275,
+      158
+    ],
+    "recommended_scale_from_canvas": 0.204309
+  },
+  {
+    "name": "exhaust_reducer_connector",
+    "dimensions": [
+      1415,
+      1111
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      111,
+      146,
+      1352,
+      975
+    ],
+    "minimum_visible_margin_px": 63,
+    "transparent_percent": 51.94,
+    "resulting_visible_world_size": [
+      70,
+      47
+    ],
+    "recommended_scale_from_canvas": 0.056406
+  }
+]

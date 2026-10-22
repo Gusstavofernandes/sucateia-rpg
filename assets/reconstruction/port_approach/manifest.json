@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-03",
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "path": "assets/reconstruction/port_approach/stone_timber_threshold.png",
+      "prompt": "Use case: stylized-concept. Generate one production transparent PNG game asset, a SMALL east-west flush quay approach joining a stone city street on the LEFT to a timber harbor dock on the RIGHT. Reference screenshot shows the game camera and materials only, NOT an edit target. Orthographic oblique overhead 2D dark industrial fantasy game, facing south, horizontal alignment, no diagonal/isometric rotation. Low grounded structure, NOT aerial bridge. A continuous rectangular walkable upper plane with broad worn olive-brown stone slabs on left third grading into dark weathered timber planks on right two thirds; restrained riveted copper join plates at the stone/wood seam. Walkway open at BOTH left and right ends, no guardrail across ends. Two modest side guard edges on north/south only, NO crates, buildings, lanterns, stairs, rubble, text or ornamental towers. Short low masonry foundation directly under left section and 2 heavy timber piles under front edge on right; no tall iron pillars. Walkable surface proportion width:depth about2.8:1, overallobject about2:1. Match subdued dark brown desaturated wood, wet grey-green stone, rusty copper of the screenshot; crisp top-left lit painted game textures readable around190x95 game pixels. Entire isolated object visible with small transparent margins, genuine transparent alpha; no water, ground or broad shadow. Left and right connector centers around x12% and88%,y40%.",
+      "scale": [
+        0.14,
+        0.27
+      ],
+      "anchor_pixel": [
+        120,
+        392
+      ],
+      "anchor_world": [
+        2230,
+        1355
+      ],
+      "role": "low flush stone-to-timber entry threshold; visible foundation and timber supports",
+      "sha256": "fb06ed784ded078d2621d1808f964eebb9bab344ab69db018d63db1c8ce0fe9f"
+    },
+    {
+      "path": "assets/reconstruction/port_approach/maintained_quay_paving.png",
+      "prompt": "Use case: stylized-concept. Generate one TOP-DOWN ground material texture for a dark industrial fantasy 2D harbor city. A continuous level surface of worn olive-grey brown cobblestone and broad old stone repair slabs with a few subtle narrow dark iron seam plates. No props, piles, steps, railings, walls, borders, masonry facade, landscape, houses, crates, rubbish, text or shadows of unseen objects. Not a mound, not rubble: a deliberately maintained walkable quay street with irregular stones packed tightly and a few repaired patches. Gritty hand-painted pre-rendered game texture, match the attached screenshot's muted wet brown/grey stone streets and tiny scale details. Low contrast, restrained surface depth, light from top-left very subtle, no theatrical lighting. Fill entire square image edge-to-edge with the level stone paving, uniform scale, visually tileable with no central composition. This image will be clipped to the precise existing quay ground contour by the game; never draw an extra island or shoreline in it.",
+      "uv_pixels_per_world_pixel": 2.75,
+      "role": "maintained paving clipped to existing city-side bank; no expansion over water",
+      "sha256": "282dd423a3ef7915054dd9409caa52af241d67c73955ad35779201590d63802a"
+    }
+  ],
+  "scope": {
+    "city_side_rect": [
+      1985,
+      1115,
+      280,
+      405
+    ],
+    "legacy_hidden": [
+      "obsolete grate bays",
+      "upright repair pipes",
+      "unconnected decorative stairs",
+      "overlaid repair plates",
+      "obsolete heavy shadows",
+      "duplicated entrance timber/support sprites"
+    ],
+    "preserved": [
+      "physical coastline",
+      "water collision",
+      "house architecture",
+      "scrap storage footprints",
+      "port route polygons",
+      "all three city/port connections"
+    ]
+  }
+}

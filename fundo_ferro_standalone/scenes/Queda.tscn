@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/agua_riacho.gd" id="1_3ff0t"]
+
+[node name="Queda" type="Node2D" unique_id=2026588419]
+script = ExtResource("1_3ff0t")
+pontos_caminho = PackedVector2Array()

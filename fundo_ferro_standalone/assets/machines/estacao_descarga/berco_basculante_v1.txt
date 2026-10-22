@@ -1,0 +1,15 @@
+[ASSET_METADATA]
+nome = berco_basculante_v1
+tipo = BercoBasculanteCacamba
+categoria = estacao_descarga
+dimensoes_arquivo_px = 264x390
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 66.0x97.5
+pivo_base = (132, 390)
+z_index = -2
+y_sort_enabled = true
+descricao = Mecanismo basculante com postes de madeira, engrenagens, contrapesos e cacamba com minerio verde brilhante.
+colisao_estatica = Rectangle2D(extents=(33, 48), offset=(0, -48))
+pontos_ancoragem:
+  borda_acoplamento_trilho_leste = (0, 195)
+  saida_calha_minerio = (264, 180)

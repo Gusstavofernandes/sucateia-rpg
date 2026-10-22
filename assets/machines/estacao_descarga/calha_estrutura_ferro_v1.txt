@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = calha_estrutura_ferro_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 263x154
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 65.75x38.50
+pivo_base = (131.5, 154)
+fundo_transparente = PNG_RGBA_LIMPO

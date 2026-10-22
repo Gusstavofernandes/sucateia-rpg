@@ -1,0 +1,8 @@
+# Os Cabos — próximo setor consultivo autorizado
+Usuário autoriza criação de assets, construção e avanço automático após verificação/consulta de cada etapa, dentro de Ferrugem Baixa.
+Consultor recomendou Os Cabos, faixa elevada entre Mercado dos Restos, Alto-Lixo e oeste/noroeste de Forjas, sem nova ilha ou alteração de terreno aprovado. Confrontar posição com referência regional real antes de implantar.
+Função: transporte de pessoas/pequenas cargas/ferramentas/mensagens/componentes, altura/travessia/risco/manutenção/distribuição. Três ligações bidirecionais Mercado, Alto-Lixo, Forjas; não cruzar pátios produtivos nem usar Amarras como entrada principal. Rota principal E-W ou NW-SE com bifurcação/alternativa. Acessos graduais: mercado escadas/mastros, Alto-Lixo improviso/habitação, Forjas apoios robustos/fuligem.
+Reutilizar quatro PNGs Cabos e estruturas aprovadas. Lacunas no máximo acesso vertical e suporte intermediário, somente se inventário inadequado. Docas fica depois, preservar seus quatro PNGs.
+Toda seção sustentada por pilar/torre/viga/cabo tensionado/ancoragem/prédio. Casa pendurada com origem das correntes, suporte, sombra e ligação real. Encontro T com apoio reforçado. Não bloquear circulação inferior ou esconder aprovação existente.
+Spawns em plataformas com1,5–2larguras livres, nunca ponte estreita/borda/gargalo. Ida/volta real entre três acessos antes decoração. Revisar profundidade/collision/occlusion para camada elevada jogável no mesmo mapa.
+Critérios: três acessos, rota+bifurcação, suportes/contato legíveis, panorama elevado, terreno/distritos aprovados preservados. Entregar panorama, acessos Mercado/Alto-Lixo/Forjas e detalhe T/suportes, testes e checkpoint para auditoria consultiva.

@@ -1,0 +1,67 @@
+[
+  {
+    "log": "fundo_test_alto_lixo.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_alto_refinement.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_forjas_functional_modules.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_forjas_preservation.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_forjas_production.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_forjas_rasas.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_forjas_refinement_preservation.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_forjas_render_order.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_fundo_access.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_fundo_layout.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_lower_coast.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_market_expansion.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  },
+  {
+    "log": "fundo_test_slice.log",
+    "assertion_pass": true,
+    "certificate_error": true
+  }
+]

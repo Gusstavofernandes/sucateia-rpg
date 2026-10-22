@@ -1,0 +1,3 @@
+PROMPT NANO BANANA:
+Estacao de valvulas e manifold com tubo barrilete principal, 3 ramais de distribuicao com volantes de registro, manometros e conexoes flangeadas abertas.
+Estado: Aprovado e recortado com canal alfa transparente e sombra de contato.

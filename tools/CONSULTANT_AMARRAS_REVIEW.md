@@ -1,0 +1,291 @@
+- heading "ChatGPT disse:" [level=4]
+  - paragraph:
+    - text: Codex,
+    - strong: melhorou de verdade
+    - text: .
+  - heading "Parecer curto" [level=2]
+  - paragraph:
+    - strong: "Sim: os gargalos e o eixo leste-sudeste reduziram bastante a leitura de ilha/pátio excessivo."
+    - text: Agora Passagem das Amarras já lê mais como
+    - strong: setor de ligação e ancoragem
+    - text: do que como uma massa isolada decorada depois.
+  - paragraph:
+    - text: Ainda não está “fechado” visualmente, mas
+    - strong: a base espacial agora está correta o suficiente para seguir para ocupação
+    - text: ", desde que vocês façam um passe curto de"
+    - strong: clareza de fluxo no chão
+    - text: e
+    - strong: reforço local de pontos ativos
+    - text: .
+  - separator
+  - heading "1) O que ficou melhor e deve ser preservado" [level=1]
+  - heading "A. Leitura de ilha reduziu" [level=2]
+  - paragraph: Isso melhorou claramente.
+  - paragraph:
+    - text: Antes era uma grande placa cercada de água.
+    - text: "Agora, com:"
+  - list:
+    - listitem: contorno mais recortado,
+    - listitem: gargalos de entrada,
+    - listitem: pontos de ancoragem distribuídos,
+    - listitem: torre de amarração,
+    - listitem: plataforma central,
+    - listitem: ligações superior e inferior,
+  - paragraph:
+    - text: o setor passou a ler como
+    - strong: infraestrutura técnica conectada a Forjas
+    - text: .
+  - paragraph:
+    - strong: Preservar isso.
+  - separator
+  - heading "B. O eixo de fluxo apareceu" [level=2]
+  - paragraph: "Agora existe um eixo perceptível:"
+  - paragraph:
+    - strong: Forjas → entrada/gargalo → torre/amarração → plataforma de transferência → circuito inferior/canal
+  - paragraph: Isso é exatamente a leitura que faltava.
+  - paragraph: Ainda não está maximamente forte no terreno, mas a estrutura espacial já existe.
+  - separator
+  - heading "C. Os 8 assets novos funcionam por função" [level=2]
+  - paragraph: "Eles estão cumprindo o papel esperado:"
+  - list:
+    - listitem: torre de amarração;
+    - listitem: estações/âncoras de corrente;
+    - listitem: plataforma de transferência;
+    - listitem: quiosque técnico;
+    - listitem: suportes/contrafortes;
+    - listitem: elementos de borda;
+    - listitem: circuito/canal;
+    - listitem: integração com assets reaproveitados.
+  - paragraph:
+    - strong: Não vejo lacuna grande de família de asset agora.
+  - separator
+  - heading "2) O que ainda está fraco ou incompleto na versão VISÍVEL" [level=1]
+  - heading "1. O chão ainda está um pouco vazio/indiferenciado" [level=2]
+  - paragraph: Esse é o principal ponto restante.
+  - paragraph: "Não é que falte ocupação final. O problema visível é outro:"
+  - paragraph:
+    - strong: o terreno ainda não comunica com força suficiente onde o fluxo logístico realmente acontece.
+  - paragraph: "Hoje dá para entender pela posição dos objetos, mas o piso ainda não reforça bem:"
+  - list:
+    - listitem: o trajeto principal;
+    - listitem: a área de operação da torre;
+    - listitem: o uso da plataforma central;
+    - listitem: a relação entre amarração e circuito inferior.
+  - paragraph:
+    - text: "Ou seja:"
+    - strong: o setor já tem função, mas o chão ainda não “fala” essa função o bastante.
+  - separator
+  - heading "2. A plataforma central ainda parece um pouco “objeto no meio do pátio”" [level=2]
+  - paragraph: Ela está melhor integrada que antes, mas ainda é o ponto que mais pede reforço local.
+  - paragraph: "Observável nas capturas:"
+  - list:
+    - listitem: ela existe como peça funcional;
+    - listitem: as correntes ajudam muito;
+    - listitem: mas a área ao redor ainda não tem peso suficiente de operação.
+  - paragraph: "Falta um pouco mais de:"
+  - list:
+    - listitem: desgaste de uso;
+    - listitem: marcas de arrasto;
+    - listitem: placas ou apron industrial;
+    - listitem: sujeira funcional imediatamente ao redor.
+  - separator
+  - heading "3. Alguns pontos de borda ainda estão corretos, mas pouco “ativos”" [level=2]
+  - paragraph:
+    - text: As bordas e contrafortes estão funcionando, mas alguns trechos ainda parecem mais
+    - strong: perímetro definido
+    - text: do que
+    - strong: infraestrutura em uso
+    - text: .
+  - paragraph:
+    - text: Não é erro grave.
+    - text: É só que algumas zonas de borda ainda estão um pouco silenciosas.
+  - separator
+  - 'heading "3) Bases, contato e encaixes: checagem objetiva" [level=1]'
+  - heading "Torre de amarração" [level=2]
+  - paragraph:
+    - strong: Aprovada visualmente.
+  - list:
+    - listitem: sapatas visíveis;
+    - listitem: apoio convincente;
+    - listitem: boa leitura de peso;
+    - listitem: não parece flutuando.
+  - paragraph: Esse asset está bem resolvido.
+  - separator
+  - heading "Contrafortes / estações de ancoragem" [level=2]
+  - paragraph:
+    - strong: Funcionam bem no geral.
+  - paragraph:
+    - text: Os encaixes com a borda agora parecem intencionais.
+    - text: A sensação é de estrutura presa no perímetro, não decoração jogada.
+  - paragraph: Onde ainda cabe refinamento é só em desgaste local, não em reconstrução.
+  - separator
+  - heading "Plataforma de transferência central" [level=2]
+  - paragraph:
+    - strong: Funciona, mas ainda é o ponto mais carente de integração de piso.
+  - paragraph: "Ela não está “errada”; só ainda pede:"
+  - list:
+    - listitem: mais zona de uso no entorno;
+    - listitem: mais “peso” visual no chão;
+    - listitem: talvez pequenos sinais de carga/manobra.
+  - separator
+  - heading "Correntes – origem e destino" [level=2]
+  - heading "Observável:" [level=3]
+  - paragraph:
+    - text: As correntes
+    - strong: já têm lógica bem mais clara
+    - text: ":"
+  - list:
+    - listitem: saem de pontos de ancoragem reconhecíveis;
+    - listitem: conversam com a plataforma;
+    - listitem: ajudam a vender a identidade do setor.
+  - heading "Segmento diagonal" [level=3]
+  - paragraph: Esse é o trecho que mais merece atenção fina.
+  - paragraph:
+    - strong: Não vejo defeito físico grosseiro
+    - text: .
+    - text: Origem e destino são legíveis o bastante para passar.
+  - paragraph: "Mas o que ainda pode melhorar localmente:"
+  - list:
+    - listitem: o ponto de chegada/amarração do trecho diagonal precisa ficar tão legível quanto o de saída;
+    - listitem: convém reforçar o entorno imediato do ponto final com mais marca de tensão/uso;
+    - listitem: se houver clipping ou ambiguidade na implementação, um pequeno reforço de encaixe/placa/apoio resolve.
+  - paragraph:
+    - text: "Importante: isso é"
+    - strong: correção local de legibilidade
+    - text: ", não reestruturação."
+  - separator
+  - heading "4) Defeitos observáveis vs hipóteses" [level=1]
+  - heading "Defeitos observáveis" [level=2]
+  - list:
+    - paragraph:
+      - strong: Piso ainda genérico demais em parte do setor
+      - text: Principalmente no miolo e nas transições entre torre, plataforma e circuito inferior.
+    - paragraph:
+      - strong: Plataforma central ainda precisa de mais contexto de uso
+      - text: É o ponto mais “solto” em termos de leitura funcional do chão.
+    - paragraph:
+      - strong: Algumas bordas estão corretas, mas ainda pouco ativas
+      - text: Não por falta de asset, e sim por pouca diferenciação de uso.
+  - separator
+  - heading "Hipóteses / não comprovado pelas imagens" [level=2]
+  - list:
+    - paragraph:
+      - text: A ligação de inspeção bloqueada pelos apoios
+      - text: Você já avisou isso.
+      - strong: Não estou julgando como defeito visual fechado
+      - text: ", porque não está sendo apresentado como estado final e não é totalmente verificável nas imagens."
+    - paragraph:
+      - text: Falta de família grande de assets
+      - strong: Não está comprovado.
+      - text: O lote atual + reaproveitados cobre bem as funções.
+    - paragraph:
+      - text: Necessidade de novos prédios
+      - strong: Não está comprovado nem recomendado.
+  - separator
+  - heading "5) Prioridades concretas para este passe" [level=1]
+  - paragraph: Sem expandir setor e sem retrabalho amplo.
+  - heading "Prioridade 1 — Passe de terreno funcional" [level=2]
+  - paragraph: "Reforçar no chão o fluxo:"
+  - list:
+    - listitem: da entrada superior/ponte;
+    - listitem: para a torre;
+    - listitem: para a plataforma central;
+    - listitem: para o circuito inferior/canal.
+  - paragraph: "Como fazer:"
+  - list:
+    - listitem: manchas de uso;
+    - listitem: trilhas de arrasto;
+    - listitem: costuras de placas;
+    - listitem: área escurecida de operação;
+    - listitem: marcas de carga/parada.
+  - paragraph: Isso é o que mais falta hoje.
+  - separator
+  - heading "Prioridade 2 — Reforço local da plataforma central" [level=2]
+  - paragraph: "Dar mais contexto ao asset principal do miolo:"
+  - list:
+    - listitem: desgaste mais forte ao redor;
+    - listitem: zona de piso técnico;
+    - listitem: marcas de tensão/corrente;
+    - listitem: pequenos sinais de atividade logística.
+  - paragraph: Hoje ela funciona, mas ainda não domina o espaço como deveria.
+  - separator
+  - heading "Prioridade 3 — Reforço dos pontos de amarração do trecho diagonal e circuito inferior" [level=2]
+  - paragraph: "Não mexer na ideia, só na leitura:"
+  - list:
+    - listitem: reforçar ponto final da corrente diagonal;
+    - listitem: reforçar base dos ancoradores próximos ao canal;
+    - listitem: dar mais “pressão estrutural” visual nas bocas do circuito inferior.
+  - paragraph: Isso fecha a linguagem de Amarras.
+  - separator
+  - heading "6) Sobre suficiência do lote de assets" [level=1]
+  - heading "Resposta direta:" [level=2]
+  - paragraph:
+    - strong: Sim, os oito novos + reutilizados parecem suficientes por função.
+  - paragraph: Não vejo lacuna de macro-família.
+  - heading "O que não falta:" [level=3]
+  - list:
+    - listitem: torre;
+    - listitem: âncoras;
+    - listitem: winches/controle;
+    - listitem: plataforma;
+    - listitem: borda;
+    - listitem: ponto técnico;
+    - listitem: circuito/canal;
+    - listitem: ligação com Forjas.
+  - heading "O que pode faltar, se algo faltar, não é nova família grande:" [level=3]
+  - paragraph:
+    - text: É só
+    - strong: microvariação de terreno/logística
+    - text: ", tipo:"
+  - list:
+    - listitem: decals de arrasto;
+    - listitem: desgaste sob operação;
+    - listitem: pequenas áreas técnicas de piso;
+    - listitem: sujeira de uso.
+  - paragraph:
+    - text: "Ou seja:"
+    - strong: não faltam “novos assets grandes”; falta usar melhor o chão.
+  - separator
+  - heading "7) Parecer final deste passe" [level=1]
+  - paragraph:
+    - strong: Base espacial aprovada para continuar.
+  - heading "Preservar:" [level=3]
+  - list:
+    - listitem: duas ligações com Forjas;
+    - listitem: circuito inferior/canal;
+    - listitem: contorno corrigido;
+    - listitem: torre de amarração;
+    - listitem: plataforma central;
+    - listitem: distribuição dos ancoradores de borda.
+  - heading "Corrigir antes de considerar o passe maduro:" [level=3]
+  - list:
+    - listitem: fortalecer o fluxo no terreno;
+    - listitem: integrar melhor a plataforma central ao chão;
+    - listitem: reforçar pontos de chegada/saída das correntes, sobretudo no trecho diagonal e perto do circuito inferior.
+  - paragraph:
+    - text: Se fizerem isso, Amarras deixa de parecer “base montada” e passa a parecer
+    - strong: setor funcional de verdade
+    - text: .
+  - paragraph:
+    - text: Se quiser, no próximo passo eu posso transformar isso em um
+    - strong: checklist operacional curtíssimo para o implementador
+    - text: ", em ordem de execução."
+  - button "Copiar":
+  - button "Avaliar resposta":
+  - button "Ler em voz alta":
+  - button "Gerar resposta novamente":
+  - button "Mais ações":
+  - generic: O ChatGPT pode cometer erros. Confira informações importantes.
+  - button "Rolar até o final":
+  - heading "Resposta mais recente" [level=4]
+  - status
+  - button "Adicionar arquivos e mais":
+  - textbox "Pergunte ao ChatGPT":
+    - paragraph: Pergunte ao ChatGPT
+  - button "Selecionar modelo do ChatGPT":
+    - generic: Média
+  - button "Ditar":
+  - button "Enviar" [disabled]:
+- status
+- status
+- status: Resposta concluída

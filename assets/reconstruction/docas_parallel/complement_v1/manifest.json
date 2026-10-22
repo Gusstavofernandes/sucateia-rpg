@@ -1,0 +1,260 @@
+{
+  "authorization": "Human requests professional finish even if more assets; complements add concrete piled structure, slung cargo and material transition variety.",
+  "selected": [
+    {
+      "name": "pier_head_deep",
+      "path": "assets/reconstruction/docas_parallel/complement_v1/pier_head_deep.png",
+      "sha256": "5ef4df31039f13acd26338124b42faffef1f3741ba8b2da677d042e92dc3936c",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bbox_gt16": [
+        39,
+        32,
+        1497,
+        976
+      ],
+      "minimum_visible_margin_px": 32,
+      "scale_uniform": 0.18518518518518517,
+      "visible_world_size": [
+        270,
+        174.81
+      ],
+      "connections_native_estimated": {
+        "deck_w": [
+          145,
+          417
+        ],
+        "deck_e": [
+          1390,
+          417
+        ],
+        "lug_w_n": [
+          82,
+          316
+        ],
+        "lug_e_n": [
+          1451,
+          316
+        ],
+        "lug_w_s": [
+          64,
+          549
+        ],
+        "lug_e_s": [
+          1470,
+          549
+        ],
+        "mooring_sw": [
+          245,
+          796
+        ],
+        "pile_sw_foot": [
+          137,
+          938
+        ],
+        "pile_se_foot": [
+          1394,
+          938
+        ]
+      },
+      "offset_center_world": {
+        "deck_w": [
+          -115.37,
+          -17.593
+        ],
+        "deck_e": [
+          115.185,
+          -17.593
+        ],
+        "lug_w_n": [
+          -127.037,
+          -36.296
+        ],
+        "lug_e_n": [
+          126.481,
+          -36.296
+        ],
+        "lug_w_s": [
+          -130.37,
+          6.852
+        ],
+        "lug_e_s": [
+          130.0,
+          6.852
+        ],
+        "mooring_sw": [
+          -96.852,
+          52.593
+        ],
+        "pile_sw_foot": [
+          -116.852,
+          78.889
+        ],
+        "pile_se_foot": [
+          115.926,
+          78.889
+        ]
+      },
+      "ground_contact_rectangles_native_estimated": [
+        [
+          88,
+          884,
+          195,
+          975
+        ],
+        [
+          1340,
+          884,
+          1456,
+          975
+        ]
+      ],
+      "measurements": {
+        "clear_rectangle_native": [
+          200,
+          160,
+          1325,
+          640
+        ]
+      },
+      "notes": "Compact piled landing variation; shore continuity/support depths must be placed. Rear piles hidden below deck, front pile feet visible; not certified to seabed.",
+      "status": "selected art; no scene/runtime validation",
+      "clear_world_size": [
+        208.33333333333331,
+        88.88888888888889
+      ]
+    },
+    {
+      "name": "port_cargo_sling_cluster",
+      "path": "assets/reconstruction/docas_parallel/complement_v1/port_cargo_sling_cluster.png",
+      "sha256": "13d770db64a3b81da75be8704dad746bfcad55ea88d0f6bd334a1b8e9e5941dc",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bbox_gt16": [
+        179,
+        22,
+        1359,
+        977
+      ],
+      "minimum_visible_margin_px": 22,
+      "scale_uniform": 0.09322033898305085,
+      "visible_world_size": [
+        110,
+        89.03
+      ],
+      "connections_native_estimated": {
+        "lifting_ring": [
+          765,
+          78
+        ]
+      },
+      "offset_center_world": {
+        "lifting_ring": [
+          -0.28,
+          -40.458
+        ]
+      },
+      "ground_contact_rectangles_native_estimated": [
+        [
+          181,
+          620,
+          342,
+          705
+        ],
+        [
+          705,
+          859,
+          893,
+          975
+        ],
+        [
+          1233,
+          529,
+          1358,
+          635
+        ]
+      ],
+      "measurements": {
+        "largest_crate_native_width_estimated": 540
+      },
+      "notes": "Bulk mixed cargo; largest crate about50px at scale, above prompt30 target. Use near loading station, no walking through cargo. Sling ring connection only to actual hook.",
+      "status": "selected art; no scene/runtime validation"
+    },
+    {
+      "name": "wet_wood_saltwear_decal",
+      "path": "assets/reconstruction/docas_parallel/complement_v1/wet_wood_saltwear_decal.png",
+      "sha256": "1cba0a3762e2fc86c0c6ddf48f4b0d2375e03c8bb166bb5570c42b6ea4e22c47",
+      "canvas": [
+        2078,
+        757
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bbox_gt16": [
+        22,
+        188,
+        2047,
+        578
+      ],
+      "minimum_visible_margin_px": 22,
+      "scale_uniform": 0.10864197530864197,
+      "visible_world_size": [
+        220,
+        42.37
+      ],
+      "connections_native_estimated": {},
+      "offset_center_world": {},
+      "ground_contact_rectangles_native_estimated": [],
+      "measurements": {
+        "recommended_opacity": [
+          0.2,
+          0.3
+        ],
+        "recommended_opacity_initial": 0.25
+      },
+      "notes": "Flat color/grain/salt marks; sample on timber at opacity.20/.30. No walking floor or physical support. Keep plank geometry visible.",
+      "status": "selected art; no scene/runtime validation"
+    }
+  ],
+  "prompts_sources": {
+    "pier": {
+      "prompt": "Use case: stylized-concept. One isolated RGBA production 2D game asset for active Docas/Cais of Sucateia, Ferrugem Baixa. Match benchmark hand-painted dense realistic worn-material game sprites: upper-left diffuse DAYLIGHT, elevated orthographic three-quarter TOP-DOWN camera SOUTH looking NORTH, dominant top surfaces, short southern faces, no diagonal isometric or vanishing-point perspective. Weathered reclaimed dark wood, dull rusty iron, oxidized copper, dirty old coastal stone where applicable. Active maintained working harbor made of older salvage, signs of repaired bolts and practical use, not abandoned ruins. Keep muted natural palette without bright cartoon outlines, glossy gold, dramatic light, night glow. Whole subject fully contained with comfortable transparent margins, TRUE transparent alpha outside physical object and holes. No surroundings, water, terrain, floor backdrop, people, text/labels/logos, ambient haze, glow, cast ground shadow. Preserve clear load paths, contact surfaces and extraction; intended door/character scale24–28px. Professional finish: varied material wear, coherent edge thickness and joints, readable restrained detail at gameplay scale, no repeated identical decorative ornament. Subject: ONE modular broad PIER HEAD / end landing structural timber platform, NOT a whole ground texture. Compact horizontal rectangle in screen alignment east-west, overall visible width240 worldpx and projected total height150–175px. Clear top walking surface roughly190 by95 worldpx, broad enough for small cargo cart turning; uneven well-supported dark reclaimed timber planks with occasional flat rusty grate patches. Open attachment throat on WEST edge and EAST edge for joining a straight quay deck: no rail across these edges, matching flat metal end bands and complete two small bolt lugs per end aligned horizontal pairs. Only short low pipe/rope edge guard sections at north and south perimeter, do not cross walkable center. Four short complete thick timber piles integrated below each corner with iron collars and algae/salt near lower sections, piles terminate clearly inside sprite. Underdeck beams and diagonal knees visible at south edge, no floating deck. Small mooring eyelet fixed to SOUTHWEST side beam, not in walking floor, no cable leaving sprite. Asymmetric plank repair pattern to reduce obvious repeated-grid appearance, no embedded crates, crane, stair or house. Width240px, actual unobstructed painted depth95px; do not count rail/pile height toward walking depth. All pile feet complete. This adds shoreline-supported platform variety to existing flat220x129 Cabos deck, no new coastline or island.",
+      "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-b3bd49f9-1b1a-4597-9496-e20f33c36204.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "edit_prompt": "Edit target supplied pier_head_v1.png. Preserve exactly weathered matte wood/steel, upper-left diffuse daylight, camera elevated orthographic from south toward north, four complete thick timber pile supports with algae/salt, exposed lower beams/knees, south-west mooring ring, paired bolt lugs left/right and open sides. Critical geometric improvement: current clear central floor y240..550 at width1450 is too narrow. Expand north-south walking floor depth by65percent while keeping actual object width the same. Add flat matched planks in unobstructed center, separate front/rear rails so clear continuous floor roughly1100wide by540high (native) rather than1100by310. A broad landing: at uniform artwork width270worldpx there should be at least90worldpx actual clear painted walking depth, without counting rails/piles. Move perimeter guardrails and complete front corner pile feet with deeper platform, keep all attachments and load path coherent, no rail across west/east joining terminals. Generous fully transparent canvas extended as needed, minimum60px clear margin all sides. No ambient haze/shadow/glow/brown background, physical objects only alpha, no water/ground/scenery/people/labels, no crates/crane/stairs. Change only depth and supporting framing to match; retain broad high top view and restrained worn materials.",
+      "edit_source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-f667ea55-ba6e-482f-b6b2-8a39b341997f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    "cargo": {
+      "prompt": "Use case: stylized-concept. One isolated RGBA production 2D game asset for active Docas/Cais of Sucateia, Ferrugem Baixa. Match benchmark hand-painted dense realistic worn-material game sprites: upper-left diffuse DAYLIGHT, elevated orthographic three-quarter TOP-DOWN camera SOUTH looking NORTH, dominant top surfaces, short southern faces, no diagonal isometric or vanishing-point perspective. Weathered reclaimed dark wood, dull rusty iron, oxidized copper, dirty old coastal stone where applicable. Active maintained working harbor made of older salvage, signs of repaired bolts and practical use, not abandoned ruins. Keep muted natural palette without bright cartoon outlines, glossy gold, dramatic light, night glow. Whole subject fully contained with comfortable transparent margins, TRUE transparent alpha outside physical object and holes. No surroundings, water, terrain, floor backdrop, people, text/labels/logos, ambient haze, glow, cast ground shadow. Preserve clear load paths, contact surfaces and extraction; intended door/character scale24–28px. Professional finish: varied material wear, coherent edge thickness and joints, readable restrained detail at gameplay scale, no repeated identical decorative ornament. Subject: ONE compact PORT CARGO TRANSFER CLUSTER, irregular low asymmetric cluster showing mixed inbound/outbound salvage goods on two short open fork skids and woven rope slings, no ground slab. Two distinct crate sizes with flat lids/braced corners, one dull copper barrel on its side secured by short rope chocks, two rolled dark sailcloth parcels, only a small exposed bundle of reusable metal fittings. Cargo prepared for crane/capstan pickup, one thick lifting sling gathered to a clearly visible contained ring at center/top of bundle, mechanically coherent straps around actual load. Strongly different from forge ore pile and market cart: no wheels, no ore, no open merchant display, no fire/chimney. Dock materials: salt-scuffed dark timber, battered iron straps, faded rope, practical repairs. Intended overall visible width135worldpx, largest crate approximately30px world width, goods silhouette low to avoid hiding boat/triage. 55-65worldpx projected ground footprint depth. No extra freestanding crane, no boat/water, no people or lettering; knots and support skids complete with no rope leaving image. This is movable staged cargo beside broad workfront, not walking floor.",
+      "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-b80ff59e-ad88-4b93-b1cc-a0f865fbdcb0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    "decal": {
+      "prompt": "Use case: stylized-concept. One isolated RGBA production 2D game asset for active Docas/Cais of Sucateia, Ferrugem Baixa. Match benchmark hand-painted dense realistic worn-material game sprites: upper-left diffuse DAYLIGHT, elevated orthographic three-quarter TOP-DOWN camera SOUTH looking NORTH, dominant top surfaces, short southern faces, no diagonal isometric or vanishing-point perspective. Weathered reclaimed dark wood, dull rusty iron, oxidized copper, dirty old coastal stone where applicable. Active maintained working harbor made of older salvage, signs of repaired bolts and practical use, not abandoned ruins. Keep muted natural palette without bright cartoon outlines, glossy gold, dramatic light, night glow. Whole subject fully contained with comfortable transparent margins, TRUE transparent alpha outside physical object and holes. No surroundings, water, terrain, floor backdrop, people, text/labels/logos, ambient haze, glow, cast ground shadow. Preserve clear load paths, contact surfaces and extraction; intended door/character scale24–28px. Professional finish: varied material wear, coherent edge thickness and joints, readable restrained detail at gameplay scale, no repeated identical decorative ornament. Subject: ONE entirely flat TRANSPARENT WET-WOOD/SALT-WEAR SURFACE DECAL only, irregular softly fading strip of water-darkened thin grain streaks and small muted salt residue scuffs, three broken asymmetrical patches in a horizontal east-west arrangement. No physical plank objects, no whole timber tile, no solid rectangular background, no raised geometry, no nails/bolts, no metal, no rope objects, no moss bushes, no puddle mirror reflection, no cast shadow. Texture marks only that can alpha-overlay an EXISTING wooden pier without covering its plank edges. Subtle coastal damp desaturated brown gray green translucent stains with a few fine irregular offwhite salt edges; algae expressed as tiny flat dirty green scuff specks, not vegetation. Intended strip width220worldpx and projected patch depth55-65px, density restrained, existing timber should stay visible when applied at opacity0.20-0.35. No ember/heat/industrial soot/bright cyan. Empty gaps fully alpha0 and patch outskirts fade naturally transparent, no brown haze background. Overhead flat decal without any perspective edge or thickness. Organic broken silhouette avoids repeated stamped plank patterns.",
+      "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-81d6b3bc-23e8-407f-8fc5-458ba495d27b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  },
+  "variant_rejected": {
+    "path": "assets/reconstruction/docas_parallel/complement_v1/pier_head_v1.png",
+    "reason": "Clear central depth insufficient for broad landing at compact size; preserved source."
+  },
+  "qa": [
+    "qa_gameplay_connections.png",
+    "qa_saltwear_on_timber.png"
+  ],
+  "accuracy": "Visual points ±10nativepx; conservative clear rectangle; source PNGs never edited with Pillow.",
+  "protected_png_count": 121,
+  "protected_sources_unchanged": true
+}

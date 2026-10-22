@@ -1,0 +1,67 @@
+=====================================================
+RELATÓRIO DE MEDIÇÃO: BOCA DE TÚNEL vs PONTE DO TRILHO
+=====================================================
+Data: 2026-10-09
+Arquivo de Cena: scenes/fundo_ferro_master.tscn
+
+1. BOCA DE TÚNEL (Ponta Inferior - Referência Topo)
+   - Asset: assets/rails/tunel_mina_norte_v1.png (1024x1024 px)
+   - Posição na Cena: Vector2(-190, 150)
+   - Escala: Vector2(0.26, 0.26)
+   - Posição dos Trilhos na Imagem Bruta:
+     * Trilho Esquerdo: Centro X = 274.50 px
+     * Trilho Direito: Centro X = 609.50 px
+     * Centro do Par de Trilhos (Img): 442.00 px (offset do centro: -70.00 px)
+     * Bitola Bruta (Img): 335.00 px
+     * Passo dos Dormentes (Img): ~80.00 px
+     * Largura dos Dormentes (Img): ~485.00 px
+     * Espessura dos Dormentes (Img): ~40.00 px
+   - Posição no Espaço de Mundo do Jogo (com escala 0.26):
+     * Coordenada X do Centro do Par de Trilhos: -208.20 px
+     * Bitola no Mundo: 87.10 px
+     * Coordenada Y da Ponta Inferior dos Trilhos: 270.38 px
+     * Passo dos Dormentes no Mundo: ~20.80 px
+     * Largura dos Dormentes no Mundo: ~126.10 px
+     * Espessura dos Dormentes no Mundo: ~10.40 px
+
+2. PONTE DO TRILHO (Ponta Superior - Referência Base)
+   - Asset: assets/rails/trilho_reto_vertical_v1.png (745x982 px) sobre cavalete_alto_v1.png
+   - Posição na Cena: Vector2(-190, 530) (nó TrilhosSobreCavalete em CavaleteElevadoCanal)
+   - Escala: Vector2(0.20, 0.20)
+   - Posição dos Trilhos na Imagem Bruta:
+     * Trilho Esquerdo: Centro X = 220.00 px
+     * Trilho Direito: Centro X = 522.00 px
+     * Centro do Par de Trilhos (Img): 371.00 px (offset do centro: -1.50 px)
+     * Bitola Bruta (Img): 302.00 px
+     * Passo dos Dormentes (Img): ~120.00 px
+     * Largura dos Dormentes (Img): ~645.00 px
+     * Espessura dos Dormentes (Img): ~50.00 px
+   - Posição no Espaço de Mundo do Jogo (com escala 0.20):
+     * Coordenada X do Centro do Par de Trilhos: -190.30 px
+     * Bitola no Mundo: 60.40 px
+     * Coordenada Y da Ponta Superior dos Trilhos: 432.20 px
+     * Passo dos Dormentes no Mundo: ~24.00 px
+     * Largura dos Dormentes no Mundo: ~129.00 px
+     * Espessura dos Dormentes no Mundo: ~10.00 px
+
+3. COMPARAÇÃO E DISCREPÂNCIAS (Tolerância exigida: <= 1 px)
+   - Bitola no Mundo:
+     * Túnel: 87.10 px
+     * Ponte: 60.40 px
+     * DIFERENÇA DE BITOLA: 26.70 px (DIVERGÊNCIA CRÍTICA!)
+   - Alinhamento do Centro Lateral X:
+     * Centro X do Túnel: -208.20 px
+     * Centro X da Ponte: -190.30 px
+     * DESVIO LATERAL X: 17.90 px (Túnel deslocado 17.9 px à esquerda da Ponte)
+   - Distância Vertical Livre (Vão para a Estação):
+     * Y_top(Ponte) - Y_bottom(Túnel) = 432.20 - 270.38 = 161.82 px
+
+4. DIAGNÓSTICO E CAUSA RAIZ DA DIVERGÊNCIA
+   - No túnel (tunel_mina_norte_v1.png), a imagem foi gerada com uma boca de portal mais ampla e a escala de 0.26 adotada na cena faz com que sua bitola resulte em 87.1 px.
+   - Na ponte (trilho_reto_vertical_v1.png), a escala de 0.20 adotada na cena faz com que sua bitola resulte em 60.4 px.
+   - Além disso, a boca do túnel na imagem não está perfeitamente centrada no meio do arquivo 1024x1024 (está 70 px à esquerda do centro do arquivo), gerando um desvio lateral de 17.9 px no mundo.
+   - Para que as bitolas coincidam com tolerância <= 1 px, uma das seguintes ações de escala/offset é necessária:
+     Opção A: Padronizar a bitola no mundo em 60.4 px (reduzir a escala do túnel ou gerar o trilho da estação casando a transição).
+     Opção B: Padronizar a bitola no mundo em 87.1 px (aumentar a escala do trilho da ponte de 0.20 para ~0.288 para igualar a bitola).
+     Opção C: Ajustar a posição X do nó do túnel de -190 para -172.1 para alinhar o centro do par de trilhos do túnel (-208.2 -> -190.3) com a ponte.
+=====================================================

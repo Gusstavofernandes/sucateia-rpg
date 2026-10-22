@@ -1,0 +1,754 @@
+[
+  {
+    "name": "edge_anchor_buttress",
+    "path": "assets/reconstruction/amarras_parallel/edge_anchor_buttress.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nASSET: ONE EDGE BUTTRESS AND CHAIN ANCHOR, wedge-shaped old dark stone load-bearing footing with bolted reused iron ship-keel diagonal braces, tall rear retaining join plate and low front pressure foot. Function: transfers tensile load into canal/embankment edge; does NOT include terrain, canal or water itself. Two short heavy iron chains fixed into reinforced upper clevis lugs, short ends terminate in complete outward-facing open shackles toward EAST for real scene chains. No tower mast, winding drum, pulley spool, electric insulators or dock mooring bollards. Visible repairs, damp rust streaks, tiny local grime under feet, access inspection rung. Target opaque footprint135x110px, rear wall join60px wide x55px tall facing NORTH; sole90x45px, rear pressure flange overlaps wall10px; EAST twochain exit centers25px apart, chain-link aperture6px at gameplay scale for matching13px shackle outer width. Whole wedge, shackles, chain ends and base fully contained with10% margin. Distinct from capstan and cable pole.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-112307ee-5e1f-4e08-91bb-ed0bb935dc4c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 135,
+    "recommended_opacity": 1,
+    "footprint_native_floor_bbox_estimated": [
+      110,
+      780,
+      1115,
+      1085
+    ],
+    "connections_native_pixels_estimated": [
+      {
+        "id": "wall_join_n",
+        "x": 543,
+        "y": 238,
+        "normalized_canvas": [
+          0.39037,
+          0.21043
+        ],
+        "offset_from_canvas_center_world": [
+          -15.85,
+          -34.04
+        ]
+      },
+      {
+        "id": "chain_e_upper",
+        "x": 1285,
+        "y": 451,
+        "normalized_canvas": [
+          0.9238,
+          0.39876
+        ],
+        "offset_from_canvas_center_world": [
+          61.26,
+          -11.9
+        ]
+      },
+      {
+        "id": "chain_e_lower",
+        "x": 982,
+        "y": 643,
+        "normalized_canvas": [
+          0.70597,
+          0.56852
+        ],
+        "offset_from_canvas_center_world": [
+          29.77,
+          8.05
+        ]
+      }
+    ],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Contraforte transfere tensão à retenção; inserir join N contra contenção real com sobreposição8–10px. Dois terminais E têm offsets distintos. Não usar como torre ou cabeço de barco.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1391,
+      1131
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      59,
+      51,
+      1358,
+      1091
+    ],
+    "alpha_bbox": [
+      25,
+      20,
+      1361,
+      1131
+    ],
+    "transparent_percent": 51.72,
+    "minimum_visible_margin_px": 33,
+    "recommended_scale_from_canvas": 0.103926,
+    "resulting_visible_world_size": [
+      135,
+      108
+    ],
+    "resulting_world_canvas": [
+      145,
+      118
+    ],
+    "sha256": "7d05ce7f4893dc19999360389ba8ccad8f981db0a000ad73d32e519e2b4131f7",
+    "approx_floor_contact_world_size": [
+      104,
+      32
+    ]
+  },
+  {
+    "name": "chain_drag_wear_decal_marks",
+    "path": "assets/reconstruction/amarras_parallel/chain_drag_wear_decal_marks.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nEDIT TARGET: chain_drag_wear_decal.png. Remove all ACTUAL metal rings, chain links, 3D cargo objects, rocks and physical raised hardware. Keep only their FLAT NEGATIVE SCRATCH IMPRESSIONS on transparent space: dark fine scraped arcs and wheel abrasion parallel streaks, tiny metallic dust scattered sparsely. Absolutely no actual chains or ring objects; no painted soil or opaque ground backing. Alpha0 through inner gaps and outer edge. Footprint210x90world px; lines2-4px. Preserve overhead footprint/camera and light direction; these are surface marks only, not props. Source version wrong because it depicts physical chains. Reduce central brown surface coverage; underlying game stone must show through.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-317102d3-5e46-4e36-a876-5f95bfac63ad.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 210,
+    "recommended_opacity": 0.3,
+    "footprint_native_floor_bbox_estimated": null,
+    "connections_native_pixels_estimated": [],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Família B; marcas planas de roda e arraste. Sem correntes/rings físicos. Aplicar0,20–0,40; não substituir piso existente.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1915,
+      821
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      252
+    ],
+    "visible_bbox_gt16": [
+      65,
+      142,
+      1861,
+      741
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1899,
+      821
+    ],
+    "transparent_percent": 58.23,
+    "minimum_visible_margin_px": 54,
+    "recommended_scale_from_canvas": 0.116927,
+    "resulting_visible_world_size": [
+      210,
+      70
+    ],
+    "resulting_world_canvas": [
+      224,
+      96
+    ],
+    "sha256": "7612fff3b3f2f4a708934232bb9d2ec4b2d1d18c0382b7d3396ebcf73da9ea96"
+  },
+  {
+    "name": "damp_anchor_runoff_decal_stains",
+    "path": "assets/reconstruction/amarras_parallel/damp_anchor_runoff_decal_stains.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nEDIT TARGET: damp_anchor_runoff_decal.png. Remove all ACTUAL three-dimensional bolts, nuts, circles of raised metal or props. Keep only flat damp mineral stains and rusty runoff from THREE EMPTY BOLT-IMPRINT ORIGIN SPOTS, plus a small oil smear. No physical hardware at all, no painted soil/backing, no raised geometry. Thin surface staining only, mostly translucent with genuinealpha0 spaces. Footprint150x105worldpx, origin circles8px and22px separation. Original is wrong because it contains solid bolts; retaining stain impressions should be flat. Ground contact means flat onto existing stone; no drop shadow or apparentfloating terrain.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-812470b4-7cbc-4017-b696-0d70f1fb9d55.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 150,
+    "recommended_opacity": 0.25,
+    "footprint_native_floor_bbox_estimated": null,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "origin_left",
+        "x": 340,
+        "y": 218,
+        "normalized_canvas": [
+          0.22682,
+          0.20782
+        ],
+        "offset_from_canvas_center_world": [
+          -50.06,
+          -37.47
+        ]
+      },
+      {
+        "id": "origin_middle",
+        "x": 755,
+        "y": 200,
+        "normalized_canvas": [
+          0.50367,
+          0.19066
+        ],
+        "offset_from_canvas_center_world": [
+          0.67,
+          -39.67
+        ]
+      },
+      {
+        "id": "origin_right",
+        "x": 1240,
+        "y": 180,
+        "normalized_canvas": [
+          0.82722,
+          0.17159
+        ],
+        "offset_from_canvas_center_world": [
+          59.96,
+          -42.11
+        ]
+      }
+    ],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Família C; impressões vazias de fixações, mineral/óleo/umidade. Usar0,15–0,30 sob apoios de borda; sem parafusos físicos ou água externa.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1499,
+      1049
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      164,
+      87,
+      1391,
+      975
+    ],
+    "alpha_bbox": [
+      33,
+      37,
+      1473,
+      1031
+    ],
+    "transparent_percent": 62.75,
+    "minimum_visible_margin_px": 74,
+    "recommended_scale_from_canvas": 0.122249,
+    "resulting_visible_world_size": [
+      150,
+      109
+    ],
+    "resulting_world_canvas": [
+      183,
+      128
+    ],
+    "sha256": "82aa3a66eed47b6f1a382fb37020d522e72d0ac07859ec0c3e40b4b2b41f6b7c"
+  },
+  {
+    "name": "tension_anchor_tower_margin",
+    "path": "assets/reconstruction/amarras_parallel/tension_anchor_tower_margin.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nEDIT TARGET: tension_anchor_tower_aligned.png. EXTRACTION FRAMING CORRECTION ONLY. The entire current object nearly touches both canvas sides: this is unacceptable. Zoom the object OUT to occupy only60% of canvas width and75% of canvas height, centered, leaving clear alpha0 margins at least15% on ALL sides. Keep EXACT tower, open clevis rings, chains, pulleys, platform, ladder, masonryfeet, camera and light; do not redesign or enlarge terminal rings again. Entire WEST/EAST/NORTH clevis and all stone blocks must remain complete. No scenery, ground, background haze or addedparts. Uniformly smaller within bigger transparent canvas; gameplay visible width150px/height~220px recovered by scaling visible bbox, so do not change shape/aspect. Do not claim ports same screen-y; preserve actual terminal geometry. This is a sprite extraction reframe, not a new decorative tower.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-13b5bb29-93d8-435f-ad79-caf2d178ff77.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 150,
+    "recommended_opacity": 1,
+    "footprint_native_floor_bbox_estimated": [
+      210,
+      1040,
+      870,
+      1390
+    ],
+    "connections_native_pixels_estimated": [
+      {
+        "id": "chain_w",
+        "x": 140,
+        "y": 412,
+        "normalized_canvas": [
+          0.13672,
+          0.26823
+        ],
+        "offset_from_canvas_center_world": [
+          -66.19,
+          -63.35
+        ]
+      },
+      {
+        "id": "chain_e",
+        "x": 899,
+        "y": 540,
+        "normalized_canvas": [
+          0.87793,
+          0.35156
+        ],
+        "offset_from_canvas_center_world": [
+          68.86,
+          -40.57
+        ]
+      },
+      {
+        "id": "chain_n",
+        "x": 678,
+        "y": 239,
+        "normalized_canvas": [
+          0.66211,
+          0.1556
+        ],
+        "offset_from_canvas_center_world": [
+          29.54,
+          -94.13
+        ]
+      }
+    ],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Torre estrutural média, menor que fornalha. Algemas abertas, base com dois blocos de apoio. Terminais W/E entregues com desnível~23px de mundo; compensar origem das correntes. Não assumir mesma altura só pelo prompt.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bbox_gt16": [
+      101,
+      179,
+      944,
+      1397
+    ],
+    "alpha_bbox": [
+      65,
+      37,
+      1010,
+      1514
+    ],
+    "transparent_percent": 69.43,
+    "minimum_visible_margin_px": 80,
+    "recommended_scale_from_canvas": 0.177936,
+    "resulting_visible_world_size": [
+      150,
+      217
+    ],
+    "resulting_world_canvas": [
+      182,
+      273
+    ],
+    "sha256": "a40facbcf786fe8e669624c5fe3ed4f7bc629d38443ca9b9f0cd4ac665665089",
+    "approx_floor_contact_world_size": [
+      117,
+      62
+    ]
+  },
+  {
+    "name": "chain_winch_station",
+    "path": "assets/reconstruction/amarras_parallel/chain_winch_station.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nASSET: ONE CHAIN TRACTION WINCH STATION distinct from Docas vertical capstan. Low horizontal geared drum with exposed chain sprocket and positively locking ratchet pawl, manual side gear controls, chain feed guide roller at WEST inlet and EAST outlet; chains actually run through guides and sprocket. Four bolt-bearing frame feet and tiny attached operator step. No vertical capstan cylinder, no bollards, crane boom, tower or new cargo cart. Target footprint155x105px, drum75x45px, step40x22px, feed shackle outer13px/link aperture6px, centers at SAME screen-y32px above lower footing. Short chain stubs fully contained, both ends usable to link to anchor tower/edge buttress. Grease only local at feet, upper-left diffuse light, no luminous furnace.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-4ef2cdf1-c7a8-4352-a246-fa7491aa2296.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 155,
+    "recommended_opacity": 1,
+    "footprint_native_floor_bbox_estimated": [
+      320,
+      551,
+      1200,
+      804
+    ],
+    "connections_native_pixels_estimated": [
+      {
+        "id": "chain_in_w",
+        "x": 97,
+        "y": 434,
+        "normalized_canvas": [
+          0.06365,
+          0.42054
+        ],
+        "offset_from_canvas_center_world": [
+          -71.38,
+          -8.8
+        ]
+      },
+      {
+        "id": "chain_out_e",
+        "x": 1425,
+        "y": 432,
+        "normalized_canvas": [
+          0.93504,
+          0.4186
+        ],
+        "offset_from_canvas_center_world": [
+          71.17,
+          -9.02
+        ]
+      }
+    ],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Drum horizontal, catraca/trava e guias, diferente do capstan marítimo vertical. W/E quase nivelados. Pés/step junto ao chão; não criar novo guindaste.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1524,
+      1032
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      42,
+      206,
+      1486,
+      806
+    ],
+    "alpha_bbox": [
+      0,
+      19,
+      1492,
+      993
+    ],
+    "transparent_percent": 69.94,
+    "minimum_visible_margin_px": 38,
+    "recommended_scale_from_canvas": 0.107341,
+    "resulting_visible_world_size": [
+      155,
+      64
+    ],
+    "resulting_world_canvas": [
+      164,
+      111
+    ],
+    "sha256": "c0949d732d53eed4fa32d46d7ba1427c40cfe89c477a4da6be69138b28c7741b",
+    "approx_floor_contact_world_size": [
+      94,
+      27
+    ]
+  },
+  {
+    "name": "cargo_tiedown_platform",
+    "path": "assets/reconstruction/amarras_parallel/cargo_tiedown_platform.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nASSET: ONE LOW CARGO SECURING PLATFORM, a small self-contained elevated structural frame of repaired steel plates with four visible braced feet and six bolted tie-down rings, short movable restraint arms, side access step on SOUTH. Purpose: place and strap a load arriving via existing crane/cart, not general ground tile or generic walkway. Keep central cargo space EMPTY so existing cargo props can be layered. Target opaque footprint220x120px, clear center130x65px, deck height12px, SOUTH step width60px, west/east bolt docking edges50px wide for nearby reused catwalk. Chain ring aperture6px and shackle13px matching tower. Distinct tie-down lugs and clamp arms versus plain Cabos bridge. No surrounding ground or area of tiled floor, no water, no new cart/crane/capstan; only platform structuraldeck. Solid foot contact shadows under frame, repairs and wheel-use wear confined to plates.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-d4a24520-d7e1-4837-bdbf-540f6c7056b7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 220,
+    "recommended_opacity": 1,
+    "footprint_native_floor_bbox_estimated": [
+      282,
+      633,
+      1410,
+      774
+    ],
+    "connections_native_pixels_estimated": [
+      {
+        "id": "dock_w",
+        "x": 131,
+        "y": 391,
+        "normalized_canvas": [
+          0.0771,
+          0.42225
+        ],
+        "offset_from_canvas_center_world": [
+          -104.54,
+          -10.48
+        ]
+      },
+      {
+        "id": "dock_e",
+        "x": 1568,
+        "y": 391,
+        "normalized_canvas": [
+          0.9229,
+          0.42225
+        ],
+        "offset_from_canvas_center_world": [
+          104.54,
+          -10.48
+        ]
+      },
+      {
+        "id": "tie_nw",
+        "x": 562,
+        "y": 218,
+        "normalized_canvas": [
+          0.33078,
+          0.23542
+        ],
+        "offset_from_canvas_center_world": [
+          -41.83,
+          -35.65
+        ]
+      },
+      {
+        "id": "tie_ne",
+        "x": 1135,
+        "y": 218,
+        "normalized_canvas": [
+          0.66804,
+          0.23542
+        ],
+        "offset_from_canvas_center_world": [
+          41.54,
+          -35.65
+        ]
+      },
+      {
+        "id": "tie_sw",
+        "x": 562,
+        "y": 489,
+        "normalized_canvas": [
+          0.33078,
+          0.52808
+        ],
+        "offset_from_canvas_center_world": [
+          -41.83,
+          3.78
+        ]
+      },
+      {
+        "id": "tie_se",
+        "x": 1135,
+        "y": 489,
+        "normalized_canvas": [
+          0.66804,
+          0.52808
+        ],
+        "offset_from_canvas_center_world": [
+          41.54,
+          3.78
+        ]
+      },
+      {
+        "id": "step_s",
+        "x": 853,
+        "y": 651,
+        "normalized_canvas": [
+          0.50206,
+          0.70302
+        ],
+        "offset_from_canvas_center_world": [
+          0.51,
+          27.35
+        ]
+      }
+    ],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Deck estrutural com clamp/rings e centro livre; não é piso global. Cargas existentes pequenas sobre o centro; carrinho/guindaste ficam na lateral. Passarela reutilizada se liga a lugs W/E, não a anéis de carga.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1699,
+      926
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      93,
+      128,
+      1605,
+      775
+    ],
+    "alpha_bbox": [
+      0,
+      9,
+      1691,
+      926
+    ],
+    "transparent_percent": 56.75,
+    "minimum_visible_margin_px": 93,
+    "recommended_scale_from_canvas": 0.145503,
+    "resulting_visible_world_size": [
+      220,
+      94
+    ],
+    "resulting_world_canvas": [
+      247,
+      135
+    ],
+    "sha256": "3fb85ede867a5c6263dddd052d23b0a3a93ddaf41aa9d5d7f5a8509d6096b279",
+    "approx_floor_contact_world_size": [
+      164,
+      21
+    ]
+  },
+  {
+    "name": "chain_routing_hub",
+    "path": "assets/reconstruction/amarras_parallel/chain_routing_hub.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nASSET: ONE LOW MECHANICAL CHAIN ROUTING HUB, compact bolted floor frame containing three guide sheave wheels directing chains between WEST inlet, EAST straight outlet and NORTH branch, clearly continuous guide path with central locking pin and service access plate. No mast, electric insulators, battery, messenger cable pole or generic pipe junction; distinct from Cabos power_messenger_anchor. Target footprint115x90px, rollers diameter22px, mounting feet two35x18px, shackle outer13px/link aperture6px at three short complete chain stub endpoints. WEST/EAST ports same screen-y40px above lower footprint, NORTHbranch60px behind front at overhead pulley level. Physically attached pulley bearings and load-bearing braces, not free floating discs. No crank/drum duplicating winch station, no cargo or ground slab.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-ed789395-a6b1-4642-8c6f-ab5fa2dd42be.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 125,
+    "recommended_opacity": 1,
+    "footprint_native_floor_bbox_estimated": [
+      336,
+      784,
+      1090,
+      944
+    ],
+    "connections_native_pixels_estimated": [
+      {
+        "id": "chain_w",
+        "x": 75,
+        "y": 700,
+        "normalized_canvas": [
+          0.05293,
+          0.63063
+        ],
+        "offset_from_canvas_center_world": [
+          -57.67,
+          13.2
+        ]
+      },
+      {
+        "id": "chain_e",
+        "x": 1344,
+        "y": 706,
+        "normalized_canvas": [
+          0.94848,
+          0.63604
+        ],
+        "offset_from_canvas_center_world": [
+          57.86,
+          13.75
+        ]
+      },
+      {
+        "id": "chain_n",
+        "x": 710,
+        "y": 131,
+        "normalized_canvas": [
+          0.50106,
+          0.11802
+        ],
+        "offset_from_canvas_center_world": [
+          0.14,
+          -38.6
+        ]
+      }
+    ],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Hub baixo com três guias fixados, sem insuladores/bateria/mastro. Linhas partem de terminais e percorrem rodas; não confundir com sinal elétrico.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1417,
+      1110
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      22,
+      75,
+      1395,
+      944
+    ],
+    "alpha_bbox": [
+      0,
+      19,
+      1401,
+      1110
+    ],
+    "transparent_percent": 72.17,
+    "minimum_visible_margin_px": 22,
+    "recommended_scale_from_canvas": 0.091042,
+    "resulting_visible_world_size": [
+      125,
+      79
+    ],
+    "resulting_world_canvas": [
+      129,
+      101
+    ],
+    "sha256": "049164e6e01e927a6e9ee9d5150ad692e3448a22101ed26e65cff81d10568737",
+    "approx_floor_contact_world_size": [
+      69,
+      15
+    ]
+  },
+  {
+    "name": "technical_control_kiosk_complete",
+    "path": "assets/reconstruction/amarras_parallel/technical_control_kiosk_complete.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. ONE new production-ready isolated RGBA in-game sprite for Passagem das Amarras, industrial logistics passage east/southeast of Forjas toward Engrenopolis, never a new forge or residential/dock district. Reference original_visual_benchmark.png controls exact hand-painted weathered rendering, camera and light. Elevated orthographic 3/4 TOP-DOWN from SOUTH looking NORTH, no diagonal isometric yaw, roofs/top surfaces dominate, short south faces. Diffuse upper-left daytime light; tight local contact shadow only at real feet. No surrounding ground/floor replacement tile, water scenery, people/text/night aesthetics. Preserve alpha0 outside physical object and through openings. Target10% clear extraction margin, all chains/flanges/footings complete, no clipped edges. Doors24-28px gameplay; furnace canvas340x293px, tall exhaust add-on184x321px; open smithy189x133; service vessel189x126; cargo capstan120-160px wide; supported connector100x36, short service catwalk220x56px. Numeric dimensions below refer to visible object excluding transparent margins. Visible repairs, friction wear, active maintained use; no random disconnected chain or abandoned ornamental wreck.\n\nPRODUCTION CONSTRAINTS:\n- exact elevated 3/4 top-down perspective matching the current Ferrugem Baixa sprites;\n- same lighting direction as the current map assets;\n- readable at gameplay zoom, not concept-art-only;\n- same rendering language as current hand-painted sprites;\n- transparent background for extraction;\n- clean silhouette;\n- clear ground contact;\n- visible foundation, feet, supports or anchoring where appropriate;\n- no floating elements;\n- no cinematic perspective;\n- no text;\n- no characters.\nMATERIALS:\n- dark stone, rusted iron, copper, patched timber, worn steel plates, soot, oil, grime.\nAREA IDENTITY:\n- Passagem das Amarras is not a forge district;\n- it is an industrial passage / transfer / anchoring / structural support area;\n- less furnace heat, more transport, restraint, tension, maintenance and edge infrastructure.\nQA REQUIREMENTS:\n- every asset must show how it touches or anchors to the ground;\n- every suspended or structural element needs visible support;\n- if chains/cables exist, they must have believable origin points;\n- if the asset interfaces with terrain edge or canal, show retaining or anchoring logic.\n\nMODULAR CONNECTION RULES:\n- explicit complete connection lugs, bolts, shackle/chain endpoints;\n- align ports to screen axes where specified;\n- no decorative floating chains, no long chains leaving frame;\n- contact shadows contained beneath real footings, no broad brown haze;\n- new variants differ in structural function, not just color;\n- no duplicated generic pipe, bridge, crane, capstan or electrical pole.\nEDIT TARGET: technical_control_kiosk.png. Remove the LONG CABLE that exits the LEFT canvas edge. Replace it with one fully contained short capped WEST service socket mounted to the actual hut wall brace; no disconnected cable leaving frame. Preserve compact roof, door, signal lantern, control lever, blank board, stone feet and exact camera. Recenter/reframe complete hut with10% alpha0 margin on all edges. Target visible width185px, door24px and hut smaller than house. No floor/ground/path backing; only tight foot contact shadow. All sockets complete and contained.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-72ac2b6b-43fa-4b41-afa7-d413fb147603.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "brief": "tools/CONSULTANT_AMARRAS_ASSETS.md",
+    "recommended_visible_world_width": 185,
+    "recommended_opacity": 1,
+    "footprint_native_floor_bbox_estimated": [
+      290,
+      910,
+      1205,
+      1037
+    ],
+    "connections_native_pixels_estimated": [
+      {
+        "id": "service_w",
+        "x": 220,
+        "y": 633,
+        "normalized_canvas": [
+          0.15625,
+          0.5667
+        ],
+        "offset_from_canvas_center_world": [
+          -87.44,
+          13.46
+        ]
+      },
+      {
+        "id": "door_s",
+        "x": 750,
+        "y": 930,
+        "normalized_canvas": [
+          0.53267,
+          0.83259
+        ],
+        "offset_from_canvas_center_world": [
+          8.31,
+          67.12
+        ]
+      }
+    ],
+    "connection_accuracy": "Visually estimated centers +/-10 native pixels; footprints approximate floor-contact bbox, not approved collision layout. Validate in scene.",
+    "notes": "Posto técnico com sinal/controle e porta~24px, sem bancada de loja/forja. Socket W curto completo, sem cabo cortado. Entrada sul deve ficar livre.",
+    "status": "delivered: static gameplay-scale and alpha QA; not scene-integrated",
+    "dimensions": [
+      1408,
+      1117
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bbox_gt16": [
+      201,
+      90,
+      1225,
+      1041
+    ],
+    "alpha_bbox": [
+      49,
+      39,
+      1232,
+      1075
+    ],
+    "transparent_percent": 53.49,
+    "minimum_visible_margin_px": 76,
+    "recommended_scale_from_canvas": 0.180664,
+    "resulting_visible_world_size": [
+      185,
+      172
+    ],
+    "resulting_world_canvas": [
+      254,
+      202
+    ],
+    "sha256": "aa795dc886f95c51a0bdf464caea5bb3691f449732fdcfae9fc0c3cee2851b45",
+    "approx_floor_contact_world_size": [
+      165,
+      23
+    ]
+  }
+]

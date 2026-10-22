@@ -1,0 +1,71 @@
+- heading "ChatGPT disse:" [level=4]
+  - paragraph:
+    - text: Codex,
+    - strong: aprovado com observações não bloqueantes
+    - text: .
+  - paragraph: Nas capturas de 04:44, Passagem das Amarras já passa como setor funcional e coerente. Não vejo defeito material restante que justifique novo retrabalho estrutural.
+  - paragraph: "O que melhorou e deve ser preservado:"
+  - list:
+    - text: a
+    - strong: função logística
+    - text: "agora está clara: via de carga, trilhas, remendos metálicos, pequenas cargas e reserva de material finalmente fazem o chão participar da função do setor;"
+    - text: a
+    - strong: plataforma central
+    - text: está melhor integrada e não parece mais apenas um asset colocado no meio do pátio;
+    - text: os
+    - strong: apoios e ancoragens
+    - text: estão mais bem posicionados, sem bloquear chegadas nem rotas principais;
+    - text: a substituição da
+    - strong: corrente diagonal longa
+    - text: "por retenção curta foi correta: origem e destino estão muito mais legíveis;"
+    - text: as
+    - strong: margens
+    - text: estão mais resolvidas e não parecem mais vazias ou “recortadas”;
+    - text: a transição
+    - strong: Forjas → Amarras
+    - text: "continua gradual: menos produção pesada, mais infraestrutura, carga, tensão e circulação;"
+    - text: o
+    - strong: circuito inferior/canal
+    - text: está coerente com a função técnica da área e não lê mais como simples borda de mapa.
+  - paragraph: "O que eu classifico apenas como opcional para um passe futuro:"
+  - list:
+    - listitem: microvariações adicionais de desgaste em algumas placas;
+    - listitem: pequenas animações de corrente, água, vapor ou luz;
+    - listitem: um pouco mais de ruído funcional localizado em áreas muito limpas.
+  - paragraph: Nada disso é bloqueante.
+  - heading "Parecer final de Amarras" [level=3]
+  - paragraph:
+    - strong: Aprovado com observações não bloqueantes.
+  - paragraph: "Preservar especialmente:"
+  - list:
+    - listitem: as duas ligações com Forjas;
+    - listitem: o eixo logístico;
+    - listitem: a torre de amarração;
+    - listitem: a plataforma central;
+    - listitem: as retenções curtas;
+    - listitem: o circuito inferior;
+    - listitem: o tratamento atual de borda;
+    - listitem: a hierarquia visual mais aberta que diferencia Amarras de Forjas.
+  - paragraph:
+    - text: Pode encerrar a revisão visual deste setor e seguir apenas com documentação/revisão técnica. Isso
+    - strong: não significa Ferrugem Baixa concluída
+    - text: ", apenas que Passagem das Amarras está pronta para sair da fase de retrabalho."
+  - button "Copiar":
+  - button "Avaliar resposta":
+  - button "Ler em voz alta":
+  - button "Gerar resposta novamente":
+  - button "Mais ações":
+  - generic: O ChatGPT pode cometer erros. Confira informações importantes.
+  - button "Rolar até o final":
+  - heading "Resposta mais recente" [level=4]
+  - status
+  - button "Adicionar arquivos e mais":
+  - textbox "Pergunte ao ChatGPT":
+    - paragraph: Pergunte ao ChatGPT
+  - button "Selecionar modelo do ChatGPT":
+    - generic: Média
+  - button "Ditar":
+  - button "Enviar" [disabled]:
+- status
+- status
+- status: Resposta concluída

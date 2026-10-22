@@ -1,0 +1,10 @@
+PROMPT NANO BANANA:
+Game asset, isometric 3/4 top-down view, same camera angle and painted style as the reference images. A hydraulic pump machine with heavy cast-iron base in a steampunk goblin underground sewer. Heavily detailed hand-painted texture: rusted cast iron, oxidized copper, turquoise green patina, iron rivets, brass fittings, flanged pipes, small brass pressure gauge with needle. Warm amber lighting from the upper left, subtle green ambient bounce from toxic sewer fluid. Visible open pipe stubs and flanged ports: 1 inlet flanged pipe on left side, 1 outlet flanged pipe on right side, 1 maintenance hand-wheel valve on front. Sits flat on a diamond shaped riveted iron base plate. State: functional. Isolated on a flat solid magenta (#FF00FF) background, no floor, no cast shadow on the background, no text, no UI, no characters, no watermark, sharp edges, centered, full object visible with margin.
+
+ESPECIFICAÇÕES TÉCNICAS:
+- Tipo: Bomba Hidráulica Principal
+- Estado: Funcional
+- Entradas/Saídas: Flange aberta à esquerda (sucção), flange aberta à direita (recalque), volante frontal (registro)
+- Base: Losango rebitado de ferro fundido apoiado no piso
+- Iluminação: Âmbar superior-esquerda, bounce verde tóxico
+- Dimensões: 768px (escala operável por goblin)

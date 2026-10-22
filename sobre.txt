@@ -1,0 +1,748 @@
+1. VISÃO GERAL DO PROJETO
+O jogo será um RPG 2D top-down de mundo vivo, com forte foco em liberdade, consequência, exploração, simulação social e narrativa emergente.
+A principal filosofia do projeto é:
+O mundo não gira em torno do jogador. O jogador é apenas mais uma pessoa dentro dele.
+
+O protagonista não nasce como escolhido, herói profetizado ou figura importante. Ele começa como um indivíduo comum de uma das raças mais marginalizadas do mundo.
+Se ele se tornar importante, isso acontecerá pelas ações realizadas durante o jogo.
+2. PRINCÍPIOS FUNDAMENTAIS
+2.1 Toda ação possui uma reação
+Uma das regras centrais do jogo será:
+Nenhuma ação relevante acontece isoladamente.
+
+O jogador poderá agir com grande liberdade, mas essas ações poderão gerar consequências.
+Exemplos:
+- roubar;
+- matar;
+- ajudar;
+- destruir;
+- comprar;
+- vender;
+- sabotar;
+- incendiar;
+- enganar;
+- salvar;
+- abandonar;
+- denunciar;
+- contrabandear;
+- explorar;
+- interferir em conflitos.
+Essas ações podem afetar:
+- NPCs;
+- famílias;
+- cidades;
+- facções;
+- preços;
+- comércio;
+- reputação;
+- segurança;
+- guerras;
+- disponibilidade de itens;
+- relações entre povos.
+3. O MUNDO É VIVO
+O mundo continua funcionando mesmo quando o jogador não está presente.
+NPCs não existem apenas esperando interação.
+Eles podem:
+- trabalhar;
+- viajar;
+- comerciar;
+- formar relações;
+- mudar de profissão;
+- participar de conflitos;
+- se mudar;
+- enriquecer;
+- empobrecer;
+- cometer crimes;
+- morrer;
+- criar rivalidades;
+- criar famílias;
+- subir socialmente;
+- perder poder.
+Cidades também podem mudar.
+Uma cidade pode:
+- crescer;
+- sofrer escassez;
+- entrar em guerra;
+- mudar de governo;
+- fechar fronteiras;
+- receber refugiados;
+- perder rotas comerciais;
+- sofrer epidemias;
+- tornar-se mais rica ou mais pobre.
+4. NÃO EXISTE UMA MAIN QUESTLINE
+O jogo não terá uma história principal tradicional.
+Não haverá uma missão definitiva dizendo ao jogador:
+“Você precisa salvar o mundo.”
+
+Em vez disso, haverá diversos acontecimentos simultâneos.
+Podem existir:
+- guerras;
+- revoluções;
+- epidemias;
+- descobertas;
+- conflitos religiosos;
+- disputas comerciais;
+- crimes;
+- crises políticas;
+- migrações;
+- invasões;
+- catástrofes;
+- ascensão e queda de líderes.
+O jogador decide em quais desses acontecimentos deseja participar.
+5. NARRATIVA EMERGENTE
+A história do jogador será construída pelas experiências dele.
+Dois jogadores podem ter jornadas completamente diferentes.
+Um jogador pode se tornar:
+- comerciante;
+- criminoso;
+- mercenário;
+- explorador;
+- político;
+- líder;
+- artesão;
+- contrabandista;
+- caçador;
+- revolucionário;
+- aventureiro;
+- pessoa completamente desconhecida.
+Nenhuma dessas rotas precisa ser considerada “secundária”.
+6. NENHUMA HISTÓRIA PRECISA ESPERAR O JOGADOR
+Outro princípio fundamental:
+Os acontecimentos não congelam esperando o jogador.
+
+Se alguém disser que viajará em três dias, essa pessoa pode realmente partir.
+Se uma execução ocorrer amanhã, o jogador pode perder o acontecimento.
+Se houver um cerco, ele pode terminar sem intervenção.
+Isso aumenta a sensação de que o mundo existe independentemente do jogador.
+7. REFERÊNCIA DE WORLDBUILDING
+Uma das principais referências conceituais para a construção do mundo é a sensação de descoberta encontrada em One Piece.
+Não serão copiados personagens, lugares ou culturas.
+A inspiração está principalmente em:
+- regiões extremamente diferentes entre si;
+- culturas marcantes;
+- povos únicos;
+- conflitos locais;
+- sensação de um mundo gigantesco;
+- figuras lendárias espalhadas pelo mundo;
+- acontecimentos acontecendo muito longe do protagonista;
+- notícias que conectam diferentes lugares;
+- mistérios históricos;
+- territórios desconhecidos.
+Cada grande região deve parecer quase um pequeno mundo próprio.
+8. NOTÍCIAS E INFORMAÇÃO
+O jogador poderá descobrir acontecimentos através de:
+- jornais;
+- mensageiros;
+- tavernas;
+- rumores;
+- viajantes;
+- comerciantes;
+- cartas;
+- tecnologia arcana;
+- murais públicos.
+Exemplo:
+“Uma fortaleza caiu durante a madrugada.”
+
+Isso pode significar que:
+- uma rota comercial fechou;
+- refugiados aparecerão;
+- determinado item ficará caro;
+- novas patrulhas surgirão;
+- uma facção ganhará território.
+9. O MAPA NÃO PRECISA SER COMPLETAMENTE CONHECIDO
+O jogador pode começar conhecendo somente uma pequena parte do mundo.
+Novas informações podem surgir através de:
+- exploração;
+- mapas comprados;
+- viajantes;
+- bibliotecas;
+- documentos;
+- cartógrafos;
+- marinheiros;
+- ruínas.
+Algumas informações podem estar erradas.
+Um mapa antigo pode mostrar uma cidade que já não existe.
+Um viajante pode mentir.
+Um reino pode deliberadamente publicar mapas incorretos.
+10. DIREÇÃO ARTÍSTICA GERAL
+O estilo visual busca uma combinação original de:
+- fantasia medieval;
+- cyberpunk arcano;
+- fantasia sombria;
+- pintura digital desenhada à mão;
+- arquitetura gótica;
+- tecnologia antiga;
+- decadência;
+- cores fortes utilizadas com moderação;
+- personagens estilizados;
+- cenários monumentais.
+As referências iniciais incluem sensações presentes em obras com:
+- pintura digital expressiva;
+- fantasia sombria artesanal;
+- silhuetas muito marcantes;
+- atmosferas melancólicas;
+- forte linguagem visual.
+A intenção não é copiar diretamente nenhum estilo existente.
+11. TECNOLOGIA DO MUNDO
+Não será cyberpunk moderno.
+Evitar:
+- carros modernos;
+- prédios contemporâneos;
+- excesso de hologramas;
+- tecnologia limpa;
+- estética futurista genérica.
+A tecnologia deste mundo será:
+- antiga;
+- arcana;
+- mecânica;
+- improvisada;
+- perigosa;
+- integrada à arquitetura medieval.
+Elementos possíveis:
+- cristais;
+- runas;
+- próteses;
+- mecanismos;
+- cabos;
+- engrenagens;
+- fontes mágicas;
+- máquinas movidas por energia arcana.
+12. PERSONAGEM PRINCIPAL
+O protagonista será um goblin.
+Isso quebra a tradição de utilizar um humano como personagem principal.
+Características já definidas:
+- goblin;
+- pequeno;
+- fisicamente fraco;
+- magro;
+- ágil;
+- cabelo vermelho;
+- pele verde-oliva;
+- orelhas pontudas;
+- inteligência prática;
+- aparência de sobrevivente.
+13. O CABELO VERMELHO
+O cabelo vermelho será uma das assinaturas visuais do personagem.
+Características sugeridas:
+- vermelho escarlate;
+- bagunçado;
+- volumoso;
+- fácil de reconhecer;
+- altamente visível na perspectiva top-down.
+Ele servirá como principal ponto focal do sprite.
+14. A POSIÇÃO DOS GOBLINS NO MUNDO
+Os goblins são considerados por muitas culturas como uma das raças mais fracas.
+São frequentemente vistos como:
+- pobres;
+- descartáveis;
+- ladrões;
+- sucateiros;
+- trabalhadores de baixo nível;
+- sobreviventes.
+Mas existe uma diferença entre reputação e realidade.
+Na prática, eles desenvolveram capacidades extraordinárias de:
+- adaptação;
+- improvisação;
+- reaproveitamento;
+- sobrevivência;
+- engenharia informal.
+15. POSSÍVEL DIFERENCIAL DO PROTAGONISTA
+O protagonista não precisa ter um “poder escolhido”.
+Seu diferencial pode surgir naturalmente da cultura goblin.
+Ele pode ser muito bom em:
+- reaproveitar equipamentos;
+- modificar armas;
+- combinar tecnologias;
+- adaptar artefatos de outras culturas.
+Isso poderia inclusive virar uma mecânica central.
+16. PRINCIPAIS POVOS E RAÇAS
+Até o momento foram estabelecidos ou sugeridos:
+Goblins
+Pequenos, marginalizados, altamente adaptáveis.
+Humanos
+Diversificados culturalmente e espalhados por várias regiões.
+Orcs
+Fortes, conhecidos por metalurgia, disciplina e tradição guerreira.
+Povo da Lua
+Seres ligados a ciclos lunares, magia fria e tradições celestiais.
+Roinares
+Civilização antiga, sofisticada e ligada à engenharia de precisão.
+Élficos de Chifres
+Povo de aparência élfica com características bovinas, grandes chifres e cultura antiga.
+Pao-Shen
+Civilização panda isolada durante séculos.
+Outras raças poderão ser adicionadas futuramente.
+17. AS 12 GRANDES REGIÕES DO MUNDO
+17.1 VHAL-KOR
+A Cidade das Mil Torres
+Uma das maiores metrópoles do mundo.
+Características:
+- crescimento vertical;
+- torres góticas;
+- pontes;
+- cabos;
+- catedrais;
+- elevadores arcanos;
+- bairros empilhados;
+- desigualdade social.
+Quanto mais alto alguém vive, geralmente maior seu poder.
+Os níveis inferiores são ocupados principalmente por trabalhadores e populações marginalizadas.
+Vhal-Kor funciona como grande centro:
+- comercial;
+- político;
+- tecnológico;
+- cultural.
+17.2 GRUN-KHAZ
+Terras do Ferro Vermelho
+Grande território associado principalmente aos orcs.
+Características:
+- montanhas vermelhas;
+- cânions;
+- minas;
+- fortalezas;
+- fundições;
+- máquinas pesadas.
+Os orcs possuem uma das tradições metalúrgicas mais avançadas do mundo.
+Sua tecnologia tende a ser:
+- grande;
+- pesada;
+- robusta;
+- durável.
+O principal problema regional pode ser o esgotamento gradual de recursos minerais.
+17.3 LUNARETH
+Domínio da Lua
+Terra do Povo da Lua.
+Características:
+- lagos escuros;
+- montanhas;
+- cidades brancas;
+- prata;
+- observatórios;
+- florestas bioluminescentes;
+- fenômenos lunares.
+A cultura local é profundamente influenciada pelos ciclos da lua.
+Alguns aspectos da vida social podem depender das fases lunares.
+17.4 THER'VALEN
+Florestas dos Chifres
+Região dos élficos de chifres.
+Características:
+- árvores gigantes;
+- rios;
+- templos;
+- cidades integradas às florestas;
+- arquitetura orgânica;
+- pontes entre árvores.
+Os chifres possuem importância cultural.
+Podem representar:
+- família;
+- profissão;
+- posição;
+- feitos.
+A sociedade busca integrar tecnologia e natureza.
+17.5 RHOINAR
+Mar de Vidro
+Grande deserto de areia cristalizada.
+Características:
+- dunas brilhantes;
+- reflexos;
+- cidades subterrâneas;
+- ruínas;
+- calor intenso;
+- construções geométricas.
+Os Roinares são uma das civilizações mais antigas ainda existentes.
+Possuem grande tradição de engenharia.
+17.6 BRUMAFENDA
+Arquipélago das Tempestades
+Grande região marítima.
+Características:
+- inúmeras ilhas;
+- tempestades;
+- portos;
+- piratas;
+- comerciantes;
+- contrabandistas;
+- navegadores.
+Cada ilha pode possuir cultura própria.
+Brumafenda será excelente para aventuras independentes e descobertas inesperadas.
+17.7 FERRUGEM BAIXA
+Reino Sem Reis
+Uma das principais regiões goblins.
+Foi usada durante muito tempo como:
+- depósito;
+- ferro-velho;
+- zona industrial abandonada;
+- descarte tecnológico.
+Os goblins transformaram tudo isso em civilização.
+Características:
+- sucata;
+- torres improvisadas;
+- máquinas;
+- oficinas;
+- bairros industriais;
+- tecnologia reaproveitada.
+17.8 A COROA PARTIDA
+Antigo território de um grande reino humano.
+Hoje está fragmentado.
+Possui:
+- pequenos reinos;
+- cidades independentes;
+- repúblicas comerciais;
+- famílias nobres;
+- companhias mercenárias.
+As fronteiras podem mudar ao longo do jogo.
+17.9 NHAL-ZARETH
+Terras Mortas
+Região destruída por uma antiga catástrofe arcana.
+Características:
+- pedras flutuantes;
+- rios anormais;
+- crateras;
+- sombras estranhas;
+- terreno deformado;
+- ruínas.
+As próprias leis naturais parecem instáveis.
+17.10 A ESPINHA DO MUNDO
+Enorme cadeia de montanhas.
+Características:
+- picos gigantes;
+- neve;
+- mosteiros;
+- fortalezas;
+- passagens comerciais;
+- pontes sobre precipícios.
+Controlar uma passagem da Espinha pode representar enorme poder econômico.
+17.11 KHEMET-RA
+Império Sepultado
+Localização continental:
+- Fica situada diretamente a Oeste (à esquerda) de Sucateia / Ferrugem Baixa.
+- Acessada pela expansão da costa oeste, transicionando do solo avermelhado de minério de ferro para dunas e areias do deserto sepultado.
+Região inspirada nas grandes civilizações antigas do deserto.
+Khemet-Ra já foi possivelmente a maior civilização do mundo.
+Hoje restam:
+- pirâmides;
+- templos;
+- obeliscos;
+- cidades soterradas;
+- estátuas;
+- ruínas.
+Sua tecnologia antiga pode ser mais avançada que muita tecnologia moderna.
+Conceito importante:
+alma, memória e energia talvez fossem vistas como manifestações da mesma coisa.
+
+Isso pode permitir máquinas capazes de preservar memórias.
+A queda de Khemet-Ra permanece um mistério.
+17.12 SHEN-PAO
+Vale Esquecido
+Região da civilização Pao-Shen.
+Durante séculos, muitas pessoas acreditaram que esse povo havia desaparecido.
+Na realidade, eles escolheram o isolamento.
+Características:
+- montanhas;
+- vales;
+- bambu;
+- cachoeiras;
+- templos;
+- pontes;
+- vilas em terraços;
+- neblina.
+A tecnologia Pao-Shen utiliza:
+- água;
+- vento;
+- calor;
+- ciclos naturais.
+Sua sociedade atualmente debate se deve continuar isolada ou retornar ao mundo.
+18. RELAÇÃO ANTIGA ENTRE KHEMET-RA E SHEN-PAO
+Uma conexão histórica foi sugerida.
+Quando Khemet-Ra estava no auge, os Pao-Shen possivelmente mantinham contato diplomático com eles.
+As duas culturas possuíam filosofias diferentes.
+Khemet-Ra:
+Conhecimento existe para superar os limites da natureza.
+
+Shen-Pao:
+Conhecimento existe para compreender os limites da natureza.
+
+Ruínas de Khemet-Ra podem conter representações de Pao-Shen.
+Isso permitiria descobertas históricas importantes sem criar uma main quest obrigatória.
+19. ECONOMIA E INTERDEPENDÊNCIA REGIONAL
+As regiões precisam afetar umas às outras.
+Exemplo:
+Se Grun-Khaz interromper exportações de ferro:
+- armas ficam mais caras;
+- oficinas podem parar;
+- comerciantes procuram alternativas.
+Se Brumafenda sofrer bloqueios piratas:
+- produtos marítimos desaparecem;
+- cidades costeiras sofrem;
+- outras rotas ficam mais valiosas.
+Se houver guerra na Coroa Partida:
+- refugiados aparecem;
+- fronteiras fecham;
+- preços mudam;
+- exércitos bloqueiam estradas.
+20. O MAPA DO MUNDO
+Foram estabelecidas duas versões visuais principais.
+Versão artística
+Mapa sem necessidade de grandes quantidades de texto.
+Serve para:
+- concept art;
+- material promocional;
+- tela de carregamento;
+- apresentação do mundo.
+Versão cartográfica
+Inclui:
+- nomes;
+- estradas;
+- rios;
+- cidades;
+- rotas;
+- fronteiras;
+- símbolos;
+- legenda.
+Serve como mapa interno do jogo e referência de desenvolvimento.
+21. MAPAS DO JOGADOR
+O jogador não precisa possuir a versão perfeita do mapa desde o começo.
+Existem possibilidades para:
+- mapas regionais;
+- mapas incompletos;
+- mapas antigos;
+- mapas incorretos;
+- mapas militares;
+- mapas comerciais;
+- mapas clandestinos.
+A cartografia pode se tornar uma mecânica real.
+22. TELA PRINCIPAL
+Uma key art para o menu principal já foi explorada.
+Composição definida:
+- goblin protagonista em primeiro plano;
+- cabelo vermelho em destaque;
+- representantes de outras raças;
+- cidade gigantesca ao fundo;
+- arquitetura medieval cyberpunk;
+- grande escala.
+A tela deve comunicar:
+Este mundo pertence aos fortes, mas acompanhamos alguém considerado fraco.
+
+23. ANIMAÇÃO DA TELA INICIAL
+A arte pode utilizar uma animação sutil em loop.
+Elementos definidos:
+Protagonista
+- cabelo se movendo;
+- respiração;
+- piscadas;
+- movimentos discretos dos olhos;
+- brilho no equipamento.
+Personagens secundários
+- respiração;
+- tecidos;
+- cabelo;
+- pequenos efeitos luminosos.
+Fundo
+- névoa;
+- fumaça;
+- bandeiras;
+- nuvens;
+- luzes;
+- aeronaves distantes;
+- energia arcana.
+Câmera
+- parallax;
+- zoom muito leve.
+Loop sugerido:
+8–15 segundos.
+24. CIDADE PRINCIPAL DOS GOBLINS
+A cidade goblin foi inicialmente chamada de:
+SUCATEIA
+O nome ainda pode ser alterado.
+Ela fica dentro de:
+FERRUGEM BAIXA
+25. FILOSOFIA DE SUCATEIA
+Sucateia não deve ser simplesmente uma “favela de goblins”.
+A ideia é:
+Uma cidade construída com restos de outras civilizações que, contra todas as expectativas, funciona.
+
+De longe ela parece caótica.
+De perto revela engenharia, inteligência e criatividade.
+26. IDENTIDADE VISUAL DE SUCATEIA
+Elementos principais:
+- ferro enferrujado;
+- cobre;
+- madeira reaproveitada;
+- cabos;
+- tubos;
+- correntes;
+- vidro quebrado;
+- máquinas antigas;
+- sucata;
+- cristais;
+- luzes improvisadas.
+As construções são:
+- assimétricas;
+- tortas;
+- empilhadas;
+- interconectadas;
+- extremamente densas.
+27. BELEZA ACIDENTAL
+Sucateia possui uma beleza própria.
+Exemplos:
+- energia azul escapando de tubos;
+- lanternas improvisadas;
+- placas pintadas;
+- vitrais reaproveitados;
+- faíscas;
+- vapor;
+- máquinas funcionando de maneiras inesperadas.
+A cidade deve possuir um visual que diga:
+não foi planejado para ser bonito, mas acabou se tornando belo.
+
+28. DISTRITOS DE SUCATEIA
+Alto-Lixo
+Região elevada.
+Características:
+- casas empilhadas;
+- torres;
+- mercados;
+- antenas;
+- passarelas.
+Forjas Rasas
+Área industrial.
+Características:
+- oficinas;
+- fundições;
+- reparos;
+- fabricação;
+- reciclagem.
+Os Cabos
+Distrito suspenso.
+Características:
+- passarelas;
+- pontes;
+- casas penduradas;
+- linhas de energia;
+- mensageiros;
+- contrabando.
+Fundo-Ferro
+Camadas inferiores.
+Características:
+- túneis;
+- esgotos;
+- máquinas abandonadas;
+- criaturas;
+- gangues;
+- ruínas.
+Pode servir como dungeon urbana.
+Mercado dos Restos
+Grande mercado.
+Vende:
+- sucata;
+- armas;
+- mapas;
+- cristais;
+- relíquias;
+- próteses;
+- tecnologia;
+- objetos roubados.
+Coroa de Lata
+Centro de poder goblin.
+Não é um palácio clássico.
+Pode ser uma enorme torre construída a partir de artefatos e estruturas antigas.
+29. SOCIEDADE GOBLIN
+Externamente, os goblins são frequentemente vistos como:
+- fracos;
+- ladrões;
+- sujos;
+- inferiores;
+- oportunistas.
+Internamente, a sociedade valoriza:
+- criatividade;
+- habilidade;
+- sobrevivência;
+- capacidade de consertar;
+- capacidade de conseguir recursos;
+- utilidade para a comunidade.
+Uma pessoa pode conquistar respeito através de competência, e não necessariamente por nascimento.
+30. LANDMARKS DE SUCATEIA
+O Coração Fumegante
+Grande máquina ou reator que alimenta parte da cidade.
+Ponte das Correntes
+Enorme estrutura suspensa.
+Poço Velho
+Entrada para níveis inferiores.
+Torre do Catador-Rei
+Grande estrutura simbólica.
+Mercado dos Mil Parafusos
+Maior mercado de sucata.
+Usina Quebrada
+Antiga instalação parcialmente operacional.
+31. PALETA VISUAL DE SUCATEIA
+Base:
+- ferrugem;
+- carvão;
+- cobre;
+- cinza;
+- marrom;
+- verde sujo.
+Acentos:
+- ciano;
+- azul elétrico;
+- âmbar;
+- laranja;
+- violeta em pequenas quantidades.
+32. TOM EMOCIONAL DE SUCATEIA
+A cidade mistura:
+- pobreza;
+- decadência;
+- criatividade;
+- sobrevivência;
+- humor;
+- orgulho;
+- barulho;
+- atividade constante.
+Não deve ser um lugar totalmente triste.
+Existe comunidade e vida.
+33. PRINCÍPIO VISUAL DOS GOBLINS
+Uma frase resume muito bem o povo:
+Eles não receberam quase nada, então aprenderam a fazer tudo com o pouco que tinham.
+
+Isso pode se tornar um dos temas fundamentais do jogo.
+34. PRÓXIMA FASE DO PROJETO
+Como você decidiu priorizar o mundo antes do personagem, o melhor fluxo daqui para frente é:
+1. fechar visualmente Sucateia;
+2. criar seus principais distritos;
+3. definir arquitetura goblin;
+4. criar objetos e tecnologia goblin;
+5. criar interiores;
+6. criar habitantes;
+7. estabelecer economia e governo;
+8. depois repetir o processo nas demais regiões.
+Assim, quando finalmente criarmos o protagonista, ele parecerá realmente ter nascido dentro desse universo.
+35. STATUS ATUAL
+Até agora, temos principalmente:
+- conceitos;
+- imagens de referência;
+- mapas conceituais;
+- key art;
+- direção visual;
+- worldbuilding inicial.
+Ainda não existe necessidade de considerar nada totalmente definitivo.
+Isso é positivo.
+Estamos na fase correta para alterar:
+- nomes;
+- proporções;
+- culturas;
+- regiões;
+- arquitetura;
+- sistemas.
+Antes de começarmos programação pesada, esse material pode evoluir bastante.
+FRASES-CHAVE DO PROJETO
+Algumas frases que resumem muito bem a identidade criada até aqui:
+O mundo não gira em torno do jogador.
+
+Você não nasceu protagonista. Você se torna protagonista pelas consequências que deixa no mundo.
+
+Não existe uma história principal. Existe um mundo cheio de histórias.
+
+Nenhuma história precisa esperar pelo jogador.
+
+Toda ação possui uma reação.
+
+Os goblins não são incapazes. Eles aprenderam a sobreviver com aquilo que o resto do mundo descartou.

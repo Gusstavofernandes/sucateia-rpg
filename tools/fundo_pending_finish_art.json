@@ -1,0 +1,18 @@
+[
+  {
+    "name": "fundo_sorting_bank",
+    "path": "assets/reconstruction/fundo_sorting_bank.png",
+    "source": "exec-88ee4f02-40c3-4ffc-9b3a-de20ca7d3fb5.png",
+    "prompt": "Use case: stylized-concept. Production ready TRANSPARENT 2D game asset for Sucateia Fundo-Ferro, dark goblin medieval arcane-industrial salvage city, handpainted detailed corroded iron, damp stone, rusty copper, reclaimed timber, subdued amber and cyan. Elevated orthographic 3/4 TOP-DOWN camera, roof/top planes dominate 75%, short front sides, light upper left, no frontal/isometric concept art. One low long irregular SALVAGE SORTING WORKBENCH with three connected sorting bins of dismantled copper pipes, scrap gears and reclaimed iron, a battered sieve tray, old vice, dirty work surface and tool hooks. Complete connected assembly, not isolated props; usable placed against a chamber wall leaving the aisle below clear. Around 280 world pixels wide and 95 world pixels deep. Broken boards, patched metal supports, subtle oil stains on its own narrow base, no surrounding floor or room, no people, no labels, no text or logos. Fully transparent outside object with margin. Function: triage and discarded industrial materials in underground service district.",
+    "method": "built-in image_gen",
+    "status": "generated before priority changed; not integrated"
+  },
+  {
+    "name": "fundo_collapsed_corner",
+    "path": "assets/reconstruction/fundo_collapsed_corner.png",
+    "source": "exec-c8dc57f6-99b2-4f25-8897-f2401e4c2d02.png",
+    "prompt": "Use case: stylized-concept. Transparent production sprite for Sucateia goblin medieval industrial underground ruins. Elevated orthographic 3/4 top-down, 80% top visible, short front walls, hand-painted rusty iron stone copper reclaimed timber, upper-left dim diffuse light matching dark damp Sucateia game art. ONE connected COLLAPSED FOUNDATION CORNER: two low thick old masonry wall remnants at a right angle, partially broken arch pier, rusty support girder fallen inward, crumbled stone and old gears trapped among fallen blocks, root/cable entangled in masonry. The broken wall pieces form one architectural remnant, with a clearly open concave corner for circulation to run alongside, no complete roof or house, no full room. Ground contact debris limited to its own narrow footprint; transparent outside. Around 240 world pixels wide, 130 depth. Ancient ruined engineering foundation, asymmetrical irregular edges, restrained oxidized cyan traces, no glowing active machinery. No characters/text/background/landscape, no surrounding floor. Strong top-down reading, not a frontal concept painting. All edges in frame with transparent margin.",
+    "method": "built-in image_gen",
+    "status": "generated before priority changed; not integrated"
+  }
+]

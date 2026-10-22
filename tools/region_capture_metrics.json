@@ -1,0 +1,57 @@
+[
+  {
+    "id": "alto",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE alto 0 draws=174.0 nodes=290.0\r\n"
+  },
+  {
+    "id": "forjas",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE forjas 0 draws=165.0 nodes=265.0\r\n"
+  },
+  {
+    "id": "fundo",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE fundo 0 draws=155.0 nodes=241.0\r\n"
+  },
+  {
+    "id": "cabos",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE cabos 0 draws=119.0 nodes=209.0\r\n"
+  },
+  {
+    "id": "docas",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE docas 0 draws=154.0 nodes=246.0\r\n"
+  },
+  {
+    "id": "grande",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE grande 0 draws=152.0 nodes=225.0\r\n"
+  },
+  {
+    "id": "chamines",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE chamines 0 draws=157.0 nodes=232.0\r\n"
+  },
+  {
+    "id": "coroa",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE coroa 0 draws=119.0 nodes=200.0\r\n"
+  },
+  {
+    "id": "coast",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE res://maps/sucateia/preview_coast.png 0 draw_calls=212.0 nodes=949.0\r\n"
+  },
+  {
+    "id": "transition",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE res://maps/sucateia/preview_transition.png 0 draw_calls=339.0 nodes=949.0\r\n"
+  },
+  {
+    "id": "centre",
+    "exit_code": 0,
+    "output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\nOpenGL API 3.3.0 Core Profile Context 25.10.30.11.251117 - Compatibility - Using Device: ATI Technologies Inc. - AMD RadeonT 610M\r\n\r\nCAPTURE res://maps/sucateia/preview_centre.png 0 draw_calls=396.0 nodes=949.0\r\n"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "asset": "assets/reconstruction/alto_residential_landing.png",
+  "generator": "OpenAI integrated image generation",
+  "source": "C:/Users/Usuario/.codex/generated_images/01a0face-adf4-7ef0-984c-cb5ad576e7b1/exec-66a8313d-0302-4f7d-b59a-209309b0b205.png",
+  "references": ["tools/checkpoints/original_visual_benchmark.png", "assets/infrastructure/retaining_edge.png"],
+  "purpose": "Four communal terrace landings within the existing Alto-Lixo residential floor",
+  "prompt": "One production-ready transparent residential goblin terrace/communal landing module. Match original Sucateia painted weathered medieval cyberpunk style, materials, palette and lighting. Elevated orthographic top-down 3/4 from south, dominant walking top, short retaining face. Broad shallow irregular platform with patched stone slabs, rusted metal grate, reused timber, damp drains, riveted supports, short center stair, small rear-side storage canopy, uneven chain rails leaving center access open, amber lantern, cables and pipes. Fully visible; no surrounding terrain/water, buildings, people, text, technical rectangle or scene illustration.",
+  "mode": "built-in transparent generation; original alpha retained"
+}

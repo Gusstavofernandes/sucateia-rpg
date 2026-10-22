@@ -1,0 +1,2637 @@
+{
+  "method": "static declarations; prior clean verification logs cited separately; no new engine execution",
+  "active_main_scene": "maps/sucateia/sucateia.tscn",
+  "surface": {
+    "path": "maps/sucateia/sucateia.tscn",
+    "sha256": "66cb59e09e87f74e40d9a6e19cd93cdd71d484f6ca3a672409defb3b8c29a191",
+    "nodes": 5584,
+    "root_children": [
+      "Ground",
+      "GroundDetails",
+      "Structures",
+      "Lighting",
+      "Foreground",
+      "RouteMarkers",
+      "DistantCity",
+      "TerrainIntegration",
+      "FinishedInfrastructure",
+      "IndustrialRunoff",
+      "ChannelNorth",
+      "ChannelSouth",
+      "GoblinIndustrialQuay",
+      "IndustrialSea",
+      "WestWaterline",
+      "EastWaterline",
+      "WestCoastalBarrier",
+      "EastCoastalBarrier",
+      "SouthWaterline",
+      "SouthCoastalBarrier",
+      "AirAndVignette",
+      "MapInfo",
+      "RegionPortals",
+      "RegionalContinuity",
+      "MarketIntegration",
+      "MarketDistrict",
+      "AltoLixoDistrict",
+      "LowerCoastReworked",
+      "ForjasRasasDistrict",
+      "LayerEntrances",
+      "LayerArrivals",
+      "PassagemAmarrasDistrict",
+      "CabosDistrict",
+      "DocasDistrict"
+    ],
+    "markers": [
+      {
+        "name": "chain_w",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/TorreDeTensao/Ports",
+        "path": "Structures/AmarrasInfrastructure/TorreDeTensao/Ports/chain_w",
+        "properties": {
+          "position": "Vector2(-66.19219, -174.02141)"
+        }
+      },
+      {
+        "name": "chain_e",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/TorreDeTensao/Ports",
+        "path": "Structures/AmarrasInfrastructure/TorreDeTensao/Ports/chain_e",
+        "properties": {
+          "position": "Vector2(68.86124, -151.2456)"
+        }
+      },
+      {
+        "name": "chain_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/TorreDeTensao/Ports",
+        "path": "Structures/AmarrasInfrastructure/TorreDeTensao/Ports/chain_n",
+        "properties": {
+          "position": "Vector2(29.537376, -204.80434)"
+        }
+      },
+      {
+        "name": "chain_in_w",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/GuinchoDeTracao/Ports",
+        "path": "Structures/AmarrasInfrastructure/GuinchoDeTracao/Ports/chain_in_w",
+        "properties": {
+          "position": "Vector2(-71.38177, -39.71617)"
+        }
+      },
+      {
+        "name": "chain_out_e",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/GuinchoDeTracao/Ports",
+        "path": "Structures/AmarrasInfrastructure/GuinchoDeTracao/Ports/chain_out_e",
+        "properties": {
+          "position": "Vector2(71.16708, -39.93085)"
+        }
+      },
+      {
+        "name": "chain_w",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/DistribuidorMecanico/Ports",
+        "path": "Structures/AmarrasInfrastructure/DistribuidorMecanico/Ports/chain_w",
+        "properties": {
+          "position": "Vector2(-57.675106, -22.214247)"
+        }
+      },
+      {
+        "name": "chain_e",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/DistribuidorMecanico/Ports",
+        "path": "Structures/AmarrasInfrastructure/DistribuidorMecanico/Ports/chain_e",
+        "properties": {
+          "position": "Vector2(57.85719, -21.667995)"
+        }
+      },
+      {
+        "name": "chain_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/DistribuidorMecanico/Ports",
+        "path": "Structures/AmarrasInfrastructure/DistribuidorMecanico/Ports/chain_n",
+        "properties": {
+          "position": "Vector2(0.136563, -74.01714)"
+        }
+      },
+      {
+        "name": "service_w",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PostoDeControle/Ports",
+        "path": "Structures/AmarrasInfrastructure/PostoDeControle/Ports/service_w",
+        "properties": {
+          "position": "Vector2(-87.441376, -72.98826)"
+        }
+      },
+      {
+        "name": "door_s",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PostoDeControle/Ports",
+        "path": "Structures/AmarrasInfrastructure/PostoDeControle/Ports/door_s",
+        "properties": {
+          "position": "Vector2(8.310544, -19.331047)"
+        }
+      },
+      {
+        "name": "dock_w",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports",
+        "path": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports/dock_w",
+        "properties": {
+          "position": "Vector2(-104.54391, -55.72765)"
+        }
+      },
+      {
+        "name": "dock_e",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports",
+        "path": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports/dock_e",
+        "properties": {
+          "position": "Vector2(104.54391, -55.72765)"
+        }
+      },
+      {
+        "name": "tie_nw",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports",
+        "path": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports/tie_nw",
+        "properties": {
+          "position": "Vector2(-41.83211, -80.89967)"
+        }
+      },
+      {
+        "name": "tie_ne",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports",
+        "path": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports/tie_ne",
+        "properties": {
+          "position": "Vector2(41.541107, -80.89967)"
+        }
+      },
+      {
+        "name": "tie_sw",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports",
+        "path": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports/tie_sw",
+        "properties": {
+          "position": "Vector2(-41.83211, -41.468357)"
+        }
+      },
+      {
+        "name": "tie_se",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports",
+        "path": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports/tie_se",
+        "properties": {
+          "position": "Vector2(41.541107, -41.468357)"
+        }
+      },
+      {
+        "name": "step_s",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports",
+        "path": "Structures/AmarrasInfrastructure/PlataformaDeTransferencia/Ports/step_s",
+        "properties": {
+          "position": "Vector2(0.5092605, -17.89687)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AncoragemDaCarga/Ports",
+        "path": "Structures/AmarrasInfrastructure/AncoragemDaCarga/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AncoragemDaCarga/Ports",
+        "path": "Structures/AmarrasInfrastructure/AncoragemDaCarga/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AncoragemDaCarga/Ports",
+        "path": "Structures/AmarrasInfrastructure/AncoragemDaCarga/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AncoragemDaPonte/Ports",
+        "path": "Structures/AmarrasInfrastructure/AncoragemDaPonte/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AncoragemDaPonte/Ports",
+        "path": "Structures/AmarrasInfrastructure/AncoragemDaPonte/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AncoragemDaPonte/Ports",
+        "path": "Structures/AmarrasInfrastructure/AncoragemDaPonte/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ContraforteDeTensao/Ports",
+        "path": "Structures/AmarrasInfrastructure/ContraforteDeTensao/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ContraforteDeTensao/Ports",
+        "path": "Structures/AmarrasInfrastructure/ContraforteDeTensao/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ContraforteDeTensao/Ports",
+        "path": "Structures/AmarrasInfrastructure/ContraforteDeTensao/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ContraforteDeRetorno/Ports",
+        "path": "Structures/AmarrasInfrastructure/ContraforteDeRetorno/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ContraforteDeRetorno/Ports",
+        "path": "Structures/AmarrasInfrastructure/ContraforteDeRetorno/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ContraforteDeRetorno/Ports",
+        "path": "Structures/AmarrasInfrastructure/ContraforteDeRetorno/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/RetencaoDoGuincho/Ports",
+        "path": "Structures/AmarrasInfrastructure/RetencaoDoGuincho/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/RetencaoDoGuincho/Ports",
+        "path": "Structures/AmarrasInfrastructure/RetencaoDoGuincho/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/RetencaoDoGuincho/Ports",
+        "path": "Structures/AmarrasInfrastructure/RetencaoDoGuincho/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ApoioDoCanal/Ports",
+        "path": "Structures/AmarrasInfrastructure/ApoioDoCanal/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ApoioDoCanal/Ports",
+        "path": "Structures/AmarrasInfrastructure/ApoioDoCanal/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ApoioDoCanal/Ports",
+        "path": "Structures/AmarrasInfrastructure/ApoioDoCanal/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ApoioDaInspecao/Ports",
+        "path": "Structures/AmarrasInfrastructure/ApoioDaInspecao/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ApoioDaInspecao/Ports",
+        "path": "Structures/AmarrasInfrastructure/ApoioDaInspecao/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/ApoioDaInspecao/Ports",
+        "path": "Structures/AmarrasInfrastructure/ApoioDaInspecao/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AmarraDaSaida/Ports",
+        "path": "Structures/AmarrasInfrastructure/AmarraDaSaida/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AmarraDaSaida/Ports",
+        "path": "Structures/AmarrasInfrastructure/AmarraDaSaida/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/AmarraDaSaida/Ports",
+        "path": "Structures/AmarrasInfrastructure/AmarraDaSaida/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "wall_join_n",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/RetencaoDaCarga/Ports",
+        "path": "Structures/AmarrasInfrastructure/RetencaoDaCarga/Ports/wall_join_n",
+        "properties": {
+          "position": "Vector2(-15.848716, -88.02532)"
+        }
+      },
+      {
+        "name": "chain_e_upper",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/RetencaoDaCarga/Ports",
+        "path": "Structures/AmarrasInfrastructure/RetencaoDaCarga/Ports/chain_e_upper",
+        "properties": {
+          "position": "Vector2(61.264378, -65.889084)"
+        }
+      },
+      {
+        "name": "chain_e_lower",
+        "type": "Marker2D",
+        "parent": "Structures/AmarrasInfrastructure/RetencaoDaCarga/Ports",
+        "path": "Structures/AmarrasInfrastructure/RetencaoDaCarga/Ports/chain_e_lower",
+        "properties": {
+          "position": "Vector2(29.7748, -45.93529)"
+        }
+      },
+      {
+        "name": "Spawn",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/Spawn",
+        "properties": {
+          "position": "Vector2(1152, 1248)"
+        }
+      },
+      {
+        "name": "Market",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/Market",
+        "properties": {
+          "position": "Vector2(1120, 1060)"
+        }
+      },
+      {
+        "name": "Workshop",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/Workshop",
+        "properties": {
+          "position": "Vector2(1510, 1000)"
+        }
+      },
+      {
+        "name": "AltoLixo",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/AltoLixo",
+        "properties": {
+          "position": "Vector2(1140, 450)"
+        }
+      },
+      {
+        "name": "Bridge",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/Bridge",
+        "properties": {
+          "position": "Vector2(1870, 1060)"
+        }
+      },
+      {
+        "name": "OsCabos",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/OsCabos",
+        "properties": {
+          "position": "Vector2(2110, 1110)"
+        }
+      },
+      {
+        "name": "LowerStairs",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/LowerStairs",
+        "properties": {
+          "position": "Vector2(1512, 1470)"
+        }
+      },
+      {
+        "name": "FundoFerro",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/FundoFerro",
+        "properties": {
+          "position": "Vector2(1296, 1570)"
+        }
+      },
+      {
+        "name": "CoastalQuay",
+        "type": "Marker2D",
+        "parent": "RouteMarkers",
+        "path": "RouteMarkers/CoastalQuay",
+        "properties": {
+          "position": "Vector2(1600, 1610)"
+        }
+      },
+      {
+        "name": "To_alto",
+        "type": "Area2D",
+        "parent": "RegionPortals",
+        "path": "RegionPortals/To_alto",
+        "properties": {
+          "position": "Vector2(1140, 450)",
+          "collision_layer": "0",
+          "collision_mask": "0",
+          "metadata/destination": "\"alto\""
+        }
+      },
+      {
+        "name": "To_forjas",
+        "type": "Area2D",
+        "parent": "RegionPortals",
+        "path": "RegionPortals/To_forjas",
+        "properties": {
+          "position": "Vector2(1580, 1050)",
+          "collision_layer": "0",
+          "collision_mask": "0",
+          "metadata/destination": "\"forjas\""
+        }
+      },
+      {
+        "name": "To_cabos",
+        "type": "Area2D",
+        "parent": "RegionPortals",
+        "path": "RegionPortals/To_cabos",
+        "properties": {
+          "position": "Vector2(2100, 1110)",
+          "collision_layer": "0",
+          "collision_mask": "0",
+          "metadata/destination": "\"cabos\""
+        }
+      },
+      {
+        "name": "To_fundo",
+        "type": "Area2D",
+        "parent": "RegionPortals",
+        "path": "RegionPortals/To_fundo",
+        "properties": {
+          "position": "Vector2(1296, 1570)",
+          "collision_layer": "0",
+          "collision_mask": "0",
+          "metadata/destination": "\"fundo\""
+        }
+      },
+      {
+        "name": "To_docas",
+        "type": "Area2D",
+        "parent": "RegionPortals",
+        "path": "RegionPortals/To_docas",
+        "properties": {
+          "position": "Vector2(1600, 1610)",
+          "collision_layer": "0",
+          "collision_mask": "0",
+          "metadata/destination": "\"docas\""
+        }
+      },
+      {
+        "name": "EntradaDoMercado",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/EntradaDoMercado",
+        "properties": {
+          "position": "Vector2(1140, 240)"
+        }
+      },
+      {
+        "name": "RuaDosCatadores",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/RuaDosCatadores",
+        "properties": {
+          "position": "Vector2(1200, -48)"
+        }
+      },
+      {
+        "name": "PracaDasTrocas",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/PracaDasTrocas",
+        "properties": {
+          "position": "Vector2(1128, -252)"
+        }
+      },
+      {
+        "name": "VielasComerciais",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/VielasComerciais",
+        "properties": {
+          "position": "Vector2(744, -504)"
+        }
+      },
+      {
+        "name": "CargaEEstoque",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/CargaEEstoque",
+        "properties": {
+          "position": "Vector2(1416, -756)"
+        }
+      },
+      {
+        "name": "SaidaParaAltoLixo",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/SaidaParaAltoLixo",
+        "properties": {
+          "position": "Vector2(456, -504)"
+        }
+      },
+      {
+        "name": "SaidaParaForjasRasas",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/SaidaParaForjasRasas",
+        "properties": {
+          "position": "Vector2(1668, 132)"
+        }
+      },
+      {
+        "name": "ConexaoComFundoFerro",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/Subareas",
+        "path": "MarketDistrict/Subareas/ConexaoComFundoFerro",
+        "properties": {
+          "position": "Vector2(1296, 1572)"
+        }
+      },
+      {
+        "name": "BecoDasFerragens",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/UrbanRoutes",
+        "path": "MarketDistrict/UrbanRoutes/BecoDasFerragens",
+        "properties": {
+          "metadata/points": "PackedVector2Array(937, -192, 868, -252, 853, -474, 744, -504, 795, -590, 970, -593, 1130, -651)"
+        }
+      },
+      {
+        "name": "VielaDosTecidos",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/UrbanRoutes",
+        "path": "MarketDistrict/UrbanRoutes/VielaDosTecidos",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1296, -336, 1330, -402, 1520, -402, 1510, -470, 1500, -550, 1412, -585, 1416, -756, 1290, -786)"
+        }
+      },
+      {
+        "name": "PassagemDosLotes",
+        "type": "Marker2D",
+        "parent": "MarketDistrict/UrbanRoutes",
+        "path": "MarketDistrict/UrbanRoutes/PassagemDosLotes",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1130, -651, 1000, -690, 1032, -944, 1140, -1104)"
+        }
+      },
+      {
+        "name": "SubidadosRemendos",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Routes",
+        "path": "AltoLixoDistrict/Routes/SubidadosRemendos",
+        "properties": {
+          "metadata/points": "PackedVector2Array(744, -504, 456, -504, 300, -552, 120, -610, -100, -680, -400, -780, -600, -900)",
+          "metadata/clear_width": "88.0"
+        }
+      },
+      {
+        "name": "TravessadosAndaimes",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Routes",
+        "path": "AltoLixoDistrict/Routes/TravessadosAndaimes",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1032, -944, 970, -1020, 840, -1110, 600, -1140, 310, -1070, 100, -1100, -220, -1060, -600, -900)",
+          "metadata/clear_width": "80.0"
+        }
+      },
+      {
+        "name": "RuadaDrenagem",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Routes",
+        "path": "AltoLixoDistrict/Routes/RuadaDrenagem",
+        "properties": {
+          "metadata/points": "PackedVector2Array(830, 160, 700, 100, 420, 100, 240, 80, 40, -50, -100, -230, -230, -380, -100, -680)",
+          "metadata/clear_width": "84.0"
+        }
+      },
+      {
+        "name": "BecodasCalhas",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Routes",
+        "path": "AltoLixoDistrict/Routes/BecodasCalhas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(120, -610, 35, -790, 100, -1100)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "BecodosFundos",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Routes",
+        "path": "AltoLixoDistrict/Routes/BecodosFundos",
+        "properties": {
+          "metadata/points": "PackedVector2Array(-400, -780, -500, -620, -410, -420, -230, -380)",
+          "metadata/clear_width": "64.0"
+        }
+      },
+      {
+        "name": "PassagemdasAmarras",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Routes",
+        "path": "AltoLixoDistrict/Routes/PassagemdasAmarras",
+        "properties": {
+          "metadata/points": "PackedVector2Array(-220, -1060, -420, -1180, -760, -1130, -830, -980, -600, -900)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "Mercado_Oeste",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Frontiers",
+        "path": "AltoLixoDistrict/Frontiers/Mercado_Oeste",
+        "properties": {
+          "position": "Vector2(456, -504)"
+        }
+      },
+      {
+        "name": "Mercado_Noroeste",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Frontiers",
+        "path": "AltoLixoDistrict/Frontiers/Mercado_Noroeste",
+        "properties": {
+          "position": "Vector2(1032, -944)"
+        }
+      },
+      {
+        "name": "Mercado_Sudoeste",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Frontiers",
+        "path": "AltoLixoDistrict/Frontiers/Mercado_Sudoeste",
+        "properties": {
+          "position": "Vector2(830, 160)"
+        }
+      },
+      {
+        "name": "SoleiradoMercado",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Terraces",
+        "path": "AltoLixoDistrict/Terraces/SoleiradoMercado",
+        "properties": {
+          "position": "Vector2(420, -504)",
+          "metadata/visual_height_m": "0.0"
+        }
+      },
+      {
+        "name": "CasasdosRemendos",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Terraces",
+        "path": "AltoLixoDistrict/Terraces/CasasdosRemendos",
+        "properties": {
+          "position": "Vector2(-100, -680)",
+          "metadata/visual_height_m": "1.5"
+        }
+      },
+      {
+        "name": "PátiodosAndaimes",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Terraces",
+        "path": "AltoLixoDistrict/Terraces/PátiodosAndaimes",
+        "properties": {
+          "position": "Vector2(-600, -900)",
+          "metadata/visual_height_m": "3.0"
+        }
+      },
+      {
+        "name": "CumedasCalhas",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/Terraces",
+        "path": "AltoLixoDistrict/Terraces/CumedasCalhas",
+        "properties": {
+          "position": "Vector2(-900, -1170)",
+          "metadata/visual_height_m": "5.0"
+        }
+      },
+      {
+        "name": "FerrugemBaixaoeste",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/FutureExits",
+        "path": "AltoLixoDistrict/FutureExits/FerrugemBaixaoeste",
+        "properties": {
+          "position": "Vector2(-1400, -650)",
+          "metadata/status": "\"reserved; no scene portal or destination built\""
+        }
+      },
+      {
+        "name": "FerrugemBaixanoroeste",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/FutureExits",
+        "path": "AltoLixoDistrict/FutureExits/FerrugemBaixanoroeste",
+        "properties": {
+          "position": "Vector2(-1100, -1400)",
+          "metadata/status": "\"reserved; no scene portal or destination built\""
+        }
+      },
+      {
+        "name": "ServiçoemdireçãoaFundo-Ferro",
+        "type": "Marker2D",
+        "parent": "AltoLixoDistrict/FutureExits",
+        "path": "AltoLixoDistrict/FutureExits/ServiçoemdireçãoaFundo-Ferro",
+        "properties": {
+          "position": "Vector2(-850, 120)",
+          "metadata/status": "\"reserved; no scene portal or destination built\""
+        }
+      },
+      {
+        "name": "Transicao",
+        "type": "Marker2D",
+        "parent": "LowerCoastReworked/Destinations",
+        "path": "LowerCoastReworked/Destinations/Transicao",
+        "properties": {
+          "position": "Vector2(1512, 1490)"
+        }
+      },
+      {
+        "name": "PatioRemendado",
+        "type": "Marker2D",
+        "parent": "LowerCoastReworked/Destinations",
+        "path": "LowerCoastReworked/Destinations/PatioRemendado",
+        "properties": {
+          "position": "Vector2(500, 1500)"
+        }
+      },
+      {
+        "name": "CaisManutencao",
+        "type": "Marker2D",
+        "parent": "LowerCoastReworked/Destinations",
+        "path": "LowerCoastReworked/Destinations/CaisManutencao",
+        "properties": {
+          "position": "Vector2(1610, 1600)"
+        }
+      },
+      {
+        "name": "DocaOeste",
+        "type": "Marker2D",
+        "parent": "LowerCoastReworked/Destinations",
+        "path": "LowerCoastReworked/Destinations/DocaOeste",
+        "properties": {
+          "position": "Vector2(735, 1700)"
+        }
+      },
+      {
+        "name": "DocaDaBomba",
+        "type": "Marker2D",
+        "parent": "LowerCoastReworked/Destinations",
+        "path": "LowerCoastReworked/Destinations/DocaDaBomba",
+        "properties": {
+          "position": "Vector2(1060, 1815)"
+        }
+      },
+      {
+        "name": "DocaLeste",
+        "type": "Marker2D",
+        "parent": "LowerCoastReworked/Destinations",
+        "path": "LowerCoastReworked/Destinations/DocaLeste",
+        "properties": {
+          "position": "Vector2(2210, 1700)"
+        }
+      },
+      {
+        "name": "ViaDosRebitadores",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/ViaDosRebitadores",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1668, 132, 1900, 108, 2170, -70, 2470, -120, 2780, -150, 3200, -150, 3550, 0)",
+          "metadata/clear_width": "132.0"
+        }
+      },
+      {
+        "name": "CircuitoDasFornalhas",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/CircuitoDasFornalhas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2170, -70, 2210, -650, 2310, -800, 2700, -800, 2970, -680, 3270, -600, 3550, -630)",
+          "metadata/clear_width": "115.0"
+        }
+      },
+      {
+        "name": "CargaDoMercado",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/CargaDoMercado",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1416, -756, 1490, -925, 1620, -920, 1800, -1040, 1990, -1280, 2310, -1280, 2420, -1130, 2700, -800)",
+          "metadata/clear_width": "90.0"
+        }
+      },
+      {
+        "name": "PassagemDasCaldeiras",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/PassagemDasCaldeiras",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2310, -800, 2310, -1280, 2870, -1250, 3100, -1550)",
+          "metadata/clear_width": "82.0"
+        }
+      },
+      {
+        "name": "BecoDosReparos",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/BecoDosReparos",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2210, -650, 2150, -340, 2470, -120)",
+          "metadata/clear_width": "75.0"
+        }
+      },
+      {
+        "name": "BecoDaFabricacao",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/BecoDaFabricacao",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2470, -120, 2800, -610, 2970, -680)",
+          "metadata/clear_width": "82.0"
+        }
+      },
+      {
+        "name": "RotaDaTriagem",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/RotaDaTriagem",
+        "properties": {
+          "metadata/points": "PackedVector2Array(3270, -600, 3550, -630, 3650, -760)",
+          "metadata/clear_width": "95.0"
+        }
+      },
+      {
+        "name": "ManutencaoDaDrenagem",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Routes",
+        "path": "ForjasRasasDistrict/Routes/ManutencaoDaDrenagem",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2470, -120, 2620, -80, 2620, 260, 3000, 260, 3280, 240, 3280, -150, 3200, -150)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "EntradaComercial",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Frontiers",
+        "path": "ForjasRasasDistrict/Frontiers/EntradaComercial",
+        "properties": {
+          "position": "Vector2(1668, 132)"
+        }
+      },
+      {
+        "name": "CargaDoMercado",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/Frontiers",
+        "path": "ForjasRasasDistrict/Frontiers/CargaDoMercado",
+        "properties": {
+          "position": "Vector2(1620, -920)"
+        }
+      },
+      {
+        "name": "Reparos",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/WorkYards",
+        "path": "ForjasRasasDistrict/WorkYards/Reparos",
+        "properties": {
+          "position": "Vector2(2150, -340)"
+        }
+      },
+      {
+        "name": "Fabricacao",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/WorkYards",
+        "path": "ForjasRasasDistrict/WorkYards/Fabricacao",
+        "properties": {
+          "position": "Vector2(2800, -610)"
+        }
+      },
+      {
+        "name": "Fundicao",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/WorkYards",
+        "path": "ForjasRasasDistrict/WorkYards/Fundicao",
+        "properties": {
+          "position": "Vector2(2700, -800)"
+        }
+      },
+      {
+        "name": "Carga",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/WorkYards",
+        "path": "ForjasRasasDistrict/WorkYards/Carga",
+        "properties": {
+          "position": "Vector2(2470, -120)"
+        }
+      },
+      {
+        "name": "Reciclagem",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/WorkYards",
+        "path": "ForjasRasasDistrict/WorkYards/Reciclagem",
+        "properties": {
+          "position": "Vector2(3270, -600)"
+        }
+      },
+      {
+        "name": "ChaminesVelhas",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/FutureExits",
+        "path": "ForjasRasasDistrict/FutureExits/ChaminesVelhas",
+        "properties": {
+          "position": "Vector2(3100, -1550)",
+          "metadata/status": "\"reserved approach only; destination not built\""
+        }
+      },
+      {
+        "name": "GrandeFerrugem",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/FutureExits",
+        "path": "ForjasRasasDistrict/FutureExits/GrandeFerrugem",
+        "properties": {
+          "position": "Vector2(3650, -760)",
+          "metadata/status": "\"reserved approach only; destination not built\""
+        }
+      },
+      {
+        "name": "ManutencaoFundoFerro",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/FutureExits",
+        "path": "ForjasRasasDistrict/FutureExits/ManutencaoFundoFerro",
+        "properties": {
+          "position": "Vector2(3000, 260)",
+          "metadata/status": "\"connected underground service access; F in proximity\""
+        }
+      },
+      {
+        "name": "CorredorParaOsCabos",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/FutureExits",
+        "path": "ForjasRasasDistrict/FutureExits/CorredorParaOsCabos",
+        "properties": {
+          "position": "Vector2(3370, 240)",
+          "metadata/status": "\"reserved approach only; Os Cabos not rebuilt\""
+        }
+      },
+      {
+        "name": "LandmarkMercado",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/ArtIntegrationAnchors",
+        "path": "ForjasRasasDistrict/ArtIntegrationAnchors/LandmarkMercado",
+        "properties": {
+          "position": "Vector2(2050, -275)"
+        }
+      },
+      {
+        "name": "ForjaArtesanal",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/ArtIntegrationAnchors",
+        "path": "ForjasRasasDistrict/ArtIntegrationAnchors/ForjaArtesanal",
+        "properties": {
+          "position": "Vector2(1850, -8)"
+        }
+      },
+      {
+        "name": "EstoqueDeCarga",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/ArtIntegrationAnchors",
+        "path": "ForjasRasasDistrict/ArtIntegrationAnchors/EstoqueDeCarga",
+        "properties": {
+          "position": "Vector2(2490, 30)"
+        }
+      },
+      {
+        "name": "GuindasteFundicao",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/ArtIntegrationAnchors",
+        "path": "ForjasRasasDistrict/ArtIntegrationAnchors/GuindasteFundicao",
+        "properties": {
+          "position": "Vector2(2945, -925)"
+        }
+      },
+      {
+        "name": "CaldeiraDeServico",
+        "type": "Marker2D",
+        "parent": "ForjasRasasDistrict/ArtIntegrationAnchors",
+        "path": "ForjasRasasDistrict/ArtIntegrationAnchors/CaldeiraDeServico",
+        "properties": {
+          "position": "Vector2(2840, -1390)"
+        }
+      },
+      {
+        "name": "PocoVelho",
+        "type": "Area2D",
+        "parent": "LayerEntrances",
+        "path": "LayerEntrances/PocoVelho",
+        "properties": {
+          "position": "Vector2(1296, 1572)",
+          "collision_layer": "0",
+          "collision_mask": "2",
+          "script": "ExtResource(\"57_fcssb\")",
+          "metadata/function": "\"physical vertical access; F in proximity only\""
+        }
+      },
+      {
+        "name": "DocaLeste",
+        "type": "Area2D",
+        "parent": "LayerEntrances",
+        "path": "LayerEntrances/DocaLeste",
+        "properties": {
+          "position": "Vector2(2210, 1668)",
+          "collision_layer": "0",
+          "collision_mask": "2",
+          "script": "ExtResource(\"57_fcssb\")",
+          "metadata/function": "\"physical vertical access; F in proximity only\""
+        }
+      },
+      {
+        "name": "ForjasManutencao",
+        "type": "Area2D",
+        "parent": "LayerEntrances",
+        "path": "LayerEntrances/ForjasManutencao",
+        "properties": {
+          "position": "Vector2(3000, 260)",
+          "collision_layer": "0",
+          "collision_mask": "2",
+          "script": "ExtResource(\"57_fcssb\")",
+          "metadata/function": "\"physical vertical access; F in proximity only\""
+        }
+      },
+      {
+        "name": "PocoVelho",
+        "type": "Marker2D",
+        "parent": "LayerArrivals",
+        "path": "LayerArrivals/PocoVelho",
+        "properties": {
+          "position": "Vector2(1296, 1572)"
+        }
+      },
+      {
+        "name": "DocaLeste",
+        "type": "Marker2D",
+        "parent": "LayerArrivals",
+        "path": "LayerArrivals/DocaLeste",
+        "properties": {
+          "position": "Vector2(2210, 1668)"
+        }
+      },
+      {
+        "name": "ForjasManutencao",
+        "type": "Marker2D",
+        "parent": "LayerArrivals",
+        "path": "LayerArrivals/ForjasManutencao",
+        "properties": {
+          "position": "Vector2(3000, 260)"
+        }
+      },
+      {
+        "name": "EntradaDasForjas",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Routes",
+        "path": "PassagemAmarrasDistrict/Routes/EntradaDasForjas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(3550, 0, 3690, 0, 3990, 0, 4290, 30)",
+          "metadata/clear_width": "100"
+        }
+      },
+      {
+        "name": "ViaDeTransferencia",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Routes",
+        "path": "PassagemAmarrasDistrict/Routes/ViaDeTransferencia",
+        "properties": {
+          "metadata/points": "PackedVector2Array(4290, 30, 4480, 260, 4820, 290, 5110, 440, 5480, 565, 5520, 565)",
+          "metadata/clear_width": "100"
+        }
+      },
+      {
+        "name": "CorrentesDeManutencao",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Routes",
+        "path": "PassagemAmarrasDistrict/Routes/CorrentesDeManutencao",
+        "properties": {
+          "metadata/points": "PackedVector2Array(3280, 240, 3360, 275, 3935, 275, 4120, 360, 4240, 730)",
+          "metadata/clear_width": "100"
+        }
+      },
+      {
+        "name": "CircuitoInferior",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Routes",
+        "path": "PassagemAmarrasDistrict/Routes/CircuitoInferior",
+        "properties": {
+          "metadata/points": "PackedVector2Array(4240, 730, 4560, 835, 4950, 900, 5230, 850, 5440, 830, 5480, 565)",
+          "metadata/clear_width": "100"
+        }
+      },
+      {
+        "name": "TravessaDeInspecao",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Routes",
+        "path": "PassagemAmarrasDistrict/Routes/TravessaDeInspecao",
+        "properties": {
+          "metadata/points": "PackedVector2Array(4480, 260, 4480, 550, 4750, 616, 4750, 794, 4950, 900)",
+          "metadata/clear_width": "100"
+        }
+      },
+      {
+        "name": "ManutencaoDoCanal",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Routes",
+        "path": "PassagemAmarrasDistrict/Routes/ManutencaoDoCanal",
+        "properties": {
+          "metadata/points": "PackedVector2Array(5110, 440, 5150, 626, 5150, 804, 5230, 850)",
+          "metadata/clear_width": "100"
+        }
+      },
+      {
+        "name": "RamalDeCarga",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Routes",
+        "path": "PassagemAmarrasDistrict/Routes/RamalDeCarga",
+        "properties": {
+          "metadata/points": "PackedVector2Array(4700, 420, 4750, 550, 4950, 550, 5110, 440)",
+          "metadata/clear_width": "100"
+        }
+      },
+      {
+        "name": "ViaDasForjas",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Frontiers",
+        "path": "PassagemAmarrasDistrict/Frontiers/ViaDasForjas",
+        "properties": {
+          "position": "Vector2(3550, 0)"
+        }
+      },
+      {
+        "name": "ManutencaoDasForjas",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/Frontiers",
+        "path": "PassagemAmarrasDistrict/Frontiers/ManutencaoDasForjas",
+        "properties": {
+          "position": "Vector2(3280, 240)"
+        }
+      },
+      {
+        "name": "Transferencia",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/WorkYards",
+        "path": "PassagemAmarrasDistrict/WorkYards/Transferencia",
+        "properties": {
+          "position": "Vector2(4660, 380)"
+        }
+      },
+      {
+        "name": "Amarracao",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/WorkYards",
+        "path": "PassagemAmarrasDistrict/WorkYards/Amarracao",
+        "properties": {
+          "position": "Vector2(4400, 180)"
+        }
+      },
+      {
+        "name": "Servico",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/WorkYards",
+        "path": "PassagemAmarrasDistrict/WorkYards/Servico",
+        "properties": {
+          "position": "Vector2(4210, 620)"
+        }
+      },
+      {
+        "name": "Inspecao",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/WorkYards",
+        "path": "PassagemAmarrasDistrict/WorkYards/Inspecao",
+        "properties": {
+          "position": "Vector2(5130, 330)"
+        }
+      },
+      {
+        "name": "Distribuicao",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/WorkYards",
+        "path": "PassagemAmarrasDistrict/WorkYards/Distribuicao",
+        "properties": {
+          "position": "Vector2(4950, 550)"
+        }
+      },
+      {
+        "name": "Engrenopolis",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/FutureExits",
+        "path": "PassagemAmarrasDistrict/FutureExits/Engrenopolis",
+        "properties": {
+          "position": "Vector2(5520, 565)",
+          "metadata/status": "\"reserved continuation only; Engrenopolis not built\""
+        }
+      },
+      {
+        "name": "ChegadaDeCarga",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/SafeArrivals",
+        "path": "PassagemAmarrasDistrict/SafeArrivals/ChegadaDeCarga",
+        "properties": {
+          "position": "Vector2(4070, 20)"
+        }
+      },
+      {
+        "name": "ChegadaDeManutencao",
+        "type": "Marker2D",
+        "parent": "PassagemAmarrasDistrict/SafeArrivals",
+        "path": "PassagemAmarrasDistrict/SafeArrivals/ChegadaDeManutencao",
+        "properties": {
+          "position": "Vector2(4030, 330)"
+        }
+      },
+      {
+        "name": "ViaOeste",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/ViaOeste",
+        "properties": {
+          "metadata/points": "PackedVector2Array(-400, -992, 220, -992)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "DescidaDeDistribuicao",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/DescidaDeDistribuicao",
+        "properties": {
+          "metadata/points": "PackedVector2Array(-151, -992, -151, -420)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "ViaPrincipal",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/ViaPrincipal",
+        "properties": {
+          "metadata/points": "PackedVector2Array(-151, -420, 1640, -420)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "ColunaDasForjas",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/ColunaDasForjas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1640, -420, 1640, -104)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "ChegadaDasForjas",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/ChegadaDasForjas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1640, -104, 1900, -104)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "RamalMercado",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/RamalMercado",
+        "properties": {
+          "metadata/points": "PackedVector2Array(744, -716, 744, -522.2)",
+          "metadata/clear_width": "36.0"
+        }
+      },
+      {
+        "name": "EncontroT",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/EncontroT",
+        "properties": {
+          "metadata/points": "PackedVector2Array(469.64, -522.2, 1016.84, -522.2)",
+          "metadata/clear_width": "32.0"
+        }
+      },
+      {
+        "name": "LigacaoTOeste",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/LigacaoTOeste",
+        "properties": {
+          "metadata/points": "PackedVector2Array(469.64, -522.2, 469.64, -420)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "LigacaoTLeste",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/LigacaoTLeste",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1016.84, -522.2, 1016.84, -420)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "PonteSecundaria0",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/PonteSecundaria0",
+        "properties": {
+          "metadata/points": "PackedVector2Array(220, -992, 310, -988)",
+          "metadata/clear_width": "28.0"
+        }
+      },
+      {
+        "name": "PonteSecundaria1",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/PonteSecundaria1",
+        "properties": {
+          "metadata/points": "PackedVector2Array(310, -988, 410, -985)",
+          "metadata/clear_width": "28.0"
+        }
+      },
+      {
+        "name": "PonteSecundaria2",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/PonteSecundaria2",
+        "properties": {
+          "metadata/points": "PackedVector2Array(410, -985, 510, -985)",
+          "metadata/clear_width": "28.0"
+        }
+      },
+      {
+        "name": "PonteSecundaria3",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/PonteSecundaria3",
+        "properties": {
+          "metadata/points": "PackedVector2Array(510, -985, 650, -988)",
+          "metadata/clear_width": "28.0"
+        }
+      },
+      {
+        "name": "PonteSecundaria4",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/PonteSecundaria4",
+        "properties": {
+          "metadata/points": "PackedVector2Array(650, -988, 751.7, -992)",
+          "metadata/clear_width": "28.0"
+        }
+      },
+      {
+        "name": "InspecaoNorte",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/InspecaoNorte",
+        "properties": {
+          "metadata/points": "PackedVector2Array(751.7, -992, 744, -716)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "AcessoCasa",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Routes",
+        "path": "CabosDistrict/Routes/AcessoCasa",
+        "properties": {
+          "metadata/points": "PackedVector2Array(270.84, -611.62, 270.84, -420)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "AltoLixo",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/AltoLixo",
+        "properties": {
+          "position": "Vector2(-400, -992)"
+        }
+      },
+      {
+        "name": "Mercado",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Mercado",
+        "properties": {
+          "position": "Vector2(744, -716)"
+        }
+      },
+      {
+        "name": "Forjas",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Forjas",
+        "properties": {
+          "position": "Vector2(1900, -104)"
+        }
+      },
+      {
+        "name": "Patamar-1143",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar-1143",
+        "properties": {
+          "position": "Vector2(-151, -992)"
+        }
+      },
+      {
+        "name": "Patamar-571",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar-571",
+        "properties": {
+          "position": "Vector2(-151, -420)"
+        }
+      },
+      {
+        "name": "Patamar-772",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar-772",
+        "properties": {
+          "position": "Vector2(220, -992)"
+        }
+      },
+      {
+        "name": "Patamar-240",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar-240",
+        "properties": {
+          "position": "Vector2(751.7, -992)"
+        }
+      },
+      {
+        "name": "Patamar49",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar49",
+        "properties": {
+          "position": "Vector2(469.64, -420)"
+        }
+      },
+      {
+        "name": "Patamar596",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar596",
+        "properties": {
+          "position": "Vector2(1016.84, -420)"
+        }
+      },
+      {
+        "name": "Patamar1220",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar1220",
+        "properties": {
+          "position": "Vector2(1640, -420)"
+        }
+      },
+      {
+        "name": "Patamar1536",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/Patamar1536",
+        "properties": {
+          "position": "Vector2(1640, -104)"
+        }
+      },
+      {
+        "name": "PatamarT469",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/PatamarT469",
+        "properties": {
+          "position": "Vector2(469.64, -522.2)"
+        }
+      },
+      {
+        "name": "PatamarT1016",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/PatamarT1016",
+        "properties": {
+          "position": "Vector2(1016.84, -522.2)"
+        }
+      },
+      {
+        "name": "SoleiraCasa",
+        "type": "Marker2D",
+        "parent": "CabosDistrict/Landings",
+        "path": "CabosDistrict/Landings/SoleiraCasa",
+        "properties": {
+          "position": "Vector2(270.84, -611.62)"
+        }
+      },
+      {
+        "name": "ChegadaUrbana",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/ChegadaUrbana",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2240, 1370, 2350, 1370)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "ViaDosFardos",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/ViaDosFardos",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2350, 1330, 2350, 1640)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "RetornoCosteiro",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/RetornoCosteiro",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2210, 1700, 2450, 1700)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "CostaInterna",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/CostaInterna",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2450, 1700, 2450, 1910)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "ChegadaDeEmbarque",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/ChegadaDeEmbarque",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2450, 1910, 2670, 1910)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "PierDeCarga",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/PierDeCarga",
+        "properties": {
+          "metadata/points": "PackedVector2Array(3170, 1640, 3170, 1910)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "TecnicoForjas",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/TecnicoForjas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(3280, 275, 3280, 610)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "RecuperacaoLeste",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/RecuperacaoLeste",
+        "properties": {
+          "metadata/points": "PackedVector2Array(3090, 610, 3280, 610)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "TecnicoDrenagem",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/TecnicoDrenagem",
+        "properties": {
+          "metadata/points": "PackedVector2Array(3090, 610, 3090, 925)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "DesvioDeSucata",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/DesvioDeSucata",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2840, 925, 3090, 925)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "MargemDeServicos",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/MargemDeServicos",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2840, 925, 2840, 1280)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "ConexaoComTriagem",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/ConexaoComTriagem",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2700, 1280, 2840, 1280)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "ServicosPortuarios",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/ServicosPortuarios",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2700, 1280, 2700, 1640)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "OficinaNaval",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/OficinaNaval",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2920, 1640, 3030, 1640)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "PatioDeTriagem",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/PatioDeTriagem",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2500, 1575, 2500, 1640)",
+          "metadata/clear_width": "60.0"
+        }
+      },
+      {
+        "name": "CargaPrincipal",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/CargaPrincipal",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2350, 1640, 3170, 1640)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "CaisDeCarga",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Routes",
+        "path": "DocasDistrict/Routes/CaisDeCarga",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2670, 1910, 3170, 1910)",
+          "metadata/clear_width": "72.0"
+        }
+      },
+      {
+        "name": "NucleoUrbano",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Connections",
+        "path": "DocasDistrict/Connections/NucleoUrbano",
+        "properties": {
+          "position": "Vector2(2240, 1370)"
+        }
+      },
+      {
+        "name": "RotaCosteira",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Connections",
+        "path": "DocasDistrict/Connections/RotaCosteira",
+        "properties": {
+          "position": "Vector2(2210, 1700)"
+        }
+      },
+      {
+        "name": "EixoTecnico",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/Connections",
+        "path": "DocasDistrict/Connections/EixoTecnico",
+        "properties": {
+          "position": "Vector2(3280, 275)"
+        }
+      },
+      {
+        "name": "Entrada",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/SafeLandings",
+        "path": "DocasDistrict/SafeLandings/Entrada",
+        "properties": {
+          "position": "Vector2(2350, 1330)"
+        }
+      },
+      {
+        "name": "Triagem",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/SafeLandings",
+        "path": "DocasDistrict/SafeLandings/Triagem",
+        "properties": {
+          "position": "Vector2(2500, 1575)"
+        }
+      },
+      {
+        "name": "Reparo",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/SafeLandings",
+        "path": "DocasDistrict/SafeLandings/Reparo",
+        "properties": {
+          "position": "Vector2(3030, 1640)"
+        }
+      },
+      {
+        "name": "Embarque",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/SafeLandings",
+        "path": "DocasDistrict/SafeLandings/Embarque",
+        "properties": {
+          "position": "Vector2(2735, 1910)"
+        }
+      },
+      {
+        "name": "Tecnico",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/SafeLandings",
+        "path": "DocasDistrict/SafeLandings/Tecnico",
+        "properties": {
+          "position": "Vector2(3280, 458)"
+        }
+      },
+      {
+        "name": "CargaPreparada",
+        "type": "Marker2D",
+        "parent": "DocasDistrict/SafeLandings",
+        "path": "DocasDistrict/SafeLandings/CargaPreparada",
+        "properties": {
+          "position": "Vector2(2974, 1933)"
+        }
+      }
+    ],
+    "textures": [
+      "assets/terrain/floor_atlas.png",
+      "assets/generated/props/bridge.png",
+      "assets/generated/props/pipe.png",
+      "assets/generated/structures/house.png",
+      "assets/fx/light.svg",
+      "assets/generated/structures/house_stack.png",
+      "assets/generated/structures/workshop.png",
+      "assets/generated/structures/reactor.png",
+      "assets/generated/props/market_stall.png",
+      "assets/props/barrel.svg",
+      "assets/props/crate.svg",
+      "assets/infrastructure/scrap.png",
+      "assets/props/test_goblin.svg",
+      "assets/reconstruction/market_salvage_cart.png",
+      "assets/infrastructure/lantern.png",
+      "assets/infrastructure/crane.png",
+      "assets/fx/smoke_01.png",
+      "assets/generated/structures/skyline.png",
+      "assets/terrain/foundation.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/exhaust_tower_addon.png",
+      "assets/terrain/metal_repair.png",
+      "assets/terrain/market_dirt.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/exhaust_reducer_connector.png",
+      "assets/reconstruction/forjas_parallel/great_furnace_chimney.png",
+      "assets/terrain/oil_hatch.png",
+      "assets/reconstruction/forjas_parallel/open_smithy.png",
+      "assets/infrastructure/retaining_edge.png",
+      "assets/reconstruction/forjas_parallel/ore_storage_cart.png",
+      "assets/infrastructure/walkway.png",
+      "assets/reconstruction/forjas_parallel/compact_loading_crane.png",
+      "assets/infrastructure/stairs.png",
+      "assets/reconstruction/forjas_parallel/service_pipe_boiler.png",
+      "assets/infrastructure/service_arch.png",
+      "assets/infrastructure/channel.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/coal_feed_cluster.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/slag_discharge_cluster.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/cooling_trough_cluster_complete.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/maintenance_bench_cluster.png",
+      "assets/region/tenement.png",
+      "assets/reconstruction/amarras_parallel/tension_anchor_tower_margin.png",
+      "assets/reconstruction/amarras_parallel/chain_winch_station.png",
+      "assets/region/foundry.png",
+      "assets/reconstruction/amarras_parallel/chain_routing_hub.png",
+      "assets/region/cable_tower.png",
+      "assets/region/dock_warehouse.png",
+      "assets/reconstruction/amarras_parallel/technical_control_kiosk_complete.png",
+      "assets/reconstruction/cloth_stall.png",
+      "assets/reconstruction/amarras_parallel/cargo_tiedown_platform.png",
+      "assets/reconstruction/exchange_pavilion.png",
+      "assets/reconstruction/amarras_parallel/edge_anchor_buttress.png",
+      "assets/reconstruction/docas_parallel/cargo_sorting_shelter.png",
+      "assets/reconstruction/wholesale_arcade.png",
+      "assets/reconstruction/docas_parallel/naval_repair_cradle.png",
+      "assets/reconstruction/docas_parallel/mooring_capstan.png",
+      "assets/infrastructure/coastal_wall.png",
+      "assets/reconstruction/docas_parallel/complement_v1/port_cargo_sling_cluster.png",
+      "assets/reconstruction/alto_cistern.png",
+      "assets/reconstruction/docas_parallel/cargo_barge.png",
+      "assets/region/pump_station.png",
+      "assets/region/salvage_ground.png",
+      "assets/reconstruction/alto_residential_landing.png",
+      "assets/reconstruction/forjas_workshop.png",
+      "assets/reconstruction/forjas_boiler_hall.png",
+      "assets/reconstruction/forjas_recycler.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/supported_pipe_connector.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/short_service_catwalk.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/transition_soot_decal.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/slag_spill_decal.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/heat_reflection_mask.png",
+      "assets/reconstruction/forjas_parallel/complement_v1/pipe_saddle_support_single_ns.png",
+      "assets/reconstruction/cabos_parallel/suspension_bridge_ew.png",
+      "assets/reconstruction/amarras_parallel/damp_anchor_runoff_decal_stains.png",
+      "assets/reconstruction/amarras_parallel/chain_drag_wear_decal_marks.png",
+      "assets/reconstruction/cabos_parallel/main_deck_ew_wide.png",
+      "assets/reconstruction/cabos_parallel/walkway_t_junction_clean.png",
+      "assets/reconstruction/cabos_parallel/hanging_house.png",
+      "assets/reconstruction/cabos_parallel/power_messenger_anchor.png",
+      "assets/reconstruction/docas_parallel/complement_v1/pier_head_deep.png",
+      "assets/reconstruction/docas_finish/workyard_platform.png",
+      "assets/reconstruction/docas_parallel/complement_v1/wet_wood_saltwear_decal.png",
+      "assets/reconstruction/docas_finish/naval_slipway.png",
+      "assets/reconstruction/utility_fits/copper_elbow.png"
+    ],
+    "scene_dependencies": [],
+    "scripts": [
+      "scripts/world/sucateia.gd",
+      "scripts/world/test_player.gd",
+      "scripts/world/slice_hud.gd",
+      "scripts/world/layer_access.gd",
+      "scripts/world/cabos_district.gd",
+      "scripts/world/cabos_access.gd",
+      "scripts/world/docas_district.gd"
+    ]
+  },
+  "underground": {
+    "path": "maps/fundo_ferro/fundo_ferro.tscn",
+    "sha256": "9793456d07a420d3dcc8114dff367b0a301e87df6f8d4fef478f0a3afe10d083",
+    "nodes": 1334,
+    "root_children": [
+      "Structures",
+      "GroundIntegration",
+      "Rooms",
+      "Routes",
+      "GroundFloor",
+      "@Polygon2D@1010",
+      "@StaticBody2D@1012",
+      "@Polygon2D@1015",
+      "@StaticBody2D@1017",
+      "@Polygon2D@1020",
+      "@StaticBody2D@1022",
+      "@Polygon2D@1025",
+      "@StaticBody2D@1027",
+      "@PointLight2D@1216",
+      "@PointLight2D@1218",
+      "@PointLight2D@1220",
+      "@PointLight2D@1222",
+      "@PointLight2D@1224",
+      "@PointLight2D@1226",
+      "@PointLight2D@1228",
+      "@PointLight2D@1230",
+      "LayerEntrances",
+      "LayerArrivals",
+      "@CanvasModulate@1246",
+      "HUD",
+      "BedrockMass"
+    ],
+    "markers": [
+      {
+        "name": "PocoVelho",
+        "type": "Marker2D",
+        "parent": "Rooms",
+        "path": "Rooms/PocoVelho",
+        "properties": {
+          "position": "Vector2(1296, 1572)"
+        }
+      },
+      {
+        "name": "Bombas",
+        "type": "Marker2D",
+        "parent": "Rooms",
+        "path": "Rooms/Bombas",
+        "properties": {
+          "position": "Vector2(1750, 2000)"
+        }
+      },
+      {
+        "name": "Descarte",
+        "type": "Marker2D",
+        "parent": "Rooms",
+        "path": "Rooms/Descarte",
+        "properties": {
+          "position": "Vector2(2300, 2180)"
+        }
+      },
+      {
+        "name": "Maquinas",
+        "type": "Marker2D",
+        "parent": "Rooms",
+        "path": "Rooms/Maquinas",
+        "properties": {
+          "position": "Vector2(2900, 1770)"
+        }
+      },
+      {
+        "name": "Reservatorio",
+        "type": "Marker2D",
+        "parent": "Rooms",
+        "path": "Rooms/Reservatorio",
+        "properties": {
+          "position": "Vector2(2700, 1240)"
+        }
+      },
+      {
+        "name": "Ruinas",
+        "type": "Marker2D",
+        "parent": "Rooms",
+        "path": "Rooms/Ruinas",
+        "properties": {
+          "position": "Vector2(1750, 1050)"
+        }
+      },
+      {
+        "name": "Valvulas",
+        "type": "Marker2D",
+        "parent": "Rooms",
+        "path": "Rooms/Valvulas",
+        "properties": {
+          "position": "Vector2(3000, 570)"
+        }
+      },
+      {
+        "name": "PocoBombas",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/PocoBombas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1296, 1572, 1450, 1700, 1750, 2000)"
+        }
+      },
+      {
+        "name": "BombasDescarte",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/BombasDescarte",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1750, 2000, 1820, 2030, 1820, 2160, 2300, 2180)"
+        }
+      },
+      {
+        "name": "DescarteMaquinas",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/DescarteMaquinas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2300, 2180, 2600, 2120, 2900, 1770)"
+        }
+      },
+      {
+        "name": "MaquinasReservatorio",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/MaquinasReservatorio",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2900, 1770, 2850, 1440, 2700, 1240)"
+        }
+      },
+      {
+        "name": "ReservatorioRuinas",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/ReservatorioRuinas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2700, 1240, 2480, 1260, 2300, 1190, 1950, 1150, 1750, 1050)"
+        }
+      },
+      {
+        "name": "RuinasPoco",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/RuinasPoco",
+        "properties": {
+          "metadata/points": "PackedVector2Array(1750, 1050, 1510, 1090, 1280, 1240, 1296, 1572)"
+        }
+      },
+      {
+        "name": "TravessaDosDrenos",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/TravessaDosDrenos",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2300, 2180, 2210, 1840, 2100, 1470, 1970, 1250, 1750, 1050)"
+        }
+      },
+      {
+        "name": "GaleriaDasValvulas",
+        "type": "Marker2D",
+        "parent": "Routes",
+        "path": "Routes/GaleriaDasValvulas",
+        "properties": {
+          "metadata/points": "PackedVector2Array(2700, 1240, 2660, 1250, 2660, 1030, 3000, 940, 3000, 570, 3000, 480)"
+        }
+      },
+      {
+        "name": "PocoVelho",
+        "type": "Area2D",
+        "parent": "LayerEntrances",
+        "path": "LayerEntrances/PocoVelho",
+        "properties": {
+          "position": "Vector2(1296, 1572)",
+          "collision_layer": "0",
+          "collision_mask": "2",
+          "script": "ExtResource(\"24_soi1v\")",
+          "metadata/function": "\"physical vertical access; F in proximity only\""
+        }
+      },
+      {
+        "name": "DocaLeste",
+        "type": "Area2D",
+        "parent": "LayerEntrances",
+        "path": "LayerEntrances/DocaLeste",
+        "properties": {
+          "position": "Vector2(2250, 2200)",
+          "collision_layer": "0",
+          "collision_mask": "2",
+          "script": "ExtResource(\"24_soi1v\")",
+          "metadata/function": "\"physical vertical access; F in proximity only\""
+        }
+      },
+      {
+        "name": "ForjasManutencao",
+        "type": "Area2D",
+        "parent": "LayerEntrances",
+        "path": "LayerEntrances/ForjasManutencao",
+        "properties": {
+          "position": "Vector2(3000, 480)",
+          "collision_layer": "0",
+          "collision_mask": "2",
+          "script": "ExtResource(\"24_soi1v\")",
+          "metadata/function": "\"physical vertical access; F in proximity only\""
+        }
+      },
+      {
+        "name": "PocoVelho",
+        "type": "Marker2D",
+        "parent": "LayerArrivals",
+        "path": "LayerArrivals/PocoVelho",
+        "properties": {
+          "position": "Vector2(1296, 1572)"
+        }
+      },
+      {
+        "name": "DocaLeste",
+        "type": "Marker2D",
+        "parent": "LayerArrivals",
+        "path": "LayerArrivals/DocaLeste",
+        "properties": {
+          "position": "Vector2(2250, 2200)"
+        }
+      },
+      {
+        "name": "ForjasManutencao",
+        "type": "Marker2D",
+        "parent": "LayerArrivals",
+        "path": "LayerArrivals/ForjasManutencao",
+        "properties": {
+          "position": "Vector2(3000, 480)"
+        }
+      }
+    ],
+    "textures": [
+      "assets/reconstruction/fundo_wall.png",
+      "assets/reconstruction/fundo_abandoned_engine.png",
+      "assets/region/pump_station.png",
+      "assets/generated/structures/reactor.png",
+      "assets/reconstruction/forjas_recycler.png",
+      "assets/infrastructure/scrap.png",
+      "assets/infrastructure/lantern.png",
+      "assets/props/test_goblin.svg",
+      "assets/reconstruction/alto_cistern.png",
+      "assets/terrain/foundation.png",
+      "assets/region/ruined_engine.png",
+      "assets/fx/light.svg",
+      "assets/terrain/oil_hatch.png",
+      "assets/infrastructure/retaining_edge.png",
+      "assets/infrastructure/walkway.png",
+      "assets/terrain/metal_repair.png",
+      "assets/terrain/market_dirt.png",
+      "assets/generated/props/pipe.png",
+      "assets/infrastructure/channel.png",
+      "assets/infrastructure/stairs.png",
+      "assets/region/salvage_ground.png"
+    ],
+    "scene_dependencies": [],
+    "scripts": [
+      "scripts/world/fundo_ferro.gd",
+      "scripts/world/test_player.gd",
+      "scripts/world/layer_access.gd"
+    ]
+  },
+  "legacy_catalog_total": 16,
+  "legacy_scene_count": 15,
+  "legacy": [
+    {
+      "id": "alto",
+      "name": "Alto-Lixo",
+      "path": "maps/ferrugem_baixa/alto.tscn",
+      "sha256": "af132255c125157c25cbccc9be96cc6813573a670f65e2a5b1f71d7f877efeeb",
+      "node_count": 388,
+      "catalog_links": [
+        "centre",
+        "coroa",
+        "chamines",
+        "fundo",
+        "cabos"
+      ],
+      "catalog_old_position": [
+        0,
+        -1
+      ],
+      "landmark_art": [
+        "assets/region/tenement.png",
+        "assets/region/crown.png",
+        "assets/region/chimney_bank.png",
+        "assets/region/cable_tower.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "forjas",
+      "name": "Forjas Rasas",
+      "path": "maps/ferrugem_baixa/forjas.tscn",
+      "sha256": "2f51c3ad08e54980c3590a9a26361e804e77f461619c69ab90451ee2736473b5",
+      "node_count": 359,
+      "catalog_links": [
+        "centre",
+        "chamines",
+        "grande",
+        "fundo"
+      ],
+      "catalog_old_position": [
+        1,
+        -0.3
+      ],
+      "landmark_art": [
+        "assets/region/foundry.png",
+        "assets/region/chimney_bank.png",
+        "assets/region/scrap_colossus.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "cabos",
+      "name": "Os Cabos — Ponte das Correntes",
+      "path": "maps/ferrugem_baixa/cabos.tscn",
+      "sha256": "b57b036ca91ebe33d679d86cc835098a335dce1a33bffd1948897256e5c449ad",
+      "node_count": 278,
+      "catalog_links": [
+        "centre",
+        "alto",
+        "coroa",
+        "docas"
+      ],
+      "catalog_old_position": [
+        1,
+        0.7
+      ],
+      "landmark_art": [
+        "assets/region/cable_tower.png",
+        "assets/region/tenement.png",
+        "assets/region/crown.png",
+        "assets/region/dock_warehouse.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "fundo",
+      "name": "Fundo-Ferro — Poço Velho",
+      "path": "maps/ferrugem_baixa/fundo.tscn",
+      "sha256": "93a28cf77cb0624532baacd7f10160f04bc2ce61607f5faa4ac63671f3eb5e6e",
+      "node_count": 382,
+      "catalog_links": [
+        "centre",
+        "alto",
+        "forjas",
+        "docas",
+        "galeria"
+      ],
+      "catalog_old_position": [
+        0,
+        0.7
+      ],
+      "landmark_art": [
+        "assets/region/pump_station.png",
+        "assets/region/cargo_depot.png",
+        "assets/region/tenement.png",
+        "assets/region/foundry.png",
+        "assets/region/dock_warehouse.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "coroa",
+      "name": "Coroa de Lata — Torre do Catador-Rei",
+      "path": "maps/ferrugem_baixa/coroa.tscn",
+      "sha256": "18f794cedab62216ccb5eb0ce6314376a119a85e294620533a2b3b142fdc3c37",
+      "node_count": 265,
+      "catalog_links": [
+        "alto",
+        "cabos",
+        "grande"
+      ],
+      "catalog_old_position": [
+        0.7,
+        -1.7
+      ],
+      "landmark_art": [
+        "assets/region/crown.png",
+        "assets/region/tenement.png",
+        "assets/region/cable_tower.png",
+        "assets/region/scrap_colossus.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "docas",
+      "name": "Docas — Cais de Sucateia",
+      "path": "maps/ferrugem_baixa/docas.tscn",
+      "sha256": "faa5b57e157edd65ab6073db95fc0b2cb1b6e983fe489f9f8025fefa476993d0",
+      "node_count": 429,
+      "catalog_links": [
+        "centre",
+        "cabos",
+        "fundo",
+        "grande",
+        "via_cais"
+      ],
+      "catalog_old_position": [
+        1,
+        1.5
+      ],
+      "landmark_art": [
+        "assets/region/cargo_barge.png",
+        "assets/region/dock_warehouse.png",
+        "assets/region/cargo_depot.png",
+        "assets/region/machine_lane.png",
+        "assets/region/cable_tower.png",
+        "assets/region/scrap_colossus.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "grande",
+      "name": "A Grande Ferrugem — Campos de Sucata",
+      "path": "maps/ferrugem_baixa/grande.tscn",
+      "sha256": "4623ad2b94f7cda114423bc5a19e4eaf234d3a63ec69ccc1e0af56a6f6c37ec4",
+      "node_count": 339,
+      "catalog_links": [
+        "forjas",
+        "coroa",
+        "docas",
+        "chamines",
+        "via_engrenagens"
+      ],
+      "catalog_old_position": [
+        2,
+        -0.1
+      ],
+      "landmark_art": [
+        "assets/region/scrap_colossus.png",
+        "assets/region/dock_warehouse.png",
+        "assets/region/salvage_ground.png",
+        "assets/region/foundry.png",
+        "assets/region/crown.png",
+        "assets/region/chimney_bank.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "chamines",
+      "name": "Chaminés Velhas — Usina Quebrada",
+      "path": "maps/ferrugem_baixa/chamines.tscn",
+      "sha256": "0ff8930662ad16f36602b151557927563253a6a275f6c721ae92ad3cd1fb9932",
+      "node_count": 307,
+      "catalog_links": [
+        "alto",
+        "forjas",
+        "grande"
+      ],
+      "catalog_old_position": [
+        1.5,
+        -1.9
+      ],
+      "landmark_art": [
+        "assets/region/ruined_engine.png",
+        "assets/region/foundry.png",
+        "assets/region/dock_warehouse.png",
+        "assets/region/chimney_bank.png",
+        "assets/region/salvage_ground.png",
+        "assets/region/tenement.png",
+        "assets/region/scrap_colossus.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "galeria",
+      "name": "Galerias do Poço Velho",
+      "path": "maps/ferrugem_baixa/galeria.tscn",
+      "sha256": "8c6f363abede64072e06e789d14c3b9b739baa74f243a84849bab9f085673e09",
+      "node_count": 433,
+      "catalog_links": [
+        "fundo"
+      ],
+      "catalog_old_position": [
+        0,
+        0.7
+      ],
+      "landmark_art": [
+        "assets/region/pump_station.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "via_cais",
+      "name": "Passagem das Amarras",
+      "path": "maps/ferrugem_baixa/via_cais.tscn",
+      "sha256": "2cf146665839a5a34ccece427c84cab090e20f101712d75502a2319cf4ce0f40",
+      "node_count": 194,
+      "catalog_links": [
+        "docas",
+        "banco"
+      ],
+      "catalog_old_position": [
+        1.7,
+        1.8
+      ],
+      "landmark_art": [
+        "assets/region/cargo_barge.png",
+        "assets/region/dock_warehouse.png",
+        "assets/region/wreck_cradle.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "banco",
+      "name": "Banco de Destroços",
+      "path": "maps/ferrugem_baixa/banco.tscn",
+      "sha256": "621491419c7cad8fc6decf8b2de221cc397fb23cdc9328962bd300bd816963ad",
+      "node_count": 267,
+      "catalog_links": [
+        "via_cais",
+        "engrenopolis"
+      ],
+      "catalog_old_position": [
+        2.5,
+        2
+      ],
+      "landmark_art": [
+        "assets/region/cargo_barge.png",
+        "assets/region/wreck_cradle.png",
+        "assets/region/dock_warehouse.png",
+        "assets/region/cargo_depot.png",
+        "assets/region/machine_lane.png",
+        "assets/region/salvage_ground.png",
+        "assets/region/gearworks.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "engrenopolis",
+      "name": "Engrenópolis — Pátio das Transmissões",
+      "path": "maps/ferrugem_baixa/engrenopolis.tscn",
+      "sha256": "9cb758e62df24c56c4cc84392ac2a23bfbff876a5364132ddc682991c4c8eac0",
+      "node_count": 332,
+      "catalog_links": [
+        "via_engrenagens",
+        "banco",
+        "eng_nucleo",
+        "eng_corredor"
+      ],
+      "catalog_old_position": [
+        2.5,
+        1
+      ],
+      "landmark_art": [
+        "assets/region/gearworks.png",
+        "assets/region/tenement.png",
+        "assets/region/cargo_depot.png",
+        "assets/region/machine_lane.png",
+        "assets/region/wreck_cradle.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "via_engrenagens",
+      "name": "Estrada dos Rebitadores",
+      "path": "maps/ferrugem_baixa/via_engrenagens.tscn",
+      "sha256": "12d8090a072cdb5d05e3cbc80390b1bcda42f5e2ca553646899b9be09ec80389",
+      "node_count": 233,
+      "catalog_links": [
+        "grande",
+        "engrenopolis"
+      ],
+      "catalog_old_position": [
+        2.7,
+        0.3
+      ],
+      "landmark_art": [
+        "assets/region/dock_warehouse.png",
+        "assets/region/salvage_ground.png",
+        "assets/region/scrap_colossus.png",
+        "assets/region/gearworks.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "eng_nucleo",
+      "name": "Engrenópolis — Vielas dos Artífices",
+      "path": "maps/ferrugem_baixa/eng_nucleo.tscn",
+      "sha256": "7ed7633e4174ec5b246153569c2a137a4ac76cae1bb798e8ebc557d81f83baf0",
+      "node_count": 314,
+      "catalog_links": [
+        "engrenopolis",
+        "eng_corredor"
+      ],
+      "catalog_old_position": [
+        2.5,
+        0.4
+      ],
+      "landmark_art": [
+        "assets/region/tenement.png",
+        "assets/region/machine_lane.png",
+        "assets/region/cargo_depot.png",
+        "assets/region/gearworks.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    },
+    {
+      "id": "eng_corredor",
+      "name": "Engrenópolis — Corredor das Caldeiras",
+      "path": "maps/ferrugem_baixa/eng_corredor.tscn",
+      "sha256": "7b7ee1e4170d9533d4412e729200b4128e4c3c6d62fbb5082ad72db75efa050b",
+      "node_count": 254,
+      "catalog_links": [
+        "engrenopolis",
+        "eng_nucleo"
+      ],
+      "catalog_old_position": [
+        3.4,
+        0.7
+      ],
+      "landmark_art": [
+        "assets/region/gearworks.png",
+        "assets/region/machine_lane.png",
+        "assets/region/cargo_depot.png",
+        "assets/region/pump_station.png"
+      ],
+      "destinations": [],
+      "loaded_by_current_surface": false,
+      "reachable_by_current_layer_travel": false
+    }
+  ],
+  "current_main_region_portal_script_loaded": false,
+  "fundo_preserved": true
+}

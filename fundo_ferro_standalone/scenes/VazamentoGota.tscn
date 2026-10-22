@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://vazamento_gota_standalone_01"]
+
+[ext_resource type="Texture2D" uid="uid://by2w6vlm4eeqo" path="res://assets/fx/gota_respingo_esgoto.png" id="1_gota"]
+
+[node name="VazamentoGota" type="Node2D"]
+
+[node name="Pingos" type="CPUParticles2D" parent="."]
+amount = 4
+lifetime = 0.75
+preprocess = 0.5
+randomness = 0.3
+texture = ExtResource("1_gota")
+direction = Vector2(0, 1)
+spread = 4.0
+gravity = Vector2(0, 160)
+initial_velocity_min = 10.0
+initial_velocity_max = 25.0
+scale_amount_min = 0.08
+scale_amount_max = 0.16
+color = Color(0.65, 0.78, 0.68, 0.75)
+
+[node name="OndulacoesImpacto" type="CPUParticles2D" parent="."]
+position = Vector2(0, 48)
+amount = 3
+lifetime = 0.65
+preprocess = 0.5
+texture = ExtResource("1_gota")
+direction = Vector2(0, 0)
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 8.0
+initial_velocity_max = 16.0
+damping_min = 10.0
+damping_max = 15.0
+scale_amount_min = 0.12
+scale_amount_max = 0.25
+color = Color(0.65, 0.85, 0.70, 0.4)

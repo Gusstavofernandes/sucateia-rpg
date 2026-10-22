@@ -1,0 +1,53 @@
+{
+  "tests": 20,
+  "selected_generated_assets": 5,
+  "protected_pngs": 105,
+  "same_scene_accesses": 3,
+  "route_sections": 16,
+  "landings": 14,
+  "floor_modules": 32,
+  "painted_landings": 11,
+  "stairs": 6,
+  "supports": 27,
+  "safe_painted_centers": 3458,
+  "upper_boundary_segments": 172,
+  "consultant_approval": "pending",
+  "captures": {
+    "cabos_full": {
+      "draw_calls": 2787.0,
+      "nodes": 5185.0,
+      "sha256": "6cc9c4a17a113db312f9afe17b12d6b5f80fc7b77d6f435df961f65d0421d102"
+    },
+    "cabos_district": {
+      "draw_calls": 877.0,
+      "nodes": 5185.0,
+      "sha256": "0b8bb0012ddefd52da352c87692c7b4e994aa473e91148fde9f5f4200d8aaefb"
+    },
+    "cabos_market": {
+      "draw_calls": 359.0,
+      "nodes": 5185.0,
+      "sha256": "896112a13d3dc4bab71338ee67d902c70d44dc19421e4098ed077430c7fd9b3c"
+    },
+    "cabos_alto": {
+      "draw_calls": 293.0,
+      "nodes": 5185.0,
+      "sha256": "91591f6cc8198dc0030ca2ac9eff6a2a18f5cf9b127bcdffef707defe632b606"
+    },
+    "cabos_forjas": {
+      "draw_calls": 354.0,
+      "nodes": 5185.0,
+      "sha256": "a08a49036a3697e73067eab543f4019629d1c599220c81412d9f3958175a18d6"
+    },
+    "cabos_junction": {
+      "draw_calls": 328.0,
+      "nodes": 5185.0,
+      "sha256": "a41754190e9c21cc066c5e10e03c6b7c92f2265814fc1bdd5f527b5f67dedca4"
+    },
+    "cabos_underpass": {
+      "draw_calls": 330.0,
+      "nodes": 5185.0,
+      "sha256": "d4b9d997b21531883b004872dfade3663df34d79fc1c5a702d05be1905157d57"
+    }
+  },
+  "scene_sha256": "62347f053b97fb26138ff500c8e58745e6c061c74174baf731795bc33be3c279"
+}

@@ -1,0 +1,14 @@
+[ASSET_METADATA]
+nome = trilho_terminal_chao_v1
+tipo = TrilhoFerroviarioChao
+categoria = estacao_descarga
+dimensoes_arquivo_px = 585x282
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 146.25x70.5
+pivo_base = (292.5, 141)
+z_index = -5
+y_sort_enabled = false
+descricao = Segmento oficial de ferrovia em solo que conecta na ponta sul da ponte com bitola de 122.25 px de mundo (erro <= 0.05 px) e estende ate o batente.
+pontos_ancoragem:
+  emenda_ponte_norte = (292.5, 0)
+  emenda_batente_sul = (292.5, 282)

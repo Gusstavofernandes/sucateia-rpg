@@ -1,0 +1,395 @@
+{
+  "brief": "tools/CONSULTANT_PORT_STITCH_BRIEF.md",
+  "plan": "docs/superpowers/plans/2026-10-03-port-stitch.md",
+  "requests": "tools/PORT_STITCH_ART_REQUESTS.md",
+  "assets": [
+    {
+      "name": "rope_oil_service_shed",
+      "path": "assets/reconstruction/port_stitch/rope_oil_service_shed.png",
+      "sha256": "ee8cff82a87fe12357aee0593298f5afc2ddbce73ce1852e66fa387ed2956f06",
+      "canvas": [
+        1492,
+        1054
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox_gt16": [
+        50,
+        108,
+        1439,
+        948
+      ],
+      "minimum_visible_margin_px": 50,
+      "scale_uniform": 0.10439164866810655,
+      "visible_world_size": [
+        145,
+        87.69
+      ],
+      "anchors_native_estimated": {
+        "service_front_s": [
+          695,
+          729
+        ],
+        "cupboard_threshold": [
+          280,
+          803
+        ],
+        "rope_spindle": [
+          1130,
+          677
+        ]
+      },
+      "offset_center_world": {
+        "service_front_s": [
+          -5.324,
+          21.087
+        ],
+        "cupboard_threshold": [
+          -48.647,
+          28.812
+        ],
+        "rope_spindle": [
+          40.086,
+          15.659
+        ]
+      },
+      "footboxes_native_estimated": [
+        [
+          94,
+          768,
+          193,
+          821
+        ],
+        [
+          383,
+          796,
+          486,
+          854
+        ],
+        [
+          866,
+          850,
+          971,
+          901
+        ],
+        [
+          1294,
+          889,
+          1419,
+          946
+        ]
+      ],
+      "measurements": {
+        "dry_base_envelope_native": [
+          90,
+          758,
+          1420,
+          948
+        ],
+        "open_service_gap_width_native_estimated": 270,
+        "cupboard_door_width_native_estimated": 180
+      },
+      "notes": "Requires dry side pocket outside60px corridor, never over inputF/R. Cabinet is storage, not public door. External working apron must exist; no walkable floor included.",
+      "status": "selected art/QA; not scene-integrated or certified navigation",
+      "base_envelope_world_size": [
+        138.84,
+        19.83
+      ]
+    },
+    {
+      "name": "wet_sorting_lot",
+      "path": "assets/reconstruction/port_stitch/wet_sorting_lot.png",
+      "sha256": "9ccc574b4f72b55ac5e538e8ca665b26d051dafec8b61b19f79f70937b7b475f",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bbox_gt16": [
+        105,
+        69,
+        1450,
+        943
+      ],
+      "minimum_visible_margin_px": 69,
+      "scale_uniform": 0.055762081784386616,
+      "visible_world_size": [
+        75,
+        48.74
+      ],
+      "anchors_native_estimated": {
+        "copper_bin": [
+          480,
+          354
+        ],
+        "timber_bin": [
+          1120,
+          578
+        ],
+        "catch_tray": [
+          780,
+          778
+        ]
+      },
+      "offset_center_world": {
+        "copper_bin": [
+          -16.059,
+          -8.81
+        ],
+        "timber_bin": [
+          19.628,
+          3.68
+        ],
+        "catch_tray": [
+          0.669,
+          14.833
+        ]
+      },
+      "footboxes_native_estimated": [
+        [
+          120,
+          560,
+          230,
+          632
+        ],
+        [
+          516,
+          711,
+          638,
+          779
+        ],
+        [
+          949,
+          783,
+          1036,
+          844
+        ],
+        [
+          1168,
+          867,
+          1280,
+          938
+        ]
+      ],
+      "measurements": {
+        "dry_base_envelope_native": [
+          108,
+          500,
+          1450,
+          943
+        ],
+        "bin_world_width_estimated": [
+          30,
+          35
+        ]
+      },
+      "notes": "Low sorting lot for2510,1505 yard; keep front shelter/respawn2500,1575 clear. Footboxes estimate skid contact, not a safe walkable surface.",
+      "status": "selected art/QA; not scene-integrated or certified navigation",
+      "base_envelope_world_size": [
+        74.83,
+        24.7
+      ]
+    },
+    {
+      "name": "drain_inspection_module",
+      "path": "assets/reconstruction/port_stitch/drain_inspection_module.png",
+      "sha256": "e79f477d28b68171ab9a464286424636c4f8a71afd4a2083732e2c10c1219987",
+      "canvas": [
+        1435,
+        1096
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox_gt16": [
+        99,
+        90,
+        1350,
+        1008
+      ],
+      "minimum_visible_margin_px": 85,
+      "scale_uniform": 0.06794564348521183,
+      "visible_world_size": [
+        85,
+        62.37
+      ],
+      "anchors_native_estimated": {
+        "feed_w": [
+          125,
+          180
+        ],
+        "outlet_e": [
+          1298,
+          606
+        ],
+        "grate_s": [
+          652,
+          739
+        ],
+        "wall_join_n": [
+          787,
+          320
+        ],
+        "inspection_lid": [
+          715,
+          472
+        ]
+      },
+      "offset_center_world": {
+        "feed_w": [
+          -40.258,
+          -25.004
+        ],
+        "outlet_e": [
+          39.442,
+          3.941
+        ],
+        "grate_s": [
+          -4.45,
+          12.978
+        ],
+        "wall_join_n": [
+          4.722,
+          -15.492
+        ],
+        "inspection_lid": [
+          -0.17,
+          -5.164
+        ]
+      },
+      "footboxes_native_estimated": [
+        [
+          258,
+          832,
+          430,
+          879
+        ],
+        [
+          440,
+          926,
+          933,
+          993
+        ],
+        [
+          951,
+          920,
+          1172,
+          1007
+        ]
+      ],
+      "measurements": {
+        "dry_base_envelope_native": [
+          250,
+          838,
+          1200,
+          1008
+        ],
+        "approx_branch_socket_diameter_native": [
+          190,
+          200
+        ]
+      },
+      "notes": "Rectangular drain/inspection insert for existing margin, not new human portal. Join masonry to wall; water only at low outlet. Different-height west/east flange endpoints; branch diameter~13px, no direct main26px pipe match.",
+      "status": "selected art/QA; not scene-integrated or certified navigation",
+      "base_envelope_world_size": [
+        64.55,
+        11.55
+      ]
+    }
+  ],
+  "reusable_inventory": [
+    {
+      "path": "assets/reconstruction/port_approach/stone_timber_threshold.png",
+      "role": "Preserve polished2240,1370 approach; already stone/timber contact; do not overlay or clone densely."
+    },
+    {
+      "path": "assets/reconstruction/docas_finish/workyard_platform.png",
+      "role": "Existing broad irregular public/work landing with piles."
+    },
+    {
+      "path": "assets/reconstruction/docas_finish/naval_slipway.png",
+      "role": "Existing naval launch ramp; no new generic ramp needed."
+    },
+    {
+      "path": "assets/reconstruction/stair_fits/coastal_stone_stair.png",
+      "role": "Existing dry coastal stair fit."
+    },
+    {
+      "path": "assets/reconstruction/stair_fits/deck_timber_stair.png",
+      "role": "Existing actual deck/stair fit."
+    },
+    {
+      "path": "assets/infrastructure/coastal_wall.png",
+      "role": "Stone/piles, embedded bollards and moss: low retaining/berthing margin."
+    },
+    {
+      "path": "assets/infrastructure/service_arch.png",
+      "role": "Existing arched mouths; preserve3F locations, new drain is supplementary rectangular inspection only."
+    },
+    {
+      "path": "assets/reconstruction/utility_fits/copper_elbow.png",
+      "role": "Measured copper turn already exists; branching to new drain requires diameter matching/reducer, not stretching."
+    },
+    {
+      "path": "assets/reconstruction/docas_parallel/complement_v1/pier_head_deep.png",
+      "role": "Existing dock-head variation with88.9px clear central depth; not new production here."
+    },
+    {
+      "path": "assets/reconstruction/cabos_parallel/main_deck_ew_wide.png",
+      "role": "Wide modularE-W deck with75.5px clear painting."
+    },
+    {
+      "path": "assets/reconstruction/docas_parallel/complement_v1/port_cargo_sling_cluster.png",
+      "role": "Slung bulk cargo; new low sorting lot differs in top contents and footprint."
+    },
+    {
+      "path": "assets/reconstruction/market_salvage_cart.png",
+      "role": "Existing cart for triage, no new cart."
+    },
+    {
+      "path": "assets/reconstruction/forjas_parallel/complement_v1/maintenance_bench_cluster.png",
+      "role": "Existing light maintenance bench; choose alongside low shed without duplicate bench clutter."
+    },
+    {
+      "path": "assets/reconstruction/amarras_parallel/chain_winch_station.png",
+      "role": "Existing traction/loading guide near technical mouths,75px inputF circle stays clear."
+    },
+    {
+      "path": "assets/reconstruction/docas_parallel/complement_v1/wet_wood_saltwear_decal.png",
+      "role": "Wood coastal wear alpha.20-.30, existing."
+    },
+    {
+      "path": "assets/reconstruction/amarras_parallel/damp_anchor_runoff_decal_stains.png",
+      "role": "Wet stone/mineral marks alpha.25."
+    },
+    {
+      "path": "assets/reconstruction/forjas_parallel/complement_v1/transition_soot_decal.png",
+      "role": "Soot transition toward industry, alpha restrained; avoid heat in port."
+    }
+  ],
+  "prompts_sources": {
+    "shed": {
+      "prompt": "Use case: stylized-concept. ONE professional isolated transparent RGBA 2D game sprite for port backlands linking active Docas to city/Forjas in Sucateia Ferrugem Baixa. Match original_visual_benchmark.png and approved Docas: elevated orthographic THREE-QUARTER TOP-DOWN SOUTH looking NORTH, dominant top surfaces, short south-facing walls, no diagonal isometric camera, no vanishing point. Diffuse DAYLIGHT from upper-left. Dense hand-painted realistic weathered materials: dark reused timber, dull rusty iron, muted oxidized copper, dirty old stone as needed, worn salt near harbor progressing to maintained workshop metal. Active repairs/working economy, asymmetry from practical patches, clean readable load paths and fasteners. No polished glossy gold, thick cartoon outlines, theatrical night lights. Whole object contained with generous transparent margin, alpha0 outside physical silhouette and holes. No surrounding terrain, background floor, water, cast ground shadow, haze, glow, people, text/signage/logos. Preserve professional scale:24-28worldpx door/character, small equipment40-90px, corridors60px must remain separate and unobstructed. Metadata will measure actual delivered scale, sockets and floor contacts; do not imply invisible floor/collision. Subject: ONE LOW SMALL ROPE AND OIL MAINTENANCE SHED, intended visible width145worldpx and roof projected depth80worldpx; foreground south doorway OPEN and24px wide. Low single pitched lean-to roof of patched copper sheet and worn timber, top roof about65percent of silhouette, no upper story, chimney, furnace, market stall, residential windows. Asymmetrical compact service workshop: left narrow enclosed storage cupboard, middle open south workfront, right exterior rope rewinding bench attached within silhouette with one small spindle and tools; two small oil cans tucked under bench, contained rope coil hung on rear brace. Blank surfaces no labels. Exposed repaired timber posts on small dry stone shoes, simple clear footprint and south threshold. No full floor slab outside shed. Keep south entry unobstructed, no boxes in doorway; servicing workspace belongs outside asset on existing dry pocket. Distinct silhouette from wide dock sorting shelter, low enough to keep routes legible. Intended base footprint110x30worldpx, height/camera modest. No crane/boat/pier embedded.",
+      "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-3fbc7053-2ad4-4c57-ba41-f6525dd11e7f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    "sort": {
+      "prompt": "Use case: stylized-concept. ONE professional isolated transparent RGBA 2D game sprite for port backlands linking active Docas to city/Forjas in Sucateia Ferrugem Baixa. Match original_visual_benchmark.png and approved Docas: elevated orthographic THREE-QUARTER TOP-DOWN SOUTH looking NORTH, dominant top surfaces, short south-facing walls, no diagonal isometric camera, no vanishing point. Diffuse DAYLIGHT from upper-left. Dense hand-painted realistic weathered materials: dark reused timber, dull rusty iron, muted oxidized copper, dirty old stone as needed, worn salt near harbor progressing to maintained workshop metal. Active repairs/working economy, asymmetry from practical patches, clean readable load paths and fasteners. No polished glossy gold, thick cartoon outlines, theatrical night lights. Whole object contained with generous transparent margin, alpha0 outside physical silhouette and holes. No surrounding terrain, background floor, water, cast ground shadow, haze, glow, people, text/signage/logos. Preserve professional scale:24-28worldpx door/character, small equipment40-90px, corridors60px must remain separate and unobstructed. Metadata will measure actual delivered scale, sockets and floor contacts; do not imply invisible floor/collision. Subject: ONE LOW WET-SORTING LOT, compact asymmetrical grounded group intended75worldpx wide, dry ground footprint50worldpx projected depth. TWO separate shallow open reclaimed timber sorting bins with worn rusty corner bands; one holds clean recovered copper pipe couplings and small brass fittings, other holds short dark waterworn timber offcuts bundled with rope. One tiny flat oil-drip catch tray tucked against rear foot, functional wet work not abandoned trash. Visible short timber skids under bins lift goods off damp ground; full support feet contained. Different from tall sealed crate/sling cluster: no lifting ring or overhead rope, no tall barrel or cargo that hides access. Each bin about24–30worldpx wide. Modest matte coastal wear and tiny salt residue, no water added. Irregular staggered bin positions, all top contents visible from high view, low sidewalls. No whole floor slab, shed, boat, crane, wheels, ore, fire or labels. Intended beside existing triage workfront, not on public walkway.",
+      "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-0a76c838-3185-4ee4-9395-92937747ffb1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    "drain": {
+      "prompt": "Use case: stylized-concept. ONE professional isolated transparent RGBA 2D game sprite for port backlands linking active Docas to city/Forjas in Sucateia Ferrugem Baixa. Match original_visual_benchmark.png and approved Docas: elevated orthographic THREE-QUARTER TOP-DOWN SOUTH looking NORTH, dominant top surfaces, short south-facing walls, no diagonal isometric camera, no vanishing point. Diffuse DAYLIGHT from upper-left. Dense hand-painted realistic weathered materials: dark reused timber, dull rusty iron, muted oxidized copper, dirty old stone as needed, worn salt near harbor progressing to maintained workshop metal. Active repairs/working economy, asymmetry from practical patches, clean readable load paths and fasteners. No polished glossy gold, thick cartoon outlines, theatrical night lights. Whole object contained with generous transparent margin, alpha0 outside physical silhouette and holes. No surrounding terrain, background floor, water, cast ground shadow, haze, glow, people, text/signage/logos. Preserve professional scale:24-28worldpx door/character, small equipment40-90px, corridors60px must remain separate and unobstructed. Metadata will measure actual delivered scale, sockets and floor contacts; do not imply invisible floor/collision. Subject: ONE COMPACT LOW WALL-MOUNTED INSPECTION/DRAINAGE SERVICE MODULE, intended visible width85worldpx, projected height65worldpx. A short old stone retaining-wall inset with rusty rectangular grated drain outlet in its SOUTH vertical face, small hand-operated flap valve at side, dark aged copper pipe feed coming into TOP LEFT socket and another short EAST open flange socket for optional continuation. All short pipe terminal flange circles complete inside sprite; no long pipe leaving frame. Stone top cap stepped and matte, welded iron repairs, mineral green-gray damp streaks down drain face. Drain assembly fully supported by short masonry jambs/footing, no floor slab outside module. A small hinged inspection lid on the TOP face behind outlet, closed with simple handle, no climbable player doorway. Coherent path: upper-left inlet pipe elbow down into drain box, outlet grate at lower south face; tiny valve wheel links physically to pipe, not floating ornament. Structural rear/north straight masonry mating edge for overlay into EXISTING quay wall, full side brackets. Different from existing arched sewer-mouth sprite: compact rectangular inspection gate/valve, no arched doorway, no ladder/stairs/human portal/new floor opening. No water spray or puddle; scene water may meet low outlet. Keep24px character scale comparison, grate outlet approximately28worldpx wide; small details read at85px. No lantern tower, accumulator, heat, giant machinery.",
+      "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-a254dc0b-fd3c-4bf9-95b7-47753c1910c4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  },
+  "qa": "assets/reconstruction/port_stitch/qa_gameplay_contacts.png",
+  "accuracy": "Native points ±10px estimated visually; footbox samples, not collision geometry; source PNGs unchanged",
+  "protected_png_count": 137,
+  "protected_hash_file": "assets/reconstruction/port_stitch/protected_hashes.json",
+  "scope": "No scene/import/Godot; new production PNGs plus metadata/QA only"
+}

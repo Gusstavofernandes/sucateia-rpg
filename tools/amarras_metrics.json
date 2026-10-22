@@ -1,0 +1,38 @@
+{
+  "tests": 16,
+  "selected_generated_assets": 8,
+  "routes": 7,
+  "bridges": 4,
+  "chains": 6,
+  "floor_cells": 611,
+  "captures": {
+    "amarras_district": {
+      "draw_calls": 577.0,
+      "nodes": 4649.0
+    },
+    "amarras_transfer": {
+      "draw_calls": 457.0,
+      "nodes": 4649.0
+    },
+    "amarras_anchor": {
+      "draw_calls": 447.0,
+      "nodes": 4649.0
+    },
+    "amarras_maintenance": {
+      "draw_calls": 325.0,
+      "nodes": 4649.0
+    },
+    "amarras_transition": {
+      "draw_calls": 545.0,
+      "nodes": 4649.0
+    },
+    "amarras_full": {
+      "draw_calls": 2575.0,
+      "nodes": 4649.0
+    },
+    "forjas_district": {
+      "draw_calls": 844.0,
+      "nodes": 4649.0
+    }
+  }
+}

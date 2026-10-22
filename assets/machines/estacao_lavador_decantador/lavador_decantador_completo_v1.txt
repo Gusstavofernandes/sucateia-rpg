@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = lavador_decantador_completo_v1
+categoria = estacao_lavador_decantador
+dimensoes_arquivo_px = 768x757
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 192.00x189.25
+pivo_base = (384.0, 757)
+fundo_transparente = PNG_RGBA_LIMPO

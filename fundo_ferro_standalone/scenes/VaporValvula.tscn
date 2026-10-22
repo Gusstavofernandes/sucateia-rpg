@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://vapor_valvula_suave_standalone_01"]
+
+[ext_resource type="Texture2D" path="res://assets/fx/vapor_particula.png" id="1_puff"]
+
+[sub_resource type="Curve" id="Curve_puff_scale"]
+_data = [Vector2(0, 0.28), 0.0, 1.2, 0, 0, Vector2(1, 0.85), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_puff_color"]
+colors = PackedColorArray(0.92, 0.94, 0.95, 0.45, 0.88, 0.90, 0.92, 0)
+
+[node name="VaporValvula" type="Node2D"]
+
+[node name="Vapor" type="CPUParticles2D" parent="."]
+amount = 10
+lifetime = 1.4
+preprocess = 0.6
+randomness = 0.3
+texture = ExtResource("1_puff")
+direction = Vector2(0, -1)
+spread = 15.0
+gravity = Vector2(8, -18)
+initial_velocity_min = 18.0
+initial_velocity_max = 35.0
+damping_min = 4.0
+damping_max = 8.0
+scale_amount_curve = SubResource("Curve_puff_scale")
+color_ramp = SubResource("Gradient_puff_color")

@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = decantador_agitador_engrenagens_v1
+categoria = estacao_lavador_decantador
+dimensoes_arquivo_px = 265x215
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 66.25x53.75
+pivo_base = (132.5, 215)
+fundo_transparente = PNG_RGBA_LIMPO

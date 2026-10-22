@@ -1,0 +1,596 @@
+{
+  "brief": "tools/CONSULTANT_DOCAS_BRIEF.md",
+  "decision": "Four existing production PNGs retained; no concrete missing production asset proven before placement. No new generation.",
+  "accuracy": "Visual native coordinates ±10 pixels; conservative floor/contact guides, not gameplay collision shapes.",
+  "assets": [
+    {
+      "name": "cargo_barge",
+      "path": "assets/reconstruction/docas_parallel/cargo_barge.png",
+      "sha256": "e9d7c721ce4b8020ece4f0183229d29c91b3f9b913d6506ca116c291a639df71",
+      "canvas": [
+        1702,
+        924
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox_gt16": [
+        52,
+        122,
+        1659,
+        760
+      ],
+      "visible_margin_px": 43,
+      "scale_uniform": 0.20535158680771623,
+      "visible_world_size": [
+        330,
+        131.01
+      ],
+      "connections_native_estimated": {
+        "bow_bollard": [
+          232,
+          420
+        ],
+        "aft_rail_tie": [
+          1372,
+          650
+        ],
+        "mid_rail_tie": [
+          940,
+          618
+        ],
+        "winch_exit": [
+          1360,
+          547
+        ],
+        "cargo_reach_s": [
+          820,
+          624
+        ]
+      },
+      "connections_offset_center_world": {
+        "bow_bollard": [
+          -127.11,
+          -8.62
+        ],
+        "aft_rail_tie": [
+          106.99,
+          38.61
+        ],
+        "mid_rail_tie": [
+          18.28,
+          32.03
+        ],
+        "winch_exit": [
+          104.52,
+          17.45
+        ],
+        "cargo_reach_s": [
+          -6.37,
+          33.27
+        ]
+      },
+      "ground_contact_rectangles_native_estimated": [],
+      "ground_contact_world_sizes_estimated": [],
+      "visual_measurements": {
+        "waterline_guide_native_polyline": [
+          [
+            105,
+            435
+          ],
+          [
+            330,
+            640
+          ],
+          [
+            800,
+            730
+          ],
+          [
+            1400,
+            730
+          ],
+          [
+            1630,
+            620
+          ]
+        ],
+        "largest_crate_native_width_estimated": 160
+      },
+      "notes": "Water object, E-W bow west/stern east. Loaded hold not walkable. Waterline is visual placement guide, not an alpha mask. Do not submerge/fade whole lower hull or fenders blindly.",
+      "status": "art handoff only; scene placement/water/collision not validated"
+    },
+    {
+      "name": "cargo_sorting_shelter",
+      "path": "assets/reconstruction/docas_parallel/cargo_sorting_shelter.png",
+      "sha256": "eb4684cd76310b30c846d35d184c4426e421f69b52838c26bb3881e851e7bfc7",
+      "canvas": [
+        1402,
+        1122
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox_gt16": [
+        59,
+        115,
+        1358,
+        982
+      ],
+      "visible_margin_px": 44,
+      "scale_uniform": 0.20785219399538107,
+      "visible_world_size": [
+        270,
+        180.21
+      ],
+      "connections_native_estimated": {
+        "workfront_s": [
+          690,
+          890
+        ],
+        "cupboard_threshold": [
+          1120,
+          938
+        ],
+        "bollard_w_rope": [
+          135,
+          772
+        ],
+        "rope_spool": [
+          686,
+          712
+        ]
+      },
+      "connections_offset_center_world": {
+        "workfront_s": [
+          -2.29,
+          68.38
+        ],
+        "cupboard_threshold": [
+          87.09,
+          78.36
+        ],
+        "bollard_w_rope": [
+          -117.64,
+          43.86
+        ],
+        "rope_spool": [
+          -3.12,
+          31.39
+        ]
+      },
+      "ground_contact_rectangles_native_estimated": [
+        [
+          110,
+          835,
+          360,
+          900
+        ],
+        [
+          955,
+          898,
+          1050,
+          960
+        ],
+        [
+          1230,
+          900,
+          1320,
+          980
+        ]
+      ],
+      "ground_contact_world_sizes_estimated": [
+        [
+          51.96,
+          13.51
+        ],
+        [
+          19.75,
+          12.89
+        ],
+        [
+          18.71,
+          16.63
+        ]
+      ],
+      "visual_measurements": {
+        "cupboard_native_width_estimated": 130,
+        "overall_ground_envelope_estimated": [
+          110,
+          825,
+          1320,
+          980
+        ]
+      },
+      "notes": "Dry land. Floor is not included. Crates/bench obstruct southern interior; reserve external workfront space. Roof is slightly skewed; do not rotate/mirror to force coastal alignment.",
+      "status": "art handoff only; scene placement/water/collision not validated"
+    },
+    {
+      "name": "mooring_capstan",
+      "path": "assets/reconstruction/docas_parallel/mooring_capstan.png",
+      "sha256": "077d37cd7e2495525dc98b39bbeacbb8322adf2320fc63ccccfe889f840dd270",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bbox_gt16": [
+        103,
+        168,
+        1430,
+        832
+      ],
+      "visible_margin_px": 103,
+      "scale_uniform": 0.10550113036925396,
+      "visible_world_size": [
+        140,
+        70.05
+      ],
+      "connections_native_estimated": {
+        "bollard_w_rope": [
+          299,
+          602
+        ],
+        "bollard_e_rope": [
+          1297,
+          618
+        ],
+        "drum_w_tangent": [
+          600,
+          580
+        ],
+        "drum_e_tangent": [
+          910,
+          590
+        ]
+      },
+      "connections_offset_center_world": {
+        "bollard_w_rope": [
+          -49.48,
+          9.5
+        ],
+        "bollard_e_rope": [
+          55.81,
+          11.18
+        ],
+        "drum_w_tangent": [
+          -17.72,
+          7.17
+        ],
+        "drum_e_tangent": [
+          14.98,
+          8.23
+        ]
+      },
+      "ground_contact_rectangles_native_estimated": [
+        [
+          133,
+          710,
+          480,
+          790
+        ],
+        [
+          510,
+          735,
+          1010,
+          832
+        ],
+        [
+          1080,
+          704,
+          1430,
+          790
+        ]
+      ],
+      "ground_contact_world_sizes_estimated": [
+        [
+          36.61,
+          8.44
+        ],
+        [
+          52.75,
+          10.23
+        ],
+        [
+          36.93,
+          9.07
+        ]
+      ],
+      "visual_measurements": {
+        "drum_native_diameter_estimated": 400
+      },
+      "notes": "Dry quay. Handles extend well beyond footprint. Tie boat to bollard waist; show traction tangent to drum with scene rope guide. Do not attach traction to axle/top bolt. Mechanical holding and base anchorage still need placement.",
+      "status": "art handoff only; scene placement/water/collision not validated"
+    },
+    {
+      "name": "naval_repair_cradle",
+      "path": "assets/reconstruction/docas_parallel/naval_repair_cradle.png",
+      "sha256": "274d5ba13865c71eaf59167610dab687a3d2b6898e2a400fa121498eb36a9639",
+      "canvas": [
+        1774,
+        887
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox_gt16": [
+        80,
+        127,
+        1711,
+        834
+      ],
+      "visible_margin_px": 53,
+      "scale_uniform": 0.134886572654813,
+      "visible_world_size": [
+        220,
+        95.36
+      ],
+      "connections_native_estimated": {
+        "bow_eye": [
+          155,
+          309
+        ],
+        "stern_eye": [
+          1580,
+          250
+        ],
+        "support_w": [
+          550,
+          792
+        ],
+        "support_e": [
+          1268,
+          810
+        ],
+        "service_access_s": [
+          900,
+          720
+        ]
+      },
+      "connections_offset_center_world": {
+        "bow_eye": [
+          -98.74,
+          -18.14
+        ],
+        "stern_eye": [
+          93.48,
+          -26.1
+        ],
+        "support_w": [
+          -45.46,
+          47.01
+        ],
+        "support_e": [
+          51.39,
+          49.44
+        ],
+        "service_access_s": [
+          1.75,
+          37.3
+        ]
+      },
+      "ground_contact_rectangles_native_estimated": [
+        [
+          400,
+          755,
+          725,
+          824
+        ],
+        [
+          1120,
+          768,
+          1400,
+          834
+        ]
+      ],
+      "ground_contact_world_sizes_estimated": [
+        [
+          43.84,
+          9.31
+        ],
+        [
+          37.77,
+          8.9
+        ]
+      ],
+      "visual_measurements": {
+        "overall_ground_envelope_estimated": [
+          360,
+          600,
+          1460,
+          834
+        ]
+      },
+      "notes": "Dry support frame. Both trestle feet must contact land/slipway. Shore water relation through nearby ramp/access/launch line, not by floating this trestle. Empty hull is repair equipment, not safe spawn platform.",
+      "status": "art handoff only; scene placement/water/collision not validated"
+    }
+  ],
+  "reusable_inventory": [
+    {
+      "path": "assets/infrastructure/coastal_wall.png",
+      "function": "Existing quay stone cap, timber piles, embedded bollards and moss/waterline transition."
+    },
+    {
+      "path": "assets/infrastructure/retaining_edge.png",
+      "function": "Short urban stone retaining edge; not a broad walkable quay floor."
+    },
+    {
+      "path": "assets/reconstruction/cabos_parallel/main_deck_ew_wide.png",
+      "function": "Wide E-W deck on existing shoreline/pier supports; reuse .1411161 scale and75.5px clear painted depth. No loose floating pier."
+    },
+    {
+      "path": "assets/infrastructure/walkway.png",
+      "function": "N-S approach deck, .60 example scale; needs proper shore/support contact."
+    },
+    {
+      "path": "assets/infrastructure/stairs.png",
+      "function": "Pedestrian vertical access. Not a wheeled-cargo ramp."
+    },
+    {
+      "path": "assets/infrastructure/crane.png",
+      "function": "Existing loading crane with stone base/contained chain hook; land base and actual load connection required."
+    },
+    {
+      "path": "assets/reconstruction/forjas_parallel/compact_loading_crane.png",
+      "function": "Alternative compact crane; choose one per functional station, avoid duplicate clutter."
+    },
+    {
+      "path": "assets/region/dock_warehouse.png",
+      "function": "Existing storage building with cargo crane, public workfront and mooring rings."
+    },
+    {
+      "path": "assets/region/wreck_cradle.png",
+      "function": "Large derelict salvage hull structure; identity differs from actively repaired new cradle, not needed to duplicate repair function."
+    },
+    {
+      "path": "assets/reconstruction/market_salvage_cart.png",
+      "function": "General small cargo transport rather than ore-only port stock."
+    },
+    {
+      "path": "assets/reconstruction/amarras_parallel/chain_winch_station.png",
+      "function": "Technical traction from land; add guide/rope or chain connection to real load."
+    },
+    {
+      "path": "assets/reconstruction/amarras_parallel/damp_anchor_runoff_decal_stains.png",
+      "function": "Restrained rust/mineral damp stains; initial alpha.25; not a certified wood-limo texture."
+    },
+    {
+      "path": "assets/reconstruction/amarras_parallel/chain_drag_wear_decal_marks.png",
+      "function": "Flat cargo wheel/chain drag wear; initial alpha.30."
+    },
+    {
+      "path": "assets/infrastructure/lantern.png",
+      "function": "Existing functional light at cargo/access station."
+    }
+  ],
+  "protected_png_hashes": {
+    "assets/reconstruction/alto_cistern.png": "a9b1435e41965f9fc3be7525fefed2a32575f6273359e72b19424ab0531952f5",
+    "assets/reconstruction/alto_residential_landing.png": "72c98c877de96598180fbb63a3f3ebfe25301d1bead6e39635695a11c9881349",
+    "assets/reconstruction/cloth_stall.png": "7bcd2d996e4bb82b2ced7594cf752899e94e3f0f1f0c0e31ed17f53d80e67691",
+    "assets/reconstruction/exchange_pavilion.png": "854ce8f6679762c8600b31c4b028e3d2e1872c6939c31ab7bb30c97821f39529",
+    "assets/reconstruction/forjas_boiler_hall.png": "bcf14ef557146d9dfe8a3a87866a63d0cdba85440c89b366677183bc642dad28",
+    "assets/reconstruction/forjas_recycler.png": "01aa4c690da3e606400cb884e664c92493299ee14f2f538c600c0aa6dd44c712",
+    "assets/reconstruction/forjas_workshop.png": "90ce4fcbe652d27c56842532c567e03220f5f7f44348dd645d8e1638683d7148",
+    "assets/reconstruction/fundo_abandoned_engine.png": "320aa45ad2c82a74adaf532cfd9c1d652520cadd8b04870c3313d66ec7b425cf",
+    "assets/reconstruction/fundo_collapsed_corner.png": "e45efa3b42c5e1e504a7deb766963d49ba87a2295434946547e2d28c5be9e8e1",
+    "assets/reconstruction/fundo_sorting_bank.png": "44324a00064be20e95a11a93c891f05b0ff85298fca15453016e04d31099dd56",
+    "assets/reconstruction/fundo_wall.png": "7d795b608ab195484be0cca6d10ff247d0c860528092701a71ce771aa77605b9",
+    "assets/reconstruction/market_salvage_cart.png": "21ff7707bda4b51cee8f27fb5a53b9980a5290ee6fff077403966fe025c0523e",
+    "assets/reconstruction/wholesale_arcade.png": "1e5f3136218842c86cd31aada5497adeb7975515bfb1b5df62de33b319d0c0a1",
+    "assets/reconstruction/amarras_parallel/cargo_tiedown_platform.png": "3fb85ede867a5c6263dddd052d23b0a3a93ddaf41aa9d5d7f5a8509d6096b279",
+    "assets/reconstruction/amarras_parallel/chain_drag_wear_decal.png": "a12d5379d3abbac1027fbe6a4cb3c2224ad2c454a8b9a6d82af00ddd36da5514",
+    "assets/reconstruction/amarras_parallel/chain_drag_wear_decal_marks.png": "7612fff3b3f2f4a708934232bb9d2ec4b2d1d18c0382b7d3396ebcf73da9ea96",
+    "assets/reconstruction/amarras_parallel/chain_routing_hub.png": "049164e6e01e927a6e9ee9d5150ad692e3448a22101ed26e65cff81d10568737",
+    "assets/reconstruction/amarras_parallel/chain_winch_station.png": "c0949d732d53eed4fa32d46d7ba1427c40cfe89c477a4da6be69138b28c7741b",
+    "assets/reconstruction/amarras_parallel/damp_anchor_runoff_decal.png": "226e7e491cefab3399af1a615a4bf24deae906ffdfe0c9c2bc317543759ed5be",
+    "assets/reconstruction/amarras_parallel/damp_anchor_runoff_decal_stains.png": "82aa3a66eed47b6f1a382fb37020d522e72d0ac07859ec0c3e40b4b2b41f6b7c",
+    "assets/reconstruction/amarras_parallel/edge_anchor_buttress.png": "7d05ce7f4893dc19999360389ba8ccad8f981db0a000ad73d32e519e2b4131f7",
+    "assets/reconstruction/amarras_parallel/qa_decals_existing_stone.png": "c08c0436096dab904ee564441fca748b1d6fb584cbfeb8169f8fb91db3aee5b3",
+    "assets/reconstruction/amarras_parallel/qa_footprints_connections.png": "9a04656c10d48c096d2a6d752d82c76d177826525d06b01d37c30d213adc940a",
+    "assets/reconstruction/amarras_parallel/qa_gameplay_contact_sheet.png": "05d3f05c958fe0efeae1580a01d9dbc463a62330cc2cd09be2f3c40cdbaa77bb",
+    "assets/reconstruction/amarras_parallel/technical_control_kiosk.png": "8f0ef2171385faddd4d1385906ebb5c2d40e97c3e77ffdad11c6f870287a5aaa",
+    "assets/reconstruction/amarras_parallel/technical_control_kiosk_complete.png": "aa795dc886f95c51a0bdf464caea5bb3691f449732fdcfae9fc0c3cee2851b45",
+    "assets/reconstruction/amarras_parallel/tension_anchor_tower.png": "92104def57e047ac7ae62385f74d86c6f13c4ea9e62ecff9810ca3934a6aff3e",
+    "assets/reconstruction/amarras_parallel/tension_anchor_tower_aligned.png": "ed4b1c09eb9b2b196363fb53033d79fd3c6c6745f0ecb5980a46727584a44b37",
+    "assets/reconstruction/amarras_parallel/tension_anchor_tower_margin.png": "a40facbcf786fe8e669624c5fe3ed4f7bc629d38443ca9b9f0cd4ac665665089",
+    "assets/reconstruction/cabos_parallel/hanging_house.png": "975718bee72c71faaf53586ec2268f000e94467c41f350544f25678f69095c92",
+    "assets/reconstruction/cabos_parallel/main_deck_ew_v1.png": "4b329a470b6f1b5456fb105adc94f6011ff41cc56860be8f6e77e8722bc33162",
+    "assets/reconstruction/cabos_parallel/main_deck_ew_v2.png": "c8b157e81dcf0a06ff43492a41ed87f89155b8ac41179de8bbeda5affc1c03f8",
+    "assets/reconstruction/cabos_parallel/main_deck_ew_wide.png": "615dbf4fbe4f3fd025b6b396f2e46c2955afa150b98a67b6f2131e9b52a85370",
+    "assets/reconstruction/cabos_parallel/power_messenger_anchor.png": "a84919af380aedf4810b11d61141d62b8b2dcfa8f59c9caec0f67b6bf2327201",
+    "assets/reconstruction/cabos_parallel/qa_composite.png": "c309c4a5298dc9d99078d8b251574850f090649e66636bcf1c27a9f2034ef44d",
+    "assets/reconstruction/cabos_parallel/suspension_bridge_ew.png": "6c6a4da0f5a8f41f7ca5fcad9a68344d3d66d77fd81167d370b6803427ca1c67",
+    "assets/reconstruction/cabos_parallel/walkway_t_junction.png": "51a33e24e69bb4eef2bf5b306535ed3bc91e6d26e662f7032f339a5727b9546f",
+    "assets/reconstruction/cabos_parallel/walkway_t_junction_clean.png": "d3f3bf353f76dade9fb8c5a8c6d9ceddb37a53f6716279f40dfdf6779bf52056",
+    "assets/reconstruction/docas_parallel/cargo_barge.png": "e9d7c721ce4b8020ece4f0183229d29c91b3f9b913d6506ca116c291a639df71",
+    "assets/reconstruction/docas_parallel/cargo_sorting_shelter.png": "eb4684cd76310b30c846d35d184c4426e421f69b52838c26bb3881e851e7bfc7",
+    "assets/reconstruction/docas_parallel/mooring_capstan.png": "077d37cd7e2495525dc98b39bbeacbb8322adf2320fc63ccccfe889f840dd270",
+    "assets/reconstruction/docas_parallel/naval_repair_cradle.png": "274d5ba13865c71eaf59167610dab687a3d2b6898e2a400fa121498eb36a9639",
+    "assets/reconstruction/docas_parallel/qa_composite.png": "65ef3ad0899459da0e72e824cd5e9e2105d98437471dd8d39333f666df7e6ee0",
+    "assets/reconstruction/forjas_parallel/compact_loading_crane.png": "7b8b6512e02a3ec7b778435f536a8030d0863d7bb1454872bfd3b91289abc08b",
+    "assets/reconstruction/forjas_parallel/compact_loading_crane_clean.png": "a5f70240b8d76d224d3be448b4ed95f16350d32b55c8af2b182e0e3a78738c06",
+    "assets/reconstruction/forjas_parallel/great_furnace_chimney.png": "e7b438319633c7e153735117e4f07674080800418dd0c9d82371ed5d8d98a67f",
+    "assets/reconstruction/forjas_parallel/open_smithy.png": "70b875f5397cfec4d7e8e53c95c809c11c1fbc0ad0aef6152952b014a39929cd",
+    "assets/reconstruction/forjas_parallel/ore_storage_cart.png": "1bfdbfa5c693fc4c13dc109a13fe1d5cbb6487ab89d131c2f34054e1150e6a91",
+    "assets/reconstruction/forjas_parallel/ore_storage_cart_clean.png": "162e6dc23406a0b36ffdb60a99fc295d683ecb209b4f50fafd52e34955d62d72",
+    "assets/reconstruction/forjas_parallel/qa_composite.png": "0d240d5561e226b576e6c16d3f105e8da768659c73da1ce55868be366300631e",
+    "assets/reconstruction/forjas_parallel/service_pipe_boiler.png": "3ff67ff29c2025c998aa20845c482dc8aa5c4dca10cf55cb4d360ec04d764f16",
+    "assets/reconstruction/forjas_parallel/service_pipe_boiler_clean.png": "b55b74e7ac0b8f1f450f5f6c355ee1b86119cac59af2c12b0e628da5e6c195d4",
+    "assets/reconstruction/forjas_parallel/complement_v1/coal_feed_cluster.png": "f88755090734f2e0924855b6f865e0dc378c4c4dd6c2823df028dcaba11e95bc",
+    "assets/reconstruction/forjas_parallel/complement_v1/cooling_trough_cluster.png": "dd7182c58219ed22f8d6e91ec66aff21ab34fd31c8ebc09db185e41afba4e0e0",
+    "assets/reconstruction/forjas_parallel/complement_v1/cooling_trough_cluster_complete.png": "e33a423dd5141d97f98b8b30d7b5e56f32674f13d3c65c9113a7c4c7ece71374",
+    "assets/reconstruction/forjas_parallel/complement_v1/exhaust_reducer_connector.png": "62b8bdd52b4fa0e632ceb28cff6d698a1d9d5ae81e5b0eacaa8dbf93a8f90a97",
+    "assets/reconstruction/forjas_parallel/complement_v1/exhaust_tower_addon.png": "667720487c6abacf6d1d8a9efd1c234a08e13309c50c6e4ba0b2172a9be3a5d2",
+    "assets/reconstruction/forjas_parallel/complement_v1/heat_reflection_mask.png": "207867254122fba18a57c0fd708a7355eb31e50321228e90668c36d5d4ab625d",
+    "assets/reconstruction/forjas_parallel/complement_v1/heat_scorch_decal.png": "2b5551de22c828305ce07613efc7f1325486262d362165d3665ebe402f150751",
+    "assets/reconstruction/forjas_parallel/complement_v1/heat_scorch_decal_overlay.png": "d8745bc8bddd70ceaeb0b85b4042bb27f38df2f358cf3cc361792fe1bd291f51",
+    "assets/reconstruction/forjas_parallel/complement_v1/maintenance_bench_cluster.png": "c1799b0bfa5a39fe2c4b642c8a5bc8263b07631e1d03418b05c1370aeeacdc74",
+    "assets/reconstruction/forjas_parallel/complement_v1/market_forge_transition_shop.png": "d04efaf23c46fd5b79bc21b4a769b8d28075f1c38c837c85ab05624321b00c3a",
+    "assets/reconstruction/forjas_parallel/complement_v1/pipe_saddle_support.png": "d767f82bf7dc273bf7d26675212dc02c7a630ced34e1b7491510e7f8f2d4af93",
+    "assets/reconstruction/forjas_parallel/complement_v1/pipe_saddle_support_ew.png": "bef4d43297e612a09e762d85deef08bb03b5ebc7718cf2aa85fdb811dce65bed",
+    "assets/reconstruction/forjas_parallel/complement_v1/pipe_saddle_support_single_ns.png": "bef4d43297e612a09e762d85deef08bb03b5ebc7718cf2aa85fdb811dce65bed",
+    "assets/reconstruction/forjas_parallel/complement_v1/qa_connection_points.png": "c07a5c05c6df5a4547d566fde6065ce78e88f27c07839f84597b28a08f18fbe3",
+    "assets/reconstruction/forjas_parallel/complement_v1/qa_decals_on_existing_stone.png": "a4334ef3c4cd438229c88ab55a1d5de81258f69c3b89f74c4aad6f8632295f72",
+    "assets/reconstruction/forjas_parallel/complement_v1/qa_gameplay_contact_sheet.png": "ad39c8b01fdf733d7a40434b75e8f207b06c847216105c040f1acca4e2eb7f26",
+    "assets/reconstruction/forjas_parallel/complement_v1/short_service_catwalk.png": "d88efc3b0b4dd87612533dd8321f2092a10c6534ed0a633032fc1634d5840c01",
+    "assets/reconstruction/forjas_parallel/complement_v1/slag_discharge_cluster.png": "5ca1f4c30af8638ae3274827bdff60a1ae3331d02e7d46c754b8d85214897b19",
+    "assets/reconstruction/forjas_parallel/complement_v1/slag_spill_decal.png": "5b808f6008723afad18e0e6c3c15e0b2c662eba3c47da0eca36a5614386415fb",
+    "assets/reconstruction/forjas_parallel/complement_v1/supported_pipe_connector.png": "2f7a915c52528c7c2f626ead2616a6073193c8d8c7e102e4b904169580c138c6",
+    "assets/reconstruction/forjas_parallel/complement_v1/transition_soot_decal.png": "b27fab2f0f0df51adc29a03d8fd06ef04a8b87a000b8ca1b810de82abc97a315",
+    "assets/infrastructure/channel.png": "56b0d5db5b07ab4c5a50ae12c59344461d8e525e8c8e8ee3d4dde893d8a00b18",
+    "assets/infrastructure/coastal_wall.png": "53b4a3aa304fda83a37f30dbb1ff761b92a4cc944491ca5357c4e19b9e8148f9",
+    "assets/infrastructure/crane.png": "83269c47165f5141c04a4a9ce46225be36350a0601ed330b00ef55cec268ecfb",
+    "assets/infrastructure/lantern.png": "99bfcc02e0e14e7bdcd07829104ff3a8b96e1f17c02306fab9fdd74074a9d48e",
+    "assets/infrastructure/retaining_edge.png": "fcaec444a6ca49a62dc2c67387c4045463426f3533cb37c30acdcfa1914d5c10",
+    "assets/infrastructure/scrap.png": "63cdf7f229cd38167dc0a985e7fbeb1a937abb948c9daeb8eb64bb48fee40cdd",
+    "assets/infrastructure/service_arch.png": "3b429c4bfc0aec34a751e582ac3dfa62bf3bd9d50e9b6b4379521709feaf92b4",
+    "assets/infrastructure/stairs.png": "8c9edbcb54ba0c5ee779c10b0fcca8ec90e46eea7344ae540d5bd39aad25b67d",
+    "assets/infrastructure/walkway.png": "1e3725112e3bd9b601cc4275ebe0f1e24c4e82308c17a0602d52d559d986dac0",
+    "assets/infrastructure/source/channel.png": "e69d118e0aeaf06225aa52cff7de0b7634d5302aa7133e51c13368a65e9231a1",
+    "assets/infrastructure/source/coastal_wall.png": "5441ac95831cef251dc2bd4dd9875ab30ddfdf29c583f11359c988bbe5cc8f99",
+    "assets/infrastructure/source/crane.png": "6cd86f1c7cde89d6ea3cc9fbe5d40ba6f74ce5c0cffeec0b758c33a410cd993a",
+    "assets/infrastructure/source/lantern.png": "5b236fa90f123349068dd91f09d5b3fb370c0eb79ae9c8749ecc17b100b06a14",
+    "assets/infrastructure/source/retaining_edge.png": "feb585bafc4d2522f40c02475890accee61eb8607ab37c5ce0868d404544ed2a",
+    "assets/infrastructure/source/scrap.png": "5a8bc86c3ac08f1d3dd5204aa4137cd19697d57bf1642294e8944dfb8d0ce05a",
+    "assets/infrastructure/source/service_arch.png": "65ae8cac08b6054edddd9f0b94ea746e123e37fe73f936dbfc8d7938cffc53c7",
+    "assets/infrastructure/source/stairs.png": "21be5d33f71a27d67495441c515210ad06c2616560e57fe1e9e3b3ccb91e80b1",
+    "assets/infrastructure/source/walkway.png": "bcead41077a1a46d585d85811e0b4aadb07b301b7f28fefc20c37722e97bae7e",
+    "assets/region/cable_tower.png": "d8a7a1a262f3fbb61b1000d8208578dc7546b6212d409fde6f706d0233f5123e",
+    "assets/region/cargo_barge.png": "bab52e4435426a8d30a2e9c6c27d93aec9e3c9397be0ba1fc763e40285674a41",
+    "assets/region/cargo_depot.png": "0fad646b060cec79eae4b444d9a667d9b01cd16ae931b015bfc6d078379d9cbb",
+    "assets/region/chimney_bank.png": "c16447aca0c0c75a07a34631f4c21af1a9fdc7502158aade860e48406dfc5849",
+    "assets/region/crown.png": "bb637c4ffcf0a4ac93582870743059141f2af52c7530b5ff4b6d6b85625d88da",
+    "assets/region/dock_warehouse.png": "ab2210bb4946418875c9fe014d328f18d28cafcfd72ef8b0da5bb6f08402b92b",
+    "assets/region/foundry.png": "ee6b45082f8b29ed9c0256168a8686759c89af2b19bc5ee0dcf31a3ff2d2fa64",
+    "assets/region/gearworks.png": "20b72d6cd5b61efbbad0530adead4a31558308e1fed5ae8b6a152a19bb7ebc93",
+    "assets/region/machine_lane.png": "b93e723f0eef0572a66541db5001c77303c6caddf435bf0204de0a1443f17cdf",
+    "assets/region/pump_station.png": "cad38011597fc430cc4f78464379014c538afdd77ee8acaca22adb1a4f62f41f",
+    "assets/region/ruined_engine.png": "cba0544a8104c79cc89e70c00f48dad60c13f80f3df169c55f322383b08f891d",
+    "assets/region/salvage_ground.png": "1bdde9a5613af1473277fdb77c03a78e840fc39dfb4fe601742cbc1d9a69d148",
+    "assets/region/scrap_colossus.png": "9cd8309522f582534cc9217fe0566511ac54622a42640690d02dc600cb5e9494",
+    "assets/region/tenement.png": "0b8db3044238edbf95b562d11c35c2e0b6e8f5e061786548edde6d7b085cadb2",
+    "assets/region/wreck_cradle.png": "49f571ff66bc672a2cfca712ab402161fb527244b918bff97fc48de57048ccf8",
+    "assets/region/source/cable_tower.png": "72206a9f788815d9a282ffcf1b3e9ed2683bf9ef8ea53d6798ed9161085f202a",
+    "assets/region/source/cargo_barge.png": "b4ca034ba7a59dedc7deaa10bd36d733569003e2cbb9c198a4efe5dbe9e6d8d3",
+    "assets/region/source/cargo_depot.png": "6039908320b588065a5e27a5c9c0cea6f27312ad0082d6e5ee7e616d9bbda48f",
+    "assets/region/source/chimney_bank.png": "06acb53cff0104f0f176421598fb3160d3971779d973ba810b10e116b29f95c2",
+    "assets/region/source/crown.png": "90b8aefccdbef21035c564282f2cb5375057dcaae6c2aca31f742431b219bf79",
+    "assets/region/source/dock_warehouse.png": "79fc59904f3a58625360041fe964707cf8dd153770c6ad22b08b9209c5f05edd",
+    "assets/region/source/foundry.png": "6b521001d8bda7c27d0787432f6581f599a94fd2afe4c1fc4737cb00a11b06dc",
+    "assets/region/source/gearworks.png": "5b661083b9ba54e40e602507d4ad4a4338cf1dd6bbf907fbdb6b170a5d78ff03",
+    "assets/region/source/machine_lane.png": "1e64eb47d3392eb73537a68b86c1325ffcc142aff1cf32724d4922c2f529c7c6",
+    "assets/region/source/pump_station.png": "eb20f21cd41a036239f83d5702f4373ee7b669754028662737c038018ff9159d",
+    "assets/region/source/ruined_engine.png": "214187e2aeb30e8caf7c460e4f91aa7971dbd1728b621226ccb7db4e3be4e2df",
+    "assets/region/source/salvage_ground.png": "396ab7a682400007afd14a55aa67bd40e9bb594d1d8c2963854ccacf10f0fd39",
+    "assets/region/source/scrap_colossus.png": "4b4f7b3d493c47ef5fb3fe409d45b332d4d66313270933e50abd7894444d8e15",
+    "assets/region/source/tenement.png": "715a7e78407d5abbd5e921ca70dd414125d1a5ed4e5aafc5744d1278cec2eec2",
+    "assets/region/source/wreck_cradle.png": "57cafbc231d1584992974198522194c385787f636a69a91fc7d1003580ea7fc7"
+  },
+  "scope": "Only new audit metadata/QA/docs; source PNGs preserved; no scene/import/runtime executed."
+}

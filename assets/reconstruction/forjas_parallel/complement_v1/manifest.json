@@ -1,0 +1,911 @@
+[
+  {
+    "name": "transition_soot_decal",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/transition_soot_decal.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Existing furnace visible sprite footprint at world width340px is about 340x317px; service boiler world width170px, ore-cart cluster190px, open smithy200px, benchmark doors24-28px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: Flat transparent ground overlay: soot transition plume, a sparse irregular EAST-WEST elongated deposit of black soot and charcoal dust, with two faint cart wheel abrasion streaks, fading naturally toward west/market and denser toward east/forge. NO painted stone/earth terrain, floor tile, border, props, buildings, hot flame or opaque backing. Just particulate grime to overlay existing stone. Gameplay footprint240x100px, compared with340px furnace and24px doors; largest particles1-3px at gameplay scale. Flat plane seen in same elevated camera, no thickness. Base contact means dust rests flat on receiving existing terrain; no invented drop shadow. Repeatable feathered edges, no giant cinematic glow. A single contiguous overlay not an atlas.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-f5cb90ed-3a4e-4b4c-ba59-f6a4791d057b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 240,
+    "recommended_opacity": 0.3,
+    "connections_native_pixels_estimated": [],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Faixa de poeira/fuligem com roda; concentrar leste, diluir oeste. Opacidade inicial0,25–0,35 para mostrar pedra existente.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1942,
+      809
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      17,
+      1942,
+      809
+    ],
+    "visible_bbox_gt16": [
+      113,
+      184,
+      1860,
+      661
+    ],
+    "transparent_percent": 60.07,
+    "minimum_visible_margin_px": 82,
+    "recommended_scale_from_canvas": 0.137378,
+    "resulting_world_canvas": [
+      267,
+      111
+    ],
+    "resulting_visible_world_size": [
+      240,
+      66
+    ],
+    "sha256": "b27fab2f0f0df51adc29a03d8fd06ef04a8b87a000b8ca1b810de82abc97a315"
+  },
+  {
+    "name": "slag_spill_decal",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/slag_spill_decal.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Existing furnace visible sprite footprint at world width340px is about 340x317px; service boiler world width170px, ore-cart cluster190px, open smithy200px, benchmark doors24-28px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: Flat transparent ground overlay: concentrated COOLED SLAG CHIPS and black glassy granular ash, crescent-shaped compact disposal spill, localized not random props. NO container, wagon, ground/stone texture or floor backing; only irregular cooled fragments and fine dust, tiny tight contact shadows below larger chips. Gameplay footprint125x80px, chips2-6px at gameplay size beside24px doors, furnace340px wide. Upper-left light, no emissive cyan, no lava, no flames. Low raised fragments shown from exact benchmark camera; feathered sparse edges allow existing stone to show through. One placeable overlay not atlas.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-51d311f5-5a57-4c7b-94ee-bfd6ba238635.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 125,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Derrame frio compacto; partículas e contato, sem chapa de terreno. Usar junto ao descarte, não aleatoriamente.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1568,
+      1003
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      25,
+      20,
+      1542,
+      1003
+    ],
+    "visible_bbox_gt16": [
+      133,
+      177,
+      1490,
+      861
+    ],
+    "transparent_percent": 70.03,
+    "minimum_visible_margin_px": 78,
+    "recommended_scale_from_canvas": 0.092115,
+    "resulting_world_canvas": [
+      144,
+      92
+    ],
+    "resulting_visible_world_size": [
+      125,
+      63
+    ],
+    "sha256": "5b808f6008723afad18e0e6c3c15e0b2c662eba3c47da0eca36a5614386415fb"
+  },
+  {
+    "name": "heat_reflection_mask",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/heat_reflection_mask.png",
+    "method": "built-in image_gen",
+    "prompt": "PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: ONE FLAT ABSTRACT TRANSLUCENT HEAT REFLECTION DECAL for placement over EXISTING Ferrugem Baixa stone. This is an RGBA OVERLAY MASK, not an illustration of ground. ONLY a very faint irregular soft warm amber-orange light wash, a few wispy soot-black brush traces and fully transparent gaps. NO TEXTURE at all: NO dirt, earth, stones, pebbles, cracks, cobblestones, terrain, geometry, objects, backing or floor. The underlying game texture must show completely through. Mostly alpha20-60/255, max90/255, feathered edge alpha0. Whole sparse colored mask with generous10% clear extraction margins. Flat fan shape140x90 gameplay pixels, narrow north origin24px corresponding furnace fire door, widening south. Matches orthographic elevated benchmark floor projection and upper-left diffuse light; warmth source north tip only, no shadows or new ground. No white/black background image, actual alpha transparency required; do not turn transparency checkerboard into pixels. Compare existing furnace340x293px and24-28px doors. No text, people, key art, fire, flame, lava, cyan, smoke scene, floor tile, particles or cinematic look. Ground contact means light reflected flat on receiving terrain. Output just the translucent coloration as a separate PNG sprite.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-a3ff5e6d-e57a-4d6b-807d-30e95d391d94.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 140,
+    "recommended_opacity": 0.2,
+    "connections_native_pixels_estimated": [],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Máscara sem pedras; alpha de origem excede meta. Usar opacidade0,15–0,25 (preview0,20), sem blend aditivo obrigatório. Variantes scorch rejeitadas.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1564,
+      1006
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1564,
+      1006
+    ],
+    "visible_bbox_gt16": [
+      138,
+      121,
+      1445,
+      893
+    ],
+    "transparent_percent": 47.19,
+    "minimum_visible_margin_px": 113,
+    "recommended_scale_from_canvas": 0.107116,
+    "resulting_world_canvas": [
+      168,
+      108
+    ],
+    "resulting_visible_world_size": [
+      140,
+      83
+    ],
+    "sha256": "207867254122fba18a57c0fd708a7355eb31e50321228e90668c36d5d4ab625d"
+  },
+  {
+    "name": "coal_feed_cluster",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/coal_feed_cluster.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current uniformly scaled sprite canvas bounds from integrate_forjas_art.gd: furnace340x293 world pixels within340x345 budget, open smithy189x133 within189x157 budget, ore/cart227x151, crane216x144 within216x226 budget, service boiler189x126 within189x138 budget; existing building doors24-28px. Furnace visible opaque width about300px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: Functional grouped COAL FEED CLUSTER. One low open coal bunker made of reused iron ship plates with compact dark coal pile; narrow scooping/work edge, shovel bracket, fuel feed screw outlet integrated on east side. No minecart, ore, slag, crane, furnace or duplicate existing stock sprite. Tight dark coal dust at base, two braced support feet, dense legible group not scattered props. Gameplay opaque footprint155x95px beside ore/cart227x151 and smithy189x133. Coal bunker itself105x55px; outlet straight toward EAST horizontally in screen with circular riveted flange diameter18px gameplay, center32px above bottom footprint. End open but dark, designed for short connector rather than decorative hose; mechanical feed purpose. Provide south access edge55px clear, no slab beyond tiny contact shadows.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-a7c61950-a3cf-4bf3-a51c-46081ddab488.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 155,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "fuel_out_e",
+        "x": 1440,
+        "y": 517,
+        "approx_gameplay_diameter": 22,
+        "normalized_canvas": [
+          0.93083,
+          0.50886
+        ],
+        "offset_from_center_world": [
+          82.06,
+          1.11
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Carvão separado do minério. Saída E com diâmetro final aproximado22px; acesso sul livre.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1547,
+      1016
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1531,
+      998
+    ],
+    "visible_bbox_gt16": [
+      205,
+      126,
+      1464,
+      842
+    ],
+    "transparent_percent": 61.56,
+    "minimum_visible_margin_px": 83,
+    "recommended_scale_from_canvas": 0.123114,
+    "resulting_world_canvas": [
+      190,
+      125
+    ],
+    "resulting_visible_world_size": [
+      155,
+      88
+    ],
+    "sha256": "f88755090734f2e0924855b6f865e0dc378c4c4dd6c2823df028dcaba11e95bc"
+  },
+  {
+    "name": "slag_discharge_cluster",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/slag_discharge_cluster.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current uniformly scaled sprite canvas bounds from integrate_forjas_art.gd: furnace340x293 world pixels within340x345 budget, open smithy189x133 within189x157 budget, ore/cart227x151, crane216x144 within216x226 budget, service boiler189x126 within189x138 budget; existing building doors24-28px. Furnace visible opaque width about300px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: Functional grouped SLAG DISCHARGE CLUSTER. One low rectangular reused riveted iron mould rack holding three cooled dark slag cakes, short lined discharge trough leading toward northwest attachment, scoria piled compactly on one side, long-handled rake secured to rack. No cart, raw ore bin, coal heap, crane, forge building. Gameplay opaque footprint150x95px beside227x151 ore/cart; trough interior18px wide and flange22px at NORTHWEST end for furnace outflow attachment. Mostly cold material, pinprick restrained amber residual heat in trough only. Tiny char/ash at physical base as contact, no surrounding ground, floor slab or separate yard scene.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-041e27c4-dc1a-44e8-9018-98007d97a9f7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 185,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "slag_in_nw",
+        "x": 142,
+        "y": 177,
+        "approx_gameplay_diameter": 20,
+        "normalized_canvas": [
+          0.09245,
+          0.17285
+        ],
+        "offset_from_center_world": [
+          -89.98,
+          -48.15
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Bandejas/escória em fila; flange NW20px na largura185px. Conexão por canaleta/redução, não forçar flange22px sem conferir.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      0,
+      21,
+      1490,
+      1024
+    ],
+    "visible_bbox_gt16": [
+      113,
+      105,
+      1400,
+      937
+    ],
+    "transparent_percent": 74.62,
+    "minimum_visible_margin_px": 87,
+    "recommended_scale_from_canvas": 0.143745,
+    "resulting_world_canvas": [
+      221,
+      147
+    ],
+    "resulting_visible_world_size": [
+      185,
+      120
+    ],
+    "sha256": "5ca1f4c30af8638ae3274827bdff60a1ae3331d02e7d46c754b8d85214897b19"
+  },
+  {
+    "name": "cooling_trough_cluster_complete",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/cooling_trough_cluster_complete.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current uniformly scaled sprite canvas bounds from integrate_forjas_art.gd: furnace340x293 world pixels within340x345 budget, open smithy189x133 within189x157 budget, ore/cart227x151, crane216x144 within216x226 budget, service boiler189x126 within189x138 budget; existing building doors24-28px. Furnace visible opaque width about300px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nEDIT TARGET: cooling_trough_cluster.png only. Reframe and complete the CUT-OFF EAST PIPE END. Preserve tank, bars, water-contained-inside-tank, west return trough, materials and camera. Reduce subject within canvas, center whole module, provide at least10% TRUE alpha0 margin on every edge. EAST pipe must terminate in one fully visible round riveted flange and open dark mouth, not cropped against frame. WEST return channel contained. No surrounding water/floor. Gameplay opaque width170px, current service189x126px, doors24-28px. EAST flange diameter22px target, connector geometry must be explicit. No new scene, people or text. Keep tight support contact shadows only. Output as new sibling corrected sprite.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-ee269b93-ce6b-4f7d-b966-a847c68f53c0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 170,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "water_in_e",
+        "x": 1514,
+        "y": 414,
+        "approx_gameplay_diameter": 22,
+        "normalized_canvas": [
+          0.93515,
+          0.42636
+        ],
+        "offset_from_center_world": [
+          82.03,
+          -8.33
+        ]
+      },
+      {
+        "id": "return_trough_sw",
+        "x": 155,
+        "y": 693,
+        "approx_gameplay_diameter": 18,
+        "normalized_canvas": [
+          0.09574,
+          0.7137
+        ],
+        "offset_from_center_world": [
+          -76.21,
+          24.16
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Ponta E recuperada. Água apenas dentro do tanque/canaleta. Canaleta SW é borda aberta, não flange circular.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1619,
+      971
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      25,
+      21,
+      1567,
+      921
+    ],
+    "visible_bbox_gt16": [
+      85,
+      201,
+      1545,
+      788
+    ],
+    "transparent_percent": 62.44,
+    "minimum_visible_margin_px": 74,
+    "recommended_scale_from_canvas": 0.116438,
+    "resulting_world_canvas": [
+      189,
+      113
+    ],
+    "resulting_visible_world_size": [
+      170,
+      68
+    ],
+    "sha256": "e33a423dd5141d97f98b8b30d7b5e56f32674f13d3c65c9113a7c4c7ece71374"
+  },
+  {
+    "name": "maintenance_bench_cluster",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/maintenance_bench_cluster.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current uniformly scaled sprite canvas bounds from integrate_forjas_art.gd: furnace340x293 world pixels within340x345 budget, open smithy189x133 within189x157 budget, ore/cart227x151, crane216x144 within216x226 budget, service boiler189x126 within189x138 budget; existing building doors24-28px. Furnace visible opaque width about300px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: Functional grouped MAINTENANCE CLUSTER for active repair of the existing boiler and crane. Compact low repair bench with disassembled bearing/valve parts, two replacement riveted plates leaning against a braced tool rack, grease tray, coil of spare chain and small manual screw vice, no forge fire or anvil, no roof/building. Not duplicate open smithy. Gameplay footprint130x85px, bench80x35px high25px, recognizable spanner20px, matching24px door-scale. Logical EAST rack mounting rail32px long with two bolt pads spaced20px for optional support attachment. Slight contained oil/contact dirt under feet, no floor tile. Group organized by repair workflow, not scattered props.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-54430e4d-c49c-4af6-8d6f-d0eb2cfe0f82.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 145,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "mount_rail_e",
+        "x": 1438,
+        "y": 675,
+        "approx_gameplay_diameter": 20,
+        "normalized_canvas": [
+          0.9362,
+          0.65918
+        ],
+        "offset_from_center_world": [
+          70.6,
+          17.18
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Manutenção com peças/óleo/placas; sem bigorna/fogo para não duplicar forja aberta. Trilho é fixação, não porta de fluxo.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      0,
+      7,
+      1516,
+      1024
+    ],
+    "visible_bbox_gt16": [
+      90,
+      82,
+      1466,
+      834
+    ],
+    "transparent_percent": 58.83,
+    "minimum_visible_margin_px": 70,
+    "recommended_scale_from_canvas": 0.105378,
+    "resulting_world_canvas": [
+      162,
+      108
+    ],
+    "resulting_visible_world_size": [
+      145,
+      79
+    ],
+    "sha256": "c1799b0bfa5a39fe2c4b642c8a5bc8263b07631e1d03418b05c1370aeeacdc74"
+  },
+  {
+    "name": "exhaust_tower_addon",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/exhaust_tower_addon.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current scaled sprite bounds: furnace340x293px, smithy189x133px, stock227x151px, crane216x144px, boiler189x126px, doors24-28px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: ONE add-on tall EXHAUST TOWER for existing great_furnace_chimney.png; furnace image is attachment-reference only, DO NOT regenerate furnace or smelting body. A tall narrow dominant chimney, two short auxiliary vents terminating into actual manifold, rusted iron braced frame and soot-dark narrow stone mounting plinth, copper pressure pipes, riveted repairs, ladder and narrow maintenance platform attached at lower third. Gameplay opaque footprint135x320px; compare original furnace340x293px canvas, chimney diameter32px, service ladder rung spacing6px, platform85x25px and base75x35px. Lower WEST-facing horizontal intake flange diameter26px, center60px above bottom, compatible with original furnace's right elbow; an EAST-facing optional26px return flange centered same height, closed removable cap. Orange glow only inside west intake collar; tiny cyan gauge. Main exhaust mouth open readable at top, no smoke cloud. No second fire door, no furnace body, no broad building roof. Clear lower bolted overlap zone18px on intake and contact shadows tight under mounting plinth. Intended to mount north/east behind furnace; structure may be asymmetric because landmark. Entire tower and both connections contained with10% margins.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-3528b7e5-bfda-4a8e-82ed-465b75857cf3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 184,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "exhaust_in_w",
+        "x": 171,
+        "y": 1156,
+        "approx_gameplay_diameter": 40,
+        "normalized_canvas": [
+          0.16699,
+          0.7526
+        ],
+        "offset_from_center_world": [
+          -75.78,
+          86.22
+        ]
+      },
+      {
+        "id": "capped_return_e",
+        "x": 891,
+        "y": 1230,
+        "approx_gameplay_diameter": 40,
+        "normalized_canvas": [
+          0.87012,
+          0.80078
+        ],
+        "offset_from_center_world": [
+          84.22,
+          102.67
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Altura visível~320px; largura184px. W aberto; E tampado. Flanges não estão na mesma linha: compensar offsets, nunca espelhar luz.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      65,
+      35,
+      962,
+      1512
+    ],
+    "visible_bbox_gt16": [
+      110,
+      43,
+      938,
+      1486
+    ],
+    "transparent_percent": 64.05,
+    "minimum_visible_margin_px": 43,
+    "recommended_scale_from_canvas": 0.222222,
+    "resulting_world_canvas": [
+      228,
+      341
+    ],
+    "resulting_visible_world_size": [
+      184,
+      321
+    ],
+    "sha256": "667720487c6abacf6d1d8a9efd1c234a08e13309c50c6e4ba0b2172a9be3a5d2"
+  },
+  {
+    "name": "supported_pipe_connector",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/supported_pipe_connector.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current scaled sprite bounds: furnace340x293px, smithy189x133px, stock227x151px, crane216x144px, boiler189x126px, doors24-28px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: ONE reusable SHORT HORIZONTAL PIPE CONNECTOR WITH VISIBLE SUPPORTS, two weathered rusted iron end flanges screen aligned EAST/WEST, intact short copper/iron run with small repair plate and one manually operated isolation valve on top, two real saddle clamps bolted to narrow triangular braced low iron support feet. No building, boiler/tank, tower or disconnected pipes. Gameplay opaque width100px height45px; end flange diameter22px, centers26px above base on SAME horizontal line; straight run60px between collars, pipe body diameter14px, overlap collar8px at each end. Match service boiler189x126px and24px doors. Tight foot contact shadow only. Connector has logical intake/outflow and valve, symmetrical join geometry; usable without mirroring light. Natural wear one repaired seam, no sky glow.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-47955260-8e52-4d7c-afab-091e51ea9bf7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 100,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "pipe_w",
+        "x": 316,
+        "y": 404,
+        "approx_gameplay_diameter": 24,
+        "normalized_canvas": [
+          0.16898,
+          0.48038
+        ],
+        "offset_from_center_world": [
+          -44.95,
+          -1.2
+        ]
+      },
+      {
+        "id": "pipe_e",
+        "x": 1551,
+        "y": 404,
+        "approx_gameplay_diameter": 24,
+        "normalized_canvas": [
+          0.82941,
+          0.48038
+        ],
+        "offset_from_center_world": [
+          44.73,
+          -1.2
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Tubo horizontal com suportes próprios, corpo14px e flanges~24px. Não girar arbitrariamente; junta deve ocultar colar8px.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1870,
+      841
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      88,
+      9,
+      1832,
+      817
+    ],
+    "visible_bbox_gt16": [
+      247,
+      171,
+      1624,
+      661
+    ],
+    "transparent_percent": 75.5,
+    "minimum_visible_margin_px": 171,
+    "recommended_scale_from_canvas": 0.072622,
+    "resulting_world_canvas": [
+      136,
+      61
+    ],
+    "resulting_visible_world_size": [
+      100,
+      36
+    ],
+    "sha256": "2f7a915c52528c7c2f626ead2616a6073193c8d8c7e102e4b904169580c138c6"
+  },
+  {
+    "name": "short_service_catwalk",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/short_service_catwalk.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current scaled sprite bounds: furnace340x293px, smithy189x133px, stock227x151px, crane216x144px, boiler189x126px, doors24-28px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: ONE reusable SHORT SERVICE CATWALK CONNECTOR, screen horizontal east-west rectilinear narrow rusty metal grating walkway, low riveted side handrails, compact attached underside braces and four bolted endpoint lugs. No long suspension bridge, rope district, giant platform, surrounding floor or supports that become a ground slab. Gameplay footprint120x55px, actual walking surface95x32px, rail height14px, straight EAST/WEST docking edges32px wide with8px overlap tabs, bolt spacing24px. Align both ends in exact horizontal screen row. Used to stitch furnace and boiler service access, clear circulation not decoration; weathered repair patch one grated plate. Tight contact shadows at mounts only,10% transparent margin.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-736ef4fb-3cae-4ec6-9b5b-82d8015aef04.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 220,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "dock_w",
+        "x": 122,
+        "y": 456,
+        "approx_gameplay_diameter": 32,
+        "normalized_canvas": [
+          0.06877,
+          0.51409
+        ],
+        "offset_from_center_world": [
+          -104.79,
+          1.71
+        ]
+      },
+      {
+        "id": "dock_e",
+        "x": 1655,
+        "y": 456,
+        "approx_gameplay_diameter": 32,
+        "normalized_canvas": [
+          0.93292,
+          0.51409
+        ],
+        "offset_from_center_world": [
+          105.21,
+          1.71
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Largura revista120→220px para superfície caminhável~30px, compatível porta24px. Encaixes retos com pares de furos; não usar escala inicial pequena.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      57,
+      20,
+      1734,
+      861
+    ],
+    "visible_bbox_gt16": [
+      84,
+      273,
+      1690,
+      679
+    ],
+    "transparent_percent": 70.56,
+    "minimum_visible_margin_px": 84,
+    "recommended_scale_from_canvas": 0.136986,
+    "resulting_world_canvas": [
+      243,
+      122
+    ],
+    "resulting_visible_world_size": [
+      220,
+      56
+    ],
+    "sha256": "d88efc3b0b4dd87612533dd8321f2092a10c6534ed0a633032fc1634d5840c01"
+  },
+  {
+    "name": "pipe_saddle_support_single_ns",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/pipe_saddle_support_single_ns.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current uniformly scaled sprite canvas bounds from integrate_forjas_art.gd: furnace340x293 world pixels within340x345 budget, open smithy189x133 within189x157 budget, ore/cart227x151, crane216x144 within216x226 budget, service boiler189x126 within189x138 budget; existing building doors24-28px. Furnace visible opaque width about300px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: ONE detachable SUPPORT AND SADDLE BRACKET matching the supports in supported_pipe_connector.png (connection geometry reference). Generate pedestal only, NOT the pipe or valve assembly. Saddle through-axis must be screen-horizontal EAST-WEST, matching reference pipe, not north-south. Show curved semicircular rusted iron saddle open upward, with narrow curve seen from left end along pipe axis; braced short pedestal and bolted foot, loose matching clamp band hanging at side. Gameplay footprint35px width45px height; saddle BODY bore14px to match current straight connector barrel, mounting pipe center26px abovefoot. The current supported connector has flange22px but BODY14px, so do not confuse these dimensions. Clear two bolted mount lugs8px apart. No paired supports joined by cross-pipe; no full pipe length or new tanks/buildings/terrain. Tight contact shadow only. Entire bracket margin10% alpha0. Same exact benchmark elevated camera and upper-left light. Functional pipe support only, reusable at half-length of current connector.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-096434d4-fd23-481c-8da7-e38a2451778e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 35,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "saddle_bore_ns",
+        "x": 552,
+        "y": 560,
+        "approx_gameplay_diameter": 18,
+        "normalized_canvas": [
+          0.50091,
+          0.39243
+        ],
+        "offset_from_center_world": [
+          0.06,
+          -8.75
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Resultado visual abre em U para sul/norte, apesar do pedido E–W. Liberado como suporte auxiliar N–S; NÃO snap direto no conector E–W. Este já inclui suportes compatíveis.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1102,
+      1427
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      50,
+      23,
+      1055,
+      1373
+    ],
+    "visible_bbox_gt16": [
+      292,
+      400,
+      906,
+      1011
+    ],
+    "transparent_percent": 85.41,
+    "minimum_visible_margin_px": 196,
+    "recommended_scale_from_canvas": 0.057003,
+    "resulting_world_canvas": [
+      63,
+      81
+    ],
+    "resulting_visible_world_size": [
+      35,
+      35
+    ],
+    "sha256": "bef4d43297e612a09e762d85deef08bb03b5ebc7718cf2aa85fdb811dce65bed"
+  },
+  {
+    "name": "market_forge_transition_shop",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/market_forge_transition_shop.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current uniformly scaled sprite canvas bounds from integrate_forjas_art.gd: furnace340x293 world pixels within340x345 budget, open smithy189x133 within189x157 budget, ore/cart227x151, crane216x144 within216x226 budget, service boiler189x126 within189x138 budget; existing building doors24-28px. Furnace visible opaque width about300px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: ONE HYBRID MARKET-TO-METALWORK COMMERCIAL SHOP, clearly distinct from open_smithy.png and roofed industrial workshop. Remnant ragged ochre market awning over low timber trade counter containing practical repaired fittings, small partially enclosed patched-timber stock cupboard with24px south door, attached SMALL soot-dark enclosed heat box with restrained orange grate, copper exhaust vent visibly connected into heat box, bolted metal patches and handtool rack, single small scrap bin. Small flat patched roof ONLY over rear stock room, awning covers customer counter only, broad roof does not obscure south access. Gameplay opaque width225px height155px, compare smithy189x133, furnace340x293; commercial awning90px wide, heatbox45x50px, counter80px long, pipe14px diameter with EAST22px service flange26px above base. Forge is annex to evolved market stall, not generic blacksmith/anvil stand, not another factory hall. Clear commercial face toward south and industrial service toward east. Tight believable support contact shadow, no ground slab/scenery. Signs of active repairs/sales without text or people.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-601378da-4d1b-4e5a-9a25-6334ae8cd185.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 275,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "shop_service_e",
+        "x": 1424,
+        "y": 542,
+        "approx_gameplay_diameter": 24,
+        "normalized_canvas": [
+          0.94242,
+          0.52065
+        ],
+        "offset_from_center_world": [
+          136.58,
+          4.39
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Largura revista225→275px para porta~24px e balcão legível; cliente sul, serviço E. Não duplicar forja artesanal.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1511,
+      1041
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1501,
+      1041
+    ],
+    "visible_bbox_gt16": [
+      122,
+      110,
+      1468,
+      881
+    ],
+    "transparent_percent": 53.87,
+    "minimum_visible_margin_px": 43,
+    "recommended_scale_from_canvas": 0.204309,
+    "resulting_world_canvas": [
+      309,
+      213
+    ],
+    "resulting_visible_world_size": [
+      275,
+      158
+    ],
+    "sha256": "d04efaf23c46fd5b79bc21b4a769b8d28075f1c38c837c85ab05624321b00c3a"
+  },
+  {
+    "name": "exhaust_reducer_connector",
+    "path": "assets/reconstruction/forjas_parallel/complement_v1/exhaust_reducer_connector.png",
+    "method": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Generate ONE new isolated production-ready RGBA sprite, not a replacement of any reference. Reference 1 original_visual_benchmark.png establishes camera/light/materials; other reference when supplied gives attachment geometry only. Orthographic elevated three-quarter top-down from SOUTH looking NORTH, top surfaces dominate; no diagonal isometric yaw, no vanishing points. Neutral upper-left diffuse daytime lighting, only local restrained orange industrial heat. Dense hand-painted weathered realistic game texture. 10 percent transparent margin on all sides, whole object and connections contained. Ground contact only tight small contact shadow under physical supports, no separate ground/floor slab, no ambient brown halo or broad shadow. Actual transparent alpha outside object including gaps. No scenery, text, people, logos, smoke clouds or night aesthetics. Repairs and active use, not abandoned machinery. Current uniformly scaled sprite canvas bounds from integrate_forjas_art.gd: furnace340x293 world pixels within340x345 budget, open smithy189x133 within189x157 budget, ore/cart227x151, crane216x144 within216x226 budget, service boiler189x126 within189x138 budget; existing building doors24-28px. Furnace visible opaque width about300px. Use these ratios. PRODUCTION CONSTRAINTS:\n- match the exact elevated 3/4 top-down camera of the current game;\n- match the scale of the existing Ferrugem Baixa buildings;\n- readable at gameplay zoom, not only as concept art;\n- no dramatic cinematic perspective;\n- lighting from the same general direction as current map assets;\n- include believable ground contact and base shadow;\n- preserve clean silhouette for sprite extraction;\n- avoid oversized roof overhangs that obscure walkable space;\n- avoid frontal perspective;\n- no isolated decorative pipes without visible connection logic;\n- materials must match current Ferrugem Baixa: dark stone, rusted iron, copper, patched wood, soot;\n- use cyan arcane light only as a secondary accent;\n- orange forge light is primary in Forjas Rasas;\n- asset must visually belong beside the current Mercado/Forjas transition;\n- output should be usable as an in-game sprite, not only as key art.\n\nMODULARITY:\n- provide clear connection points;\n- pipe ends, wall joins and platform edges must align cleanly;\n- avoid asymmetry that prevents reuse unless the asset is a landmark;\n- produce variants that differ in function, not just color;\n- every module must imply a believable industrial purpose.\nASSET: ONE SHORT FLANGED REDUCER ADAPTER for the newly generated exhaust_tower_addon.png. Add-on tower image is connection-reference only, do not generate tower itself. Actual tower intake at gameplay height320px is about40px outer flange diameter; existing furnace right elbow is26px. Make a functional tapered short exhaust reducer, WEST26px flange connected by taper to EAST40px flange. Gameplay visible width70px height55px, axes horizontally screen aligned with both port centers30px abovebase, support one low braced mounting saddle, overlap collars8px, no arbitrary disconnected tubes. Accurate varying flange size is essential, not recoloring standard pipe. Tight base contact shadow only. New sprite all ends contained with10% alpha0 margin. No tank, tower, furnace, ground, broad shadows, people/text. Only upper-left diffuse light, dark soot interior, restrained tiny orange heat reflection inside throat. This links existing26px furnace outlet to40px tower intake without pretending diameters already match.",
+    "source": "Generated images are saved to C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44 as C:\\Users\\Usuario\\.codex\\generated_images\\01a0ff61-86fa-7101-a020-10db97b53f44\\exec-30d84d04-faef-4226-85d6-045373b2fa61.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "recommended_visible_world_width": 70,
+    "recommended_opacity": 1,
+    "connections_native_pixels_estimated": [
+      {
+        "id": "reducer_small_w",
+        "x": 220,
+        "y": 543,
+        "approx_gameplay_diameter": 26,
+        "normalized_canvas": [
+          0.15548,
+          0.48875
+        ],
+        "offset_from_center_world": [
+          -27.5,
+          -0.71
+        ]
+      },
+      {
+        "id": "reducer_large_e",
+        "x": 1280,
+        "y": 598,
+        "approx_gameplay_diameter": 44,
+        "normalized_canvas": [
+          0.90459,
+          0.53825
+        ],
+        "offset_from_center_world": [
+          32.29,
+          2.4
+        ]
+      }
+    ],
+    "connection_accuracy": "Coordinates estimated visually, +/-10 native pixels; verify collars/offsets in integration. Not runtime-certified.",
+    "notes": "Redução real~26→44px; ajustar largura64–70px para boca maior40–44px. Leve deslocamento vertical3px entre centros, compensar no encaixe.",
+    "status": "delivered for integration: static gameplay-scale and RGBA QA; runtime placement unverified",
+    "references": [
+      "tools/FORJAS_DIRECTION_AUDIT.md",
+      "tools/checkpoints/original_visual_benchmark.png",
+      "maps/sucateia/preview_forjas_market_landmark.png",
+      "maps/sucateia/preview_forjas_full.png",
+      "tools/integrate_forjas_art.gd (read only)"
+    ],
+    "dimensions": [
+      1415,
+      1111
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      21,
+      1409,
+      1111
+    ],
+    "visible_bbox_gt16": [
+      111,
+      146,
+      1352,
+      975
+    ],
+    "transparent_percent": 51.94,
+    "minimum_visible_margin_px": 63,
+    "recommended_scale_from_canvas": 0.056406,
+    "resulting_world_canvas": [
+      80,
+      63
+    ],
+    "resulting_visible_world_size": [
+      70,
+      47
+    ],
+    "sha256": "62b8bdd52b4fa0e632ceb28cff6d698a1d9d5ae81e5b0eacaa8dbf93a8f90a97"
+  }
+]

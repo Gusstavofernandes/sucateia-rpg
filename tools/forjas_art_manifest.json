@@ -1,0 +1,26 @@
+[
+  {
+    "name": "forjas_workshop",
+    "path": "assets/reconstruction/forjas_workshop.png",
+    "prompt": "Use case: stylized-concept. Production-ready isolated transparent 2D game architecture sprite for Sucateia, dark medieval goblin arcane salvage city. Reference image is the CURRENT ORIGINAL PLAYABLE MAP: match painted texture detail, old stone, oxidized copper, charcoal iron, repurposed timber, ochre dirt, tiny amber/cyan accents. Elevated orthographic THREE-QUARTER TOP-DOWN camera from SOUTH toward NORTH, roof/top surfaces take 70% of structure, short visible south walls; no perspective vanishing point, no diagonal isometric view. Upper-left diffuse lighting. Usable at 300-350 world pixels wide, door same scale as reference. Entire complete object with 8% transparent margin, no terrain/background/people/text/letters/logo. Create ONE modular broad low REPAIR AND FABRICATION WORKSHOP, not a grand mansion: asymmetrical L-shaped patchwork corrugated rusty metal roof, one rear chimney, exposed roof hatch, open short south work porch with anvil/gear workbench, salvage bins tucked at side, patched timber reinforced by riveted iron. Small side awning and cyan arcane battery. Low sturdy gothic stone base, warm work lamp. Roof silhouette irregular but functional. Avoid massive tall frontal facades, clean modern factory, excessive light, complex background.",
+    "method": "built-in image_gen",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "source": "exec-328c98ac-a533-4053-9b12-c5e00be3bd33.png"
+  },
+  {
+    "name": "forjas_recycler",
+    "path": "assets/reconstruction/forjas_recycler.png",
+    "prompt": "Use case: stylized-concept. Production-ready isolated transparent 2D game architecture sprite for Sucateia, dark medieval goblin arcane salvage city. Reference image is the CURRENT ORIGINAL PLAYABLE MAP: match painted texture detail, old stone, oxidized copper, charcoal iron, repurposed timber, ochre dirt, tiny amber/cyan accents. Elevated orthographic THREE-QUARTER TOP-DOWN camera from SOUTH toward NORTH, roof/top surfaces take 70% of structure, short visible south walls; no perspective vanishing point, no diagonal isometric view. Upper-left diffuse lighting. Usable at 300-350 world pixels wide, door same scale as reference. Entire complete object with 8% transparent margin, no terrain/background/people/text/letters/logo. Create ONE compact goblin SCRAP RECYCLING PRESS AND SORTING MACHINE for an outdoor industrial work yard: heavy weathered low horizontal riveted machine bed with exposed top compression jaws, patched copper gear and small flywheel, short intake ramp with several broken metal pieces, side hopper, arcane cyan tiny coil, oil-stained grate service platform and amber work lamp. Functional medieval salvage engineering, mechanically readable top surfaces dominate. Machine must remain a self-contained placeable sprite with no surrounding floor. Avoid giant crane, robot, modern factory, massive tall tower, long background conveyor.",
+    "method": "built-in image_gen",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "source": "exec-021cec84-e2e8-4e31-a97c-707daf5d54c3.png"
+  },
+  {
+    "name": "forjas_boiler_hall",
+    "path": "assets/reconstruction/forjas_boiler_hall.png",
+    "prompt": "Use case: stylized-concept. ONE placeable industrial architecture sprite for Sucateia, a goblin medieval dark arcane salvage city. Match original playable-map reference in hand-painted weathered texture, scale of doors and upper-left diffuse light. High elevated orthographic 3/4 TOP-DOWN camera from SOUTH toward NORTH. Broad overlapping ROOF TOPS must occupy 75% of the structure, LOW south facade. Entire object with transparent margins, no surrounding ground/background/people/text. Subject: modular STEAM BOILER AND MANUFACTURING HALL, distinct from a small open repair stall. Heavy reclaimed stone low factory hall, irregular broad rusted dark-iron and oxidized copper vaulted roof, an exposed horizontal antique boiler mounted onto the roof and connected by elbows, 3 short clustered flues, squat round side tank, patched wooden side storage annex, short wide southern double cargo doors below stone arch, rusty loading hatch and small winch. Deep charcoal and rusty brown/dirty copper palette, restrained warm amber through two windows, very tiny cyan pressure gauge. Improvised but functional riveted engineering, dominant rooftops, tall chimneys kept modest. No futuristic pristine factory, no concept-art scenery, no frontal mansion, no diagonal isometric ground.",
+    "method": "built-in image_gen",
+    "reference": "tools/checkpoints/original_visual_benchmark.png",
+    "source": "exec-0110be77-a57a-4592-be8d-982d071523cc.png"
+  }
+]

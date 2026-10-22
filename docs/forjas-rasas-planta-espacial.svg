@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1050" viewBox="1350 -1970 2630 2390">
+<rect x="1350" y="-1970" width="2630" height="2390" fill="#172022"/>
+<text x="1400" y="-1870" fill="#efd6a8" font-size="55">Forjas Rasas — planta da implantação</text>
+<path d="M1350,-1690 L1620,-1690 L1730,-600 L1670,330 L1350,330 Z" fill="#64543b" opacity=".55"/>
+<text x="1380" y="-1600" fill="#e7ccb0" font-size="29">Mercado</text>
+<polygon points="1640.0,315.0 1770.0,270.0 2050.0,315.0 2440.0,300.0 2820.0,310.0 3370.0,280.0 3670.0,190.0 3750.0,-190.0 3650.0,-600.0 3730.0,-1050.0 3490.0,-1440.0 3150.0,-1640.0 2630.0,-1690.0 2110.0,-1490.0 1770.0,-1120.0 1640.0,-570.0" fill="#4b453c" stroke="#a57949" stroke-width="6"/>
+<polyline points="1668.0,132.0 1900.0,108.0 2170.0,-70.0 2470.0,-120.0 2780.0,-150.0 3200.0,-150.0 3550.0,0.0" fill="none" stroke="#dac283" opacity=".67" stroke-width="132" stroke-linejoin="round"/>
+<polyline points="2170.0,-70.0 2210.0,-650.0 2310.0,-800.0 2700.0,-800.0 2970.0,-680.0 3270.0,-600.0 3550.0,-630.0" fill="none" stroke="#e0a463" opacity=".67" stroke-width="115" stroke-linejoin="round"/>
+<polyline points="1416.0,-756.0 1490.0,-925.0 1620.0,-920.0 1800.0,-1040.0 1990.0,-1280.0 2310.0,-1280.0 2420.0,-1130.0 2700.0,-800.0" fill="none" stroke="#c5b29a" opacity=".67" stroke-width="90" stroke-linejoin="round"/>
+<polyline points="2310.0,-800.0 2310.0,-1280.0 2870.0,-1250.0 3100.0,-1550.0" fill="none" stroke="#ca8558" opacity=".67" stroke-width="82" stroke-linejoin="round"/>
+<polyline points="2210.0,-650.0 2150.0,-340.0 2470.0,-120.0" fill="none" stroke="#899e8f" opacity=".67" stroke-width="75" stroke-linejoin="round"/>
+<polyline points="2470.0,-120.0 2800.0,-610.0 2970.0,-680.0" fill="none" stroke="#b1a576" opacity=".67" stroke-width="82" stroke-linejoin="round"/>
+<polyline points="3270.0,-600.0 3550.0,-630.0 3650.0,-760.0" fill="none" stroke="#6cbbbb" opacity=".67" stroke-width="95" stroke-linejoin="round"/>
+<polyline points="2470.0,-120.0 2620.0,-80.0 2620.0,260.0 3000.0,260.0 3280.0,240.0 3280.0,-150.0 3200.0,-150.0" fill="none" stroke="#70989b" opacity=".67" stroke-width="72" stroke-linejoin="round"/>
+<rect x="1776.0" y="-252.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="1906.0" y="-597.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="1896.0" y="-1102.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="2051.0" y="-1242.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="2326.0" y="-427.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="2406.0" y="-662.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="2826.0" y="-432.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="3206.0" y="-592.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="3316.0" y="-1202.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="2926.0" y="-1492.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="2546.0" y="-1492.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<rect x="3426.0" y="-262.0" width="248" height="137" rx="12" fill="#69573e" stroke="#c59863" stroke-width="3"/>
+<polyline points="2260.0,145.0 2440.0,125.0 2560.0,150.0 2680.0,135.0 2920.0,180.0 3120.0,150.0 3340.0,160.0 3560.0,120.0" fill="none" stroke="#101f20" stroke-width="66"/>
+<rect x="2582" y="75" width="76" height="185" fill="#a48154"/>
+<rect x="3242" y="75" width="76" height="185" fill="#a48154"/>
+<circle cx="2150" cy="-340" r="17" fill="#eed7a0"/><text x="2060" y="-273" fill="#ffecd0" font-size="34">Reparos</text>
+<circle cx="2470" cy="-120" r="17" fill="#eed7a0"/><text x="2380" y="-53" fill="#ffecd0" font-size="34">Carga</text>
+<circle cx="2800" cy="-610" r="17" fill="#eed7a0"/><text x="2710" y="-543" fill="#ffecd0" font-size="34">Fabricação</text>
+<circle cx="2700" cy="-800" r="17" fill="#eed7a0"/><text x="2610" y="-733" fill="#ffecd0" font-size="34">Fundição</text>
+<circle cx="3270" cy="-600" r="17" fill="#eed7a0"/><text x="3180" y="-533" fill="#ffecd0" font-size="34">Reciclagem</text>
+<circle cx="3100" cy="-1550" r="32" fill="none" stroke="#a9cac5" stroke-width="5" stroke-dasharray="9 6"/><text x="2930" y="-1603" fill="#bbd7d0" font-size="29">Chaminés (reservado)</text>
+<circle cx="3650" cy="-760" r="32" fill="none" stroke="#a9cac5" stroke-width="5" stroke-dasharray="9 6"/><text x="3480" y="-813" fill="#bbd7d0" font-size="29">Grande Ferrugem</text>
+<circle cx="3000" cy="260" r="32" fill="none" stroke="#a9cac5" stroke-width="5" stroke-dasharray="9 6"/><text x="2830" y="207" fill="#bbd7d0" font-size="29">Manutenção / Fundo-Ferro</text>
+<text x="1450" y="385" fill="#cfba99" font-size="30">Mesma cena · escala 48 unidades/tile · saídas externas ainda reservadas</text></svg>

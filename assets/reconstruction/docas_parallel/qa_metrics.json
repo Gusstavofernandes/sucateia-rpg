@@ -1,0 +1,106 @@
+[
+  {
+    "name": "cargo_barge",
+    "path": "assets/reconstruction/docas_parallel/cargo_barge.png",
+    "dimensions": [
+      1702,
+      924
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      49,
+      9,
+      1699,
+      924
+    ],
+    "visible_bbox_gt16": [
+      52,
+      122,
+      1659,
+      760
+    ],
+    "transparent_percent": 52.46
+  },
+  {
+    "name": "cargo_sorting_shelter",
+    "path": "assets/reconstruction/docas_parallel/cargo_sorting_shelter.png",
+    "dimensions": [
+      1402,
+      1122
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      9,
+      1402,
+      1122
+    ],
+    "visible_bbox_gt16": [
+      59,
+      115,
+      1358,
+      982
+    ],
+    "transparent_percent": 48.86
+  },
+  {
+    "name": "mooring_capstan",
+    "path": "assets/reconstruction/docas_parallel/mooring_capstan.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox": [
+      0,
+      9,
+      1520,
+      1024
+    ],
+    "visible_bbox_gt16": [
+      103,
+      168,
+      1430,
+      832
+    ],
+    "transparent_percent": 64.53
+  },
+  {
+    "name": "naval_repair_cradle",
+    "path": "assets/reconstruction/docas_parallel/naval_repair_cradle.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      3,
+      1752,
+      849
+    ],
+    "visible_bbox_gt16": [
+      80,
+      127,
+      1711,
+      834
+    ],
+    "transparent_percent": 54.8
+  }
+]

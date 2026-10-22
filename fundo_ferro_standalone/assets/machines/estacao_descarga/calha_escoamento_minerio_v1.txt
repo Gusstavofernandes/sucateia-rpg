@@ -1,0 +1,15 @@
+[ASSET_METADATA]
+nome = calha_escoamento_minerio_v1
+tipo = CalhaInclinadaEscoamento
+categoria = estacao_descarga
+dimensoes_arquivo_px = 263x154
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 65.75x38.5
+pivo_base = (0, 77)
+z_index = -3
+y_sort_enabled = true
+descricao = Calha inclinada de ferro reforçado que conduz o minerio verde bruto do berço basculante para a boca da britadeira a leste.
+colisao_estatica = Rectangle2D(extents=(32, 18), offset=(32, 0))
+pontos_ancoragem:
+  entrada_berco = (0, 77)
+  saida_britadeira = (263, 115)

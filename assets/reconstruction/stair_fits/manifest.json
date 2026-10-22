@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-03",
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "path": "assets/reconstruction/stair_fits/deck_timber_stair.png",
+      "prompt": "Use case: stylized-concept. Create ONE production game sprite: a north-south descending stair flight for the elevated wooden deck in the provided reference. Reference 1 is MATERIAL AND CAMERA STYLE only; reference 2 shows intended staircase placement in the map, not an edit target. Transparent PNG background. Match exact dark industrial fantasy pre-rendered 2D style and orthographic oblique overhead camera: back/top at image top, front/bottom at image bottom, no diagonal rotation, perfectly centered vertical axis. Worn brown WOOD plank treads matching deck reference, rusted iron riveted stringers, subtle oxidized teal repair patches, two simple copper pipe side handrails; NO heavy masonry piers. Single long coherent stairflight with 14 timber treads and a small rectangular flush upper timber docking threshold, open at top/bottom, top and bottom walkable width equal, parallel sides without dramatic perspective taper. Target visible object proportions width:height approximately 1:2.2. Top threshold center around x=50%, y=10%; bottom last tread center around x=50%, y=90%, with minimal margins. Rails meet ends rather than overshoot far. The top threshold should butt against deck plank seam and bottom foot rests flat on stone paving (do not draw ground). Include metal end attachment plates. Low contrast, muted earthy brown and dark iron, top-left lighting matching reference. Crisp texture designed to read at around 90 by 220 game pixels. Isolated stair only, no bridge/deck scene, no platform blocking top, no text, no ground, no labels, no baked broad cast shadow. Preserve real transparent alpha.",
+      "ports_pixels": [
+        [
+          423,
+          160
+        ],
+        [
+          423,
+          1690
+        ]
+      ],
+      "scale_x": 0.15,
+      "top_offset_from_elevated_arrival": [
+        0,
+        32
+      ],
+      "applied_to": [
+        "AltoLixo",
+        "Mercado",
+        "Forjas"
+      ]
+    },
+    {
+      "path": "assets/reconstruction/stair_fits/coastal_stone_stair.png",
+      "prompt": "Use case: stylized-concept. Create ONE isolated transparent PNG game sprite: a short staircase fitted in the coastal retaining wall opening of reference 2. Reference 1 is material/camera style; reference 2 shows map context, NOT an edit target. Dark industrial fantasy gritty pre-rendered 2D game art, orthographic oblique overhead view facing south, exact vertical symmetry, no diagonal rotation. 6 broad shallow worn stone-and-rusted-iron steps descending from top/back to bottom/front, two short stone cheek walls with timber facing and bronze riveted bands matching reference retaining wall, simple chain or copper pipe handrails only along sides. Top has a short flat stone landing flush between wall ends, bottom has a small flat foot slab resting on paving, no massive isolated towers. Parallel width, no dramatic taper. Target isolated sprite proportions width:height around 1.35:1; opening usable width 110 game pixels and vertical walk length 80 game pixels. Upper docking center x=50%,y=15%, bottom last tread center x=50%,y=85%. No scenery, ground, grass, characters, labels, text, no bridge, no unrelated doorway. Match subdued olive-brown stone, dark wood, bronze/copper rust, not bright orange; top-left lighting, restrained contrast, crisp at approximately 145 by 110 pixels. Transparent background, preserved actual alpha, no broad baked cast shadow.",
+      "ports_pixels": [
+        [
+          720,
+          285
+        ],
+        [
+          720,
+          870
+        ]
+      ],
+      "ports_world": [
+        [
+          1512,
+          1378
+        ],
+        [
+          1512,
+          1472
+        ]
+      ],
+      "scale_x": 0.155,
+      "wall_gap": 144
+    }
+  ],
+  "verification": {
+    "docking_tolerance_px": 0.01,
+    "player_radius": 11,
+    "coast_lanes_x": [
+      1490,
+      1512,
+      1534
+    ],
+    "deck_traversal": "existing F transitions preserved; flight is visual and does not add a continuously walkable upper-layer ramp"
+  }
+}

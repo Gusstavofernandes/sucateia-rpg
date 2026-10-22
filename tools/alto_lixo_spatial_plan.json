@@ -1,0 +1,43 @@
+{
+  "stage": "spatial_definition_before_detail",
+  "scene": "res://maps/sucateia/sucateia.tscn",
+  "base_capture": "maps/sucateia/preview_market_full.png",
+  "direction": "west/northwest",
+  "units": "world_pixels",
+  "tile_size": 48,
+  "preserve_market_floor": true,
+  "boundary": [[620,100],[240,160],[-220,120],[-700,160],[-1120,-40],[-1440,-380],[-1400,-820],[-1190,-1190],[-1100,-1480],[-600,-1430],[-220,-1300],[210,-1200],[600,-1140],[530,-800],[456,-504],[420,100]],
+  "frontiers": [
+    {"name":"Mercado_Oeste","point":[456,-504],"from":"BecoDasFerragens","status":"existing_market_endpoint"},
+    {"name":"Mercado_Noroeste","point":[1032,-944],"from":"PassagemDosLotes","status":"planned_lateral_link"},
+    {"name":"Mercado_Sudoeste","point":[830,160],"from":"EntradaDoMercado","status":"planned_service_link"}
+  ],
+  "routes": [
+    {"name":"Subida dos Remendos","kind":"main","clear_width":88,"points":[[744,-504],[456,-504],[300,-552],[120,-610],[-100,-680],[-400,-780],[-600,-900]]},
+    {"name":"Travessa dos Andaimes","kind":"main","clear_width":80,"points":[[1032,-944],[970,-1020],[840,-1110],[600,-1140],[310,-1070],[100,-1100],[-220,-1060],[-600,-900]]},
+    {"name":"Rua da Drenagem","kind":"main","clear_width":84,"points":[[830,160],[700,100],[420,100],[240,80],[40,-50],[-100,-230],[-230,-380],[-100,-680]]},
+    {"name":"Beco das Calhas","kind":"alley","clear_width":60,"points":[[120,-610],[35,-790],[100,-1100]]},
+    {"name":"Beco dos Fundos","kind":"alley","clear_width":64,"points":[[-400,-780],[-500,-620],[-410,-420],[-230,-380]]},
+    {"name":"Passagem das Amarras","kind":"alley","clear_width":60,"points":[[-220,-1060],[-420,-1180],[-760,-1130],[-830,-980],[-600,-900]]}
+  ],
+  "terraces": [
+    {"name":"Soleira do Mercado","point":[420,-504],"visual_height_m":0,"material":"urban stone becoming mixed soil"},
+    {"name":"Casas dos Remendos","point":[-100,-680],"visual_height_m":1.5,"material":"mixed paving, mud and runoff"},
+    {"name":"Pátio dos Andaimes","point":[-600,-900],"visual_height_m":3,"material":"mud, reused stone and metal footings"},
+    {"name":"Cume das Calhas","point":[-900,-1170],"visual_height_m":5,"material":"raised timber/metal structures over muddy terraces"}
+  ],
+  "stairs": [
+    {"point":[300,-552],"levels":[0,1.5]},
+    {"point":[-400,-780],"levels":[1.5,3]},
+    {"point":[310,-1070],"levels":[0,1.5]},
+    {"point":[-830,-980],"levels":[3,5]}
+  ],
+  "future_exits": [
+    {"name":"Ferrugem Baixa — oeste","point":[-1400,-650],"from":[-600,-900],"status":"reserved_not_built"},
+    {"name":"Ferrugem Baixa — noroeste","point":[-1100,-1400],"from":[-760,-1130],"status":"reserved_not_built"},
+    {"name":"Serviço em direção a Fundo-Ferro","point":[-850,120],"from":[-230,-380],"status":"reserved_not_built"}
+  ],
+  "forjas_reserved_polygon": [[1680,-1500],[2520,-1500],[2600,-500],[2350,180],[1740,180]],
+  "landmark": {"name":"Cisterna e cobertura coletiva do pátio alto","point":[-650,-965],"status":"planned_art_not_generated"},
+  "construction_status": "not_built; planned heights are visual design, not active elevation mechanics"
+}

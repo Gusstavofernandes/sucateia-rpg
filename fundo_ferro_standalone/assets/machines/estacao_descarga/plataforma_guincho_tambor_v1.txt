@@ -1,0 +1,8 @@
+[ASSET_METADATA]
+nome = plataforma_guincho_tambor_v1
+categoria = estacao_descarga
+dimensoes_arquivo_px = 63x78
+escala_recomendada_mundo = 0.25
+dimensoes_mundo_px = 15.75x19.50
+pivo_base = (31.5, 78)
+fundo_transparente = PNG_RGBA_LIMPO

@@ -1,0 +1,7 @@
+# Lacuna funcional após auditoria Cabos
+
+Root mantém cena/runtime; auditoria estática foi lida integralmente. Casa0,28; ponte0,26; T0,38 e mastro0,16 serão usados sem deformação. Escadas e torres existentes resolvem acessos/suporte, sem nova família dessas funções.
+
+Gap a conferir pela frente arte/supervisor antes de gerar: **módulo de deck reto E–O mais largo para via principal**. Ponte atual27–39px e T32–46px serão trechos secundários, sem spawns. Walkway existente fornece66–102px N–S, mas a auditoria proíbe girar90° para fabricar E–O com câmera/luz incorretas. Plataformas/espinha principal E–O precisam de70–85px úteis reais, sem usar colisão mais larga que pintura. Procurando ainda equivalentes já aprovados em região/infraestrutura; não duplicar caso exista.
+
+Caso inventário não contenha equivalente: um único módulo reutilizável E–O, comprimento visível~210–230px, profundidade total~110–140px com passagem central~80px; aço enferrujado/madeira remendada, rebites, grade/guarda-corpo fino de lado, extremidades abertas com bolt-lugs na mesma linha e suportes/viga inferior completos. Sem spawn estreito, chão de fundo, altura cinematográfica, luz invertida ou cenário. Câmera elevada sul→norte, luz superior esquerda, matching benchmark e quatro sprites Cabos. Topo e contato estrutural legíveis; marcar terminais E/O, largura caminhável e apoio inferior. A rede terá patamares públicos e acesso gradual por escadas existentes; o módulo não precisa escada ou torre embutida. Esse pedido não é nova família de prédios nem mudança dos quatro PNGs.

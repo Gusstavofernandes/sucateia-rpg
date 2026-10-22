@@ -1,0 +1,18 @@
+{
+  "phase": "Acabamento do Fundo-Ferro existente",
+  "status": "fundo_finish_implemented_and_locally_verified_consultant_review_pending",
+  "consultation": "completed_tools_CONSULTANT_FUNDO_FINISH_BRIEF",
+  "implementation_thread": "01a0face-adf4-7ef0-984c-cb5ad576e7b1",
+  "implementation_cursor": "d81bf463-3e69-43cb-96f6-e8a5190ebead:60",
+  "art_thread": "01a0ff61-86fa-7101-a020-10db97b53f44",
+  "art_cursor": "ff1c1cac-ac89-4dfb-b30c-860663c100d1:21",
+  "checked_utc": "2026-10-04T16:20:34Z",
+  "next": "request_consultant_visual_review_on_final_fundo_captures; then_continue_coroa_and_remaining_ferrugem_sectors",
+  "authorization": "continuous_entire_world_construction_and_assets; verify_all_Ferrugem_Baixa_then_Khemet_Ra_then_consultant_guided_regions",
+  "next_region": "Coroa de Lata",
+  "world_order": "tools/WORLD_CONTINUATION_ORDER.md",
+  "current_issue": "Fundo-Ferro additive finish and safe arrival offsets are locally implemented and verified. Consultant visual review pending. Full Ferrugem Baixa construction and verification remain open; do not start Khemet-Ra until then.",
+  "polish_thread": "01a0ff60-3f7e-7bd1-b8d8-3a8021fdbfe7",
+  "polish_cursor": "f73e6662-5f3f-48a2-902b-217189afdc92:9",
+  "polish_assignment": "tools/POLISH_ASSIGNMENT.md"
+}

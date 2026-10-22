@@ -1,0 +1,55 @@
+======================================================================
+RELATÓRIO TÉCNICO DE MEDIÇÃO: RECORTE VAZIO, BOCA DE TÚNEL E PONTE
+======================================================================
+Data: 2026-10-09
+Cena: scenes/fundo_ferro_master.tscn (Fundo-Ferro - Galeria de Bueiros e Drenos)
+
+1. RECORTE VAZIO A SER COBERTO PELA NOVA BOCA DE TÚNEL (Item A.1)
+----------------------------------------------------------------------
+- Borda Esquerda (Limite Oeste do Mapa/Câmera):
+  * Coordenada X no Mundo: -390.0 px (câmera limit_left = -300, campo de visão visível até -390 px)
+- Borda Direita (Encosto na Parede Norte / WallSeg1):
+  * Coordenada X no Mundo: -110.0 px (borda de cantaria de WallSeg1 inicia em -113.0 px)
+- Largura Total do Recorte no Mundo:
+  * W_recorte = -110.0 - (-390.0) = 280.0 px a 300.0 px
+- Linha do Topo do Mapa:
+  * Coordenada Y no Mundo: 20.0 px
+- Linha de Início do Piso / Topo do Trilho de Ligação:
+  * Coordenada Y no Mundo: 244.0 px
+- Altura Total do Recorte no Mundo:
+  * H_recorte = 244.0 - 20.0 = 224.0 px
+- Posição X do Centro dos Trilhos de Ligação:
+  * X_centro_trilhos = -190.0 px
+- Bitola do Trilho de Ligação:
+  * Bitola_mundo = 60.40 px (Bitola_textura = 302.0 px na escala 0.20)
+- Largura dos Dormentes do Trilho de Ligação:
+  * Largura_dormentes_mundo = 129.0 px
+- Passo (Espaçamento) dos Dormentes:
+  * Passo_dormentes_mundo = 24.0 px (Passo_textura = 120.0 px na escala 0.20)
+- Ângulo Isométrico das Paredes e Cano Grosso Vizinho:
+  * Projeção 3/4 isométrica top-down com câmera elevada (~30° a 35° de elevação)
+  * Faces superiores das pedras e muretas visíveis em perspectiva superior
+  * Eixo Norte-Sul estritamente vertical (linhas verticais sem inclinação angular lateral)
+  * Iluminação âmbar direcional quente vinda do alto à esquerda (top-left)
+
+2. MEDIÇÕES DA PONTE DO TRILHO vs TRILHO DE LIGAÇÃO (Item B.1 e B.2)
+----------------------------------------------------------------------
+- Trilho de Ligação (Estação de Carga V2):
+  * Bitola no Mundo: 60.40 px
+  * Centro X no Mundo: -190.00 px
+  * Passo dos Dormentes no Mundo: 24.00 px
+- Ponte do Trilho (TrilhosSobreCavalete em CavaleteElevadoCanal):
+  * Asset Base: trilho_reto_vertical_v1.png (745x982 px) sobre cavalete_alto_v1.png (770x995 px)
+  * Bitola Bruta da Textura: 302.0 px
+  * Escala Atual: Vector2(0.20, 0.20)
+  * Bitola no Mundo: 60.40 px
+  * Centro X no Mundo: -190.00 px
+  * Passo dos Dormentes no Mundo: 24.00 px
+- Fator de Escala:
+  * Fator = Bitola_Ligação / Bitola_Ponte = 60.40 / 60.40 = 1.000 (Exato)
+  * Variação necessária: 0.0% (Dentro da faixa permitida [0.87, 1.15])
+- Emenda Vertical entre Estação e Ponte:
+  * Base da Estação: Y = 406.0 px
+  * Topo da Ponte: Y = 386.8 px
+  * Sobreposição suave: 19.2 px (sem frestas, sem degrau)
+======================================================================
